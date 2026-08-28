@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf8f5;
+  --foreground: #1a365d;
+  --himoon-blue: #1e3a5f;
+  --himoon-blue-light: #2b4c7e;
+  --himoon-yellow: #f5a623;
+  --himoon-yellow-light: #fbbf24;
+  --himoon-cream: #faf8f5;
+  --himoon-muted: #64748b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-himoon-blue: var(--himoon-blue);
+  --color-himoon-blue-light: var(--himoon-blue-light);
+  --color-himoon-yellow: var(--himoon-yellow);
+  --color-himoon-yellow-light: var(--himoon-yellow-light);
+  --color-himoon-cream: var(--himoon-cream);
+  --color-himoon-muted: var(--himoon-muted);
+  --font-sans: var(--font-nunito);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--himoon-yellow) 35%, white);
+}

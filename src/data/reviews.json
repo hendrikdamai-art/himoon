@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Putri A.",
+    "location": "Denpasar, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Customer service sangat ramah dan membantu memilih sunscreen Moell untuk anak saya. Produk original dan pengiriman cepat!",
+      "en": "Customer service was very friendly and helped me choose Moell sunscreen for my child. Authentic product and fast delivery!"
+    },
+    "product": "Moell Sunscreen Bayi",
+    "date": "2026-08-10"
+  },
+  {
+    "id": "2",
+    "name": "Dewi M.",
+    "location": "Badung, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Belanja MPASI Bunda Elia di HiMoon selalu puas. Penjual terpercaya, harga fair, dan selalu fast response di WhatsApp.",
+      "en": "Always satisfied buying Bunda Elia MPASI from HiMoon. Trusted seller, fair prices, and always fast response on WhatsApp."
+    },
+    "product": "MPASI Bunda Elia",
+    "date": "2026-08-05"
+  },
+  {
+    "id": "3",
+    "name": "Sarah K.",
+    "location": "Canggu, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Popok Makuku dan produk perawatan bayi lengkap di sini. Staff toko sangat informatif dan sabar. Highly recommended!",
+      "en": "Makuku diapers and baby care products are complete here. Store staff are very informative and patient. Highly recommended!"
+    },
+    "product": "Popok Makuku",
+    "date": "2026-07-28"
+  },
+  {
+    "id": "4",
+    "name": "Rina S.",
+    "location": "Ubud, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Pertama kali belanja via Shopee HiMoon, packaging rapi dan produk sesuai foto. Puas dengan pelayanannya!",
+      "en": "First time shopping via HiMoon Shopee, neat packaging and products match photos. Happy with the service!"
+    },
+    "product": "Gently Body Lotion",
+    "date": "2026-07-20"
+  },
+  {
+    "id": "5",
+    "name": "Anita W.",
+    "location": "Sanur, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Asi Booster dan perlengkapan MPASI lengkap. Admin WhatsApp sangat responsif dan membantu rekomendasi produk.",
+      "en": "Asi Booster and MPASI essentials all in one place. WhatsApp admin is very responsive and helpful with recommendations."
+    },
+    "product": "Asi Booster",
+    "date": "2026-07-15"
+  },
+  {
+    "id": "6",
+    "name": "Mega L.",
+    "location": "Kuta, Bali",
+    "rating": 5,
+    "text": {
+      "id": "Toko bayi favorit di Bali! Banyak brand pilihan seperti Mustela, Philips Avent, dan Paseo. Penjual terpercaya.",
+      "en": "Favorite baby shop in Bali! Wide brand selection like Mustela, Philips Avent, and Paseo. Trusted seller."
+    },
+    "product": "Philips Avent",
+    "date": "2026-07-01"
+  }
+]

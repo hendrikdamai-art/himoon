@@ -2,85 +2,85 @@
   {
     "id": "moell",
     "name": "Moell",
-    "logoUrl": "https://logo.clearbit.com/moell.co.id",
+    "logoUrl": "/brands/moell.webp",
     "website": "https://moell.co.id"
   },
   {
     "id": "gently",
     "name": "Gently",
-    "logoUrl": "https://logo.clearbit.com/gently.co.id",
+    "logoUrl": "/brands/gently.png",
     "website": "https://www.gently.co.id"
   },
   {
     "id": "paseo",
     "name": "Paseo",
-    "logoUrl": "https://logo.clearbit.com/paseo.co.id",
+    "logoUrl": "/brands/paseo.svg",
     "website": "https://www.paseo.co.id"
   },
   {
     "id": "makuku",
     "name": "Makuku",
-    "logoUrl": "https://logo.clearbit.com/makuku.co.id",
+    "logoUrl": "/brands/makuku.svg",
     "website": "https://makuku.co.id"
   },
   {
     "id": "mamypoko",
     "name": "MamyPoko",
-    "logoUrl": "https://logo.clearbit.com/mamypoko.com",
+    "logoUrl": "/brands/mamypoko.svg",
     "website": "https://www.mamypoko.com"
   },
   {
     "id": "mom-uung",
     "name": "Mom Uung",
-    "logoUrl": "https://logo.clearbit.com/momuung.com",
+    "logoUrl": "/brands/mom-uung.png",
     "website": "https://momuung.com"
   },
   {
     "id": "asi-booster",
     "name": "Asi Booster",
-    "logoUrl": "https://logo.clearbit.com/asibooster.com",
-    "website": "https://asibooster.com"
+    "logoUrl": "/brands/asi-booster.png",
+    "website": "https://momuung.com"
   },
   {
     "id": "beeme",
     "name": "Beeme",
-    "logoUrl": "https://logo.clearbit.com/beeme.co.id",
-    "website": "https://beeme.co.id"
+    "logoUrl": "/brands/beeme.png",
+    "website": "https://beeme.id"
   },
   {
     "id": "safe-baby",
     "name": "Safe Baby",
-    "logoUrl": "https://logo.clearbit.com/safebaby.co.id",
-    "website": "https://safebaby.co.id"
+    "logoUrl": "/brands/babysafe.png",
+    "website": "https://babysafe.co.id"
   },
   {
     "id": "gea-baby",
     "name": "Gea Baby",
-    "logoUrl": "https://logo.clearbit.com/geababy.com",
-    "website": "https://geababy.com"
+    "logoUrl": "/brands/gea-baby.svg",
+    "website": "https://geababy.co.id"
   },
   {
     "id": "bunda-elia",
     "name": "MPASI Bunda Elia",
-    "logoUrl": "https://logo.clearbit.com/bundaelia.com",
-    "website": "https://bundaelia.com"
+    "logoUrl": "/brands/bunda-elia.jpg",
+    "website": "https://bundaelia.co.id"
   },
   {
     "id": "cussons",
     "name": "Cussons Baby",
-    "logoUrl": "https://logo.clearbit.com/cussons.com",
+    "logoUrl": "/brands/cussons.svg",
     "website": "https://www.cussons.com"
   },
   {
     "id": "philips",
     "name": "Philips Avent",
-    "logoUrl": "https://logo.clearbit.com/philips.co.id",
+    "logoUrl": "/brands/philips.svg",
     "website": "https://www.philips.co.id"
   },
   {
     "id": "mustela",
     "name": "Mustela",
-    "logoUrl": "https://logo.clearbit.com/mustela.com",
+    "logoUrl": "/brands/mustela.svg",
     "website": "https://www.mustela.com"
   }
 ]

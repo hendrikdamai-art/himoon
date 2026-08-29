@@ -8,23 +8,41 @@ import { SectionHeading } from "./section-heading";
 
 function BrandLogo({ brand }: { brand: Brand }) {
   const [failed, setFailed] = useState(false);
-  const fallbackUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(brand.name)}&background=1e3a5f&color=f5a623&size=128&bold=true`;
+  const isLocalLogo = brand.logoUrl.startsWith("/");
 
   return (
-    <div className="flex h-24 w-36 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white px-4 shadow-sm">
+    <a
+      href={brand.website}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex h-28 w-40 shrink-0 flex-col items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm transition hover:-translate-y-0.5 hover:border-himoon-yellow hover:shadow-md"
+      title={brand.name}
+    >
       {failed ? (
-        <span className="text-center text-xs font-bold text-himoon-blue">{brand.name}</span>
+        <span className="text-center text-xs font-bold leading-tight text-himoon-blue">
+          {brand.name}
+        </span>
+      ) : isLocalLogo ? (
+        <img
+          src={brand.logoUrl}
+          alt={`${brand.name} logo`}
+          className="max-h-14 max-w-[120px] object-contain"
+          onError={() => setFailed(true)}
+        />
       ) : (
         <Image
           src={brand.logoUrl}
           alt={`${brand.name} logo`}
           width={120}
           height={60}
-          className="max-h-12 w-auto object-contain"
+          className="max-h-14 w-auto object-contain"
           onError={() => setFailed(true)}
         />
       )}
-    </div>
+      <span className="mt-2 line-clamp-1 text-[10px] font-semibold uppercase tracking-wide text-himoon-muted group-hover:text-himoon-blue">
+        {brand.name}
+      </span>
+    </a>
   );
 }
 
@@ -59,7 +77,7 @@ export function BrandMarquee({ brands }: { brands: Brand[] }) {
           }
         }
         .animate-marquee {
-          animation: marquee 40s linear infinite;
+          animation: marquee 45s linear infinite;
           width: max-content;
         }
         .animate-marquee:hover {

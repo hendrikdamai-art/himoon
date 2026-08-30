@@ -15,7 +15,7 @@
     },
     "publishedAt": "2026-08-01",
     "readTime": 5,
-    "image": "/blog/mpasi.jpg"
+    "image": "/blog/mpasi.png"
   },
   {
     "slug": "perawatan-kulit-bayi-sensitif",
@@ -33,7 +33,7 @@
     },
     "publishedAt": "2026-07-20",
     "readTime": 4,
-    "image": "/blog/baby-skincare.webp"
+    "image": "/blog/baby-skincare.png"
   },
   {
     "slug": "tips-memilih-popok-bayi",
@@ -51,6 +51,6 @@
     },
     "publishedAt": "2026-07-10",
     "readTime": 3,
-    "image": "/blog/popok.jpg"
+    "image": "/blog/popok.png"
   }
 ]

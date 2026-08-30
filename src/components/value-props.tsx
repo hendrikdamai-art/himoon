@@ -10,7 +10,7 @@ export function ValueProps() {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-white py-16 md:py-20">
+    <section className="bg-white py-10 md:py-12">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <SectionHeading title={t.values.title} align="center" className="mx-auto" />
         <div className="grid gap-6 md:grid-cols-3">

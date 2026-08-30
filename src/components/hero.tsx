@@ -10,25 +10,39 @@ export function Hero() {
   const { t } = useLanguage();
 
   return (
-    <section className="bg-himoon-cream">
-      <div className="mx-auto grid max-w-7xl items-center gap-5 px-4 py-7 md:grid-cols-2 md:gap-8 md:px-6 md:py-9 lg:py-10">
-        <div className="max-w-xl">
+    <section className="relative overflow-hidden bg-himoon-cream">
+      {/* Full-bleed illustration layer — like MadeBrings, not a separate box */}
+      <div className="pointer-events-none absolute inset-0">
+        <Image
+          src="/hero-background.png"
+          alt=""
+          fill
+          priority
+          className="object-cover object-[72%_center] opacity-95 md:object-[78%_center] lg:object-[80%_center]"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-himoon-cream from-0% via-himoon-cream via-42% to-transparent to-100%" />
+        <div className="absolute inset-0 bg-gradient-to-t from-himoon-cream/40 via-transparent to-himoon-cream/20" />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-4 py-8 md:px-6 md:py-10 lg:py-12">
+        <div className="max-w-xl md:max-w-lg lg:max-w-xl">
           <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-himoon-muted md:text-sm">
             {t.hero.eyebrow}
           </p>
           <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-himoon-blue md:text-4xl lg:text-[2.75rem] lg:leading-tight">
             {t.hero.title}
           </h1>
-          <p className="mt-3 text-base leading-relaxed text-himoon-muted md:mt-4 md:text-lg">
+          <p className="mt-3 max-w-md text-base leading-relaxed text-himoon-muted md:mt-4 md:text-lg">
             {t.hero.subtitle}
           </p>
 
           <div className="mt-4 flex flex-wrap items-center gap-2 md:mt-5 md:gap-3">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-700 md:gap-2 md:px-3 md:py-1.5 md:text-sm">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-xs font-semibold text-emerald-700 shadow-sm backdrop-blur-sm md:gap-2 md:px-3 md:py-1.5 md:text-sm">
               <ShieldCheck className="h-3.5 w-3.5 md:h-4 md:w-4" />
               {t.hero.trusted}
             </span>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-700 md:gap-2 md:px-3 md:py-1.5 md:text-sm">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-xs font-semibold text-amber-700 shadow-sm backdrop-blur-sm md:gap-2 md:px-3 md:py-1.5 md:text-sm">
               <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500 md:h-4 md:w-4" />
               {t.hero.rating}
             </span>
@@ -50,18 +64,6 @@ export function Hero() {
               {t.hero.ctaShopee}
             </a>
           </div>
-        </div>
-
-        <div className="relative bg-himoon-cream">
-          <Image
-            src="/hero-background.png"
-            alt="HiMoon mom, baby & kids shop"
-            width={1536}
-            height={1024}
-            priority
-            className="h-auto w-full max-h-[220px] object-contain object-right sm:max-h-[260px] md:max-h-[300px] lg:max-h-[340px]"
-            sizes="(max-width: 768px) 100vw, 50vw"
-          />
         </div>
       </div>
     </section>

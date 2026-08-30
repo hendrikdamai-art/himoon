@@ -52,26 +52,14 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative bg-himoon-cream md:-mr-4 lg:-mr-8">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-y-0 left-0 z-10 w-12 bg-gradient-to-r from-himoon-cream via-himoon-cream/80 to-transparent md:w-20 lg:w-24"
-          />
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-x-0 top-0 z-10 h-8 bg-gradient-to-b from-himoon-cream to-transparent md:h-10"
-          />
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-8 bg-gradient-to-t from-himoon-cream to-transparent md:h-10"
-          />
+        <div className="relative bg-himoon-cream">
           <Image
             src="/hero-background.png"
             alt="HiMoon mom, baby & kids shop"
             width={1536}
             height={1024}
             priority
-            className="relative z-0 h-auto w-full max-h-[220px] object-contain object-right sm:max-h-[260px] md:max-h-[300px] lg:max-h-[340px]"
+            className="h-auto w-full max-h-[220px] object-contain object-right sm:max-h-[260px] md:max-h-[300px] lg:max-h-[340px]"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>

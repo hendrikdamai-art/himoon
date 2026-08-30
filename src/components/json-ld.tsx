@@ -8,10 +8,13 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
   const schema = {
     "@context": "https://schema.org",
     "@type": type,
-    name: siteConfig.name,
+    name: siteConfig.businessName,
+    alternateName: siteConfig.name,
     description: siteConfig.description.id,
     url: siteConfig.url,
     image: `${siteConfig.url}/logo.png`,
+    email: siteConfig.email,
+    telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Badung",
@@ -23,7 +26,12 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
       latitude: "-8.5833",
       longitude: "115.1667",
     },
-    sameAs: [siteConfig.shopeeShopUrl, siteConfig.googleMapsUrl],
+    hasMap: siteConfig.googleMapsShareUrl,
+    sameAs: [
+      siteConfig.shopeeShopUrl,
+      siteConfig.googleMapsUrl,
+      siteConfig.googleMapsShareUrl,
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",

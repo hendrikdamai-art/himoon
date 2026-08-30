@@ -6,6 +6,7 @@ import { ShieldCheck, MapPin, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import { siteConfig } from "@/lib/site-config";
 import { SectionHeading } from "@/components/section-heading";
+import { GoogleMapEmbed } from "@/components/google-map-embed";
 
 export default function AboutPage() {
   const { locale, t } = useLanguage();
@@ -53,7 +54,7 @@ export default function AboutPage() {
               <p className="mt-3 leading-relaxed text-himoon-muted">{t.about.locationText}</p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
-                  href={siteConfig.googleMapsUrl}
+                  href={siteConfig.googleMapsShareUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-himoon-blue px-5 py-2.5 text-sm font-bold text-white hover:bg-himoon-blue-light"
@@ -73,6 +74,8 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+
+          <GoogleMapEmbed className="mt-8" />
 
           <div className="mt-12 rounded-2xl border border-slate-200 bg-white p-8">
             <SectionHeading

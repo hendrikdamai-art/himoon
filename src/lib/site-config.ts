@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "HiMoon Baby & Kids",
   nameShort: "HiMoon",
+  businessName: "HiMoon Mom, Baby & Kids Shop",
   tagline: {
     id: "Toko perlengkapan bayi, anak & ibu menyusui di Bali",
     en: "Baby, kids & nursing essentials shop in Bali",
@@ -11,13 +12,17 @@ export const siteConfig = {
   },
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://himoonbabykids.com",
   locale: "id_ID",
-  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890",
+  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "628511214358",
   shopeeShopUrl: "https://shopee.co.id/himoonbabykids",
   shopeeShopId: 1869688077,
   shopeeUsername: "himoonbabykids",
-  googleMapsUrl: "https://maps.app.goo.gl/T6hEgB5f2WsPodaen",
-  googleMapsShareUrl: "https://share.google/T6hEgB5f2WsPodaen",
-  email: "hello@himoonbabykids.com",
+  googleMapsShareUrl: "https://share.google/XCsGX1ahJGslLnNMi",
+  googleMapsUrl:
+    "https://www.google.com/maps/search/?api=1&query=HiMoon+Mom,+Baby+%26+Kids+Shop",
+  googleMapsEmbedUrl:
+    "https://maps.google.com/maps?q=HiMoon+Mom,+Baby+%26+Kids+Shop&hl=id&z=16&output=embed",
+  googleKnowledgeGraphId: "/g/11nqpf1l07",
+  email: "adminhimoon@gmail.com",
   location: {
     id: "Kab. Badung, Bali, Indonesia",
     en: "Badung Regency, Bali, Indonesia",

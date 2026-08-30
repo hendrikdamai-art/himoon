@@ -31,7 +31,7 @@ Buat file `.env.local`:
 
 ```env
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
-NEXT_PUBLIC_WHATSAPP_NUMBER=628xxxxxxxxxx
+NEXT_PUBLIC_WHATSAPP_NUMBER=628511214358
 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-gsc-verification-code
 ```
 
@@ -75,4 +75,5 @@ Data fallback tersimpan di `src/data/products.json`.
 ## Links
 
 - Shopee: https://shopee.co.id/himoonbabykids
-- Google Maps: https://maps.app.goo.gl/T6hEgB5f2WsPodaen
+- Google Maps: https://share.google/XCsGX1ahJGslLnNMi
+- Email: adminhimoon@gmail.com

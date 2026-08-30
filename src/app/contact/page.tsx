@@ -1,33 +1,34 @@
 "use client";
 
-import { MessageCircle, ShoppingBag, MapPin, Mail } from "lucide-react";
+import { MessageCircle, ShoppingBag, MapPin, Mail, ExternalLink } from "lucide-react";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import { siteConfig } from "@/lib/site-config";
 import { SectionHeading } from "@/components/section-heading";
+import { GoogleMapEmbed } from "@/components/google-map-embed";
 
 export default function ContactPage() {
-  const { t } = useLanguage();
+  const { locale, t } = useLanguage();
 
   const cards = [
     {
       icon: MessageCircle,
       title: t.contact.whatsapp,
-      text: "Chat kami untuk tanya produk & pesan.",
+      text: t.contact.whatsappText,
       href: `https://wa.me/${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
       color: "bg-[#25D366]",
     },
     {
       icon: ShoppingBag,
       title: t.contact.shopee,
-      text: "Belanja online di Shopee HiMoon Baby & Kids.",
+      text: t.contact.shopeeText,
       href: siteConfig.shopeeShopUrl,
       color: "bg-[#EE4D2D]",
     },
     {
       icon: MapPin,
       title: t.contact.maps,
-      text: "Kunjungi toko fisik kami di Badung, Bali.",
-      href: siteConfig.googleMapsUrl,
+      text: t.contact.mapsText,
+      href: siteConfig.googleMapsShareUrl,
       color: "bg-himoon-blue",
     },
     {
@@ -62,6 +63,30 @@ export default function ContactPage() {
               </a>
             );
           })}
+        </div>
+
+        <div className="mt-12">
+          <SectionHeading title={t.contact.storeTitle} subtitle={t.contact.storeSubtitle} />
+          <div className="mt-6 space-y-4">
+            <GoogleMapEmbed />
+            <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+              <div>
+                <p className="font-bold text-himoon-blue">{siteConfig.businessName}</p>
+                <p className="mt-1 text-sm text-himoon-muted">
+                  {locale === "id" ? siteConfig.location.id : siteConfig.location.en}
+                </p>
+              </div>
+              <a
+                href={siteConfig.googleMapsShareUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-himoon-blue px-5 py-2.5 text-sm font-bold text-white hover:bg-himoon-blue-light"
+              >
+                {t.contact.openInMaps}
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

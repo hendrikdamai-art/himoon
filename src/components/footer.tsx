@@ -54,7 +54,17 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href={siteConfig.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+              <a
+                href={`https://wa.me/${siteConfig.whatsappNumber.replace(/\D/g, "")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                WhatsApp
+              </a>
+            </li>
+            <li>
+              <a href={siteConfig.googleMapsShareUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 Google Maps
               </a>
             </li>

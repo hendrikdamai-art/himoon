@@ -1,3 +1,19 @@
+function getSiteUrl(): string {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+  }
+
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+
+  return "https://himoonbabykids.com";
+}
+
 export const siteConfig = {
   name: "HiMoon Baby & Kids",
   nameShort: "HiMoon",
@@ -10,7 +26,7 @@ export const siteConfig = {
     id: "HiMoon Baby & Kids menjual MPASI, keperluan bayi, dan anak. Toko kami berlokasi di Bali dengan toko fisik dan toko online Shopee. Penjual terpercaya dengan produk berkualitas dari brand lokal dan internasional.",
     en: "HiMoon Baby & Kids sells complementary foods (MPASI), baby essentials, and kids products. We are based in Bali with a physical store and Shopee online shop. A trusted seller offering quality products from local and international brands.",
   },
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://himoonbabykids.com",
+  url: getSiteUrl(),
   locale: "id_ID",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "628511214358",
   shopeeShopUrl: "https://shopee.co.id/himoonbabykids",

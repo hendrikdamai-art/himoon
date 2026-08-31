@@ -67,10 +67,68 @@ Data fallback tersimpan di `src/data/products.json`.
 
 ## Deploy ke Vercel
 
-1. Push repo ke GitHub
-2. Import project di Vercel
-3. Set environment variables
-4. Deploy
+Proyek ini sudah siap Vercel (Next.js 16, build lokal sukses). Region serverless: **Singapore (`sin1`)** — dekat Bali/Indonesia.
+
+### Langkah 1 — Pastikan kode ada di GitHub
+
+Repo target: https://github.com/hendrikdamai-art/himoon
+
+Jika belum ter-push, dari WSL:
+
+```bash
+origin auth login
+origin repo clone hendrik-dipayadi/himoon-store
+cd himoon-store
+git remote add github https://github.com/hendrikdamai-art/himoon.git
+git push -u github main
+```
+
+### Langkah 2 — Import di Vercel (dashboard)
+
+1. Buka [vercel.com/new](https://vercel.com/new) dan login dengan GitHub.
+2. **Import** repository `hendrikdamai-art/himoon`.
+3. Framework: **Next.js** (terdeteksi otomatis).
+4. Root Directory: `./` (default).
+5. Build Command: `npm run build` (default).
+6. Output: otomatis (App Router).
+
+### Langkah 3 — Environment variables
+
+Di Vercel → Project → **Settings → Environment Variables**, tambahkan:
+
+| Variable | Value | Environment |
+| --- | --- | --- |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | `628511214358` | Production, Preview, Development |
+| `NEXT_PUBLIC_SITE_URL` | `https://your-project.vercel.app` *(ganti setelah deploy)* | Production |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | *(opsional, dari Google Search Console)* | Production |
+
+**Catatan:** Jika `NEXT_PUBLIC_SITE_URL` belum di-set, situs memakai URL Vercel otomatis untuk sitemap & SEO. Setelah dapat domain final (mis. `himoonbabykids.com`), update variabel ini lalu **Redeploy**.
+
+### Langkah 4 — Deploy
+
+Klik **Deploy**. Setelah selesai, buka URL production (mis. `https://himoon.vercel.app`).
+
+### Langkah 5 — Custom domain (opsional)
+
+Vercel → Project → **Settings → Domains** → tambahkan `himoonbabykids.com` (atau domain Anda), ikuti instruksi DNS, lalu update `NEXT_PUBLIC_SITE_URL` dan redeploy.
+
+### Langkah 6 — Google Search Console
+
+1. Tambah property dengan URL production.
+2. Verifikasi via meta tag → salin kode ke `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`.
+3. Redeploy.
+4. Submit sitemap: `https://your-domain.com/sitemap.xml`
+
+### Deploy via CLI (alternatif)
+
+```bash
+npm i -g vercel
+vercel login
+vercel link
+vercel --prod
+```
+
+Set environment variables dengan `vercel env add`.
 
 ## Links
 

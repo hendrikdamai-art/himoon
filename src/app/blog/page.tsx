@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { getBlogPosts } from "@/lib/catalog";
+import { siteConfig } from "@/lib/site-config";
+import { JsonLdScript } from "@/components/seo/json-ld-script";
+import { breadcrumbSchema, itemListSchema, webPageSchema } from "@/lib/seo/schema";
+import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 
 export const metadata: Metadata = {
-  title: "Blog & Tips Parenting",
+  title: "Panduan Beli Perlengkapan Bayi | MPASI, Sunscreen, Popok",
   description:
-    "Artikel MPASI, perawatan bayi, dan tips parenting dari HiMoon Baby & Kids Bali.",
+    "Artikel niat beli dari HiMoon Bali: perlengkapan bayi baru lahir, sunscreen Moell, toko MPASI, popok. Setiap panduan ke katalog dan Shopee himoonbabykids.",
+  alternates: { canonical: `${siteConfig.url}/blog` },
 };
 
 export default function BlogPage() {
@@ -14,11 +20,41 @@ export default function BlogPage() {
 
   return (
     <div className="bg-himoon-cream py-12 md:py-16">
+      <JsonLdScript
+        data={webPageSchema({
+          path: "/blog",
+          name: "Panduan beli perlengkapan bayi",
+          description: "Artikel komersial MPASI, sunscreen, popok, dan newborn kit.",
+          dateModified: SITE_CONTENT_UPDATED,
+        })}
+      />
+      <JsonLdScript
+        data={breadcrumbSchema([
+          { name: "Beranda", path: "/" },
+          { name: "Panduan", path: "/blog" },
+        ])}
+      />
+      <JsonLdScript
+        data={itemListSchema(
+          "Panduan HiMoon",
+          posts.map((post) => ({
+            name: post.title.id,
+            url: `${siteConfig.url}/blog/${post.slug}`,
+          })),
+        )}
+      />
       <div className="mx-auto max-w-7xl px-4 md:px-6">
-        <h1 className="text-4xl font-extrabold text-himoon-blue">Blog & Tips</h1>
+        <h1 className="text-4xl font-extrabold text-himoon-blue">
+          Panduan belanja bayi (bukan fluff)
+        </h1>
         <p className="mt-3 max-w-2xl text-lg text-himoon-muted">
-          Panduan MPASI, perawatan bayi, dan parenting dari HiMoon Baby & Kids.
+          Setiap artikel menjawab satu pencarian, memuat harga katalog, apa yang termasuk,
+          FAQ, dan tautan ke Shopee himoonbabykids.
         </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <ShopCta />
+          <ShopeeCta />
+        </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
             <Link
@@ -29,15 +65,15 @@ export default function BlogPage() {
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
                   src={post.image}
-                  alt={post.title.id}
+                  alt={post.imageAlt.id}
                   fill
                   className="object-cover transition group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-muted">
-                  {post.readTime} min · {post.publishedAt}
+                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+                  {post.query.id}
                 </p>
                 <h2 className="mt-2 text-xl font-bold text-himoon-blue group-hover:text-himoon-yellow">
                   {post.title.id}

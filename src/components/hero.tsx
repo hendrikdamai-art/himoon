@@ -64,7 +64,7 @@ export function Hero() {
           <div className="relative mx-auto aspect-[3/2] w-full max-w-[640px] md:max-w-none">
             <Image
               src="/hero-background.png"
-              alt="HiMoon mom, baby & kids shop"
+              alt="Toko perlengkapan bayi HiMoon di Bali untuk ibu dan anak"
               fill
               priority
               className="object-contain object-center md:object-right"

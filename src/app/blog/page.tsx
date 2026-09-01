@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { getBlogPosts } from "@/lib/catalog";
+import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 
-export const metadata: Metadata = {
-  title: "Blog & Tips Parenting",
+export const metadata: Metadata = buildIndonesiaPageMetadata({
+  title: "Blog Tips MPASI & Perawatan Bayi",
   description:
-    "Artikel MPASI, perawatan bayi, dan tips parenting dari HiMoon Baby & Kids Bali.",
-};
+    "Artikel MPASI 6 bulan, tips popok bayi, dan perawatan kulit bayi sensitif di Bali — panduan parenting dari HiMoon Baby & Kids.",
+  path: "/blog",
+  keywords: ["tips MPASI bayi", "panduan parenting Bali", "blog keperluan bayi"],
+});
 
 export default function BlogPage() {
   const posts = getBlogPosts();

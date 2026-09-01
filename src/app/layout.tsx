@@ -6,6 +6,11 @@ import { Footer } from "@/components/footer";
 import { LanguageProvider } from "@/lib/i18n/language-provider";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/lib/site-config";
+import {
+  buildIndonesiaPageMetadata,
+  hreflangAlternates,
+  indonesiaKeywords,
+} from "@/lib/seo/indonesia";
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -14,37 +19,21 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  ...buildIndonesiaPageMetadata({
+    title: "HiMoon Baby & Kids | Toko MPASI, Keperluan Bayi & Anak di Bali",
+    description: siteConfig.description.id,
+  }),
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "HiMoon Baby & Kids | MPASI, Keperluan Bayi & Anak di Bali",
+    default: "HiMoon Baby & Kids | Toko MPASI, Keperluan Bayi & Anak di Bali",
     template: "%s | HiMoon Baby & Kids",
   },
-  description: siteConfig.description.id,
-  keywords: [
-    "HiMoon Baby Kids",
-    "toko bayi Bali",
-    "MPASI Bali",
-    "perlengkapan bayi Badung",
-    "popok bayi",
-    "perawatan kulit bayi",
-    "Shopee himoonbabykids",
-    "penjual terpercaya",
-  ],
+  keywords: [...indonesiaKeywords],
   authors: [{ name: "HiMoon Baby & Kids" }],
   creator: "HiMoon Baby & Kids",
-  openGraph: {
-    type: "website",
-    locale: "id_ID",
-    alternateLocale: ["en_US"],
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: "HiMoon Baby & Kids | MPASI, Keperluan Bayi & Anak di Bali",
-    description: siteConfig.description.id,
-    images: [{ url: "/logo.png", width: 800, height: 400, alt: "HiMoon Baby & Kids" }],
-  },
   twitter: {
     card: "summary_large_image",
-    title: "HiMoon Baby & Kids",
+    title: "HiMoon Baby & Kids | Toko Bayi Bali",
     description: siteConfig.description.id,
     images: ["/logo.png"],
   },
@@ -58,13 +47,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: siteConfig.url,
-    languages: {
-      id: siteConfig.url,
-      en: `${siteConfig.url}?lang=en`,
-    },
-  },
+  alternates: hreflangAlternates,
   verification: {
     google:
       process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google3e2d85e569fc51a6",

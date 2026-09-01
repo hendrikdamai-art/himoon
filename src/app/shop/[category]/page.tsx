@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ProductGrid } from "@/components/product-card";
 import { getProductsByCategory } from "@/lib/catalog";
 import { shopCategories } from "@/lib/site-config";
+import { buildIndonesiaPageMetadata, categorySeoKeywords } from "@/lib/seo/indonesia";
 import { CategoryPageClient } from "./category-page-client";
 
 type Props = {
@@ -18,10 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = shopCategories.find((item) => item.slug === slug);
   if (!category) return {};
 
-  return {
-    title: `${category.label.id} | HiMoon Baby & Kids`,
-    description: category.description.id,
-  };
+  return buildIndonesiaPageMetadata({
+    title: `${category.label.id} | Toko ${category.label.id} Bali`,
+    description: `${category.description.id} Belanja ${category.label.id} di HiMoon Baby & Kids, Badung Bali. Pesan via WhatsApp atau Shopee.`,
+    path: `/shop/${category.slug}`,
+    keywords: categorySeoKeywords[category.slug] ?? [],
+  });
 }
 
 export const revalidate = 3600;

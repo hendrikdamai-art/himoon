@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBlogPost, getBlogPosts } from "@/lib/catalog";
+import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -18,9 +19,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: post.title.id,
-    description: post.excerpt.id,
+    ...buildIndonesiaPageMetadata({
+      title: post.title.id,
+      description: post.excerpt.id,
+      path: `/blog/${post.slug}`,
+      keywords: ["tips bayi Bali", "MPASI", "parenting Indonesia"],
+    }),
     openGraph: {
+      type: "article",
+      locale: "id_ID",
       title: post.title.id,
       description: post.excerpt.id,
       images: [post.image],

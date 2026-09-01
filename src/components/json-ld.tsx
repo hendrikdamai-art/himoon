@@ -1,3 +1,4 @@
+import { indonesiaFaqs } from "@/lib/seo/indonesia";
 import { siteConfig } from "@/lib/site-config";
 
 type JsonLdProps = {
@@ -5,16 +6,21 @@ type JsonLdProps = {
 };
 
 export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
-  const schema = {
-    "@context": "https://schema.org",
+  const baseUrl = siteConfig.url;
+  const phone = `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`;
+
+  const localBusiness = {
     "@type": type,
+    "@id": `${baseUrl}/#localbusiness`,
     name: siteConfig.businessName,
-    alternateName: siteConfig.name,
+    alternateName: [siteConfig.name, "HiMoon Baby Shop Bali", "Toko Bayi HiMoon"],
     description: siteConfig.description.id,
-    url: siteConfig.url,
-    image: `${siteConfig.url}/logo.png`,
+    url: baseUrl,
+    image: `${baseUrl}/logo.png`,
+    logo: `${baseUrl}/logo.png`,
     email: siteConfig.email,
-    telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
+    telephone: phone,
+    inLanguage: ["id-ID", "en-ID"],
     address: {
       "@type": "PostalAddress",
       addressLocality: "Badung",
@@ -26,11 +32,28 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
       latitude: "-8.5833",
       longitude: "115.1667",
     },
+    areaServed: [
+      { "@type": "Country", name: "Indonesia" },
+      { "@type": "AdministrativeArea", name: "Bali" },
+      { "@type": "City", name: "Denpasar" },
+      { "@type": "AdministrativeArea", name: "Badung" },
+    ],
+    currenciesAccepted: "IDR",
+    paymentAccepted: "Cash, Bank Transfer, E-Wallet, ShopeePay",
+    priceRange: "$$",
     hasMap: siteConfig.googleMapsShareUrl,
     sameAs: [
       siteConfig.shopeeShopUrl,
       siteConfig.googleMapsUrl,
       siteConfig.googleMapsShareUrl,
+    ],
+    knowsAbout: [
+      "MPASI",
+      "Makanan Pendamping ASI",
+      "Popok Bayi",
+      "Perawatan Kulit Bayi",
+      "Perlengkapan Bayi",
+      "Produk Anak",
     ],
     aggregateRating: {
       "@type": "AggregateRating",
@@ -38,7 +61,43 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
       reviewCount: "9",
       bestRating: "5",
     },
-    priceRange: "$$",
+  };
+
+  const webSite = {
+    "@type": "WebSite",
+    "@id": `${baseUrl}/#website`,
+    name: siteConfig.name,
+    url: baseUrl,
+    inLanguage: "id-ID",
+    description: siteConfig.description.id,
+    publisher: { "@id": `${baseUrl}/#localbusiness` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${baseUrl}/shop?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  const faqPage = {
+    "@type": "FAQPage",
+    "@id": `${baseUrl}/#faq`,
+    inLanguage: "id-ID",
+    mainEntity: indonesiaFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [localBusiness, webSite, faqPage],
   };
 
   return (
@@ -65,17 +124,42 @@ export function ProductJsonLd({
     "@type": "Product",
     name,
     image,
+    inLanguage: "id-ID",
     offers: {
       "@type": "Offer",
       priceCurrency: "IDR",
       price,
       availability: "https://schema.org/InStock",
       url,
+      areaServed: {
+        "@type": "Country",
+        name: "Indonesia",
+      },
     },
     brand: {
       "@type": "Brand",
       name: "HiMoon Baby & Kids",
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function BreadcrumbJsonLd({ items }: { items: { name: string; url: string }[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 
   return (

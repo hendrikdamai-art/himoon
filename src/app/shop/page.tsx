@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { ProductGrid } from "@/components/product-card";
 import { getProducts } from "@/lib/catalog";
+import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 import { ShopPageClient } from "./shop-page-client";
 
-export const metadata: Metadata = {
-  title: "Belanja | MPASI, Keperluan Bayi & Anak",
+export const metadata: Metadata = buildIndonesiaPageMetadata({
+  title: "Belanja MPASI, Popok & Keperluan Bayi",
   description:
-    "Jelajahi katalog HiMoon Baby & Kids: MPASI, perawatan kulit bayi, popok, dan perlengkapan anak. Pesan via WhatsApp atau Shopee.",
-};
+    "Katalog HiMoon Baby & Kids Bali: MPASI, perawatan kulit bayi, popok Makuku & MamyPoko, peralatan bayi. Pesan via WhatsApp atau Shopee Indonesia.",
+  path: "/shop",
+  keywords: ["belanja MPASI online", "katalog produk bayi Bali", "toko bayi Shopee"],
+});
 
 export const revalidate = 3600;
 

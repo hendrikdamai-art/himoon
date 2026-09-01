@@ -11,7 +11,7 @@ function getSiteUrl(): string {
     return `https://${process.env.VERCEL_URL}`;
   }
 
-  return "https://himoonbabykids.com";
+  return "https://www.himoonbaby.com";
 }
 
 export const siteConfig = {
@@ -54,8 +54,8 @@ export const shopCategories = [
     shopeeCategoryId: 276164519,
     label: { id: "MPASI", en: "Complementary Food (MPASI)" },
     description: {
-      id: "Nutrisi MPASI dan makanan bayi berkualitas untuk tumbuh kembang optimal.",
-      en: "Quality complementary foods and baby nutrition for healthy growth.",
+      id: "Beli MPASI Bunda Elia dan nutrisi pendamping ASI di Bali. Harga katalog mulai ± Rp45.000, checkout Shopee himoonbabykids.",
+      en: "Buy Bunda Elia MPASI and complementary feeding products in Bali. Catalog from ± Rp45,000, checkout on Shopee himoonbabykids.",
     },
   },
   {
@@ -63,8 +63,8 @@ export const shopCategories = [
     shopeeCategoryId: 276164516,
     label: { id: "Perawatan Kulit Bayi", en: "Baby Skincare" },
     description: {
-      id: "Produk perawatan kulit sensitif bayi dan anak dari brand terpercaya.",
-      en: "Skincare for sensitive baby and kids skin from trusted brands.",
+      id: "Beli sunscreen bayi Moell, lotion Gently, dan skincare sensitif. Moell 30gr katalog Rp79.000 di Shopee HiMoon.",
+      en: "Buy Moell baby sunscreen, Gently lotion, and sensitive-skin care. Moell 30g catalog Rp79,000 on HiMoon Shopee.",
     },
   },
   {
@@ -72,8 +72,8 @@ export const shopCategories = [
     shopeeCategoryId: 276164518,
     label: { id: "Popok & Pispot", en: "Diapers & Potty" },
     description: {
-      id: "Popok dan perlengkapan toilet training untuk kenyamanan si kecil.",
-      en: "Diapers and potty training essentials for your little one.",
+      id: "Beli popok bayi Makuku dan MamyPoko di Bali. Katalog ± Rp65.000, stok live di Shopee himoonbabykids.",
+      en: "Buy Makuku and MamyPoko baby diapers in Bali. Catalog ± Rp65,000, live stock on Shopee himoonbabykids.",
     },
   },
   {
@@ -81,8 +81,8 @@ export const shopCategories = [
     shopeeCategoryId: 276164517,
     label: { id: "Peralatan Bayi", en: "Baby Equipment" },
     description: {
-      id: "Peralatan makan, masak, dan kebutuhan bayi sehari-hari.",
-      en: "Feeding, cooking, and everyday baby equipment.",
+      id: "Peralatan MPASI, blender, steamer, dan botol bayi. Katalog peralatan ± Rp125.000 di Shopee HiMoon Bali.",
+      en: "MPASI tools, blenders, steamers, and baby bottles. Equipment catalog ± Rp125,000 on HiMoon Bali Shopee.",
     },
   },
   {
@@ -90,8 +90,8 @@ export const shopCategories = [
     shopeeCategoryId: 276164520,
     label: { id: "Treatment Bibir", en: "Lip Care" },
     description: {
-      id: "Perawatan bibir lembut dan aman untuk bayi dan anak.",
-      en: "Gentle and safe lip care for babies and children.",
+      id: "Treatment bibir bayi dan anak. Katalog ± Rp35.000, original di toko Badung dan Shopee HiMoon.",
+      en: "Baby and kids lip care. Catalog ± Rp35,000, authentic at the Badung store and HiMoon Shopee.",
     },
   },
 ] as const;

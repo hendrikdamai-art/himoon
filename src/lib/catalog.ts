@@ -1,7 +1,6 @@
 import catalogData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
 import reviewsData from "@/data/reviews.json";
-import blogData from "@/data/blog.json";
 import type {
   BlogPost,
   Brand,
@@ -11,11 +10,11 @@ import type {
 } from "@/types/catalog";
 import { fetchShopeeProducts } from "./shopee";
 import type { ShopCategorySlug } from "./site-config";
+import { getGuide, getGuides } from "@/lib/seo/guides";
 
 const catalog = catalogData as ProductsCatalog;
 const brands = brandsData as Brand[];
 const reviews = reviewsData as Review[];
-const blogPosts = blogData as BlogPost[];
 
 export async function getProducts(): Promise<Product[]> {
   try {
@@ -50,11 +49,11 @@ export function getReviews(): Review[] {
 }
 
 export function getBlogPosts(): BlogPost[] {
-  return blogPosts;
+  return getGuides();
 }
 
 export function getBlogPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((post) => post.slug === slug);
+  return getGuide(slug);
 }
 
 export function getCatalogMeta(): Pick<ProductsCatalog, "lastSynced"> {

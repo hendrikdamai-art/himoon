@@ -31,6 +31,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const stored = window.localStorage.getItem(LOCALE_STORAGE_KEY) as Locale | null;
     if (stored === "id" || stored === "en") {
+      // Hydrate client locale from localStorage after mount.
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- existing locale hydration
       setLocaleState(stored);
     }
     setMounted(true);

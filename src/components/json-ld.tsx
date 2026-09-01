@@ -1,51 +1,15 @@
-import { siteConfig } from "@/lib/site-config";
+import {
+  localBusinessSchema,
+  webSiteSchema,
+} from "@/lib/seo/schema";
+import { JsonLdScript } from "@/components/seo/json-ld-script";
 
-type JsonLdProps = {
-  type?: "Organization" | "LocalBusiness" | "WebSite";
-};
-
-export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": type,
-    name: siteConfig.businessName,
-    alternateName: siteConfig.name,
-    description: siteConfig.description.id,
-    url: siteConfig.url,
-    image: `${siteConfig.url}/logo.png`,
-    email: siteConfig.email,
-    telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Badung",
-      addressRegion: "Bali",
-      addressCountry: "ID",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "-8.5833",
-      longitude: "115.1667",
-    },
-    hasMap: siteConfig.googleMapsShareUrl,
-    sameAs: [
-      siteConfig.shopeeShopUrl,
-      siteConfig.googleMapsUrl,
-      siteConfig.googleMapsShareUrl,
-    ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "9",
-      bestRating: "5",
-    },
-    priceRange: "$$",
-  };
-
+export function JsonLd() {
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <JsonLdScript data={localBusinessSchema()} />
+      <JsonLdScript data={webSiteSchema()} />
+    </>
   );
 }
 
@@ -78,10 +42,5 @@ export function ProductJsonLd({
     },
   };
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return <JsonLdScript data={schema} />;
 }

@@ -73,7 +73,24 @@ Proyek ini sudah siap Vercel (Next.js 16, build lokal sukses). Region serverless
 
 Repo GitHub: https://github.com/hendrikdamai-art/himoon
 
-Jika belum ter-push dari mesin lokal, clone dari Cursor Origin lalu push:
+**Remote `origin` in this project points to that GitHub URL.**
+
+### Push from WSL (one command)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/hendrikdamai-art/himoon/main/scripts/push-to-github.sh | bash
+```
+
+If the script is not on GitHub yet, clone from Cursor Origin first:
+
+```bash
+origin auth login
+origin repo clone hendrik-dipayadi/himoon-store
+cd himoon-store
+bash scripts/push-to-github.sh .
+```
+
+Or manually:
 
 ```bash
 origin auth login

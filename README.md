@@ -71,16 +71,16 @@ Proyek ini sudah siap Vercel (Next.js 16, build lokal sukses). Region serverless
 
 ### Langkah 1 — Pastikan kode ada di GitHub
 
-Repo target: https://github.com/hendrikdamai-art/himoon
+Repo GitHub: https://github.com/hendrikdamai-art/himoon
 
-Jika belum ter-push, dari WSL:
+Jika belum ter-push dari mesin lokal, clone dari Cursor Origin lalu push:
 
 ```bash
 origin auth login
 origin repo clone hendrik-dipayadi/himoon-store
 cd himoon-store
-git remote add github https://github.com/hendrikdamai-art/himoon.git
-git push -u github main
+git remote set-url origin https://github.com/hendrikdamai-art/himoon.git
+git push -u origin main --force
 ```
 
 ### Langkah 2 — Import di Vercel (dashboard)

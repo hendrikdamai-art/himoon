@@ -5,6 +5,7 @@ import { useLanguage } from "@/lib/i18n/language-provider";
 import { siteConfig } from "@/lib/site-config";
 import { SectionHeading } from "@/components/section-heading";
 import { GoogleMapEmbed } from "@/components/google-map-embed";
+import { indonesiaFaqs } from "@/lib/seo/indonesia";
 
 export default function ContactPage() {
   const { locale, t } = useLanguage();
@@ -86,6 +87,30 @@ export default function ContactPage() {
                 <ExternalLink className="h-4 w-4" />
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-12">
+          <SectionHeading
+            title={locale === "id" ? "Pertanyaan Umum" : "Frequently Asked Questions"}
+            subtitle={
+              locale === "id"
+                ? "Informasi tentang toko bayi HiMoon di Bali, MPASI, dan cara belanja."
+                : "About HiMoon baby shop in Bali, MPASI, and how to order."
+            }
+          />
+          <div className="mt-6 space-y-4">
+            {indonesiaFaqs.map((faq) => (
+              <details
+                key={faq.question}
+                className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+              >
+                <summary className="cursor-pointer list-none font-semibold text-himoon-blue marker:content-none [&::-webkit-details-marker]:hidden">
+                  {faq.question}
+                </summary>
+                <p className="mt-3 text-sm leading-relaxed text-himoon-muted">{faq.answer}</p>
+              </details>
+            ))}
           </div>
         </div>
       </div>

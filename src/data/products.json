@@ -1,20 +1,6 @@
 {
-  "lastSynced": "2026-09-02T02:18:33.372Z",
+  "lastSynced": "2026-09-02T07:58:33.065Z",
   "products": [
-    {
-      "id": "52863165431",
-      "itemId": 52863165431,
-      "shopId": 1869688077,
-      "name": "MOELL | Face Cream Moell 40ml Healthy Glow Barrier / Face Cream Bayi | Pelembab Wajah Anak dan Bayi",
-      "slug": "moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah-",
-      "price": 80000,
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztk-mq4iez3awhs19a",
-      "category": "baby-skincare",
-      "shopeeUrl": "https://shopee.co.id/moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah--i.1869688077.52863165431",
-      "brand": "Moell",
-      "inStock": true,
-      "syncedAt": "2026-09-02T02:18:31.863Z"
-    },
     {
       "id": "48013199704",
       "itemId": 48013199704,
@@ -28,6 +14,20 @@
       "brand": "Moell",
       "inStock": true,
       "syncedAt": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "id": "52863165431",
+      "itemId": 52863165431,
+      "shopId": 1869688077,
+      "name": "MOELL | Face Cream Moell 40ml Healthy Glow Barrier / Face Cream Bayi | Pelembab Wajah Anak dan Bayi",
+      "slug": "moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah-",
+      "price": 80000,
+      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztk-mq4iez3awhs19a",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah--i.1869688077.52863165431",
+      "brand": "Moell",
+      "inStock": true,
+      "syncedAt": "2026-09-02T02:18:31.863Z"
     }
   ]
 }

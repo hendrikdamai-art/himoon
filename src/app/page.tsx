@@ -23,9 +23,9 @@ export default async function HomePage() {
   return (
     <>
       <Hero />
+      <FeaturedProducts products={featured} />
       <ValueProps />
       <CategoryGrid />
-      <FeaturedProducts products={featured} />
       <BrandMarquee brands={brands} />
       <ReviewsSection reviews={reviews} />
       <HowToBuy />

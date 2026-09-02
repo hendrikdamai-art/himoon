@@ -10,36 +10,51 @@ export function Hero() {
   const { t } = useLanguage();
 
   return (
-    <section className="overflow-hidden bg-himoon-cream">
+    <section className="relative overflow-hidden bg-himoon-cream">
       <div className="mx-auto grid max-w-7xl items-center md:grid-cols-[0.95fr_1.05fr] md:gap-0">
-        {/* Text — sits on the same cream background as the page */}
-        <div className="relative z-10 px-4 py-7 md:px-6 md:py-9 lg:py-10">
-          <div className="max-w-xl">
-            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-himoon-muted md:text-sm">
+        {/* Mobile: illustration sits behind text, not as its own block */}
+        <div className="pointer-events-none absolute inset-0 md:hidden" aria-hidden>
+          <div className="absolute inset-y-0 right-0 w-[min(72vw,280px)]">
+            <Image
+              src="/hero-background.png"
+              alt=""
+              fill
+              priority
+              className="object-contain object-right-bottom opacity-90"
+              sizes="72vw"
+            />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-himoon-cream from-45% via-himoon-cream/88 via-70% to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-himoon-cream to-transparent" />
+        </div>
+
+        <div className="relative z-10 px-4 py-4 sm:py-5 md:px-6 md:py-9 lg:py-10">
+          <div className="max-w-xl md:max-w-none">
+            <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-himoon-muted sm:text-xs md:mb-2 md:text-sm">
               {t.hero.eyebrow}
             </p>
-            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-himoon-blue md:text-4xl lg:text-[2.75rem] lg:leading-tight">
+            <h1 className="max-w-[16rem] text-[1.65rem] font-extrabold leading-[1.15] tracking-tight text-himoon-blue sm:max-w-md sm:text-3xl md:max-w-xl md:text-4xl lg:text-[2.75rem] lg:leading-tight">
               {t.hero.title}
             </h1>
-            <p className="mt-3 text-base leading-relaxed text-himoon-muted md:mt-4 md:text-lg">
+            <p className="mt-2 max-w-[15rem] text-sm leading-snug text-himoon-muted sm:mt-3 sm:max-w-md sm:text-base sm:leading-relaxed md:mt-4 md:max-w-xl md:text-lg">
               {t.hero.subtitle}
             </p>
 
-            <div className="mt-4 flex flex-wrap items-center gap-2 md:mt-5 md:gap-3">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-xs font-semibold text-emerald-700 shadow-sm backdrop-blur-sm md:gap-2 md:px-3 md:py-1.5 md:text-sm">
-                <ShieldCheck className="h-3.5 w-3.5 md:h-4 md:w-4" />
+            <div className="mt-3 flex flex-wrap items-center gap-1.5 sm:mt-4 sm:gap-2 md:mt-5 md:gap-3">
+              <span className="inline-flex items-center gap-1 rounded-full bg-white/85 px-2 py-0.5 text-[11px] font-semibold text-emerald-700 shadow-sm backdrop-blur-sm sm:gap-1.5 sm:px-2.5 sm:py-1 sm:text-xs md:gap-2 md:px-3 md:py-1.5 md:text-sm">
+                <ShieldCheck className="h-3 w-3 sm:h-3.5 sm:w-3.5 md:h-4 md:w-4" />
                 {t.hero.trusted}
               </span>
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/80 px-2.5 py-1 text-xs font-semibold text-amber-700 shadow-sm backdrop-blur-sm md:gap-2 md:px-3 md:py-1.5 md:text-sm">
-                <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500 md:h-4 md:w-4" />
+              <span className="inline-flex items-center gap-1 rounded-full bg-white/85 px-2 py-0.5 text-[11px] font-semibold text-amber-700 shadow-sm backdrop-blur-sm sm:gap-1.5 sm:px-2.5 sm:py-1 sm:text-xs md:gap-2 md:px-3 md:py-1.5 md:text-sm">
+                <Star className="h-3 w-3 fill-amber-500 text-amber-500 sm:h-3.5 sm:w-3.5 md:h-4 md:w-4" />
                 {t.hero.rating}
               </span>
             </div>
 
-            <div className="mt-5 flex flex-wrap gap-2.5 md:mt-6 md:gap-3">
+            <div className="mt-3 flex flex-wrap gap-2 sm:mt-4 sm:gap-2.5 md:mt-6 md:gap-3">
               <Link
                 href="/shop"
-                className="inline-flex items-center justify-center rounded-full bg-himoon-blue px-5 py-2.5 text-sm font-bold text-white transition hover:bg-himoon-blue-light md:px-6 md:py-3"
+                className="inline-flex items-center justify-center rounded-full bg-himoon-blue px-4 py-2 text-xs font-bold text-white shadow-sm transition hover:bg-himoon-blue-light sm:px-5 sm:py-2.5 sm:text-sm md:px-6 md:py-3"
               >
                 {t.hero.ctaShop}
               </Link>
@@ -47,7 +62,7 @@ export function Hero() {
                 href={siteConfig.shopeeShopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full border-2 border-himoon-yellow bg-himoon-yellow px-5 py-2.5 text-sm font-bold text-himoon-blue transition hover:bg-himoon-yellow-light md:px-6 md:py-3"
+                className="inline-flex items-center justify-center rounded-full border-2 border-himoon-yellow bg-himoon-yellow px-4 py-2 text-xs font-bold text-himoon-blue shadow-sm transition hover:bg-himoon-yellow-light sm:px-5 sm:py-2.5 sm:text-sm md:px-6 md:py-3"
               >
                 {t.hero.ctaShopee}
               </a>
@@ -55,20 +70,20 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Illustration — full image, no crop, blends into cream via transparent PNG */}
-        <div className="relative bg-himoon-cream px-2 pb-4 md:px-0 md:pb-0">
+        {/* Desktop: side-by-side illustration */}
+        <div className="relative hidden bg-himoon-cream md:block">
           <div
             aria-hidden
-            className="pointer-events-none absolute inset-y-4 left-0 z-10 hidden w-16 bg-gradient-to-r from-himoon-cream to-transparent md:block lg:w-24"
+            className="pointer-events-none absolute inset-y-4 left-0 z-10 w-16 bg-gradient-to-r from-himoon-cream to-transparent lg:w-24"
           />
-          <div className="relative mx-auto aspect-[3/2] w-full max-w-[640px] md:max-w-none">
+          <div className="relative aspect-[3/2] w-full">
             <Image
               src="/hero-background.png"
               alt="HiMoon mom, baby & kids shop"
               fill
               priority
-              className="object-contain object-center md:object-right"
-              sizes="(max-width: 768px) 90vw, 50vw"
+              className="object-contain object-right"
+              sizes="50vw"
             />
           </div>
         </div>

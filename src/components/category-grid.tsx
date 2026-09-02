@@ -9,7 +9,7 @@ import { ArrowRight } from "lucide-react";
 
 const categoryImages: Record<string, string> = {
   mpasi: "https://down-id.img.susercontent.com/file/id-11134207-81zth-mqbv48ncikg192",
-  "baby-skincare": "https://down-id.img.susercontent.com/file/id-11134207-81ztf-mq4ujguquhvye8",
+  "baby-skincare": "https://down-id.img.susercontent.com/file/id-11134207-81ztk-mq4iez3awhs19a",
   popok: "https://down-id.img.susercontent.com/file/id-11134207-81ztn-mqd90g1x9bm50f",
   "peralatan-bayi": "https://down-id.img.susercontent.com/file/id-11134207-81ztl-mqbv2mbam6f460",
   "treatment-bibir": "https://down-id.img.susercontent.com/file/id-11134207-81zto-mqcsszbnocgc57",

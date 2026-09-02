@@ -9,7 +9,7 @@ import type {
   ProductsCatalog,
   Review,
 } from "@/types/catalog";
-import { fetchShopeeProducts } from "./shopee";
+import { dedupeProducts, fetchShopeeProducts } from "./shopee";
 import type { ShopCategorySlug } from "./site-config";
 
 const catalog = catalogData as ProductsCatalog;
@@ -17,16 +17,26 @@ const brands = brandsData as Brand[];
 const reviews = reviewsData as Review[];
 const blogPosts = blogData as BlogPost[];
 
+function getStaticProducts(): Product[] {
+  return dedupeProducts(catalog.products.filter((product) => product.itemId > 0));
+}
+
 export async function getProducts(): Promise<Product[]> {
+  const staticProducts = getStaticProducts();
+
   try {
     const live = await fetchShopeeProducts();
-    if (live.length > catalog.products.length) {
-      return live;
+    if (live.length > 0) {
+      const merged = new Map<number, Product>();
+      for (const product of staticProducts) merged.set(product.itemId, product);
+      for (const product of live) merged.set(product.itemId, product);
+      return dedupeProducts(Array.from(merged.values()));
     }
   } catch {
     // Fall back to static catalog when Shopee API is unavailable.
   }
-  return catalog.products;
+
+  return staticProducts;
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | undefined> {

@@ -86,6 +86,15 @@ function inferBrand(name: string): string | undefined {
   return brands.find((brand) => lower.includes(brand.toLowerCase()));
 }
 
+function isValidShopeeItem(item: ShopeeItem | null | undefined): item is ShopeeItem {
+  return Boolean(
+    item &&
+      item.itemid > 0 &&
+      item.name?.trim() &&
+      item.image?.trim(),
+  );
+}
+
 function mapShopeeItem(item: ShopeeItem): Product {
   const slug = slugify(item.name);
   const category = inferCategory(item.name);
@@ -93,7 +102,7 @@ function mapShopeeItem(item: ShopeeItem): Product {
     id: String(item.itemid),
     itemId: item.itemid,
     shopId: item.shopid || siteConfig.shopeeShopId,
-    name: item.name,
+    name: item.name.trim(),
     slug,
     price: Math.round(item.price / 100000),
     image: shopeeImageUrl(item.image),
@@ -107,6 +116,35 @@ function mapShopeeItem(item: ShopeeItem): Product {
     inStock: (item.stock ?? 1) > 0 && item.status !== 0,
     syncedAt: new Date().toISOString(),
   };
+}
+
+export function dedupeProducts(products: Product[]): Product[] {
+  const byItemId = new Map<number, Product>();
+  const usedSlugs = new Set<string>();
+
+  const sorted = [...products]
+    .filter((product) => product.itemId > 0)
+    .sort((a, b) => {
+      if (a.itemId !== b.itemId) return a.itemId - b.itemId;
+      return a.name.localeCompare(b.name);
+    });
+
+  for (const product of sorted) {
+    if (byItemId.has(product.itemId)) continue;
+
+    let slug = product.slug;
+    let suffix = 2;
+    while (usedSlugs.has(slug)) {
+      slug = `${product.slug}-${suffix}`;
+      suffix += 1;
+    }
+
+    const normalized: Product = { ...product, slug };
+    byItemId.set(product.itemId, normalized);
+    usedSlugs.add(slug);
+  }
+
+  return Array.from(byItemId.values()).sort((a, b) => a.name.localeCompare(b.name));
 }
 
 async function fetchJson<T>(url: string): Promise<T | null> {
@@ -132,8 +170,9 @@ export async function fetchShopeeProducts(): Promise<Product[]> {
     `https://shopee.co.id/api/v4/shop/get_shop_seo?username=${siteConfig.shopeeUsername}&limit=50&offset=0`,
   );
 
-  if (seoData?.data?.items) {
+  if (seoData?.error === 0 && seoData.data?.items) {
     for (const item of seoData.data.items) {
+      if (!isValidShopeeItem(item)) continue;
       products.set(item.itemid, mapShopeeItem(item));
     }
   }
@@ -156,27 +195,30 @@ export async function fetchShopeeProducts(): Promise<Product[]> {
     shopCategories.map((category) => [category.shopeeCategoryId, category.slug]),
   );
 
-  if (categoriesData?.data?.shop_categories) {
+  if (categoriesData?.error === 0 && categoriesData.data?.shop_categories) {
     for (const category of categoriesData.data.shop_categories) {
       const searchUrl = `https://shopee.co.id/api/v4/search/search_items?by=pop&limit=30&match_id=${siteConfig.shopeeShopId}&newest=0&order=desc&page_type=shop&scenario=PAGE_SHOP_SEARCH&version=2&shop_categoryids=${category.shop_category_id}`;
 
       const searchData = await fetchJson<{
         error: number;
-        items?: Array<{ item_basic: ShopeeItem }>;
+        items?: Array<{ item_basic: ShopeeItem | null }>;
       }>(searchUrl);
 
-      if (searchData?.items?.length) {
-        for (const entry of searchData.items) {
-          const mapped = mapShopeeItem(entry.item_basic);
-          const slug = categoryMap.get(category.shop_category_id);
-          if (slug) mapped.category = slug;
-          products.set(entry.item_basic.itemid, mapped);
-        }
+      if (searchData?.error !== 0 || !searchData.items?.length) continue;
+
+      for (const entry of searchData.items) {
+        const item = entry?.item_basic;
+        if (!isValidShopeeItem(item)) continue;
+
+        const mapped = mapShopeeItem(item);
+        const slug = categoryMap.get(category.shop_category_id);
+        if (slug) mapped.category = slug;
+        products.set(item.itemid, mapped);
       }
     }
   }
 
-  return Array.from(products.values()).sort((a, b) => a.name.localeCompare(b.name));
+  return dedupeProducts(Array.from(products.values()));
 }
 
 export async function syncProductsCatalog(
@@ -185,18 +227,22 @@ export async function syncProductsCatalog(
   const fetched = await fetchShopeeProducts();
 
   if (fetched.length === 0) {
-    return existing;
+    return {
+      lastSynced: existing.lastSynced,
+      products: dedupeProducts(existing.products.filter((p) => p.itemId > 0)),
+    };
   }
 
-  const merged = new Map(existing.products.map((product) => [product.id, product]));
+  const merged = new Map<number, Product>();
+  for (const product of existing.products) {
+    if (product.itemId > 0) merged.set(product.itemId, product);
+  }
   for (const product of fetched) {
-    merged.set(product.id, product);
+    merged.set(product.itemId, product);
   }
 
   return {
     lastSynced: new Date().toISOString(),
-    products: Array.from(merged.values()).sort((a, b) =>
-      a.name.localeCompare(b.name),
-    ),
+    products: dedupeProducts(Array.from(merged.values())),
   };
 }

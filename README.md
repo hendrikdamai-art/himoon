@@ -57,13 +57,23 @@ Robots: `/robots.txt`
 
 ## Sinkronisasi Produk Shopee
 
-Produk di-sync dari toko Shopee [himoonbabykids](https://shopee.co.id/himoonbabykids). Gambar disimpan via CDN Shopee (bukan di server Vercel).
+Produk di-sync langsung dari toko Shopee [himoonbabykids](https://shopee.co.id/himoonbabykids). Setiap produk memakai **foto asli dari Shopee** (CDN eksternal) — tidak ada placeholder atau gambar duplikat buatan.
+
+**Sinkron otomatis (runtime):** setiap halaman shop memuat produk live dari API Shopee (cache 1 jam).
+
+**Perbarui fallback JSON** (disarankan dari jaringan Indonesia):
+
+```bash
+npm run sync:products
+```
+
+Atau cek hasil sync di production:
 
 ```bash
 curl https://your-domain.com/api/products/sync
 ```
 
-Data fallback tersimpan di `src/data/products.json`.
+Hasil disimpan di `src/data/products.json`. Hanya produk dengan `itemId` Shopee asli yang ditampilkan — produk placeholder sudah dihapus.
 
 ## Deploy ke Vercel
 

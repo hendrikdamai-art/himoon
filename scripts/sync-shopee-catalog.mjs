@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 /**
  * Sync products from Shopee into src/data/products.json.
- * Run locally (Indonesia network works best): node scripts/sync-shopee-catalog.mjs
+ * Run locally (Indonesia network works best): npm run sync:products
  */
-import { writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
+const TARGET = join(ROOT, "src/data/products.json");
 
 const siteConfig = {
   shopeeShopId: 1869688077,
@@ -100,18 +101,59 @@ function dedupeProducts(products) {
   return Array.from(byItemId.values()).sort((a, b) => a.name.localeCompare(b.name));
 }
 
+function loadExisting() {
+  try {
+    const data = JSON.parse(readFileSync(TARGET, "utf8"));
+    return dedupeProducts(data.products || []);
+  } catch {
+    return [];
+  }
+}
+
 async function fetchJson(url) {
   const res = await fetch(url, { headers: HEADERS });
   if (!res.ok) {
-    console.warn(`${url} -> HTTP ${res.status}`);
+    console.warn(`${url.split("?")[0]} -> HTTP ${res.status}`);
     return null;
   }
   return res.json();
 }
 
+async function fetchCategoryProducts(category, categorySlug, products) {
+  const total = category.total || 30;
+  const pageSize = 30;
+
+  for (let offset = 0; offset < total; offset += pageSize) {
+    const url = `https://shopee.co.id/api/v4/search/search_items?by=pop&limit=${pageSize}&match_id=${siteConfig.shopeeShopId}&newest=${offset}&order=desc&page_type=shop&scenario=PAGE_SHOP_SEARCH&version=2&shop_categoryids=${category.shop_category_id}`;
+    const search = await fetchJson(url);
+
+    if (!search || search.error !== 0) {
+      if (offset === 0) {
+        console.warn(`Category ${category.display_name}: Shopee error ${search?.error ?? "network error"}`);
+      }
+      break;
+    }
+
+    const items = search.items || [];
+    console.log(`  ${category.display_name} offset ${offset}: ${items.length} items`);
+
+    for (const entry of items) {
+      const item = entry?.item_basic;
+      if (!isValidItem(item)) continue;
+      products.set(item.itemid, mapItem(item, categorySlug));
+    }
+
+    if (items.length < pageSize) break;
+  }
+}
+
 async function main() {
   const products = new Map();
   const categoryMap = new Map(shopCategories.map((c) => [c.shopeeCategoryId, c.slug]));
+
+  for (const existing of loadExisting()) {
+    products.set(existing.itemId, existing);
+  }
 
   const seo = await fetchJson(
     `https://shopee.co.id/api/v4/shop/get_shop_seo?username=${siteConfig.shopeeUsername}&limit=50&offset=0`,
@@ -130,17 +172,7 @@ async function main() {
   );
 
   for (const category of cats?.data?.shop_categories || []) {
-    const url = `https://shopee.co.id/api/v4/search/search_items?by=pop&limit=30&match_id=${siteConfig.shopeeShopId}&newest=0&order=desc&page_type=shop&scenario=PAGE_SHOP_SEARCH&version=2&shop_categoryids=${category.shop_category_id}`;
-    const search = await fetchJson(url);
-    if (!search || search.error !== 0) {
-      console.warn(`Category ${category.display_name}: Shopee error ${search?.error ?? "network error"}`);
-      continue;
-    }
-    for (const entry of search.items || []) {
-      const item = entry?.item_basic;
-      if (!isValidItem(item)) continue;
-      products.set(item.itemid, mapItem(item, categoryMap.get(category.shop_category_id)));
-    }
+    await fetchCategoryProducts(category, categoryMap.get(category.shop_category_id), products);
   }
 
   const list = dedupeProducts(Array.from(products.values()));
@@ -149,9 +181,11 @@ async function main() {
     products: list,
   };
 
-  const target = join(ROOT, "src/data/products.json");
-  writeFileSync(target, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Synced ${list.length} unique products -> ${target}`);
+  writeFileSync(TARGET, `${JSON.stringify(output, null, 2)}\n`);
+  console.log(`Synced ${list.length} unique products -> ${TARGET}`);
+  if (list.length < 20) {
+    console.warn("Warning: expected ~26 products. Shopee API may be blocked from this network.");
+  }
 }
 
 main().catch((err) => {

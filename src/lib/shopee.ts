@@ -197,23 +197,30 @@ export async function fetchShopeeProducts(): Promise<Product[]> {
 
   if (categoriesData?.error === 0 && categoriesData.data?.shop_categories) {
     for (const category of categoriesData.data.shop_categories) {
-      const searchUrl = `https://shopee.co.id/api/v4/search/search_items?by=pop&limit=30&match_id=${siteConfig.shopeeShopId}&newest=0&order=desc&page_type=shop&scenario=PAGE_SHOP_SEARCH&version=2&shop_categoryids=${category.shop_category_id}`;
+      const categorySlug = categoryMap.get(category.shop_category_id);
+      const total = category.total || 30;
+      const pageSize = 30;
 
-      const searchData = await fetchJson<{
-        error: number;
-        items?: Array<{ item_basic: ShopeeItem | null }>;
-      }>(searchUrl);
+      for (let offset = 0; offset < total; offset += pageSize) {
+        const searchUrl = `https://shopee.co.id/api/v4/search/search_items?by=pop&limit=${pageSize}&match_id=${siteConfig.shopeeShopId}&newest=${offset}&order=desc&page_type=shop&scenario=PAGE_SHOP_SEARCH&version=2&shop_categoryids=${category.shop_category_id}`;
 
-      if (searchData?.error !== 0 || !searchData.items?.length) continue;
+        const searchData = await fetchJson<{
+          error: number;
+          items?: Array<{ item_basic: ShopeeItem | null }>;
+        }>(searchUrl);
 
-      for (const entry of searchData.items) {
-        const item = entry?.item_basic;
-        if (!isValidShopeeItem(item)) continue;
+        if (searchData?.error !== 0 || !searchData.items?.length) break;
 
-        const mapped = mapShopeeItem(item);
-        const slug = categoryMap.get(category.shop_category_id);
-        if (slug) mapped.category = slug;
-        products.set(item.itemid, mapped);
+        for (const entry of searchData.items) {
+          const item = entry?.item_basic;
+          if (!isValidShopeeItem(item)) continue;
+
+          const mapped = mapShopeeItem(item);
+          if (categorySlug) mapped.category = categorySlug;
+          products.set(item.itemid, mapped);
+        }
+
+        if (searchData.items.length < pageSize) break;
       }
     }
   }

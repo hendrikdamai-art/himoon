@@ -4,12 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/sync-shopee-catalog.mjs"
-      - "src/lib/shopee.ts"
-      - ".github/workflows/sync-shopee-products.yml"
 
 jobs:
   sync:
@@ -36,7 +30,8 @@ jobs:
           git add src/data/products.json
           if git diff --staged --quiet; then
             echo "No catalog changes"
-          else
-            git commit -m "chore: sync Shopee product catalog"
-            git push
+            exit 0
           fi
+          git commit -m "chore: sync Shopee product catalog"
+          git pull --rebase origin main
+          git push origin main

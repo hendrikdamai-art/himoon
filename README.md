@@ -61,19 +61,16 @@ Produk di-sync langsung dari toko Shopee [himoonbabykids](https://shopee.co.id/h
 
 **Sinkron otomatis (runtime):** setiap halaman shop memuat produk live dari API Shopee (cache 1 jam).
 
-**Perbarui fallback JSON** (disarankan dari jaringan Indonesia):
+**Perbarui fallback JSON** (must run from Indonesia — Shopee blocks datacenter IPs):
 
 ```bash
 npm run sync:products
+git add src/data/products.json
+git commit -m "Sync full Shopee catalog"
+git push
 ```
 
-Atau cek hasil sync di production:
-
-```bash
-curl https://your-domain.com/api/products/sync
-```
-
-Hasil disimpan di `src/data/products.json`. Hanya produk dengan `itemId` Shopee asli yang ditampilkan — produk placeholder sudah dihapus.
+After deploy on Vercel (Singapore region), the site also tries to load products live from Shopee on each visit. If products still look incomplete, run the sync command above from your laptop in Bali.
 
 ## Deploy ke Vercel
 

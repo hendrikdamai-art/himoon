@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-09-04T09:55:20.477385Z",
+  "lastSynced": "2026-09-04T10:54:37.294Z",
   "products": [
     {
       "id": "100007",
@@ -17,6 +17,21 @@
       "syncedAt": "2026-09-04T09:28:41.984860Z"
     },
     {
+      "id": "100017",
+      "itemId": 100017,
+      "shopId": 1869688077,
+      "name": "Beeme Daily Nourishing Hair Lotion 100ml – Hair Lotion Bayi & Anak Aman 3 Bulan+",
+      "nameEn": "Beeme Daily Nourishing Hair Lotion 100ml – Baby & Kids Hair Lotion Safe from 3 Months",
+      "slug": "beeme-daily-nourishing-hair-lotion-100ml-bayi-anak",
+      "price": 60000,
+      "image": "/products/beeme-daily-nourishing-hair-lotion-100ml-bayi-anak.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Beeme",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
       "id": "100011",
       "itemId": 100011,
       "shopId": 1869688077,
@@ -30,6 +45,36 @@
       "brand": "Beeme",
       "inStock": true,
       "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100019",
+      "itemId": 100019,
+      "shopId": 1869688077,
+      "name": "Beeme Honey Lollipop Balm – Pelembap Bibir Bayi & Anak Aman Ditelen 6 Bulan+",
+      "nameEn": "Beeme Honey Lollipop Balm – Baby & Kids Lip Balm Safe if Swallowed from 6 Months",
+      "slug": "beeme-honey-lollipop-balm-pelembap-bibir-bayi",
+      "price": 70000,
+      "image": "/products/beeme-honey-lollipop-balm-pelembap-bibir-bayi.jpg",
+      "category": "treatment-bibir",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Beeme",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
+      "id": "100023",
+      "itemId": 100023,
+      "shopId": 1869688077,
+      "name": "Beeme Natural Soap 3in1 Honey & Lemongrass 100ml – Sabun Wajah Badan & Sampo Bayi",
+      "nameEn": "Beeme Natural Soap 3-in-1 Honey & Lemongrass 100ml – Face Body & Shampoo for Mom & Baby",
+      "slug": "beeme-natural-soap-3in1-honey-lemongrass-100ml",
+      "price": 90000,
+      "image": "/products/beeme-natural-soap-3in1-honey-lemongrass-100ml.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Beeme",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
     },
     {
       "id": "100009",
@@ -92,6 +137,66 @@
       "syncedAt": "2026-09-04T09:55:20.477385Z"
     },
     {
+      "id": "100024",
+      "itemId": 100024,
+      "shopId": 1869688077,
+      "name": "Gently Baby Hair Lotion 100ml Smooth Keratin – Lotion Rambut Bayi Tebal Halus Wangi",
+      "nameEn": "Gently Baby Hair Lotion 100ml Smooth Keratin – Soft Fragrant Baby Hair Lotion",
+      "slug": "gently-baby-hair-lotion-100ml-smooth-keratin",
+      "price": 55000,
+      "image": "/products/gently-baby-hair-lotion-100ml-smooth-keratin.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
+      "id": "100022",
+      "itemId": 100022,
+      "shopId": 1869688077,
+      "name": "Gently Baby Hydra Soft Body Lotion 150gr – Pelembap Bayi Jaga Skin Barrier",
+      "nameEn": "Gently Baby Hydra Soft Body Lotion 150g – Baby Moisturizer for Skin Barrier Care",
+      "slug": "gently-baby-hydra-soft-body-lotion-150gr-skin-barrier",
+      "price": 93000,
+      "image": "/products/gently-baby-hydra-soft-body-lotion-150gr-skin-barrier.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
+      "id": "100021",
+      "itemId": 100021,
+      "shopId": 1869688077,
+      "name": "Gently Baby Physical Sunscreen Serum SPF 50 PA++++ 30gr – Tabir Surya Bayi Anti Air",
+      "nameEn": "Gently Baby Physical Sunscreen Serum SPF 50 PA++++ 30g – Water-Resistant Baby Sunscreen",
+      "slug": "gently-baby-physical-sunscreen-serum-30gr-spf50",
+      "price": 75000,
+      "image": "/products/gently-baby-physical-sunscreen-serum-30gr-spf50.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
+      "id": "100020",
+      "itemId": 100020,
+      "shopId": 1869688077,
+      "name": "Gently Baby Rash Cream 40gr – Krim Pereda Ruam Popok Bayi Dermatologically Tested",
+      "nameEn": "Gently Baby Rash Cream 40g – Diaper Rash Cream Dermatologically Tested",
+      "slug": "gently-baby-rash-cream-40gr-krim-ruam-popok",
+      "price": 71000,
+      "image": "/products/gently-baby-rash-cream-40gr-krim-ruam-popok.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
+    },
+    {
       "id": "100005",
       "itemId": 100005,
       "shopId": 1869688077,
@@ -120,6 +225,21 @@
       "brand": "Gently",
       "inStock": true,
       "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100025",
+      "itemId": 100025,
+      "shopId": 1869688077,
+      "name": "Gently Ultra Soft Body Wash & Shampoo Refill 250gr – Sabun & Sampo Bayi Hemat 25%",
+      "nameEn": "Gently Ultra Soft Body Wash & Shampoo Refill 250g – Baby Wash Refill Pouch",
+      "slug": "gently-ultra-soft-body-wash-shampoo-refill-250gr",
+      "price": 58000,
+      "image": "/products/gently-ultra-soft-body-wash-shampoo-refill-250gr.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
     },
     {
       "id": "100002",
@@ -255,6 +375,21 @@
       "brand": "Moell",
       "inStock": true,
       "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100018",
+      "itemId": 100018,
+      "shopId": 1869688077,
+      "name": "PASEO Baby Tissue Soft Pack 130 Sheets – Tisu Bayi Pure Soft 3 Ply Lembut",
+      "nameEn": "PASEO Baby Tissue Soft Pack 130 Sheets – Pure Soft 3-Ply Baby Tissues",
+      "slug": "paseo-baby-tissue-soft-pack-130-sheets-pure-soft",
+      "price": 22500,
+      "image": "/products/paseo-baby-tissue-soft-pack-130-sheets-pure-soft.jpg",
+      "category": "peralatan-bayi",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Paseo",
+      "inStock": true,
+      "syncedAt": "2026-09-04T10:54:37.294Z"
     },
     {
       "id": "100006",

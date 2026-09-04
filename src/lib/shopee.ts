@@ -49,7 +49,7 @@ function inferCategory(name: string): Product["category"] {
     lower.includes("bibir") ||
     lower.includes("balm")
   ) {
-    return "treatment-bibir";
+    return "perawatan-bibir";
   }
   if (
     lower.includes("blender") ||
@@ -61,7 +61,7 @@ function inferCategory(name: string): Product["category"] {
   ) {
     return "peralatan-bayi";
   }
-  return "baby-skincare";
+  return "perawatan-kulit-bayi";
 }
 
 function inferBrand(name: string): string | undefined {

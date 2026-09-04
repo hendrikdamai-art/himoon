@@ -33,7 +33,7 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/shop/baby-skincare" className="hover:text-white">
+              <Link href="/shop/perawatan-kulit-bayi" className="hover:text-white">
                 {t.shopMenu.babySkincare}
               </Link>
             </li>

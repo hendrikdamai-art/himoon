@@ -59,7 +59,7 @@ export const shopCategories = [
     },
   },
   {
-    slug: "baby-skincare",
+    slug: "perawatan-kulit-bayi",
     shopeeCategoryId: 276164516,
     label: { id: "Perawatan Kulit Bayi", en: "Baby Skincare" },
     description: {
@@ -86,9 +86,9 @@ export const shopCategories = [
     },
   },
   {
-    slug: "treatment-bibir",
+    slug: "perawatan-bibir",
     shopeeCategoryId: 276164520,
-    label: { id: "Treatment Bibir", en: "Lip Care" },
+    label: { id: "Perawatan Bibir", en: "Lip Care" },
     description: {
       id: "Perawatan bibir lembut dan aman untuk bayi dan anak.",
       en: "Gentle and safe lip care for babies and children.",

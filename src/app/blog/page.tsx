@@ -18,7 +18,7 @@ export default function BlogPage() {
   return (
     <div className="bg-himoon-cream py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
-        <h1 className="text-4xl font-extrabold text-himoon-blue">Blog & Tips</h1>
+        <h1 className="text-4xl font-extrabold text-himoon-blue">Blog & Tips Parenting</h1>
         <p className="mt-3 max-w-2xl text-lg text-himoon-muted">
           Panduan MPASI, perawatan bayi, dan parenting dari HiMoon Baby & Kids.
         </p>
@@ -40,7 +40,7 @@ export default function BlogPage() {
               </div>
               <div className="p-5">
                 <p className="text-xs font-semibold uppercase tracking-wider text-himoon-muted">
-                  {post.readTime} min · {post.publishedAt}
+                  {post.readTime} menit · {post.publishedAt}
                 </p>
                 <h2 className="mt-2 text-xl font-bold text-himoon-blue group-hover:text-himoon-yellow">
                   {post.title.id}

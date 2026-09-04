@@ -20,7 +20,7 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
     logo: `${baseUrl}/logo.png`,
     email: siteConfig.email,
     telephone: phone,
-    inLanguage: ["id-ID", "en-ID"],
+    inLanguage: "id-ID",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Badung",
@@ -71,14 +71,6 @@ export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
     inLanguage: "id-ID",
     description: siteConfig.description.id,
     publisher: { "@id": `${baseUrl}/#localbusiness` },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${baseUrl}/shop?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
 
   const faqPage = {

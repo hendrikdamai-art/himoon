@@ -16,10 +16,10 @@ export function Header() {
 
   const categoryMenuLabels: Record<(typeof shopCategories)[number]["slug"], string> = {
     mpasi: t.shopMenu.mpasi,
-    "baby-skincare": t.shopMenu.babySkincare,
+    "perawatan-kulit-bayi": t.shopMenu.babySkincare,
     popok: t.shopMenu.popok,
     "peralatan-bayi": t.shopMenu.peralatanBayi,
-    "treatment-bibir": t.shopMenu.treatmentBibir,
+    "perawatan-bibir": t.shopMenu.treatmentBibir,
   };
 
   const shopLinks = [

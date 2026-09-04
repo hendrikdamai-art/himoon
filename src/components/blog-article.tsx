@@ -70,7 +70,7 @@ export function BlogArticle({ post, relatedProducts }: BlogArticleProps) {
   return (
     <>
       <p className="mt-6 text-sm text-himoon-muted">
-        {post.readTime} min read · {post.publishedAt}
+        {post.readTime} menit baca · {post.publishedAt}
       </p>
       <h1 className="mt-2 text-4xl font-extrabold text-himoon-blue">{post.title[locale]}</h1>
 

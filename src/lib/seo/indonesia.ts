@@ -1,46 +1,43 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/site-config";
 
-/** Primary Indonesian search terms for baby & kids retail in Bali */
+/** Primary Indonesian search terms for baby & kids retail in Bali / Indonesia */
 export const indonesiaKeywords = [
   "HiMoon Baby Kids",
   "HiMoon Bali",
   "toko bayi Bali",
+  "toko bayi Badung",
+  "toko perlengkapan bayi Bali",
   "toko perlengkapan bayi Badung",
-  "baby shop Bali",
-  "baby shop Denpasar",
+  "toko ibu dan bayi Bali",
   "MPASI bayi",
+  "MPASI 6 bulan",
   "makanan pendamping ASI",
+  "beli MPASI online",
   "popok bayi",
+  "popok bayi Bali",
   "popok Makuku",
   "popok MamyPoko",
   "MamyPoko Royal Soft",
   "perawatan kulit bayi",
+  "skincare bayi",
+  "sunscreen bayi",
+  "sunscreen bayi Bali",
+  "moisturizer bayi",
+  "sabun mandi bayi",
+  "parfum bayi non alkohol",
   "Moell sunscreen bayi",
   "Moell body wash",
   "Gently baby cologne",
-  "Gently calming cream",
   "Gently face cream",
-  "Gently body wash shampoo",
   "Beeme baby lotion",
-  "Beeme nourishing balm",
-  "Beeme bubble wash",
   "Bumbu Bunda Elia MPASI",
-  "BB Booster Rice",
-  "Moell body lotion",
-  "Moell rub cream",
-  "Moell shampoo refill",
-  "parfum bayi non alkohol",
-  "sabun mandi bayi non SLS",
-  "saringan MPASI stainless",
-  "krim anti kolik bayi",
-  "face cream bayi ceramide",
   "perlengkapan bayi anak",
-  "toko ibu dan bayi",
-  "produk bayi Shopee Bali",
-  "penjual terpercaya Shopee",
+  "peralatan bayi",
+  "perawatan bibir bayi",
+  "toko bayi online Indonesia",
+  "penjual terpercaya Shopee Bali",
   "himoonbabykids",
-  "toko MPASI Bali",
   "kebutuhan bayi online Indonesia",
 ] as const;
 
@@ -69,13 +66,20 @@ export const indonesiaFaqs = [
 
 const siteUrl = siteConfig.url;
 
+/** Path-aware hreflang for Indonesian Google (no fake EN URL) */
+export function indonesiaLanguageAlternates(path = "") {
+  const normalized = path
+    ? `${siteUrl}${path.startsWith("/") ? path : `/${path}`}`
+    : siteUrl;
+  return {
+    "id-ID": normalized,
+    "x-default": normalized,
+  } as const;
+}
+
 export const hreflangAlternates = {
   canonical: siteUrl,
-  languages: {
-    "id-ID": siteUrl,
-    "en-ID": `${siteUrl}?lang=en`,
-    "x-default": siteUrl,
-  },
+  languages: indonesiaLanguageAlternates(),
 } satisfies Metadata["alternates"];
 
 export function buildIndonesiaPageMetadata({
@@ -94,20 +98,26 @@ export function buildIndonesiaPageMetadata({
   return {
     title,
     description,
-    keywords: [...keywords, ...indonesiaKeywords.slice(0, 8)],
+    keywords: [...keywords, ...indonesiaKeywords.slice(0, 12)],
     alternates: {
       canonical: url,
-      languages: hreflangAlternates.languages,
+      languages: indonesiaLanguageAlternates(path),
     },
     openGraph: {
       type: "website",
       locale: "id_ID",
-      alternateLocale: ["en_ID", "en_US"],
       url,
       siteName: siteConfig.name,
       title,
       description,
-      images: [{ url: "/logo.png", width: 204, height: 204, alt: siteConfig.name }],
+      images: [
+        {
+          url: "/logo.png",
+          width: 204,
+          height: 204,
+          alt: "HiMoon Baby & Kids — toko bayi Bali",
+        },
+      ],
     },
     other: {
       "geo.region": "ID-BA",
@@ -120,14 +130,35 @@ export function buildIndonesiaPageMetadata({
 }
 
 export const categorySeoKeywords: Record<string, string[]> = {
-  mpasi: ["MPASI bayi 6 bulan", "bubur bayi", "makanan pendamping ASI Bali", "Bunda Elia MPASI"],
-  "baby-skincare": [
+  mpasi: [
+    "MPASI bayi 6 bulan",
+    "bubur bayi",
+    "makanan pendamping ASI Bali",
+    "Bunda Elia MPASI",
+    "beli MPASI online",
+  ],
+  "perawatan-kulit-bayi": [
     "sunscreen bayi Bali",
     "moisturizer bayi",
     "perawatan kulit bayi sensitif",
     "Moell sunscreen bayi",
+    "sabun mandi bayi non SLS",
   ],
-  popok: ["popok bayi murah Bali", "popok Makuku", "popok MamyPoko", "diaper bayi"],
-  "peralatan-bayi": ["peralatan makan bayi", "botol susu bayi", "perlengkapan bayi"],
-  "treatment-bibir": ["lip balm bayi", "perawatan bibir bayi", "treatment bibir anak"],
+  popok: [
+    "popok bayi murah Bali",
+    "popok Makuku",
+    "popok MamyPoko",
+    "popok bayi overnight",
+  ],
+  "peralatan-bayi": [
+    "peralatan makan bayi",
+    "botol susu bayi",
+    "perlengkapan bayi Bali",
+    "saringan MPASI",
+  ],
+  "perawatan-bibir": [
+    "lip balm bayi",
+    "perawatan bibir bayi",
+    "pelembap bibir anak",
+  ],
 };

@@ -2,6 +2,20 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["cursor.com", "*.cursor.com", "127.0.0.1", "localhost"],
+  async redirects() {
+    return [
+      {
+        source: "/shop/baby-skincare",
+        destination: "/shop/perawatan-kulit-bayi",
+        permanent: true,
+      },
+      {
+        source: "/shop/treatment-bibir",
+        destination: "/shop/perawatan-bibir",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "down-id.img.susercontent.com" },

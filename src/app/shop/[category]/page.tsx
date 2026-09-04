@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ProductGrid } from "@/components/product-card";
+import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { getProductsByCategory } from "@/lib/catalog";
-import { shopCategories } from "@/lib/site-config";
+import { shopCategories, siteConfig } from "@/lib/site-config";
 import { buildIndonesiaPageMetadata, categorySeoKeywords } from "@/lib/seo/indonesia";
 import { CategoryPageClient } from "./category-page-client";
 
@@ -36,5 +36,19 @@ export default async function CategoryPage({ params }: Props) {
 
   const products = await getProductsByCategory(category.slug);
 
-  return <CategoryPageClient category={category} products={products} />;
+  return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Beranda", url: siteConfig.url },
+          { name: "Toko", url: `${siteConfig.url}/shop` },
+          {
+            name: category.label.id,
+            url: `${siteConfig.url}/shop/${category.slug}`,
+          },
+        ]}
+      />
+      <CategoryPageClient category={category} products={products} />
+    </>
+  );
 }

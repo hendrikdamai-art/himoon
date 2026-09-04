@@ -21,8 +21,11 @@ function categoryWhatsAppUrl(locale: "id" | "en", categoryLabel: string) {
 
 export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps) {
   const { locale, t } = useLanguage();
-  const shopHref = `/shop/${post.relatedCategory}`;
-  const whatsappUrl = categoryWhatsAppUrl(locale, post.cta.button[locale]);
+  const shopHref =
+    post.shopHref ||
+    (post.relatedCategory ? `/shop/${post.relatedCategory}` : "/shop");
+  const buttonLabel = post.cta?.button[locale] ?? t.products.viewAll;
+  const whatsappUrl = categoryWhatsAppUrl(locale, buttonLabel);
 
   return (
     <aside
@@ -49,7 +52,7 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
             : "mt-2 text-2xl font-extrabold md:text-3xl"
         }
       >
-        {post.cta.title[locale]}
+        {post.cta?.title[locale] ?? t.blog.ctaEyebrow}
       </h2>
       <p
         className={
@@ -58,19 +61,34 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
             : "mt-2 max-w-xl text-sm leading-relaxed text-white/85 md:text-base"
         }
       >
-        {post.cta.body[locale]}
+        {post.cta?.body[locale] ??
+          (locale === "id"
+            ? "Lanjut ke katalog HiMoon, lalu checkout Shopee himoonbabykids untuk stok live."
+            : "Continue to the HiMoon catalog, then checkout on Shopee himoonbabykids for live stock.")}
       </p>
       <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+        <a
+          href={siteConfig.shopeeShopUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={
+            placement === "mid"
+              ? "inline-flex items-center justify-center gap-2 rounded-full bg-[#EE4D2D] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#d73211]"
+              : "inline-flex items-center justify-center gap-2 rounded-full bg-himoon-yellow px-5 py-2.5 text-sm font-bold text-himoon-blue transition hover:bg-white"
+          }
+        >
+          <ShoppingBag className="h-4 w-4" />
+          {t.products.orderShopee}
+        </a>
         <Link
           href={shopHref}
           className={
             placement === "mid"
               ? "inline-flex items-center justify-center gap-2 rounded-full bg-himoon-blue px-5 py-2.5 text-sm font-bold text-white transition hover:bg-himoon-blue/90"
-              : "inline-flex items-center justify-center gap-2 rounded-full bg-himoon-yellow px-5 py-2.5 text-sm font-bold text-himoon-blue transition hover:bg-white"
+              : "inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-white/20"
           }
         >
-          <ShoppingBag className="h-4 w-4" />
-          {post.cta.button[locale]}
+          {buttonLabel}
         </Link>
         <a
           href={whatsappUrl}

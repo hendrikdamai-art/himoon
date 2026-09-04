@@ -1,7 +1,22 @@
 import type { NextConfig } from "next";
 
+const llmsCache =
+  "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800";
+
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["cursor.com", "*.cursor.com", "127.0.0.1", "localhost"],
+  async headers() {
+    return [
+      {
+        source: "/llms.txt",
+        headers: [{ key: "Cache-Control", value: llmsCache }],
+      },
+      {
+        source: "/llms-full.txt",
+        headers: [{ key: "Cache-Control", value: llmsCache }],
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "down-id.img.susercontent.com" },

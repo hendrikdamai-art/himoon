@@ -30,18 +30,31 @@ Buka [http://localhost:4317](http://localhost:4317)
 Buat file `.env.local`:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
+NEXT_PUBLIC_SITE_URL=https://www.himoonbaby.com
 NEXT_PUBLIC_WHATSAPP_NUMBER=628511214358
 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-gsc-verification-code
+CRON_SECRET=long-random-string
+```
+
+`CRON_SECRET` protects `GET /api/seo/maintenance` (Vercel cron every 2 days) and unlocks extra fields on `GET /api/seo/status`. Vercel Cron sends `Authorization: Bearer $CRON_SECRET`.
+
+Validate commercial speakable answers (130–170 words):
+
+```bash
+npm run seo:validate
 ```
 
 ## Struktur Sitemap
 
 - `/` — Beranda
 - `/about` — Tentang Kami
-- `/shop` — Semua produk
+- `/shop` — Money page: toko perlengkapan bayi Bali
 - `/shop/[category]` — Kategori (mpasi, baby-skincare, popok, dll.)
-- `/blog` — Artikel
+- `/blog` — Panduan niat beli
+- `/toko-bayi-bali` — Halaman lokal Badung vs Shopee
+- `/media-kit` — Fakta untuk backlink
+- `/metodologi-perbandingan` — Metode perbandingan produk
+- `/llms.txt` / `/llms-full.txt` — Indeks AI
 - `/contact` — Kontak
 
 Sitemap otomatis: `/sitemap.xml`  
@@ -125,6 +138,7 @@ Di Vercel → Project → **Settings → Environment Variables**, tambahkan:
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | `628511214358` | Production, Preview, Development |
 | `NEXT_PUBLIC_SITE_URL` | `https://your-project.vercel.app` *(ganti setelah deploy)* | Production |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | *(opsional, dari Google Search Console)* | Production |
+| `CRON_SECRET` | string acak panjang | Production (wajib agar cron SEO jalan) |
 
 **Catatan:** Jika `NEXT_PUBLIC_SITE_URL` belum di-set, situs memakai URL Vercel otomatis untuk sitemap & SEO. Setelah dapat domain final (mis. `himoonbabykids.com`), update variabel ini lalu **Redeploy**.
 

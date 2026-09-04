@@ -11,6 +11,7 @@ import {
   hreflangAlternates,
   indonesiaKeywords,
 } from "@/lib/seo/indonesia";
+import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -20,12 +21,13 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   ...buildIndonesiaPageMetadata({
-    title: "HiMoon Baby & Kids | Toko MPASI, Keperluan Bayi & Anak di Bali",
-    description: siteConfig.description.id,
+    title: "Toko Perlengkapan Bayi Bali | MPASI & Skincare | HiMoon",
+    description:
+      "Toko perlengkapan bayi di Badung, Bali untuk ibu hamil & new mom. Beli MPASI, popok, sunscreen Moell di Shopee himoonbabykids atau toko fisik.",
   }),
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "HiMoon Baby & Kids | Toko MPASI, Keperluan Bayi & Anak di Bali",
+    default: "Toko Perlengkapan Bayi Bali | MPASI & Skincare | HiMoon",
     template: "%s | HiMoon Baby & Kids",
   },
   keywords: [...indonesiaKeywords],
@@ -46,8 +48,9 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   twitter: {
     card: "summary_large_image",
-    title: "HiMoon Baby & Kids | Toko Bayi Bali",
-    description: siteConfig.description.id,
+    title: "Toko Perlengkapan Bayi Bali | HiMoon",
+    description:
+      "Beli perlengkapan bayi & MPASI di Bali. Shopee himoonbabykids + toko Badung.",
     images: ["/logo.png"],
   },
   robots: {
@@ -60,7 +63,25 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: hreflangAlternates,
+  alternates: {
+    ...hreflangAlternates,
+    types: {
+      "text/plain": [
+        { url: "/llms.txt", title: "AI index" },
+        { url: "/llms-full.txt", title: "AI index (full)" },
+      ],
+    },
+  },
+  other: {
+    "ai-index": `${siteConfig.url}/llms.txt`,
+    describedby: `${siteConfig.url}/llms.txt`,
+    dateModified: SITE_CONTENT_UPDATED,
+    "geo.region": "ID-BA",
+    "geo.placename": "Badung, Bali, Indonesia",
+    "geo.position": "-8.5833;115.1667",
+    ICBM: "-8.5833, 115.1667",
+    "content-language": "id-ID",
+  },
   verification: {
     google:
       process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google3e2d85e569fc51a6",
@@ -72,6 +93,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="id" className={`${nunito.variable} h-full`}>
       <head>
         <JsonLd />
+        <link rel="describedby" href="/llms.txt" />
+        <link rel="alternate" type="text/plain" title="AI index" href="/llms.txt" />
+        <link rel="alternate" type="text/plain" title="AI index full" href="/llms-full.txt" />
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <LanguageProvider>

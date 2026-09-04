@@ -20,10 +20,10 @@ export const translations = {
     },
     hero: {
       eyebrow: "Kab. Badung · Bali · Indonesia",
-      title: "Toko keluarga untuk ibu, bayi & anak.",
+      title: "Toko perlengkapan bayi Bali untuk ibu & si kecil.",
       subtitle:
-        "HiMoon Baby & Kids menghadirkan MPASI, keperluan bayi, dan produk anak berkualitas. Belanja di toko kami atau pesan lewat WhatsApp & Shopee — penjual terpercaya di Bali.",
-      ctaShop: "Lihat Produk",
+        "HiMoon di Badung menjual MPASI, popok, sunscreen, dan kebutuhan ibu menyusui. Checkout utama lewat Shopee himoonbabykids — atau datang ke toko & WhatsApp.",
+      ctaShop: "Belanja perlengkapan bayi",
       ctaShopee: "Toko Shopee",
       trusted: "Penjual Terpercaya",
       rating: "4.9 rating di Shopee",
@@ -143,10 +143,10 @@ export const translations = {
     },
     hero: {
       eyebrow: "Badung Regency · Bali · Indonesia",
-      title: "A family shop for moms, babies & kids.",
+      title: "Bali baby essentials shop for moms & little ones.",
       subtitle:
-        "HiMoon Baby & Kids offers MPASI, baby essentials, and kids products. Shop in-store or order via WhatsApp & Shopee — a trusted seller in Bali.",
-      ctaShop: "Browse Products",
+        "HiMoon in Badung sells MPASI, diapers, sunscreen, and nursing essentials. Primary checkout is Shopee himoonbabykids — or visit the store & WhatsApp.",
+      ctaShop: "Shop baby essentials",
       ctaShopee: "Shopee Shop",
       trusted: "Trusted Seller",
       rating: "4.9 rating on Shopee",

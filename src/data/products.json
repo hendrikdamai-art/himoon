@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-09-04T09:28:41.984860Z",
+  "lastSynced": "2026-09-04T09:55:20.477385Z",
   "products": [
     {
       "id": "100007",
@@ -17,6 +17,51 @@
       "syncedAt": "2026-09-04T09:28:41.984860Z"
     },
     {
+      "id": "100011",
+      "itemId": 100011,
+      "shopId": 1869688077,
+      "name": "Beeme Honey Bee Bubble Wash 250ml – Sabun & Sampo Bayi 3in1 Aman Newborn",
+      "nameEn": "Beeme Honey Bee Bubble Wash 250ml – 3-in-1 Baby Face & Body Wash Safe for Newborns",
+      "slug": "beeme-honey-bee-bubble-wash-250ml-sabun-sampo-bayi",
+      "price": 87000,
+      "image": "/products/beeme-honey-bee-bubble-wash-250ml-sabun-sampo-bayi.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Beeme",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100009",
+      "itemId": 100009,
+      "shopId": 1869688077,
+      "name": "Beeme Nourishing Balm 15gr – Pelembap Balm Bayi & Anak Aman Ibu Hamil",
+      "nameEn": "Beeme Nourishing Balm 15g – Baby & Kids Moisturizing Balm Safe for Pregnancy",
+      "slug": "beeme-nourishing-balm-15gr-pelembap-balm-bayi",
+      "price": 81000,
+      "image": "/products/beeme-nourishing-balm-15gr-pelembap-balm-bayi.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Beeme",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100010",
+      "itemId": 100010,
+      "shopId": 1869688077,
+      "name": "Bumbu Bunda Elia BB Booster Rice MPASI – Beras MPASI Beef Steak Salmon Chicken",
+      "nameEn": "Bumbu Bunda Elia BB Booster Rice MPASI – Baby Rice with Beef Steak Salmon Chicken",
+      "slug": "bumbu-bunda-elia-bb-booster-rice-mpasi-beras",
+      "price": 55000,
+      "image": "/products/bumbu-bunda-elia-bb-booster-rice-mpasi-beras.jpg",
+      "category": "mpasi",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Bunda Elia",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
       "id": "100001",
       "itemId": 100001,
       "shopId": 1869688077,
@@ -30,6 +75,21 @@
       "brand": "Gently",
       "inStock": true,
       "syncedAt": "2026-09-04T09:28:41.984860Z"
+    },
+    {
+      "id": "100014",
+      "itemId": 100014,
+      "shopId": 1869688077,
+      "name": "Gently Baby Face Cream 30gr – Advanced 5in1 Ceramide & Hyaluronan",
+      "nameEn": "Gently Baby Face Cream 30g – Advanced 5-in-1 with Ceramide & Hyaluronan",
+      "slug": "gently-baby-face-cream-30gr-ceramide-hyaluronan",
+      "price": 78000,
+      "image": "/products/gently-baby-face-cream-30gr-ceramide-hyaluronan.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
     },
     {
       "id": "100005",
@@ -47,6 +107,21 @@
       "syncedAt": "2026-09-04T09:28:41.984860Z"
     },
     {
+      "id": "100013",
+      "itemId": 100013,
+      "shopId": 1869688077,
+      "name": "Gently Ultra Soft Body Wash & Shampoo 250gr – Sabun Sampo Bayi Non SLS",
+      "nameEn": "Gently Ultra Soft Body Wash & Shampoo 250g – Non-SLS Baby Wash",
+      "slug": "gently-ultra-soft-body-wash-shampoo-250gr-non-sls",
+      "price": 76000,
+      "image": "/products/gently-ultra-soft-body-wash-shampoo-250gr-non-sls.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Gently",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
       "id": "100002",
       "itemId": 100002,
       "shopId": 1869688077,
@@ -62,19 +137,34 @@
       "syncedAt": "2026-09-04T09:28:41.984860Z"
     },
     {
+      "id": "100012",
+      "itemId": 100012,
+      "shopId": 1869688077,
+      "name": "Moell Body Lotion 185ml – Pelembap Kulit Bayi Sensitif Aroma Menyegarkan",
+      "nameEn": "Moell Body Lotion 185ml – Refreshing Moisturizer for Sensitive Baby Skin",
+      "slug": "moell-body-lotion-185ml-pelembap-kulit-bayi-sensitif",
+      "price": 76000,
+      "image": "/products/moell-body-lotion-185ml-pelembap-kulit-bayi-sensitif.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Moell",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
       "id": "52863165431",
       "itemId": 52863165431,
       "shopId": 1869688077,
       "name": "Moell Face Cream Bayi 40ml – Pelembap Wajah Healthy Glow Barrier Skin",
+      "nameEn": "Moell Baby Face Cream 40ml – Healthy Glow Barrier Face Moisturizer",
       "slug": "moell-face-cream-bayi-40ml-healthy-glow-barrier",
       "price": 80000,
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztk-mq4iez3awhs19a",
+      "image": "/products/moell-face-cream-bayi-40ml-healthy-glow-barrier.jpg",
       "category": "baby-skincare",
       "shopeeUrl": "https://shopee.co.id/moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah--i.1869688077.52863165431",
       "brand": "Moell",
       "inStock": true,
-      "syncedAt": "2026-09-04T09:28:41.984860Z",
-      "nameEn": "Moell Baby Face Cream 40ml – Healthy Glow Barrier Face Moisturizer"
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
     },
     {
       "id": "100008",
@@ -107,6 +197,21 @@
       "syncedAt": "2026-09-04T09:28:41.984860Z"
     },
     {
+      "id": "100016",
+      "itemId": 100016,
+      "shopId": 1869688077,
+      "name": "Moell Hair Shampoo Refill 500ml – Shampoo Bayi Lembut Bebas SLS Microbiome",
+      "nameEn": "Moell Hair Shampoo Refill 500ml – Gentle SLS-Free Baby Shampoo with Microbiome",
+      "slug": "moell-hair-shampoo-refill-500ml-bayi-bebas-sls",
+      "price": 98000,
+      "image": "/products/moell-hair-shampoo-refill-500ml-bayi-bebas-sls.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Moell",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
       "id": "100004",
       "itemId": 100004,
       "shopId": 1869688077,
@@ -125,16 +230,31 @@
       "id": "48013199704",
       "itemId": 48013199704,
       "shopId": 1869688077,
-      "name": "Moell Physical Sunscreen Bayi & Anak 30gr – SPF Tinggi Water Resistant Kulit Sensitif",
+      "name": "Moell Physical Sunscreen Bayi & Anak 30gr – SPF 50+ PA++++ Water Resistant",
+      "nameEn": "Moell Physical Sunscreen for Baby & Kids 30g – SPF 50+ PA++++ Water Resistant",
       "slug": "moell-physical-sunscreen-bayi-anak-30gr-spf",
       "price": 79000,
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztf-mq4ujguquhvye8",
+      "image": "/products/moell-physical-sunscreen-bayi-anak-30gr-spf.jpg",
       "category": "baby-skincare",
       "shopeeUrl": "https://shopee.co.id/Moell-Sunscreen-Bayi-Anak-30gr--SPF-Tinggi-Extra-Water-Resistant-Aman-untuk-kulit-Sensitif-i.1869688077.48013199704",
       "brand": "Moell",
       "inStock": true,
-      "syncedAt": "2026-09-04T09:28:41.984860Z",
-      "nameEn": "Moell Physical Sunscreen for Baby & Kids 30g – High SPF Water Resistant for Sensitive Skin"
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
+    },
+    {
+      "id": "100015",
+      "itemId": 100015,
+      "shopId": 1869688077,
+      "name": "Moell Soothing & Calming Rub Cream 50gr – Krim Anti Kolik & Tidur Nyenyak",
+      "nameEn": "Moell Soothing & Calming Rub Cream 50g – Anti-Colic Sleep Aid Cream for Babies",
+      "slug": "moell-soothing-calming-rub-cream-50gr-anti-kolik",
+      "price": 76000,
+      "image": "/products/moell-soothing-calming-rub-cream-50gr-anti-kolik.jpg",
+      "category": "baby-skincare",
+      "shopeeUrl": "https://shopee.co.id/himoonbabykids",
+      "brand": "Moell",
+      "inStock": true,
+      "syncedAt": "2026-09-04T09:55:20.477385Z"
     },
     {
       "id": "100006",

@@ -18,7 +18,7 @@ export default async function HomePage() {
     Promise.resolve(getBlogPosts()),
   ]);
 
-  const featured = products.slice(0, 8);
+  const featured = products.slice(0, 12);
 
   return (
     <>

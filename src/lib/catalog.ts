@@ -27,9 +27,11 @@ export async function getProducts(): Promise<Product[]> {
   try {
     const live = await fetchShopeeProducts();
     if (live.length > 0) {
+      // Merge live Shopee items with curated local products.
+      // Prefer curated entries (local /products/ images) when itemId collides.
       const merged = new Map<number, Product>();
-      for (const product of staticProducts) merged.set(product.itemId, product);
       for (const product of live) merged.set(product.itemId, product);
+      for (const product of staticProducts) merged.set(product.itemId, product);
       return dedupeProducts(Array.from(merged.values()));
     }
   } catch {

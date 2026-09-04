@@ -45,9 +45,27 @@ function renderWithLinks(text: string): ReactNode[] {
   return nodes;
 }
 
+type Block =
+  | { type: "heading"; text: string }
+  | { type: "paragraph"; text: string };
+
+function parseBlocks(content: string): Block[] {
+  return content
+    .split("\n\n")
+    .map((chunk) => chunk.trim())
+    .filter(Boolean)
+    .map((chunk) => {
+      if (chunk.startsWith("## ")) {
+        return { type: "heading" as const, text: chunk.replace(/^##\s+/, "") };
+      }
+      return { type: "paragraph" as const, text: chunk };
+    });
+}
+
 export function BlogArticle({ post, relatedProducts }: BlogArticleProps) {
   const { locale, t } = useLanguage();
-  const paragraphs = post.content[locale].split("\n\n").filter(Boolean);
+  const blocks = parseBlocks(post.content[locale]);
+  let paragraphCount = 0;
 
   return (
     <>
@@ -57,12 +75,28 @@ export function BlogArticle({ post, relatedProducts }: BlogArticleProps) {
       <h1 className="mt-2 text-4xl font-extrabold text-himoon-blue">{post.title[locale]}</h1>
 
       <div className="prose prose-lg mt-8 max-w-none text-himoon-muted">
-        {paragraphs.map((paragraph, index) => (
-          <Fragment key={index}>
-            <p className="mb-4 leading-relaxed">{renderWithLinks(paragraph)}</p>
-            {index === 0 ? <BlogProductCta post={post} placement="mid" /> : null}
-          </Fragment>
-        ))}
+        {blocks.map((block, index) => {
+          if (block.type === "heading") {
+            return (
+              <h2
+                key={index}
+                className="mb-3 mt-10 text-2xl font-extrabold text-himoon-blue first:mt-0"
+              >
+                {block.text}
+              </h2>
+            );
+          }
+
+          paragraphCount += 1;
+          const showMidCta = paragraphCount === 1;
+
+          return (
+            <Fragment key={index}>
+              <p className="mb-4 leading-relaxed">{renderWithLinks(block.text)}</p>
+              {showMidCta ? <BlogProductCta post={post} placement="mid" /> : null}
+            </Fragment>
+          );
+        })}
       </div>
 
       <BlogProductCta post={post} placement="end" />

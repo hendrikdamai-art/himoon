@@ -41,6 +41,13 @@ export type BlogPost = {
   publishedAt: string;
   readTime: number;
   image: string;
+  /** Primary shop category for SEO internal links + CTA */
+  relatedCategory: ShopCategorySlug;
+  cta: {
+    title: { id: string; en: string };
+    body: { id: string; en: string };
+    button: { id: string; en: string };
+  };
 };
 
 export type ProductsCatalog = {

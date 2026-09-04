@@ -10,12 +10,27 @@
       "en": "Starting complementary feeding can feel overwhelming. HiMoon shares practical steps for parents in Bali."
     },
     "content": {
-      "id": "MPASI (Makanan Pendamping ASI) biasanya dimulai sekitar usia 6 bulan, ketika bayi menunjukkan tanda kesiapan seperti bisa duduk tegak dan menunjukkan minat pada makanan.\n\nMulai dengan tekstur halus seperti bubur atau pure, porsi kecil 1-2 sendok, dan perkenalkan satu jenis makanan setiap 3 hari untuk memantau alergi.\n\nHiMoon menyediakan produk MPASI Bunda Elia, peralatan masak bayi, dan perlengkapan makan yang aman untuk memudahkan perjalanan MPASI Anda.",
-      "en": "Complementary feeding (MPASI) usually starts around 6 months, when babies show readiness signs like sitting upright and showing interest in food.\n\nStart with smooth textures like porridge or puree, small portions of 1-2 spoons, and introduce one food every 3 days to monitor allergies.\n\nHiMoon offers Bunda Elia MPASI products, baby cooking equipment, and safe feeding essentials to support your MPASI journey."
+      "id": "MPASI (Makanan Pendamping ASI) biasanya dimulai sekitar usia 6 bulan, ketika bayi menunjukkan tanda kesiapan seperti bisa duduk tegak dan menunjukkan minat pada makanan.\n\nMulai dengan tekstur halus seperti bubur atau pure, porsi kecil 1-2 sendok, dan perkenalkan satu jenis makanan setiap 3 hari untuk memantau alergi.\n\nHiMoon menyediakan [produk MPASI Bunda Elia](/shop/mpasi), [peralatan makan bayi](/shop/peralatan-bayi), dan saringan stainless yang aman untuk memudahkan perjalanan MPASI Anda di Bali.",
+      "en": "Complementary feeding (MPASI) usually starts around 6 months, when babies show readiness signs like sitting upright and showing interest in food.\n\nStart with smooth textures like porridge or puree, small portions of 1-2 spoons, and introduce one food every 3 days to monitor allergies.\n\nHiMoon offers [Bunda Elia MPASI products](/shop/mpasi), [baby feeding equipment](/shop/peralatan-bayi), and safe stainless strainers to support your MPASI journey in Bali."
     },
     "publishedAt": "2026-08-01",
     "readTime": 5,
-    "image": "/blog/mpasi.png"
+    "image": "/blog/mpasi.png",
+    "relatedCategory": "mpasi",
+    "cta": {
+      "title": {
+        "id": "Siap mulai MPASI di rumah?",
+        "en": "Ready to start MPASI at home?"
+      },
+      "body": {
+        "id": "Lihat koleksi MPASI & peralatan makan bayi di HiMoon — pesan via WhatsApp atau belanja di Shopee.",
+        "en": "Browse MPASI & baby feeding essentials at HiMoon — order via WhatsApp or shop on Shopee."
+      },
+      "button": {
+        "id": "Belanja produk MPASI",
+        "en": "Shop MPASI products"
+      }
+    }
   },
   {
     "slug": "perawatan-kulit-bayi-sensitif",
@@ -28,12 +43,27 @@
       "en": "Baby skin is thin and sensitive — choose products like Moell and Gently that are safe for Bali's climate."
     },
     "content": {
-      "id": "Kulit bayi membutuhkan perlindungan ekstra, terutama di Bali dengan sinar matahari kuat. Gunakan sunscreen khusus bayi dengan SPF tinggi seperti Moell, dan moisturizer lembut seperti Gently setiap hari.\n\nHindari produk dengan fragrance berlebihan dan selalu patch test di area kecil sebelum pemakaian penuh.\n\nKunjungi HiMoon untuk konsultasi produk perawatan kulit bayi yang sesuai kebutuhan si kecil.",
-      "en": "Baby skin needs extra protection, especially in Bali's strong sunlight. Use baby-specific sunscreen with high SPF like Moell, and gentle moisturizer like Gently daily.\n\nAvoid products with heavy fragrance and always patch test on a small area before full use.\n\nVisit HiMoon for a consultation on baby skincare products suited to your little one's needs."
+      "id": "Kulit bayi membutuhkan perlindungan ekstra, terutama di Bali dengan sinar matahari kuat. Gunakan [sunscreen khusus bayi](/shop/baby-skincare) dengan SPF tinggi seperti Moell, dan moisturizer lembut seperti Gently setiap hari.\n\nHindari produk dengan fragrance berlebihan dan selalu patch test di area kecil sebelum pemakaian penuh.\n\nTemukan [perawatan kulit bayi](/shop/baby-skincare) Moell, Gently, dan Beeme di HiMoon — cocok untuk kulit sensitif & cuaca tropis Bali.",
+      "en": "Baby skin needs extra protection, especially in Bali's strong sunlight. Use [baby-specific sunscreen](/shop/baby-skincare) with high SPF like Moell, and gentle moisturizer like Gently daily.\n\nAvoid products with heavy fragrance and always patch test on a small area before full use.\n\nFind [baby skincare](/shop/baby-skincare) from Moell, Gently, and Beeme at HiMoon — suited to sensitive skin and Bali's tropical climate."
     },
     "publishedAt": "2026-07-20",
     "readTime": 4,
-    "image": "/blog/baby-skincare.png"
+    "image": "/blog/baby-skincare.png",
+    "relatedCategory": "baby-skincare",
+    "cta": {
+      "title": {
+        "id": "Lindungi kulit si kecil hari ini",
+        "en": "Protect your baby's skin today"
+      },
+      "body": {
+        "id": "Pilih sunscreen, lotion, dan sabun bayi aman di HiMoon. Konsultasi gratis via WhatsApp sebelum checkout.",
+        "en": "Choose safe baby sunscreen, lotion, and wash at HiMoon. Free WhatsApp consult before you buy."
+      },
+      "button": {
+        "id": "Lihat skincare bayi",
+        "en": "Browse baby skincare"
+      }
+    }
   },
   {
     "slug": "tips-memilih-popok-bayi",
@@ -46,11 +76,26 @@
       "en": "The right diaper keeps babies comfortable all day. HiMoon helps you choose between Makuku, MamyPoko, and other brands."
     },
     "content": {
-      "id": "Memilih popok bergantung pada bentuk tubuh bayi, sensitivitas kulit, dan budget. Makuku dikenal tipis dan menyerap baik, sementara MamyPoko populer dengan fitur elastis dan overnight protection.\n\nCoba beberapa ukuran dan brand sebelum stok banyak. HiMoon menyediakan berbagai pilihan popok dan siap membantu via WhatsApp.",
-      "en": "Choosing diapers depends on your baby's body shape, skin sensitivity, and budget. Makuku is known for being thin and absorbent, while MamyPoko is popular for elastic fit and overnight protection.\n\nTry a few sizes and brands before stocking up. HiMoon offers various diaper options and is ready to help via WhatsApp."
+      "id": "Memilih popok bergantung pada bentuk tubuh bayi, sensitivitas kulit, dan budget. Makuku dikenal tipis dan menyerap baik, sementara MamyPoko populer dengan fitur elastis dan overnight protection.\n\nCoba beberapa ukuran dan brand sebelum stok banyak. Lihat pilihan [popok bayi di HiMoon](/shop/popok), termasuk [MamyPoko Royal Soft](/shop/popok).\n\nMasih ragu ukuran atau tipe? Chat WhatsApp HiMoon — kami bantu cocokkan popok untuk si kecil.",
+      "en": "Choosing diapers depends on your baby's body shape, skin sensitivity, and budget. Makuku is known for being thin and absorbent, while MamyPoko is popular for elastic fit and overnight protection.\n\nTry a few sizes and brands before stocking up. Browse [baby diapers at HiMoon](/shop/popok), including [MamyPoko Royal Soft](/shop/popok).\n\nNot sure about size or type? WhatsApp HiMoon — we'll help match the right diaper for your little one."
     },
     "publishedAt": "2026-07-10",
     "readTime": 3,
-    "image": "/blog/popok.png"
+    "image": "/blog/popok.png",
+    "relatedCategory": "popok",
+    "cta": {
+      "title": {
+        "id": "Cari popok yang pas untuk si kecil?",
+        "en": "Looking for the right diaper?"
+      },
+      "body": {
+        "id": "Belanja popok berkualitas di HiMoon Badung. Tanya stok & ukuran via WhatsApp sebelum pesan.",
+        "en": "Shop quality diapers at HiMoon Badung. Ask about stock & size on WhatsApp before ordering."
+      },
+      "button": {
+        "id": "Belanja popok bayi",
+        "en": "Shop baby diapers"
+      }
+    }
   }
 ]

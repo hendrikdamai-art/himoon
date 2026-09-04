@@ -26,15 +26,15 @@ export function BlogPreview({ posts }: { posts: BlogPost[] }) {
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
                   src={post.image}
-                  alt={post.title[locale]}
+                  alt={post.imageAlt?.[locale] ?? post.title[locale]}
                   fill
                   className="object-cover transition group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-muted">
-                  {post.readTime} min read
+                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+                  {post.query?.[locale] ?? `${post.readTime} min read`}
                 </p>
                 <h3 className="mt-2 text-lg font-bold text-himoon-blue group-hover:text-himoon-yellow">
                   {post.title[locale]}

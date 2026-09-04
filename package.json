@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "sync:products": "node scripts/sync-shopee-catalog.mjs",
-    "tidy:photos": "node scripts/tidy-product-photos.mjs"
+    "tidy:photos": "node scripts/tidy-product-photos.mjs",
+    "seo:validate": "node scripts/seed-guides.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

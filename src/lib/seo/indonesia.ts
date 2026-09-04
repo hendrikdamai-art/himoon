@@ -3,10 +3,13 @@ import { siteConfig } from "@/lib/site-config";
 
 /** Primary Indonesian search terms for baby & kids retail in Bali */
 export const indonesiaKeywords = [
+  "toko perlengkapan bayi Bali",
+  "beli perlengkapan bayi online",
+  "toko bayi Badung",
   "HiMoon Baby Kids",
   "HiMoon Bali",
   "toko bayi Bali",
-  "toko perlengkapan bayi Badung",
+  "perlengkapan bayi Shopee",
   "baby shop Bali",
   "baby shop Denpasar",
   "MPASI bayi",

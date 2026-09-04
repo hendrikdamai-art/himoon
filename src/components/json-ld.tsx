@@ -1,110 +1,13 @@
-import { indonesiaFaqs } from "@/lib/seo/indonesia";
+import { localBusinessSchema, webSiteSchema } from "@/lib/seo/schema";
+import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { siteConfig } from "@/lib/site-config";
 
-type JsonLdProps = {
-  type?: "Organization" | "LocalBusiness" | "WebSite";
-};
-
-export function JsonLd({ type = "LocalBusiness" }: JsonLdProps) {
-  const baseUrl = siteConfig.url;
-  const phone = `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`;
-
-  const localBusiness = {
-    "@type": type,
-    "@id": `${baseUrl}/#localbusiness`,
-    name: siteConfig.businessName,
-    alternateName: [siteConfig.name, "HiMoon Baby Shop Bali", "Toko Bayi HiMoon"],
-    description: siteConfig.description.id,
-    url: baseUrl,
-    image: `${baseUrl}/logo.png`,
-    logo: `${baseUrl}/logo.png`,
-    email: siteConfig.email,
-    telephone: phone,
-    inLanguage: ["id-ID", "en-ID"],
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Badung",
-      addressRegion: "Bali",
-      addressCountry: "ID",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "-8.5833",
-      longitude: "115.1667",
-    },
-    areaServed: [
-      { "@type": "Country", name: "Indonesia" },
-      { "@type": "AdministrativeArea", name: "Bali" },
-      { "@type": "City", name: "Denpasar" },
-      { "@type": "AdministrativeArea", name: "Badung" },
-    ],
-    currenciesAccepted: "IDR",
-    paymentAccepted: "Cash, Bank Transfer, E-Wallet, ShopeePay",
-    priceRange: "$$",
-    hasMap: siteConfig.googleMapsShareUrl,
-    sameAs: [
-      siteConfig.shopeeShopUrl,
-      siteConfig.googleMapsUrl,
-      siteConfig.googleMapsShareUrl,
-    ],
-    knowsAbout: [
-      "MPASI",
-      "Makanan Pendamping ASI",
-      "Popok Bayi",
-      "Perawatan Kulit Bayi",
-      "Perlengkapan Bayi",
-      "Produk Anak",
-    ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "9",
-      bestRating: "5",
-    },
-  };
-
-  const webSite = {
-    "@type": "WebSite",
-    "@id": `${baseUrl}/#website`,
-    name: siteConfig.name,
-    url: baseUrl,
-    inLanguage: "id-ID",
-    description: siteConfig.description.id,
-    publisher: { "@id": `${baseUrl}/#localbusiness` },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${baseUrl}/shop?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
-  };
-
-  const faqPage = {
-    "@type": "FAQPage",
-    "@id": `${baseUrl}/#faq`,
-    inLanguage: "id-ID",
-    mainEntity: indonesiaFaqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@graph": [localBusiness, webSite, faqPage],
-  };
-
+export function JsonLd() {
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <JsonLdScript data={localBusinessSchema()} />
+      <JsonLdScript data={webSiteSchema()} />
+    </>
   );
 }
 
@@ -138,16 +41,11 @@ export function ProductJsonLd({
     },
     brand: {
       "@type": "Brand",
-      name: "HiMoon Baby & Kids",
+      name: siteConfig.name,
     },
   };
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return <JsonLdScript data={schema} />;
 }
 
 export function BreadcrumbJsonLd({ items }: { items: { name: string; url: string }[] }) {
@@ -162,10 +60,5 @@ export function BreadcrumbJsonLd({ items }: { items: { name: string; url: string
     })),
   };
 
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return <JsonLdScript data={schema} />;
 }

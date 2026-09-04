@@ -1,5 +1,10 @@
 import type { ShopCategorySlug } from "@/lib/site-config";
 
+export type LocalizedText = {
+  id: string;
+  en: string;
+};
+
 export type Product = {
   id: string;
   itemId: number;
@@ -28,25 +33,46 @@ export type Review = {
   name: string;
   location: string;
   rating: number;
-  text: { id: string; en: string };
+  text: LocalizedText;
   product: string;
   date: string;
 };
 
+export type GuideFaq = {
+  question: LocalizedText;
+  answer: LocalizedText;
+};
+
+export type GuideSection = {
+  heading: LocalizedText;
+  body: LocalizedText;
+};
+
 export type BlogPost = {
   slug: string;
-  title: { id: string; en: string };
-  excerpt: { id: string; en: string };
-  content: { id: string; en: string };
+  title: LocalizedText;
+  excerpt: LocalizedText;
+  query: LocalizedText;
+  content: LocalizedText;
+  speakable: LocalizedText;
+  sections: GuideSection[];
+  inclusions: { id: string[]; en: string[] };
+  priceNote: LocalizedText;
+  faqs: GuideFaq[];
   publishedAt: string;
+  updatedAt: string;
   readTime: number;
   image: string;
-  /** Primary shop category for SEO internal links + CTA */
-  relatedCategory: ShopCategorySlug;
-  cta: {
-    title: { id: string; en: string };
-    body: { id: string; en: string };
-    button: { id: string; en: string };
+  imageAlt: LocalizedText;
+  shopHref: string;
+  relatedSlugs: string[];
+  phase: "month1" | "month2";
+  /** Shop category used for related product cards + Shopee CTA */
+  relatedCategory?: ShopCategorySlug;
+  cta?: {
+    title: LocalizedText;
+    body: LocalizedText;
+    button: LocalizedText;
   };
 };
 

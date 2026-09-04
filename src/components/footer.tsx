@@ -10,7 +10,7 @@ export function Footer() {
 
   return (
     <footer className="border-t border-slate-200 bg-himoon-blue text-white">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-3 md:px-6">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-4 md:px-6">
         <div>
           <p className="text-lg font-bold text-himoon-yellow">HiMoon Baby & Kids</p>
           <p className="mt-2 text-sm leading-relaxed text-blue-100">{t.footer.tagline}</p>
@@ -40,6 +40,57 @@ export function Footer() {
             <li>
               <Link href="/shop/popok" className="hover:text-white">
                 {t.shopMenu.popok}
+              </Link>
+            </li>
+            <li>
+              <Link href="/shop/peralatan-bayi" className="hover:text-white">
+                {t.shopMenu.peralatanBayi}
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="font-semibold text-himoon-yellow">Panduan & AI</p>
+          <ul className="mt-3 space-y-2 text-sm text-blue-100">
+            <li>
+              <Link href="/blog" className="hover:text-white">
+                {t.nav.blog}
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/perlengkapan-bayi-baru-lahir" className="hover:text-white">
+                Perlengkapan bayi baru lahir
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/beli-sunscreen-bayi" className="hover:text-white">
+                Sunscreen bayi
+              </Link>
+            </li>
+            <li>
+              <Link href="/toko-bayi-bali" className="hover:text-white">
+                Toko bayi Bali
+              </Link>
+            </li>
+            <li>
+              <Link href="/media-kit" className="hover:text-white">
+                Media kit
+              </Link>
+            </li>
+            <li>
+              <Link href="/metodologi-perbandingan" className="hover:text-white">
+                Metodologi perbandingan
+              </Link>
+            </li>
+            <li>
+              <Link href="/llms.txt" className="hover:text-white">
+                AI index (llms.txt)
+              </Link>
+            </li>
+            <li>
+              <Link href="/llms-full.txt" className="hover:text-white">
+                AI index lengkap
               </Link>
             </li>
           </ul>

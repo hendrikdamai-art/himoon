@@ -3,6 +3,9 @@ import { siteConfig } from "@/lib/site-config";
 
 /** Primary Indonesian search terms for baby & kids retail in Bali / Indonesia */
 export const indonesiaKeywords = [
+  "Baby Shop",
+  "Baby Shop Bali",
+  "Baby Shop Indonesia",
   "HiMoon Baby Kids",
   "HiMoon Bali",
   "toko bayi Bali",
@@ -32,6 +35,7 @@ export const indonesiaKeywords = [
   "Gently face cream",
   "Beeme baby lotion",
   "Bumbu Bunda Elia MPASI",
+  "perlengkapan bayi baru lahir",
   "perlengkapan bayi anak",
   "peralatan bayi",
   "perawatan bibir bayi",

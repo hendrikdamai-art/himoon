@@ -21,8 +21,17 @@ function categoryWhatsAppUrl(locale: "id" | "en", categoryLabel: string) {
 
 export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps) {
   const { locale, t } = useLanguage();
-  const shopHref = `/shop/${post.relatedCategory}`;
-  const whatsappUrl = categoryWhatsAppUrl(locale, post.cta.button[locale]);
+  const shopHref =
+    post.shopHref || (post.relatedCategory ? `/shop/${post.relatedCategory}` : "/shop");
+  const cta = post.cta ?? {
+    title: { id: "Lanjut belanja di HiMoon", en: "Continue shopping at HiMoon" },
+    body: {
+      id: "Buka katalog, lalu checkout Shopee himoonbabykids.",
+      en: "Open the catalog, then checkout on Shopee himoonbabykids.",
+    },
+    button: { id: "Lihat katalog", en: "View catalog" },
+  };
+  const whatsappUrl = categoryWhatsAppUrl(locale, cta.button[locale]);
 
   return (
     <aside
@@ -49,7 +58,7 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
             : "mt-2 text-2xl font-extrabold md:text-3xl"
         }
       >
-        {post.cta.title[locale]}
+        {cta.title[locale]}
       </h2>
       <p
         className={
@@ -58,7 +67,7 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
             : "mt-2 max-w-xl text-sm leading-relaxed text-white/85 md:text-base"
         }
       >
-        {post.cta.body[locale]}
+        {cta.body[locale]}
       </p>
       <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
         <Link
@@ -70,7 +79,7 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
           }
         >
           <ShoppingBag className="h-4 w-4" />
-          {post.cta.button[locale]}
+          {cta.button[locale]}
         </Link>
         <a
           href={whatsappUrl}

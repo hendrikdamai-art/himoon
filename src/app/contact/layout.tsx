@@ -6,7 +6,7 @@ export const metadata: Metadata = buildIndonesiaPageMetadata({
   description:
     "Hubungi HiMoon Baby & Kids via WhatsApp, email adminhimoon@gmail.com, Shopee, atau kunjungi toko fisik kami di Badung, Bali. Lihat lokasi di Google Maps.",
   path: "/contact",
-  keywords: ["kontak HiMoon Bali", "alamat toko bayi Badung", "Google Maps HiMoon"],
+  keywords: ["kontak HiMoon Bali", "Baby Shop Bali", "alamat toko bayi Badung", "Google Maps HiMoon"],
 });
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

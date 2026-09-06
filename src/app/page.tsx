@@ -6,7 +6,6 @@ import { BrandMarquee } from "@/components/brand-marquee";
 import { ReviewsSection } from "@/components/reviews-section";
 import { HowToBuy } from "@/components/how-to-buy";
 import { BlogPreview } from "@/components/blog-preview";
-import { HomeSeoBlock } from "@/components/home-seo-block";
 import { getProducts, getBrands, getReviews, getBlogPosts } from "@/lib/catalog";
 
 export const revalidate = 3600;
@@ -24,7 +23,6 @@ export default async function HomePage() {
   return (
     <>
       <Hero />
-      <HomeSeoBlock />
       <FeaturedProducts products={featured} />
       <ValueProps />
       <CategoryGrid />

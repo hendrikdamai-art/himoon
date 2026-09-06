@@ -73,7 +73,7 @@ export default async function CategoryPage({ params }: Props) {
     },
   ];
 
-  const speakable = `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman money page utama tetap /shop. Kami tidak menempel rating palsu. Pilih produk di grid, lalu tombol oranye ke Shopee.`;
+  const speakable = `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop. Kami tidak menempel rating palsu. Pilih produk di grid, lalu tombol oranye ke Shopee.`;
 
   return (
     <div className="bg-himoon-cream">

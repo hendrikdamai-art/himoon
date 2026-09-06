@@ -33,8 +33,8 @@ export function BlogPreview({ posts }: { posts: BlogPost[] }) {
                 />
               </div>
               <div className="p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-muted">
-                  {post.readTime} menit baca
+                <p className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+                  {post.query?.[locale] ?? `${post.readTime} menit baca`}
                 </p>
                 <h3 className="mt-2 text-lg font-bold text-himoon-blue group-hover:text-himoon-yellow">
                   {post.title[locale]}

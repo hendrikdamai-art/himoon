@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getBlogPosts } from "@/lib/catalog";
 import { shopCategories, siteConfig } from "@/lib/site-config";
 import { indonesiaLanguageAlternates } from "@/lib/seo/indonesia";
+import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 
 function entry(
   path: string,
@@ -22,22 +23,25 @@ function entry(
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const contentDate = new Date(SITE_CONTENT_UPDATED);
 
   const staticPages: MetadataRoute.Sitemap = [
-    entry("/", now, 1, "daily"),
-    entry("/about", now, 0.8, "monthly"),
-    entry("/shop", now, 0.9, "daily"),
-    entry("/blog", now, 0.7, "weekly"),
-    entry("/contact", now, 0.8, "monthly"),
+    entry("/", contentDate, 1, "daily"),
+    entry("/shop", contentDate, 1, "daily"),
+    entry("/toko-bayi-bali", contentDate, 0.85, "monthly"),
+    entry("/about", contentDate, 0.7, "monthly"),
+    entry("/blog", contentDate, 0.8, "weekly"),
+    entry("/contact", contentDate, 0.7, "monthly"),
+    entry("/media-kit", contentDate, 0.5, "monthly"),
+    entry("/metodologi-perbandingan", contentDate, 0.5, "monthly"),
   ];
 
   const categoryPages: MetadataRoute.Sitemap = shopCategories.map((category) =>
-    entry(`/shop/${category.slug}`, now, 0.85, "daily"),
+    entry(`/shop/${category.slug}`, contentDate, 0.9, "daily"),
   );
 
   const blogPages: MetadataRoute.Sitemap = getBlogPosts().map((post) =>
-    entry(`/blog/${post.slug}`, new Date(post.publishedAt), 0.6, "monthly"),
+    entry(`/blog/${post.slug}`, new Date(post.updatedAt), 0.75, "monthly"),
   );
 
   return [...staticPages, ...categoryPages, ...blogPages];

@@ -2,8 +2,22 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { BlogArticle } from "@/components/blog-article";
 import { getBlogPost, getBlogPosts, getProductsByCategory } from "@/lib/catalog";
+import { getRelatedGuides } from "@/lib/seo/guides";
+import { JsonLdScript } from "@/components/seo/json-ld-script";
+import { SpeakableAnswer } from "@/components/seo/speakable-answer";
+import { FaqSection } from "@/components/seo/faq-section";
+import { ShopCta, ShopeeCta } from "@/components/seo/cta";
+import { Breadcrumb } from "@/components/seo/breadcrumb";
+import { RelatedGuides } from "@/components/seo/related-guides";
+import { BlogProductCta } from "@/components/blog-product-cta";
+import { ProductCard } from "@/components/product-card";
+import {
+  articleSchema,
+  breadcrumbSchema,
+  faqSchema,
+  webPageSchema,
+} from "@/lib/seo/schema";
 import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 
 type Props = {
@@ -24,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title.id,
       description: post.excerpt.id,
       path: `/blog/${post.slug}`,
-      keywords: ["tips bayi Bali", "MPASI", "parenting Indonesia", "toko bayi Badung"],
+      keywords: [post.query.id, "toko bayi Bali", "Shopee himoonbabykids"],
     }),
     openGraph: {
       type: "article",
@@ -32,6 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title.id,
       description: post.excerpt.id,
       images: [post.image],
+      publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt,
     },
   };
 }
@@ -41,22 +57,102 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  const relatedProducts = (await getProductsByCategory(post.relatedCategory)).slice(0, 3);
+  const related = getRelatedGuides(post.slug);
+  const relatedProducts = post.relatedCategory
+    ? (await getProductsByCategory(post.relatedCategory)).slice(0, 3)
+    : [];
 
   return (
     <article className="bg-himoon-cream py-12 md:py-16">
+      <JsonLdScript
+        data={webPageSchema({
+          path: `/blog/${post.slug}`,
+          name: post.title.id,
+          description: post.excerpt.id,
+          dateModified: post.updatedAt,
+        })}
+      />
+      <JsonLdScript data={articleSchema(post)} />
+      <JsonLdScript data={faqSchema(post.faqs)} />
+      <JsonLdScript
+        data={breadcrumbSchema([
+          { name: "Beranda", path: "/" },
+          { name: "Panduan", path: "/blog" },
+          { name: post.title.id, path: `/blog/${post.slug}` },
+        ])}
+      />
       <div className="mx-auto max-w-3xl px-4 md:px-6">
-        <Link
-          href="/blog"
-          className="text-sm font-semibold text-himoon-blue hover:text-himoon-yellow"
-        >
-          ← Blog
-        </Link>
+        <Breadcrumb
+          items={[
+            { name: "Beranda", href: "/" },
+            { name: "Panduan", href: "/blog" },
+            { name: post.query.id },
+          ]}
+        />
+        <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-himoon-yellow">
+          {post.query.id} · update {post.updatedAt}
+        </p>
+        <h1 className="mt-2 text-4xl font-extrabold text-himoon-blue">{post.title.id}</h1>
         <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-2xl">
-          <Image src={post.image} alt={post.title.id} fill className="object-cover" priority />
+          <Image
+            src={post.image}
+            alt={post.imageAlt.id}
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
-
-        <BlogArticle post={post} relatedProducts={relatedProducts} />
+        <SpeakableAnswer id={`answer-${post.slug}`} className="mt-8">
+          <p>{post.speakable.id}</p>
+        </SpeakableAnswer>
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
+          <p className="font-bold text-himoon-blue">Harga & yang termasuk</p>
+          <p className="mt-2 text-sm text-himoon-muted">{post.priceNote.id}</p>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-himoon-muted">
+            {post.inclusions.id.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <div className="mt-5 flex flex-wrap gap-3">
+            <ShopeeCta />
+            <ShopCta href={post.shopHref} label="Buka katalog terkait" />
+          </div>
+        </div>
+        <BlogProductCta post={post} placement="mid" />
+        <div className="prose prose-lg mt-8 max-w-none text-himoon-muted">
+          <p className="mb-4 leading-relaxed">{post.content.id}</p>
+          {post.sections.map((section) => (
+            <section key={section.heading.id} className="mb-6">
+              <h2 className="text-2xl font-bold text-himoon-blue">{section.heading.id}</h2>
+              <p className="mt-2 leading-relaxed">{section.body.id}</p>
+            </section>
+          ))}
+        </div>
+        <FaqSection title="FAQ" faqs={post.faqs} />
+        <BlogProductCta post={post} placement="end" />
+        {relatedProducts.length > 0 ? (
+          <section className="mt-12 border-t border-himoon-blue/10 pt-10">
+            <h2 className="text-2xl font-extrabold text-himoon-blue">Produk terkait</h2>
+            <p className="mt-1 text-sm text-himoon-muted">
+              Pilih produk, lalu pesan via Shopee atau WhatsApp.
+            </p>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              {relatedProducts.map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+        <RelatedGuides guides={related} />
+        <p className="mt-10 text-sm">
+          <Link href="/blog" className="font-semibold text-himoon-blue hover:text-himoon-yellow">
+            ← Semua panduan
+          </Link>
+          {" · "}
+          <Link href="/shop" className="font-semibold text-himoon-blue hover:text-himoon-yellow">
+            Halaman belanja
+          </Link>
+        </p>
       </div>
     </article>
   );

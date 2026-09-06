@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="font-semibold text-himoon-yellow">Panduan & AI</p>
+          <p className="font-semibold text-himoon-yellow">Panduan</p>
           <ul className="mt-3 space-y-2 text-sm text-blue-100">
             <li>
               <Link href="/blog" className="hover:text-white">
@@ -71,26 +71,6 @@ export function Footer() {
             <li>
               <Link href="/toko-bayi-bali" className="hover:text-white">
                 Baby shop / toko bayi Bali
-              </Link>
-            </li>
-            <li>
-              <Link href="/media-kit" className="hover:text-white">
-                Media kit
-              </Link>
-            </li>
-            <li>
-              <Link href="/metodologi-perbandingan" className="hover:text-white">
-                Metodologi perbandingan
-              </Link>
-            </li>
-            <li>
-              <Link href="/llms.txt" className="hover:text-white">
-                AI index (llms.txt)
-              </Link>
-            </li>
-            <li>
-              <Link href="/llms-full.txt" className="hover:text-white">
-                AI index lengkap
               </Link>
             </li>
           </ul>

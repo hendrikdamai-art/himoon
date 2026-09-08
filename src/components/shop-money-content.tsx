@@ -7,9 +7,10 @@ import { SpeakableAnswer } from "@/components/seo/speakable-answer";
 import { FaqSection } from "@/components/seo/faq-section";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { getGuides } from "@/lib/seo/guides";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 
 const MONEY_SPEAKABLE =
-  "HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar Rp22.500 sampai Rp123.000, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, opsi ambil di toko Bali, dan ongkir live ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.";
+  "HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, sabun bayi, lotion, sunscreen, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase Hair and Skin Care plus Bath yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar Rp22.500 sampai Rp123.000, tergantung item seperti tisu, saringan MPASI, sabun, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, opsi ambil di toko Bali, dan ongkir live ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.";
 
 export function ShopMoneyIntro({
   productCount,
@@ -29,11 +30,11 @@ export function ShopMoneyIntro({
         Baby Shop Bali · Toko perlengkapan bayi · Shopee himoonbabykids
       </p>
       <h1 className="mt-2 max-w-4xl text-3xl font-extrabold leading-tight text-himoon-blue md:text-5xl">
-        Baby Shop Bali: beli perlengkapan bayi, MPASI & skincare
+        Baby Shop Bali: beli perlengkapan bayi, sabun, lotion & MPASI
       </h1>
       <p className="mt-4 max-w-3xl text-lg text-himoon-muted">
-        Baby shop HiMoon di Badung untuk ibu hamil dan new mom: MPASI Bunda Elia, sunscreen Moell,
-        popok Makuku/MamyPoko, dan peralatan makan. Harga {formatPrice(min)}–
+        Baby shop HiMoon di Badung untuk ibu hamil dan new mom: sabun Moell/Gently/Beeme, lotion,
+        sunscreen, MPASI Bunda Elia, popok MamyPoko, dan peralatan makan. Harga {formatPrice(min)}–
         {formatPrice(max)} mengikuti Shopee ({productCount} item di halaman ini).
       </p>
       <SpeakableAnswer id="shop-direct-answer" className="mt-6 max-w-4xl">
@@ -50,7 +51,8 @@ export function ShopMoneyIntro({
 export function ShopInclusions() {
   const items = [
     "MPASI & nutrisi Bunda Elia",
-    "Sunscreen Moell & lotion Gently",
+    "Sabun bayi Moell, Gently, Beeme",
+    "Lotion, hair lotion, sunscreen Moell/Gently/Beeme",
     "Popok MamyPoko (Makuku sesuai stok Shopee)",
     "Peralatan makan & perawatan bibir",
     "Ambil di Badung atau kirim Shopee",
@@ -78,7 +80,7 @@ export function ShopInclusions() {
 }
 
 export function ShopGuideLinks() {
-  const guides = getGuides().slice(0, 6);
+  const guides = getGuides();
 
   return (
     <section className="mx-auto max-w-7xl px-4 pb-4 md:px-6">
@@ -115,6 +117,7 @@ export function ShopFaqBlock() {
           {siteConfig.shopeeShopUrl}
         </a>
       </p>
+      <AiIndexLinks />
     </div>
   );
 }

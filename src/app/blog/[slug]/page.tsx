@@ -10,6 +10,7 @@ import { FaqSection } from "@/components/seo/faq-section";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { Breadcrumb } from "@/components/seo/breadcrumb";
 import { RelatedGuides } from "@/components/seo/related-guides";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 import { BlogProductCta } from "@/components/blog-product-cta";
 import { ProductCard } from "@/components/product-card";
 import {
@@ -153,6 +154,7 @@ export default async function BlogPostPage({ params }: Props) {
             Halaman belanja
           </Link>
         </p>
+        <AiIndexLinks />
       </div>
     </article>
   );

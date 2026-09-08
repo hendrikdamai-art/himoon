@@ -21,13 +21,13 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   ...buildIndonesiaPageMetadata({
-    title: "Baby Shop Bali | Toko Perlengkapan Bayi & MPASI | HiMoon",
+    title: "Baby Shop Bali | Toko Perlengkapan Bayi, Sabun & MPASI | HiMoon",
     description:
-      "Baby shop di Badung, Bali untuk ibu hamil & new mom. Beli MPASI, popok, sunscreen Moell di Shopee himoonbabykids atau toko fisik.",
+      "Baby shop di Badung, Bali untuk ibu hamil & new mom. Beli sabun, lotion, MPASI, popok, sunscreen di Shopee himoonbabykids atau toko fisik.",
   }),
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Baby Shop Bali | Toko Perlengkapan Bayi & MPASI | HiMoon",
+    default: "Baby Shop Bali | Toko Perlengkapan Bayi, Sabun & MPASI | HiMoon",
     template: "%s | HiMoon Baby & Kids",
   },
   keywords: [...indonesiaKeywords],

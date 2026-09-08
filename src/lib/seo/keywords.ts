@@ -9,10 +9,13 @@ export const keywordStrategy = {
   money: {
     primary: "Baby Shop Bali",
     secondary: [
+      "Baby Shop",
       "toko perlengkapan bayi Bali",
       "toko bayi Bali",
       "beli perlengkapan bayi online",
       "perlengkapan bayi Shopee",
+      "beli sabun bayi",
+      "beli lotion bayi",
     ],
     pagePath: "/shop",
   },
@@ -47,6 +50,36 @@ export const keywordStrategy = {
       why: "Repeat-buy supplement + nursing kit for new moms.",
       path: "/blog/asi-booster-ibu-menyusui",
     },
+    {
+      query: "beli sabun bayi",
+      intent: "commercial",
+      why: "Kuma Baby Shop Bath and Potty collection; HiMoon sells Moell, Gently, Beeme wash on Shopee.",
+      path: "/blog/beli-sabun-bayi",
+    },
+    {
+      query: "beli lotion bayi",
+      intent: "commercial",
+      why: "Kuma Hair & Skin Care overlap; HiMoon stocks Beeme, Gently, Moell lotion.",
+      path: "/blog/beli-lotion-bayi",
+    },
+    {
+      query: "hair lotion bayi",
+      intent: "commercial",
+      why: "Kuma Hair & Skin Care; three 100ml SKUs in the HiMoon catalog.",
+      path: "/blog/hair-lotion-bayi",
+    },
+    {
+      query: "krim ruam popok",
+      intent: "commercial",
+      why: "New-mom repeat buy next to diapers; Gently rash cream is in catalog.",
+      path: "/blog/krim-ruam-popok",
+    },
+    {
+      query: "sabun bayi non SLS",
+      intent: "comparison",
+      why: "Bath comparison asset vs Kuma’s broader bath wall; method page is linkable.",
+      path: "/blog/sabun-bayi-non-sls",
+    },
   ],
 } as const;
 
@@ -57,7 +90,7 @@ export const moneyPageFaqs = [
       en: "What is HiMoon Baby & Kids?",
     },
     answer: {
-      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, skincare bayi, peralatan makan, dan kebutuhan ibu. Belanja bisa di toko fisik, WhatsApp, atau langsung di Shopee himoonbabykids.",
+      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, sabun bayi, lotion, sunscreen, peralatan makan, dan kebutuhan ibu. Belanja bisa di toko fisik, WhatsApp, atau langsung di Shopee himoonbabykids.",
       en: "HiMoon is a baby shop in Badung Regency, Bali. We sell MPASI, diapers, baby skincare, feeding gear, and nursing essentials. Shop in-store, via WhatsApp, or on Shopee at himoonbabykids.",
     },
   },
@@ -67,7 +100,7 @@ export const moneyPageFaqs = [
       en: "How much do baby essentials cost at HiMoon?",
     },
     answer: {
-      id: "Harga baby shop HiMoon mengikuti katalog Shopee himoonbabykids. Di situs ini rentang katalog saat ini sekitar Rp22.500–Rp123.000, tergantung produk (tisu Paseo, saringan MPASI, lotion, sunscreen, MPASI, atau popok). Cek Shopee untuk stok dan promo terbaru sebelum checkout.",
+      id: "Harga baby shop HiMoon mengikuti katalog Shopee himoonbabykids. Di situs ini rentang katalog saat ini sekitar Rp22.500–Rp123.000, tergantung produk (tisu Paseo, saringan MPASI, sabun, lotion, sunscreen, MPASI, atau popok). Cek Shopee untuk stok dan promo terbaru sebelum checkout.",
       en: "Prices follow the himoonbabykids Shopee catalog. Current on-site range is about Rp22,500–Rp123,000 depending on the item. Always confirm live stock and promos on Shopee before checkout.",
     },
   },
@@ -99,6 +132,16 @@ export const moneyPageFaqs = [
     answer: {
       id: "Ya. Pesanan Shopee mengikuti jangkauan pengiriman Shopee ke seluruh Indonesia. Pelanggan di Denpasar, Canggu, Kuta, Ubud, dan Badung juga bisa pilih ambil di toko atau kirim lokal via Shopee.",
       en: "Yes. Shopee orders follow Shopee’s Indonesia shipping coverage. Shoppers in Denpasar, Canggu, Kuta, Ubud, and Badung can also pick up in-store or use local Shopee delivery.",
+    },
+  },
+  {
+    question: {
+      id: "Apakah HiMoon jual sabun dan lotion bayi seperti baby shop Denpasar?",
+      en: "Do you sell baby wash and lotion like Denpasar baby shops?",
+    },
+    answer: {
+      id: "Ya, untuk merek di etalase kami: Moell, Gently, dan Beeme (sabun, lotion, hair lotion, sunscreen). Kami tidak mengklaim stroller, car seat, atau fashion lengkap seperti baby shop one-stop Denpasar. Lihat panduan beli sabun bayi dan beli lotion bayi, lalu checkout Shopee.",
+      en: "Yes, for brands we list: Moell, Gently, and Beeme (wash, lotion, hair lotion, sunscreen). We do not claim strollers, car seats, or a full fashion wall like a Denpasar one-stop shop. See the baby wash and lotion guides, then checkout on Shopee.",
     },
   },
 ] as const;

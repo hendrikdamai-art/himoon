@@ -18,15 +18,17 @@ import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 
 export const metadata: Metadata = buildIndonesiaPageMetadata({
-  title: "Baby Shop Bali | Toko Perlengkapan Bayi, MPASI & Popok",
+  title: "Baby Shop Bali | Toko Perlengkapan Bayi, Sabun, Lotion & MPASI",
   description:
-    "Baby shop Bali di Badung untuk ibu hamil & new mom. MPASI Bunda Elia, popok Makuku/MamyPoko, sunscreen Moell. Harga Rp22.500–Rp123.000, checkout Shopee himoonbabykids.",
+    "Baby shop Bali di Badung untuk ibu hamil & new mom. Sabun Moell/Gently/Beeme, lotion, sunscreen, MPASI, popok. Harga Rp22.500–Rp123.000, checkout Shopee himoonbabykids.",
   path: "/shop",
   keywords: [
     "Baby Shop",
     "Baby Shop Bali",
     "toko perlengkapan bayi Bali",
     "toko bayi Bali",
+    "beli sabun bayi",
+    "beli lotion bayi",
     "beli perlengkapan bayi online",
     "perlengkapan bayi Shopee",
   ],
@@ -47,7 +49,7 @@ export default async function ShopPage() {
           path: "/shop",
           name: "Baby Shop Bali | HiMoon",
           description:
-            "Baby shop Bali dengan katalog MPASI, popok, dan skincare. Checkout Shopee himoonbabykids.",
+            "Baby shop Bali dengan katalog sabun, lotion, MPASI, popok, dan skincare. Checkout Shopee himoonbabykids.",
           dateModified: SITE_CONTENT_UPDATED,
         })}
       />

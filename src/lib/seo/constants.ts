@@ -1,4 +1,4 @@
-export const SITE_CONTENT_UPDATED = "2026-09-05";
+export const SITE_CONTENT_UPDATED = "2026-09-08";
 
 export const LLMS_CACHE_CONTROL =
   "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800";

@@ -40,9 +40,9 @@ CRON_SECRET=long-random-string
 
 - `/` — Beranda
 - `/about` — Tentang Kami
-- `/shop` — Money page (Baby Shop Bali)
+- `/shop` — Money page (Baby Shop / Baby Shop Bali)
 - `/shop/[category]` — Kategori (mpasi, perawatan-kulit-bayi, popok, dll.)
-- `/blog` — Panduan niat beli
+- `/blog` — Panduan niat beli (sabun, lotion, MPASI, popok, sunscreen)
 - `/toko-bayi-bali` — Halaman lokal toko fisik vs Shopee
 - `/media-kit` — Fakta press / backlink
 - `/metodologi-perbandingan` — Metode banding produk

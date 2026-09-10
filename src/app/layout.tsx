@@ -14,6 +14,7 @@ import {
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 
 const GTM_ID = "GTM-TKJCDTLR";
+const GA_MEASUREMENT_ID = "G-CMBWL27BM4";
 
 const nunito = Nunito({
   variable: "--font-nunito",
@@ -105,7 +106,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
+        {/* Google tag (gtag.js) — GA4 */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');
+`,
+          }}
+        />
         <JsonLd />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="describedby" href="/llms.txt" />
         <link rel="alternate" type="text/plain" title="AI index" href="/llms.txt" />
         <link rel="alternate" type="text/plain" title="AI index full" href="/llms-full.txt" />

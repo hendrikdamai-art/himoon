@@ -7,16 +7,17 @@ import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { Breadcrumb } from "@/components/seo/breadcrumb";
 import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 
 export const metadata: Metadata = {
   title: "Metodologi Perbandingan Produk Bayi | HiMoon",
   description:
-    "Cara HiMoon membandingkan popok, sunscreen, dan MPASI: etalase Shopee nyata, iklim Bali, tanpa panel palsu atau rating buatan.",
+    "Cara HiMoon membandingkan popok, sabun bayi, sunscreen, dan MPASI: etalase Shopee nyata, iklim Bali, tanpa panel palsu atau rating buatan.",
   alternates: { canonical: `${siteConfig.url}/metodologi-perbandingan` },
 };
 
 const speakable =
-  "Metodologi perbandingan HiMoon dipakai agar artikel Makuku versus MamyPoko dan panduan skincare bisa dikutip tanpa menyesatkan. Kami hanya membandingkan produk yang memang ada di etalase Shopee himoonbabykids atau katalog situs. Kriteria yang diulang: kesesuaian iklim panas lembap Bali, kejelasan ukuran atau usia di label merek, harga listing katalog, dan apakah item bisa di-checkout Shopee hari ini. Kami tidak menjalankan uji lab, tidak membayar panel orang tua fiktif, dan tidak menempel aggregateRating di artikel. Rating 4,9 jika muncul di situs merujuk toko Shopee, terpisah dari perbandingan SKU. Jika stok salah satu merek habis, kami tidak memaksa pemenang. Pembaca tetap diarahkan ke /shop dan Shopee untuk beli. Revisi metodologi bertanggal di dateModified halaman ini. Wartawan boleh menaut halaman ini sebagai sumber metode. Pertanyaan koreksi kirim ke email toko, bukan ke form yang tidak kami sediakan.";
+  "Metodologi perbandingan HiMoon dipakai agar artikel Makuku versus MamyPoko, sabun bayi non SLS, dan panduan skincare bisa dikutip tanpa menyesatkan. Kami hanya membandingkan produk yang memang ada di etalase Shopee himoonbabykids atau katalog situs. Kriteria yang diulang: kesesuaian iklim panas lembap Bali, kejelasan ukuran atau usia di label merek, harga listing katalog, dan apakah item bisa di-checkout Shopee hari ini. Kami tidak menjalankan uji lab, tidak membayar panel orang tua fiktif, dan tidak menempel aggregateRating di artikel. Rating 4,9 jika muncul di situs merujuk toko Shopee, terpisah dari perbandingan SKU. Jika stok salah satu merek habis, kami tidak memaksa pemenang. Pembaca tetap diarahkan ke /shop dan Shopee untuk beli. Revisi metodologi bertanggal di dateModified halaman ini. Wartawan boleh menaut halaman ini sebagai sumber metode. Pertanyaan koreksi kirim ke email toko, bukan ke form yang tidak kami sediakan.";
 
 export default function MethodologyPage() {
   return (
@@ -62,6 +63,10 @@ export default function MethodologyPage() {
           dan{" "}
           <Link href="/blog/beli-sunscreen-bayi" className="font-semibold text-himoon-blue underline">
             beli sunscreen bayi
+          </Link>{" "}
+          serta{" "}
+          <Link href="/blog/sabun-bayi-non-sls" className="font-semibold text-himoon-blue underline">
+            sabun bayi non-SLS
           </Link>
           .
         </p>
@@ -72,6 +77,7 @@ export default function MethodologyPage() {
           <ShopCta />
           <ShopeeCta />
         </div>
+        <AiIndexLinks />
       </div>
     </div>
   );

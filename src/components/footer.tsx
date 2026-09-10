@@ -64,6 +64,16 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/blog/beli-sabun-bayi" className="hover:text-white">
+                Beli sabun bayi
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/beli-lotion-bayi" className="hover:text-white">
+                Beli lotion bayi
+              </Link>
+            </li>
+            <li>
               <Link href="/blog/beli-sunscreen-bayi" className="hover:text-white">
                 Sunscreen bayi
               </Link>

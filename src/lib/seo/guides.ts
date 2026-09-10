@@ -1,6 +1,7 @@
 import type { BlogPost } from "@/types/catalog";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { shopCategories, type ShopCategorySlug } from "@/lib/site-config";
+import { bathSkinGuides } from "@/lib/seo/guides-bath-skin";
 
 const SHOPEE_IMG = {
   sunscreen:
@@ -142,7 +143,12 @@ export const guides: BlogPost[] = [
       en: "Newborn essentials at HiMoon Bali",
     },
     shopHref: "/shop",
-    relatedSlugs: ["beli-sunscreen-bayi", "panduan-mpasi-6-bulan", "tips-memilih-popok-bayi"],
+    relatedSlugs: [
+      "beli-sunscreen-bayi",
+      "beli-sabun-bayi",
+      "beli-lotion-bayi",
+      "tips-memilih-popok-bayi",
+    ],
   },
   {
     slug: "beli-sunscreen-bayi",
@@ -654,7 +660,12 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "beli-sunscreen-bayi",
+      "beli-sabun-bayi",
+      "beli-lotion-bayi",
+      "krim-ruam-popok",
+    ],
   },
   {
     slug: "tips-memilih-popok-bayi",
@@ -829,7 +840,7 @@ export const guides: BlogPost[] = [
       ],
       en: [
         "Makuku and/or MamyPoko depending on stock",
-        "Catalog listing ± Rp65,000",
+        "Catalog listing MamyPoko Royal Soft Rp123,000; Makuku when in stock",
         "Link to comparison methodology",
         "Shopee himoonbabykids checkout",
       ],
@@ -1011,7 +1022,7 @@ function withShopMeta(guide: BlogPost): BlogPost {
 }
 
 export function getGuides(): BlogPost[] {
-  return guides.map(withShopMeta);
+  return [...guides, ...bathSkinGuides].map(withShopMeta);
 }
 
 export function getGuide(slug: string): BlogPost | undefined {

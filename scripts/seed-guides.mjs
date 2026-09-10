@@ -3,12 +3,16 @@
  * Validates commercial guide content used as the JSON-backed SEO CMS.
  * Run: node scripts/seed-guides.mjs
  */
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const source = readFileSync(join(root, "src/lib/seo/guides.ts"), "utf8");
+const seoDir = join(root, "src/lib/seo");
+const source = readdirSync(seoDir)
+  .filter((name) => name.startsWith("guides") && name.endsWith(".ts"))
+  .map((name) => readFileSync(join(seoDir, name), "utf8"))
+  .join("\n");
 
 function extractSpeakableBlocks(text) {
   const blocks = [];

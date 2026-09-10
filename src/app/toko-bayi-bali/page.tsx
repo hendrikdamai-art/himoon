@@ -13,6 +13,7 @@ import {
 } from "@/lib/seo/schema";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import Link from "next/link";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 
 export const metadata: Metadata = {
   title: "Baby Shop & Toko Bayi Bali di Badung | HiMoon + Shopee",
@@ -53,7 +54,7 @@ const faqs = [
 ];
 
 const speakable =
-  "Baby shop HiMoon ada di Kabupaten Badung, Bali, dan melayani ibu hamil plus new mom yang mencari MPASI, popok, sunscreen, dan peralatan makan. Jika Anda tinggal di Canggu, Kuta, Denpasar, atau Ubud, jalur paling akurat untuk stok dan ongkir adalah Shopee himoonbabykids, sementara kunjungan toko cocok bila ingin lihat kemasan secara langsung. Harga di situs mengikuti etalase Shopee, sekitar Rp22.500 sampai Rp123.000. Kami tidak mengisi alamat jalan atau jam buka yang tidak ada di data bisnis. Kontak publik: WhatsApp, email adminhimoon@gmail.com, dan pin Google Maps. Money page tetap /shop. Produk original sesuai brand di listing. Ini toko ritel, bukan klinik bayi. Baby shop besar di Denpasar sering jual stroller; HiMoon fokus etalase terkurasi plus checkout Shopee. Tanyakan stok fisik via chat sebelum datang dari jauh. Simpan tautan Shopee untuk restock rutin.";
+  "Baby shop HiMoon ada di Kabupaten Badung, Bali, dan melayani ibu hamil plus new mom yang mencari MPASI, popok, sabun bayi, lotion, sunscreen, dan peralatan makan. Jika Anda tinggal di Canggu, Kuta, Denpasar, atau Ubud, jalur paling akurat untuk stok dan ongkir adalah Shopee himoonbabykids, sementara kunjungan toko cocok bila ingin lihat kemasan secara langsung. Harga di situs mengikuti etalase Shopee, sekitar Rp22.500 sampai Rp123.000. Kami tidak mengisi alamat jalan atau jam buka yang tidak ada di data bisnis. Kontak publik: WhatsApp, email adminhimoon@gmail.com, dan pin Google Maps. Money page tetap /shop. Produk original sesuai brand di listing. Ini toko ritel, bukan klinik bayi. Baby shop besar di Denpasar sering jual stroller; HiMoon fokus Hair and Skin Care plus Bath yang ada di Shopee. Tanyakan stok fisik via chat sebelum datang dari jauh. Simpan tautan Shopee untuk restock rutin.";
 
 export default function TokoBayiBaliPage() {
   return (
@@ -94,7 +95,15 @@ export default function TokoBayiBaliPage() {
           <h2 className="text-2xl font-bold text-himoon-blue">Siapa yang cocok ke toko fisik</h2>
           <p>
             Ibu di Badung yang ingin pegang kemasan sunscreen Moell, cek ukuran popok, atau tanya
-            stok MPASI Bunda Elia. Bawa daftar dari{" "}
+            stok MPASI Bunda Elia, atau bandingkan kemasan{" "}
+            <Link href="/blog/beli-sabun-bayi" className="font-semibold text-himoon-blue underline">
+              sabun bayi
+            </Link>{" "}
+            dan{" "}
+            <Link href="/blog/beli-lotion-bayi" className="font-semibold text-himoon-blue underline">
+              lotion bayi
+            </Link>
+            . Bawa daftar dari{" "}
             <Link href="/blog/perlengkapan-bayi-baru-lahir" className="font-semibold text-himoon-blue underline">
               perlengkapan bayi baru lahir
             </Link>
@@ -118,6 +127,7 @@ export default function TokoBayiBaliPage() {
           <GoogleMapEmbed />
         </div>
         <FaqSection title="FAQ toko bayi Bali" faqs={faqs} />
+        <AiIndexLinks />
       </div>
     </div>
   );

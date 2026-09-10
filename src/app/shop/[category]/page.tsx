@@ -16,6 +16,7 @@ import {
   webPageSchema,
 } from "@/lib/seo/schema";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 
 type Props = {
   params: Promise<{ category: string }>;
@@ -73,7 +74,18 @@ export default async function CategoryPage({ params }: Props) {
     },
   ];
 
-  const speakable = `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop. Kami tidak menempel rating palsu. Pilih produk di grid, lalu tombol oranye ke Shopee.`;
+  const categorySpeakable: Record<string, string> = {
+    "perawatan-kulit-bayi":
+      "Kategori Perawatan Kulit Bayi di baby shop HiMoon Bali menampilkan sabun, lotion, hair lotion, dan sunscreen yang sama dengan etalase Shopee himoonbabykids. Contoh harga katalog: hair lotion Gently Rp55.000, lotion Beeme 200ml Rp65.000, sabun Moell 185ml Rp72.000, Gently wash 250 gram Rp76.000, sunscreen Moell Rp79.000, dan lotion Gently Hydra Soft Rp93.000. Harga plus stok mengikuti Shopee dan bisa berubah saat promo; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Kabupaten Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop dengan kata kunci Baby Shop. Kami tidak menempel rating palsu. Pilih produk di grid, baca usia di label merek, lalu tombol oranye ke Shopee. Panduan niat beli terkait: beli sabun bayi, beli lotion bayi, dan hair lotion bayi.",
+    popok:
+      "Kategori Popok dan Pispot di baby shop HiMoon Bali menampilkan MamyPoko Royal Soft dengan harga katalog Rp123.000, plus Makuku hanya jika listing Shopee himoonbabykids menampilkannya. Isi per pack berbeda jadi baca judul listing sebelum bayar. Harga dan stok mengikuti Shopee; konfirmasi tabel berat di kemasan, bukan usia. Ibu hamil dan new mom bisa ambil di Kabupaten Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop untuk kueri Baby Shop. Kami tidak menempel rating palsu dan tidak menyatakan pemenang merek. Baca panduan tips memilih popok serta perbandingan Makuku versus MamyPoko, lalu tombol oranye ke Shopee. Jika ada ruam, lihat juga krim ruam popok Gently di kategori perawatan kulit. Ongkir dihitung di checkout Shopee, bukan di harga katalog situs. Simpan tautan himoonbabykids untuk restock popok.",
+    mpasi:
+      "Kategori MPASI di baby shop HiMoon Bali menampilkan nutrisi Bunda Elia BB Booster Rice katalog Rp55.000 dan saringan MPASI stainless Rp29.500, plus ASI booster atau Mom Uung jika ada di Shopee himoonbabykids. Harga live mengikuti listing dan bisa berubah saat promo. MPASI biasanya mulai sekitar usia enam bulan dengan tanda kesiapan; kami toko ritel, bukan klinik gizi. Ibu hamil dan new mom bisa ambil di Kabupaten Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop untuk kueri Baby Shop Bali. Kami tidak menempel rating palsu di halaman ini. Baca panduan toko MPASI Bali dan panduan MPASI 6 bulan, lalu checkout Shopee. Bahan curah yang tidak ada di etalase tidak kami klaim. Simpan tautan himoonbabykids untuk restock nutrisi dan peralatan makan.",
+  };
+
+  const speakable =
+    categorySpeakable[category.slug] ??
+    `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga katalog situs sekitar Rp22.500 sampai Rp123.000 tergantung item, dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Kabupaten Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop untuk kueri Baby Shop. Kami tidak menempel rating palsu di halaman kategori. Pilih produk di grid, lalu tombol oranye ke Shopee himoonbabykids agar ongkir dan promo akurat. WhatsApp hanya untuk tanya stok toko fisik. Jika item hilang dari situs, percayai etalase Shopee. Produk yang kami jual adalah barang asli sesuai brand di listing.`;
 
   return (
     <div className="bg-himoon-cream">
@@ -125,6 +137,7 @@ export default async function CategoryPage({ params }: Props) {
       <CategoryPageClient category={category} products={products} hideHeading />
       <div className="mx-auto max-w-7xl px-4 pb-16 md:px-6">
         <FaqSection title={`FAQ ${category.label.id}`} faqs={faqs} />
+        <AiIndexLinks />
       </div>
     </div>
   );

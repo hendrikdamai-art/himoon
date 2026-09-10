@@ -27,6 +27,11 @@ export const indonesiaKeywords = [
   "sunscreen bayi",
   "sunscreen bayi Bali",
   "moisturizer bayi",
+  "beli lotion bayi",
+  "hair lotion bayi",
+  "krim ruam popok",
+  "sabun bayi non SLS",
+  "beli sabun bayi",
   "sabun mandi bayi",
   "parfum bayi non alkohol",
   "Moell sunscreen bayi",
@@ -54,7 +59,7 @@ export const indonesiaFaqs = [
   {
     question: "Apakah HiMoon menjual MPASI dan keperluan bayi?",
     answer:
-      "Ya. HiMoon menjual MPASI, popok, perawatan kulit bayi, peralatan bayi, dan produk anak dari brand terpercaya seperti Bunda Elia, Makuku, MamyPoko, Moell, dan Gently.",
+      "Ya. HiMoon menjual MPASI, popok, sabun bayi, lotion, perawatan kulit bayi, peralatan bayi, dan produk anak dari brand terpercaya seperti Bunda Elia, MamyPoko, Moell, Gently, dan Beeme.",
   },
   {
     question: "Bagaimana cara belanja di HiMoon?",
@@ -146,7 +151,11 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "moisturizer bayi",
     "perawatan kulit bayi sensitif",
     "Moell sunscreen bayi",
+    "beli lotion bayi",
+    "hair lotion bayi",
+    "beli sabun bayi",
     "sabun mandi bayi non SLS",
+    "krim ruam popok",
   ],
   popok: [
     "popok bayi murah Bali",

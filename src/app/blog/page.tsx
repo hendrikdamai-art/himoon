@@ -8,16 +8,18 @@ import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 import { siteConfig } from "@/lib/site-config";
+import { AiIndexLinks } from "@/components/seo/ai-index-links";
 
 export const metadata: Metadata = buildIndonesiaPageMetadata({
-  title: "Panduan Baby Shop Bali | MPASI, Sunscreen, Popok",
+  title: "Panduan Baby Shop Bali | Sabun, Lotion, MPASI, Popok",
   description:
-    "Artikel niat beli dari baby shop HiMoon Bali: perlengkapan bayi baru lahir, sunscreen Moell, toko MPASI, popok. Setiap panduan ke katalog dan Shopee himoonbabykids.",
+    "Artikel niat beli dari baby shop HiMoon Bali: sabun bayi, lotion, hair lotion, sunscreen, MPASI, popok. Setiap panduan ke katalog dan Shopee himoonbabykids.",
   path: "/blog",
   keywords: [
     "Baby Shop",
+    "beli sabun bayi",
+    "beli lotion bayi",
     "perlengkapan bayi baru lahir",
-    "beli sunscreen bayi",
     "toko MPASI Bali",
   ],
 });
@@ -56,7 +58,8 @@ export default function BlogPage() {
         </h1>
         <p className="mt-3 max-w-2xl text-lg text-himoon-muted">
           Setiap artikel menjawab satu pencarian, memuat harga katalog, apa yang termasuk,
-          FAQ, dan tautan ke Shopee himoonbabykids.
+          FAQ, dan tautan ke Shopee himoonbabykids — termasuk sabun, lotion, dan hair lotion
+          yang sering dicari lewat koleksi Hair &amp; Skin Care / Bath kompetitor Denpasar.
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
           <ShopCta />
@@ -90,6 +93,7 @@ export default function BlogPage() {
             </Link>
           ))}
         </div>
+        <AiIndexLinks />
       </div>
     </div>
   );

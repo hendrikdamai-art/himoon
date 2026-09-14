@@ -100,7 +100,7 @@ export const translations = {
       backToBlog: "Kembali ke Blog",
       ctaLabel: "Ajakan belanja dari artikel",
       ctaEyebrow: "Belanja di HiMoon",
-      ctaWhatsapp: "Tanya via WhatsApp",
+      ctaWhatsapp: "WhatsApp tanya stok",
       relatedEyebrow: "Rekomendasi produk",
       relatedTitle: "Produk terkait artikel ini",
       relatedSubtitle: "Pilih produk, lalu pesan via WhatsApp atau Shopee.",

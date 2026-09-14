@@ -269,10 +269,161 @@ export const guides: BlogPost[] = [
     },
     shopHref: "/shop/perawatan-kulit-bayi",
     relatedSlugs: [
+      "moell-vs-gently-sunscreen-bayi",
       "perawatan-kulit-bayi-sensitif",
       "perlengkapan-bayi-baru-lahir",
-      "toko-mpasi-bali",
     ],
+  },
+  {
+    slug: "moell-vs-gently-sunscreen-bayi",
+    phase: "month1",
+    query: {
+      id: "Moell vs Gently sunscreen bayi",
+      en: "Moell vs Gently baby sunscreen",
+    },
+    title: {
+      id: "Moell vs Gently: sunscreen bayi original untuk kulit sensitif di Bali",
+      en: "Moell vs Gently: authentic baby sunscreen for sensitive skin in Bali",
+    },
+    excerpt: {
+      id: "Bandingkan Moell Physical 30gr (katalog Rp79.000) dan Gently Physical Serum 30gr (katalog Rp75.000) di HiMoon Badung. Original, worth it, lalu Beli di Shopee himoonbabykids.",
+      en: "Compare Moell Physical 30g (catalog Rp79,000) and Gently Physical Serum 30g (catalog Rp75,000) at HiMoon Badung. Authentic, worth-it check, then Buy on Shopee himoonbabykids.",
+    },
+    speakable: {
+      id: "Moell vs Gently sunscreen bayi adalah perbandingan ritel dua tabir surya fisik original yang kami jual di HiMoon Baby & Kids, toko di Kabupaten Badung, Bali. Keduanya kemasan 30 gram dengan klaim physical SPF sesuai listing merek, bukan hasil uji lab kami. Harga katalog mengikuti Shopee himoonbabykids: Moell Physical Sunscreen Bayi dan Anak 30gr Rp79.000, Gently Baby Physical Sunscreen Serum 30gr Rp75.000. Ongkir tidak termasuk. Stok dan promo live di checkout; konfirmasi di Shopee himoonbabykids sebelum bayar. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Tidak termasuk diagnosis kulit atau jaminan tidak terbakar. Halaman ini untuk ibu hamil dan new mom di Bali yang mencari sunscreen bayi original untuk kulit sensitif. Checkout utama adalah tombol Beli di Shopee. WhatsApp hanya untuk tanya stok toko, bukan keranjang bayar. Kami retailer, bukan official store pabrik. Patch test jika kulit sangat reaktif, lalu ikuti usia dan cara oles di label Moell atau Gently.",
+      en: "Moell vs Gently baby sunscreen is a retail comparison of two physical sunscreens we sell at HiMoon Baby & Kids, a shop in Badung Regency, Bali. Both are 30g packs with physical SPF claims from the brand listing, not a lab test we ran. Catalog prices follow Shopee himoonbabykids: Moell Baby and Kids Physical Sunscreen 30g Rp79,000, Gently Baby Physical Sunscreen Serum 30g Rp75,000. Shipping is not included. Live stock and promos sit at checkout; confirm on Shopee himoonbabykids before paying. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and the rest of Indonesia Shopee covers. Not included: a skin diagnosis or a no-burn promise. This page is for pregnant and new moms in Bali who want authentic baby sunscreen for sensitive skin. Primary checkout is Buy on Shopee. WhatsApp is only for in-store stock, not a payment cart. We are a retailer, not a factory official store. Patch test if skin is very reactive, then follow age and application on the Moell or Gently label.",
+    },
+    content: {
+      id: "Kami meritel dua sunscreen fisik yang memang ada di etalase: Moell Physical Sunscreen Bayi & Anak 30gr dan Gently Baby Physical Sunscreen Serum 30gr. Halaman ini membandingkan harga katalog, isi kemasan, siapa yang cocok di UV Bali, dan apakah selisih harganya worth it — lalu mengarahkan checkout ke Shopee himoonbabykids. Klaim SPF, PA, dan water resistant tetap di listing merek; kami tidak menambah diagnosis atau jaminan kulit. Lanjut ke katalog Perawatan Kulit Bayi, panduan beli sunscreen bayi, perawatan kulit bayi sensitif, atau halaman shop.",
+      en: "We retail two physical sunscreens that are actually in the shop: Moell Baby & Kids Physical Sunscreen 30g and Gently Baby Physical Sunscreen Serum 30g. This page compares catalog price, pack, who it is for in Bali UV, and whether the price gap is worth it — then sends checkout to Shopee himoonbabykids. SPF, PA, and water-resistance claims stay on the brand listing; we do not add a diagnosis or a skin guarantee. Continue to Baby Skincare, the buy-sunscreen guide, sensitive-skin care, or /shop.",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini perbandingan dua tabir surya bayi fisik original di HiMoon, bukan tutorial medis. Katalog Shopee himoonbabykids: Moell Physical Sunscreen Bayi & Anak 30gr Rp79.000; Gently Baby Physical Sunscreen Serum 30gr Rp75.000. Keduanya tube 30 gram; klaim SPF 50 / SPF 50+ dan physical ada di nama listing, kami tidak mengubah angka merek. Yang termasuk: produk sesuai etalase, bantuan pilih via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk harga katalog. Untuk ibu hamil dan new mom yang butuh sunscreen bayi original untuk kulit sensitif. Cara beli: tombol Beli di Shopee di halaman ini atau di /shop/perawatan-kulit-bayi. WhatsApp tanya stok toko dulu jika ingin datang ke Badung.",
+          en: "This is a retail comparison of two authentic physical baby sunscreens at HiMoon, not a medical tutorial. Shopee himoonbabykids catalog: Moell Baby & Kids Physical Sunscreen 30g Rp79,000; Gently Baby Physical Sunscreen Serum 30g Rp75,000. Both are 30g tubes; SPF 50 / SPF 50+ and physical claims sit in the listing title — we do not rewrite brand numbers. Included: listed goods, WhatsApp help, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want authentic baby sunscreen for sensitive skin. How to buy: the Buy on Shopee button here or on /shop/perawatan-kulit-bayi. WhatsApp in-store stock first if you plan a Badung visit.",
+        },
+      },
+      {
+        heading: {
+          id: "Moell vs Gently: original, selisih harga, worth it?",
+          en: "Moell vs Gently: authentic, price gap, worth it?",
+        },
+        body: {
+          id: "Keduanya physical, kemasan 30 gram, dan kami jual original sesuai etalase himoonbabykids — bukan official store pabrik. Selisih katalog Rp4.000 (Gently Rp75.000, Moell Rp79.000). Worth it bukan yang lebih mahal, melainkan yang lolos patch test di kulit bayi Anda dan yang stoknya live saat checkout. Moell di listing kami memakai nama Physical Sunscreen Bayi & Anak, water resistant. Gently memakai nama Physical Sunscreen Serum, anti air. Tekstur serum vs krim terasa beda di tangan; uji sedikit dulu. Kami tidak menobatkan pemenang abadi dan tidak memakai rating toko Shopee 4,9 sebagai bintang di artikel ini. Metodologi ritel kami: fakta etalase, iklim panas-lembab Bali, dan kriteria yang bisa diulang di /metodologi-perbandingan. Jika salah satu habis, jangan anggap yang tersisa otomatis lebih bagus — cek Shopee himoonbabykids.",
+          en: "Both are physical, 30g, and we sell authentic units from the himoonbabykids listing — we are not a factory official store. Catalog gap is Rp4,000 (Gently Rp75,000, Moell Rp79,000). Worth it is not the pricier tube; it is the one that passes a patch test on your baby and is in live stock at checkout. Moell is listed as Baby & Kids Physical Sunscreen, water resistant. Gently is listed as Physical Sunscreen Serum, water-resistant. Serum vs cream feel differs on the hand; trial a little first. We do not name an eternal winner and we do not reuse the Shopee 4.9 shop rating as stars on this article. Our retail method: shop-floor facts, Bali heat-humidity, and repeatable criteria on /metodologi-perbandingan. If one SKU is out, do not treat the remaining one as automatically better — check Shopee himoonbabykids.",
+        },
+      },
+      {
+        heading: {
+          id: "Kulit sensitif dan UV Bali — tanpa diagnosis",
+          en: "Sensitive skin and Bali UV — no diagnosis",
+        },
+        body: {
+          id: "UV di Badung, Canggu, dan Denpasar terasa kuat hampir sepanjang tahun. Banyak orang tua mencari sunscreen bayi fisik untuk aktivitas outdoor, lalu menambahkan topi dan teduh. Itu pilihan ritel, bukan resep dokter kulit. Jika kulit mudah merah, lakukan patch test di area kecil 24 jam, baca usia minimum di label Moell atau Gently, dan hentikan pemakaian jika reaksi memburuk — lalu ke tenaga kesehatan. Kami tidak mendiagnosis dermatitis, alergi, atau menjanjikan tidak terbakar. Untuk rutin pelembap harian, lihat perawatan kulit bayi sensitif; lotion Gently Hydra Soft 150gr tercatat Rp93.000 dan Moell Body Lotion 185ml Rp76.000 di katalog. Sunscreen tetap dipakai sesuai label sebelum paparan matahari, terpisah dari klaim lotion.",
+          en: "UV in Badung, Canggu, and Denpasar is strong most of the year. Many parents look for a physical baby sunscreen for outdoor time, then add a hat and shade. That is a retail choice, not a dermatologist prescription. If skin reddens easily, patch test a small area for 24 hours, read the minimum age on the Moell or Gently label, and stop if a reaction worsens — then see a clinician. We do not diagnose dermatitis or allergy, and we do not promise no sunburn. For daily moisturizer, see the sensitive-skin guide; Gently Hydra Soft 150g is catalog Rp93,000 and Moell Body Lotion 185ml Rp76,000. Sunscreen still follows the label before sun, separate from lotion claims.",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke toko himoonbabykids agar harga, varian, dan ongkir Badung–Denpasar live. Buka juga /shop/perawatan-kulit-bayi untuk kartu Moell dan Gently, atau /shop jika ingin etalase campur MPASI, popok, dan skincare. WhatsApp +628511214358 untuk tanya stok toko fisik Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Jika angka di halaman ini dan etalase Shopee berbeda, Shopee yang berlaku; kami tidak menerbitkan angka ketiga dari situs merek. Panduan terkait: beli sunscreen bayi (SKU Moell) dan perawatan kulit bayi sensitif (lotion + rutin).",
+          en: "Primary checkout: the orange Buy on Shopee button to himoonbabykids so price, variant, and Badung–Denpasar shipping are live. Also open /shop/perawatan-kulit-bayi for the Moell and Gently cards, or /shop for the mixed MPASI, diaper, and skincare catalog. WhatsApp +628511214358 to ask Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. If this page and the Shopee listing disagree, Shopee wins; we do not publish a third number from a brand site. Related guides: buy baby sunscreen (Moell SKU) and sensitive baby skin care (lotion + routine).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Moell Physical Sunscreen Bayi & Anak 30gr (katalog Rp79.000)",
+        "Gently Baby Physical Sunscreen Serum 30gr (katalog Rp75.000)",
+        "Produk original sesuai etalase himoonbabykids",
+        "Checkout Beli di Shopee; WhatsApp tanya stok toko Badung",
+      ],
+      en: [
+        "Moell Baby & Kids Physical Sunscreen 30g (catalog Rp79,000)",
+        "Gently Baby Physical Sunscreen Serum 30g (catalog Rp75,000)",
+        "Authentic goods as listed on himoonbabykids",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store stock",
+      ],
+    },
+    priceNote: {
+      id: "Moell Physical Sunscreen 30gr Rp79.000; Gently Physical Sunscreen Serum 30gr Rp75.000. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Moell Physical Sunscreen 30g Rp79,000; Gently Physical Sunscreen Serum 30g Rp75,000. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Moell atau Gently, mana sunscreen bayi yang lebih bagus?",
+          en: "Moell or Gently — which baby sunscreen is better?",
+        },
+        answer: {
+          id: "Tidak ada pemenang tunggal. Keduanya physical 30gr di etalase kami. Uji patch test, baca label usia, dan pilih yang stoknya live. Kami tidak menjual hasil survei fiktif.",
+          en: "There is no single winner. Both are 30g physical SKUs in our shop. Patch test, read the age label, and pick live stock. We do not sell fictional survey results.",
+        },
+      },
+      {
+        question: {
+          id: "Berapa harga sunscreen bayi Moell dan Gently di HiMoon?",
+          en: "How much are Moell and Gently baby sunscreens at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Moell 30gr Rp79.000 dan Gently Serum 30gr Rp75.000, mengikuti Shopee. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Moell 30g Rp79,000 and Gently Serum 30g Rp75,000, following Shopee. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Di mana beli sunscreen bayi original di Bali / Badung?",
+          en: "Where can I buy authentic baby sunscreen in Bali / Badung?",
+        },
+        answer: {
+          id: "Di toko HiMoon Kabupaten Badung atau Shopee himoonbabykids. WhatsApp tanya stok toko sebelum datang. Checkout paling akurat lewat Beli di Shopee.",
+          en: "At HiMoon in Badung Regency or Shopee himoonbabykids. WhatsApp in-store stock before you visit. The most accurate checkout is Buy on Shopee.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee, atau buka /shop/perawatan-kulit-bayi lalu kartu Moell / Gently. WhatsApp hanya untuk tanya stok, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button, or open /shop/perawatan-kulit-bayi then the Moell / Gently cards. WhatsApp is for stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-09-14",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.sunscreen,
+    imageAlt: {
+      id: "Sunscreen bayi Moell dan Gently original di HiMoon Bali",
+      en: "Authentic Moell and Gently baby sunscreen at HiMoon Bali",
+    },
+    shopHref: "/shop/perawatan-kulit-bayi",
+    relatedSlugs: ["beli-sunscreen-bayi", "perawatan-kulit-bayi-sensitif"],
+    emitFaqPageSchema: false,
+    cta: {
+      title: {
+        id: "Beli sunscreen bayi original di Shopee",
+        en: "Buy authentic baby sunscreen on Shopee",
+      },
+      body: {
+        id: "Bandingkan Moell Physical 30gr (katalog Rp79.000) dan Gently Physical Serum 30gr (katalog Rp75.000) di etalase himoonbabykids. Harga, varian, dan ongkir Badung–Denpasar live di Shopee. WhatsApp hanya untuk tanya stok toko.",
+        en: "Compare Moell Physical 30g (catalog Rp79,000) and Gently Physical Serum 30g (catalog Rp75,000) in the himoonbabykids shop. Price, variant, and Badung–Denpasar shipping are live on Shopee. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat Perawatan Kulit Bayi",
+        en: "Browse baby skincare",
+      },
+    },
   },
   {
     slug: "toko-mpasi-bali",
@@ -654,7 +805,10 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "moell-vs-gently-sunscreen-bayi",
+      "beli-sunscreen-bayi",
+    ],
   },
   {
     slug: "tips-memilih-popok-bayi",

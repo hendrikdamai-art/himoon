@@ -30,6 +30,8 @@ export const indonesiaKeywords = [
   "sabun mandi bayi",
   "parfum bayi non alkohol",
   "Moell sunscreen bayi",
+  "Moell vs Gently sunscreen bayi",
+  "Gently physical sunscreen bayi",
   "Moell body wash",
   "Gently baby cologne",
   "Gently face cream",

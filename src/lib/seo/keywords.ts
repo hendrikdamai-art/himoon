@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "Moell vs Gently sunscreen bayi",
+      intent: "comparison",
+      why: "Both physical SPF 50 SKUs are in the live catalog; vs queries are buying intent.",
+      path: "/blog/moell-vs-gently-sunscreen-bayi",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

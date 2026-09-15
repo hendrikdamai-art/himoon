@@ -14,13 +14,14 @@ import {
   webPageSchema,
 } from "@/lib/seo/schema";
 import { moneyPageFaqs } from "@/lib/seo/keywords";
-import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { PRICE_RANGE_IDR, SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
+import { formatPrice } from "@/lib/utils";
 
 export const metadata: Metadata = buildIndonesiaPageMetadata({
   title: "Baby Shop Bali | Toko Perlengkapan Bayi, MPASI & Popok",
   description:
-    "Baby shop Bali di Badung untuk ibu hamil & new mom. MPASI Bunda Elia, popok Makuku/MamyPoko, sunscreen Moell. Harga Rp22.500–Rp123.000, checkout Shopee himoonbabykids.",
+    `Baby shop Bali di Badung untuk ibu hamil & new mom. MPASI Bunda Elia, popok Makuku/MamyPoko, sunscreen Moell. Harga ${formatPrice(PRICE_RANGE_IDR.min)}–${formatPrice(PRICE_RANGE_IDR.max)}, checkout Shopee himoonbabykids. WhatsApp untuk stok toko Bali; ongkir tidak termasuk.`,
   path: "/shop",
   keywords: [
     "Baby Shop",
@@ -37,8 +38,8 @@ export const revalidate = 3600;
 export default async function ShopPage() {
   const products = await getProducts();
   const prices = products.map((product) => product.price);
-  const minPrice = prices.length ? Math.min(...prices) : 22500;
-  const maxPrice = prices.length ? Math.max(...prices) : 123000;
+  const minPrice = prices.length ? Math.min(...prices) : PRICE_RANGE_IDR.min;
+  const maxPrice = prices.length ? Math.max(...prices) : PRICE_RANGE_IDR.max;
 
   return (
     <div className="bg-himoon-cream">

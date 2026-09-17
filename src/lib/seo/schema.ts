@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
-import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { PRICE_RANGE_IDR, SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { formatPrice } from "@/lib/utils";
 import { moneyPageFaqs } from "@/lib/seo/keywords";
 import type { BlogPost, GuideFaq } from "@/types/catalog";
 
@@ -20,7 +21,7 @@ export function localBusinessSchema() {
     image: `${siteConfig.url}/logo.png`,
     email: siteConfig.email,
     telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
-    priceRange: "Rp22.500-Rp123.000",
+    priceRange: `${formatPrice(PRICE_RANGE_IDR.min)}-${formatPrice(PRICE_RANGE_IDR.max)}`,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Badung",
@@ -145,6 +146,43 @@ export function articleSchema(guide: BlogPost) {
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: ["[data-speakable]"],
+    },
+  };
+}
+
+export function aggregateOfferSchema({
+  path,
+  name = "Katalog perlengkapan bayi HiMoon",
+  description,
+  lowPrice,
+  highPrice,
+  offerCount,
+}: {
+  path: string;
+  name?: string;
+  description?: string;
+  lowPrice: number;
+  highPrice: number;
+  offerCount: number;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url: `${siteConfig.url}${path === "/" ? "" : path}`,
+    brand: {
+      "@type": "Brand",
+      name: siteConfig.name,
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "IDR",
+      lowPrice: String(lowPrice),
+      highPrice: String(highPrice),
+      offerCount: String(offerCount),
+      availability: "https://schema.org/InStock",
+      url: siteConfig.shopeeShopUrl,
     },
   };
 }

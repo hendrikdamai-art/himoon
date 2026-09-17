@@ -1,15 +1,17 @@
 import Link from "next/link";
 import { formatPrice } from "@/lib/utils";
 import { siteConfig } from "@/lib/site-config";
-import { moneyPageFaqs } from "@/lib/seo/keywords";
+import { getMoneyPageFaqs, keywordStrategy } from "@/lib/seo/keywords";
 import { PRICE_RANGE_IDR } from "@/lib/seo/constants";
+import { getGuide } from "@/lib/seo/guides";
 import { SpeakableAnswer } from "@/components/seo/speakable-answer";
 import { FaqSection } from "@/components/seo/faq-section";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
-import { getGuides } from "@/lib/seo/guides";
+import type { GuideFaq } from "@/types/catalog";
 
-const MONEY_SPEAKABLE =
-  "HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar Rp22.500 sampai Rp123.000, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, opsi ambil di toko Bali, dan ongkir live ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.";
+function moneySpeakable(minPrice: number, maxPrice: number): string {
+  return `HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar ${formatPrice(minPrice)} sampai ${formatPrice(maxPrice)}, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan tanya stok via WhatsApp, dan opsi ambil di Badung. Tidak termasuk ongkir — ongkir dihitung di Shopee saat checkout ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.`;
+}
 
 export function ShopMoneyIntro({
   productCount,
@@ -29,21 +31,65 @@ export function ShopMoneyIntro({
         Baby Shop Bali · Toko perlengkapan bayi · Shopee himoonbabykids
       </p>
       <h1 className="mt-2 max-w-4xl text-3xl font-extrabold leading-tight text-himoon-blue md:text-5xl">
-        Baby Shop Bali: beli perlengkapan bayi, MPASI & skincare
+        Baby Shop Bali: perlengkapan bayi, MPASI & popok dari {formatPrice(min)}
       </h1>
       <p className="mt-4 max-w-3xl text-lg text-himoon-muted">
         Baby shop HiMoon di Badung untuk ibu hamil dan new mom: MPASI Bunda Elia, sunscreen Moell,
-        popok Makuku/MamyPoko, dan peralatan makan. Harga {formatPrice(min)}–
-        {formatPrice(max)} mengikuti Shopee ({productCount} item di halaman ini).
+        popok MamyPoko, dan peralatan makan. Harga {formatPrice(min)}–{formatPrice(max)} mengikuti
+        Shopee ({productCount} item di halaman ini).
       </p>
+      <ShopQuickFacts minPrice={min} maxPrice={max} />
       <SpeakableAnswer id="shop-direct-answer" className="mt-6 max-w-4xl">
-        <p>{MONEY_SPEAKABLE}</p>
+        <p>{moneySpeakable(min, max)}</p>
       </SpeakableAnswer>
       <div className="mt-6 flex flex-wrap gap-3">
         <ShopeeCta label="Beli di Shopee himoonbabykids" />
         <ShopCta href="/contact" label="Tanya stok WhatsApp / Maps" />
       </div>
     </header>
+  );
+}
+
+export function ShopQuickFacts({
+  minPrice,
+  maxPrice,
+}: {
+  minPrice: number;
+  maxPrice: number;
+}) {
+  const facts = [
+    {
+      label: "Harga katalog",
+      value: `${formatPrice(minPrice)}–${formatPrice(maxPrice)}`,
+    },
+    {
+      label: "Yang termasuk",
+      value: "Produk original + tautan checkout Shopee",
+    },
+    {
+      label: "Ambil vs kirim",
+      value: "Ambil di Badung · kirim kurir Shopee",
+    },
+    {
+      label: "Lokasi toko",
+      value: "Kab. Badung, Bali",
+    },
+  ];
+
+  return (
+    <dl className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      {facts.map((fact) => (
+        <div
+          key={fact.label}
+          className="rounded-xl border border-slate-200 bg-white px-4 py-3"
+        >
+          <dt className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+            {fact.label}
+          </dt>
+          <dd className="mt-1 text-sm font-semibold text-himoon-blue">{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }
 
@@ -78,7 +124,9 @@ export function ShopInclusions() {
 }
 
 export function ShopGuideLinks() {
-  const guides = getGuides().slice(0, 6);
+  const guides = keywordStrategy.clusters
+    .map((cluster) => getGuide(cluster.path.replace(/^\/blog\//, "")))
+    .filter((guide): guide is NonNullable<typeof guide> => Boolean(guide));
 
   return (
     <section className="mx-auto max-w-7xl px-4 pb-4 md:px-6">
@@ -100,10 +148,23 @@ export function ShopGuideLinks() {
   );
 }
 
-export function ShopFaqBlock() {
+export function ShopFaqBlock({
+  minPrice,
+  maxPrice,
+}: {
+  minPrice?: number;
+  maxPrice?: number;
+} = {}) {
+  const faqs: GuideFaq[] = [
+    ...getMoneyPageFaqs(
+      minPrice ?? PRICE_RANGE_IDR.min,
+      maxPrice ?? PRICE_RANGE_IDR.max,
+    ),
+  ];
+
   return (
     <div className="mx-auto max-w-7xl px-4 pb-16 md:px-6">
-      <FaqSection title="FAQ belanja HiMoon" faqs={[...moneyPageFaqs]} />
+      <FaqSection title="FAQ belanja HiMoon" faqs={faqs} />
       <p className="mt-6 text-sm text-himoon-muted">
         Etalase live:{" "}
         <a

@@ -112,9 +112,9 @@ We sell authentic branded goods listed on Shopee. We do not publish invented sta
 Query: ${keywordStrategy.money.primary}
 URL: ${abs("/shop")}
 
-HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, dan peralatan bayi. Tidak seperti baby shop Denpasar yang fokus stroller atau car seat, HiMoon mengkurasi etalase Shopee himoonbabykids. Harga katalog sekitar Rp${PRICE_RANGE_IDR.min.toLocaleString("id-ID")}–Rp${PRICE_RANGE_IDR.max.toLocaleString("id-ID")}. Belanja di toko, WhatsApp, atau checkout Shopee — jalur beli utama yang kami dorong adalah Shopee agar stok dan ongkir live. Halaman /shop adalah money page untuk kueri Baby Shop Bali.
+HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, dan peralatan bayi. Tidak seperti baby shop Denpasar yang fokus stroller atau car seat, HiMoon mengkurasi etalase Shopee himoonbabykids. Harga katalog sekitar Rp${PRICE_RANGE_IDR.min.toLocaleString("id-ID")}–Rp${PRICE_RANGE_IDR.max.toLocaleString("id-ID")}. Belanja di toko, tanya stok WhatsApp, atau checkout Shopee — jalur beli utama yang kami dorong adalah Shopee agar stok live. Halaman /shop adalah money page untuk kueri Baby Shop Bali.
 
-Yang termasuk: produk original sesuai etalase, bantuan pilih item via WhatsApp, ambil di Bali atau kirim Shopee ke seluruh Indonesia yang dijangkau kurir. Tidak termasuk nasihat medis.
+Yang termasuk: produk original sesuai etalase, bantuan tanya stok via WhatsApp, ambil di Badung atau kirim Shopee ke seluruh Indonesia yang dijangkau kurir. Tidak termasuk nasihat medis dan ongkir (dihitung di Shopee).
 
 ## Guides
 

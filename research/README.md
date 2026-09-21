@@ -1,12 +1,27 @@
-# Melbourne Waste Companies Research
+# Victoria Waste Companies Research
 
-Spreadsheet of skip bin hire, rearlift, and garden bag operators serving Melbourne VIC and surrounds.
+Expanded list of skip bin hire, rearlift, and garden bag operators across **Victoria**.
 
-**File:** `Melbourne_Waste_Skip_Rearlift_GardenBag_Companies.xlsx`
+## Files
 
-- 59 companies with phone numbers
-- Public emails where published on company sites / directories
-- Yellow-highlighted email cells = not found publicly (use phone/website)
-- Sources: company websites and [City of Melbourne waste providers](https://www.melbourne.vic.gov.au/waste-providers)
+| File | Description |
+| --- | --- |
+| `Victoria_Waste_Skip_Rearlift_GardenBag_Companies.xlsx` | Main Excel list (102 companies) |
+| `Victoria_Waste_Skip_Rearlift_GardenBag_Companies.csv` | CSV export |
+| `Melbourne_Waste_Skip_Rearlift_GardenBag_Companies.xlsx` | Same workbook (legacy filename kept) |
+| `WasteExpo_2026_WasteVantage_Invite_Email.docx` | Waste Expo invite email (Word) |
+| `WasteExpo_2026_WasteVantage_Invite_Email.md` | Email draft (Markdown) |
 
-Contact details can change — verify before outreach.
+## Coverage
+
+- **102** companies
+- **83** with public emails
+- Regions: Melbourne metro, Geelong/Bellarine, Ballarat, Bendigo, Mildura, Shepparton, Echuca, Wangaratta/Wodonga, Warrnambool, Gippsland/Latrobe Valley
+- Green rows in Excel = newly added in Victoria expansion
+- Yellow email cells = no public email (use phone)
+
+## Not exhaustive
+
+Focused on skip / rearlift / garden-bag style operators. Not every waste company in Victoria (e.g. every small tip contractor or niche stream specialist).
+
+Contact details change — verify before outreach.

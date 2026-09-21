@@ -73,7 +73,9 @@ export default async function BlogPostPage({ params }: Props) {
         })}
       />
       <JsonLdScript data={articleSchema(post)} />
-      <JsonLdScript data={faqSchema(post.faqs)} />
+      {post.emitFaqPageSchema !== false ? (
+        <JsonLdScript data={faqSchema(post.faqs)} />
+      ) : null}
       <JsonLdScript
         data={breadcrumbSchema([
           { name: "Beranda", path: "/" },

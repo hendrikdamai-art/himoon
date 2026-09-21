@@ -5,6 +5,7 @@ import { MessageCircle, ShoppingBag } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import type { BlogPost } from "@/types/catalog";
+import { ShopeeCta } from "@/components/seo/cta";
 
 type BlogProductCtaProps = {
   post: BlogPost;
@@ -70,6 +71,7 @@ export function BlogProductCta({ post, placement = "end" }: BlogProductCtaProps)
         {cta.body[locale]}
       </p>
       <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+        <ShopeeCta />
         <Link
           href={shopHref}
           className={

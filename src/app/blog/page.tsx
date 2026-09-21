@@ -18,6 +18,7 @@ export const metadata: Metadata = buildIndonesiaPageMetadata({
     "Baby Shop",
     "perlengkapan bayi baru lahir",
     "beli sunscreen bayi",
+    "harga Bunda Elia BB Booster Rice original",
     "toko MPASI Bali",
   ],
 });

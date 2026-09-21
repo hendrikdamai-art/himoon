@@ -36,6 +36,12 @@ export const keywordStrategy = {
       path: "/blog/toko-mpasi-bali",
     },
     {
+      query: "harga Bunda Elia BB Booster Rice original",
+      intent: "commercial",
+      why: "SKU-level harga + original query for the only MPASI nutrition listing (Rp55.000).",
+      path: "/blog/harga-bunda-elia-bb-booster-rice-original",
+    },
+    {
       query: "Makuku vs MamyPoko",
       intent: "comparison",
       why: "High-intent diaper research; both brands are in the HiMoon catalog.",

@@ -35,6 +35,9 @@ export const indonesiaKeywords = [
   "Gently face cream",
   "Beeme baby lotion",
   "Bumbu Bunda Elia MPASI",
+  "harga Bunda Elia BB Booster Rice original",
+  "Bunda Elia BB Booster Rice",
+  "beras MPASI 6 bulan",
   "perlengkapan bayi baru lahir",
   "perlengkapan bayi anak",
   "peralatan bayi",
@@ -139,6 +142,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "bubur bayi",
     "makanan pendamping ASI Bali",
     "Bunda Elia MPASI",
+    "harga Bunda Elia BB Booster Rice original",
     "beli MPASI online",
   ],
   "perawatan-kulit-bayi": [

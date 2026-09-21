@@ -275,6 +275,157 @@ export const guides: BlogPost[] = [
     ],
   },
   {
+    slug: "harga-bunda-elia-bb-booster-rice-original",
+    phase: "month1",
+    query: {
+      id: "harga Bunda Elia BB Booster Rice original",
+      en: "Bunda Elia BB Booster Rice original price",
+    },
+    title: {
+      id: "Harga Bunda Elia BB Booster Rice original — toko MPASI Badung & Shopee",
+      en: "Bunda Elia BB Booster Rice original price — Badung MPASI shop & Shopee",
+    },
+    excerpt: {
+      id: "Harga katalog Bunda Elia BB Booster Rice original Rp55.000 di HiMoon Badung. Satu SKU nutrisi MPASI 6 bulan, lalu Beli di Shopee himoonbabykids.",
+      en: "Catalog price for authentic Bunda Elia BB Booster Rice is Rp55,000 at HiMoon Badung. One 6-month MPASI nutrition SKU, then Buy on Shopee himoonbabykids.",
+    },
+    speakable: {
+      id: "Bunda Elia BB Booster Rice original adalah satu SKU nutrisi MPASI yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali. Nama listing katalog: Bumbu Bunda Elia BB Booster Rice MPASI – Beras MPASI Beef Steak Salmon Chicken. Ini beras / bumbu MPASI untuk makanan pendamping ASI, bukan ASI booster dan bukan janji volume ASI. Harga katalog Rp55.000 mengikuti Shopee himoonbabykids. Ongkir tidak termasuk. Stok, varian rasa di judul listing, dan promo live di checkout; konfirmasi di Shopee himoonbabykids sebelum bayar. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Tidak termasuk bahan MPASI curah, racikan custom, atau diagnosis gizi. Halaman ini untuk ibu hamil dan new mom yang mencari harga Bunda Elia BB Booster Rice original untuk mulai MPASI sekitar 6 bulan. Checkout utama adalah tombol Beli di Shopee. WhatsApp hanya untuk tanya stok toko, bukan keranjang bayar. Kami retailer, bukan official store pabrik. Ikuti takaran di kemasan dan saran tenaga kesehatan. Saringan MPASI stainless tercatat terpisah di kategori peralatan bayi, katalog Rp29.500.",
+      en: "Authentic Bunda Elia BB Booster Rice is the one MPASI nutrition SKU we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali. Catalog listing name: Bumbu Bunda Elia BB Booster Rice MPASI – Beras MPASI Beef Steak Salmon Chicken. It is complementary-food rice / seasoning, not an ASI booster and not a promised milk-volume outcome. Catalog price is Rp55,000 following Shopee himoonbabykids. Shipping is not included. Live stock, flavor variants in the listing title, and promos sit at checkout; confirm on Shopee himoonbabykids before paying. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and the rest of Indonesia Shopee covers. Not included: bulk MPASI ingredients, custom mixing, or a nutrition diagnosis. This page is for pregnant and new moms looking up the original Bunda Elia BB Booster Rice price to start MPASI around 6 months. Primary checkout is Buy on Shopee. WhatsApp is only for in-store stock, not a payment cart. We are a retailer, not a factory official store. Follow the pack directions and your clinician. The stainless MPASI strainer is listed separately in baby equipment at catalog Rp29,500.",
+    },
+    content: {
+      id: "Kami meritel satu nutrisi MPASI yang memang ada di etalase: Bunda Elia BB Booster Rice. Halaman ini menjawab harga katalog, apa yang termasuk, apakah original itu worth it dibanding listing tidak jelas atau toko curah, dan cara Beli di Shopee himoonbabykids. Klaim komposisi dan takaran tetap di kemasan merek; kami tidak menambah diagnosis atau janji tumbuh kembang. Lanjut ke katalog MPASI di /shop/mpasi, toko MPASI Bali, panduan MPASI 6 bulan, atau etalase campur di /shop.",
+      en: "We retail the one MPASI nutrition SKU that is actually in the shop: Bunda Elia BB Booster Rice. This page answers catalog price, what is included, whether authentic is worth it versus unclear listings or bulk shops, and how to Buy on Shopee himoonbabykids. Composition and serving claims stay on the brand pack; we do not add a diagnosis or a growth promise. Continue to the MPASI catalog at /shop/mpasi, the Bali MPASI shop guide, the 6-month MPASI guide, or the mixed catalog at /shop.",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini halaman harga SKU Bunda Elia BB Booster Rice original di HiMoon, bukan resep MPASI. Katalog Shopee himoonbabykids: Bumbu Bunda Elia BB Booster Rice MPASI Rp55.000. Isi kemasan, gram, dan varian rasa (judul listing menyebut Beef Steak, Salmon, Chicken) ada di etalase — kami tidak mengarang isi pack. Yang termasuk: produk sesuai listing, bantuan pilih via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk harga katalog. Untuk ibu hamil dan new mom yang butuh beras MPASI 6 bulan original, bukan bahan curah. Cara beli: tombol Beli di Shopee di halaman ini atau di /shop/mpasi. WhatsApp tanya stok toko dulu jika ingin datang ke Badung.",
+          en: "This is a price page for authentic Bunda Elia BB Booster Rice at HiMoon, not an MPASI recipe. Shopee himoonbabykids catalog: Bumbu Bunda Elia BB Booster Rice MPASI Rp55,000. Pack size, grams, and flavor variants (the listing title names Beef Steak, Salmon, Chicken) stay on the shop — we do not invent pack contents. Included: listed goods, WhatsApp help, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want authentic 6-month MPASI rice, not bulk ingredients. How to buy: the Buy on Shopee button here or on /shop/mpasi. WhatsApp in-store stock first if you plan a Badung visit.",
+        },
+      },
+      {
+        heading: {
+          id: "Original vs listing tidak jelas: worth it Rp55.000?",
+          en: "Authentic vs unclear listings: worth Rp55,000?",
+        },
+        body: {
+          id: "Harga katalog Rp55.000 untuk satu SKU nutrisi, bukan karton grosir. Worth it jika Anda ingin Bunda Elia original dari toko yang bisa dikonfirmasi — himoonbabykids — plus opsi lihat fisik di Badung. Bukan worth it jika Anda mencari beras organik curah atau racikan custom; kami tidak menjual itu. Bandingkan dengan toko MPASI spesialis bahan curah di Bali: mereka unggul di kiloan, kami unggul di SKU brand plus popok dan skincare di satu Shopee shop. Jangan samakan BB Booster Rice dengan ASI booster / Mom Uung. ASI booster tidak ada baris harga tetap di katalog situs ini; jika muncul di Shopee, konfirmasi di Shopee himoonbabykids. Kami bukan official store pabrik kecuali Shopee menampilkannya demikian. Jika angka di halaman ini dan etalase berbeda, Shopee yang berlaku.",
+          en: "Catalog Rp55,000 is one nutrition SKU, not a wholesale carton. Worth it if you want authentic Bunda Elia from a shop you can verify — himoonbabykids — plus the option to see it in Badung. Not worth it if you need bulk organic rice or a custom mix; we do not sell those. Compare with Bali bulk-ingredient MPASI stores: they win on kilos, we win on a branded SKU plus diapers and skincare in one Shopee shop. Do not confuse BB Booster Rice with ASI booster / Mom Uung. ASI booster has no fixed on-site catalog price; if it appears on Shopee, confirm on Shopee himoonbabykids. We are not a factory official store unless Shopee itself labels it that way. If this page and the listing disagree, Shopee wins.",
+        },
+      },
+      {
+        heading: {
+          id: "MPASI 6 bulan — tanpa diagnosis gizi",
+          en: "6-month MPASI — no nutrition diagnosis",
+        },
+        body: {
+          id: "MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dengan bantuan dan menunjukkan minat makan. Itu informasi umum, bukan diagnosis kesiapan anak Anda. Ikuti tanda kesiapan, takaran di kemasan Bunda Elia, dan tenaga kesehatan. Langkah praktis ada di panduan MPASI 6 bulan. Peralatan yang sering dibeli bersamaan: saringan MPASI stainless di /shop/peralatan-bayi, katalog Rp29.500. Anda tidak wajib beli blender di hari pertama. Jika muncul reaksi yang mengkhawatirkan, hentikan makanan pemicu dan hubungi tenaga kesehatan — HiMoon tidak mendiagnosis alergi.",
+          en: "Complementary feeding usually starts around 6 months when a baby can sit with support and shows interest in food. That is general information, not a readiness diagnosis for your child. Follow readiness signs, Bunda Elia pack directions, and your clinician. Practical steps are in the 6-month MPASI guide. A tool often bought alongside: the stainless MPASI strainer on /shop/peralatan-bayi, catalog Rp29,500. You do not need a blender on day one. If a worrying reaction appears, stop the suspected food and contact a clinician — HiMoon does not diagnose allergies.",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke toko himoonbabykids agar harga, varian listing, dan ongkir Badung–Denpasar live. Buka juga /shop/mpasi untuk kartu Bunda Elia, atau /shop jika ingin etalase campur MPASI, popok, dan skincare. WhatsApp +628511214358 untuk tanya stok toko fisik Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: toko MPASI Bali (peta cluster) dan panduan MPASI 6 bulan (urutan mulai makan).",
+          en: "Primary checkout: the orange Buy on Shopee button to himoonbabykids so price, listing variant, and Badung–Denpasar shipping are live. Also open /shop/mpasi for the Bunda Elia card, or /shop for the mixed MPASI, diaper, and skincare catalog. WhatsApp +628511214358 to ask Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: the Bali MPASI shop page (cluster map) and the 6-month MPASI guide (how to start).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Bunda Elia BB Booster Rice original (katalog Rp55.000)",
+        "Produk sesuai listing Shopee himoonbabykids",
+        "Checkout Beli di Shopee; WhatsApp tanya stok toko Badung",
+        "Opsi saringan MPASI stainless (katalog Rp29.500 di /shop/peralatan-bayi)",
+      ],
+      en: [
+        "Authentic Bunda Elia BB Booster Rice (catalog Rp55,000)",
+        "Goods as listed on Shopee himoonbabykids",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store stock",
+        "Optional stainless MPASI strainer (catalog Rp29,500 on /shop/peralatan-bayi)",
+      ],
+    },
+    priceNote: {
+      id: "Bunda Elia BB Booster Rice katalog Rp55.000. Saringan MPASI stainless Rp29.500 di kategori peralatan. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Bunda Elia BB Booster Rice catalog Rp55,000. Stainless MPASI strainer Rp29,500 in equipment. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga Bunda Elia BB Booster Rice original di HiMoon?",
+          en: "How much is authentic Bunda Elia BB Booster Rice at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Rp55.000 mengikuti Shopee himoonbabykids. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Rp55,000 following Shopee himoonbabykids. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon official store Bunda Elia?",
+          en: "Is HiMoon the Bunda Elia official store?",
+        },
+        answer: {
+          id: "Kami toko ritel himoonbabykids di Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian. Yang kami jual adalah produk original sesuai etalase.",
+          en: "We are the himoonbabykids retail shop in Badung, not a factory official store unless Shopee itself labels it that way. We sell authentic goods as listed.",
+        },
+      },
+      {
+        question: {
+          id: "Bunda Elia BB Booster Rice sama dengan ASI booster?",
+          en: "Is Bunda Elia BB Booster Rice the same as ASI booster?",
+        },
+        answer: {
+          id: "Tidak. BB Booster Rice adalah beras / bumbu MPASI untuk makanan pendamping ASI. ASI booster adalah produk terpisah; kami tidak menjanjikan volume ASI.",
+          en: "No. BB Booster Rice is complementary-food rice / seasoning. ASI booster is a separate product; we do not promise milk volume.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee, atau buka /shop/mpasi lalu kartu Bunda Elia. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button, or open /shop/mpasi then the Bunda Elia card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-09-21",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.mpasi,
+    imageAlt: {
+      id: "Bunda Elia BB Booster Rice original di HiMoon Badung dan Shopee",
+      en: "Authentic Bunda Elia BB Booster Rice at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/mpasi",
+    relatedSlugs: ["toko-mpasi-bali", "panduan-mpasi-6-bulan"],
+    emitFaqPageSchema: false,
+    cta: {
+      title: {
+        id: "Beli Bunda Elia BB Booster Rice original di Shopee",
+        en: "Buy authentic Bunda Elia BB Booster Rice on Shopee",
+      },
+      body: {
+        id: "Satu SKU nutrisi MPASI 6 bulan, harga katalog Rp55.000 mengikuti Shopee himoonbabykids. Harga, varian listing, dan ongkir Badung–Denpasar live di checkout. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "One 6-month MPASI nutrition SKU, catalog Rp55,000 following Shopee himoonbabykids. Price, listing variant, and Badung–Denpasar shipping are live at checkout. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog MPASI",
+        en: "Browse MPASI catalog",
+      },
+    },
+  },
+  {
     slug: "toko-mpasi-bali",
     phase: "month1",
     query: {
@@ -294,8 +445,8 @@ export const guides: BlogPost[] = [
       en: "Parents searching for an MPASI shop in Bali usually need complementary-food nutrition and safe feeding tools. HiMoon Baby & Kids in Badung Regency sells Bunda Elia BB Booster Rice MPASI at Rp55,000 catalog and a stainless MPASI strainer around Rp29,500, following Shopee himoonbabykids. Complementary feeding usually starts around 6 months when a baby can sit and shows interest; begin with smooth textures, tiny portions, and one new food every few days. We are not a nutrition clinic; follow IDAI or your clinician. Shop in-store, on WhatsApp, or Shopee for delivery across Denpasar and Indonesia. Compare with specialist bulk-ingredient MPASI stores if you need that range; HiMoon’s edge is MPASI plus diapers and skincare in one Shopee shop.",
     },
     content: {
-      id: "Kompetitor lokal seperti MPASI Store Bali fokus bahan dan alat masak. HiMoon menempati celah: nutrisi Bunda Elia, peralatan, plus kebutuhan bayi lain yang sama-sama bisa di-checkout Shopee.",
-      en: "Local competitors such as MPASI Store Bali focus on ingredients and cookware. HiMoon occupies the mix of Bunda Elia nutrition, tools, and other baby needs on one Shopee checkout.",
+      id: "Kompetitor lokal seperti MPASI Store Bali fokus bahan dan alat masak. HiMoon menempati celah: nutrisi Bunda Elia, peralatan, plus kebutuhan bayi lain yang sama-sama bisa di-checkout Shopee. Harga SKU Bunda Elia BB Booster Rice original ada di artikel harga Bunda Elia.",
+      en: "Local competitors such as MPASI Store Bali focus on ingredients and cookware. HiMoon occupies the mix of Bunda Elia nutrition, tools, and other baby needs on one Shopee checkout. The authentic Bunda Elia BB Booster Rice price is on the Bunda Elia price article.",
     },
     sections: [
       {
@@ -314,8 +465,8 @@ export const guides: BlogPost[] = [
           en: "Pricing",
         },
         body: {
-          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI stainless Rp29.500. Mom Uung / ASI booster sesuai stok Shopee, harga live di listing.",
-          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000; stainless MPASI strainer Rp29,500. Mom Uung / ASI booster follows Shopee stock and live listing price.",
+          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI stainless Rp29.500. Mom Uung / ASI booster sesuai stok Shopee, harga live di listing. Bandingkan original vs listing tidak jelas di halaman harga Bunda Elia BB Booster Rice original.",
+          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000; stainless MPASI strainer Rp29,500. Mom Uung / ASI booster follows Shopee stock and live listing price. Compare authentic vs unclear listings on the Bunda Elia BB Booster Rice original price page.",
         },
       },
       {
@@ -399,9 +550,9 @@ export const guides: BlogPost[] = [
     },
     shopHref: "/shop/mpasi",
     relatedSlugs: [
+      "harga-bunda-elia-bb-booster-rice-original",
       "panduan-mpasi-6-bulan",
       "perlengkapan-bayi-baru-lahir",
-      "beli-sunscreen-bayi",
     ],
   },
   {
@@ -454,8 +605,8 @@ export const guides: BlogPost[] = [
           en: "Bunda Elia nutrition",
         },
         body: {
-          id: "Jika Anda memilih produk Bunda Elia, ikuti takaran di kemasan. HiMoon meritel produk tersebut; kami tidak meracik MPASI custom.",
-          en: "If you choose Bunda Elia, follow the pack directions. HiMoon retails that product; we do not mix custom MPASI.",
+          id: "Jika Anda memilih produk Bunda Elia, ikuti takaran di kemasan. HiMoon meritel produk tersebut; kami tidak meracik MPASI custom. Cek harga katalog dan cara Beli di Shopee di artikel harga Bunda Elia BB Booster Rice original.",
+          en: "If you choose Bunda Elia, follow the pack directions. HiMoon retails that product; we do not mix custom MPASI. See catalog price and Buy on Shopee steps on the Bunda Elia BB Booster Rice original price article.",
         },
       },
     ],
@@ -528,7 +679,11 @@ export const guides: BlogPost[] = [
       en: "Baby MPASI tools at HiMoon Bali",
     },
     shopHref: "/shop/mpasi",
-    relatedSlugs: ["toko-mpasi-bali", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "harga-bunda-elia-bb-booster-rice-original",
+      "toko-mpasi-bali",
+      "perlengkapan-bayi-baru-lahir",
+    ],
   },
   {
     slug: "perawatan-kulit-bayi-sensitif",

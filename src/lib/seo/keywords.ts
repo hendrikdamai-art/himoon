@@ -59,8 +59,8 @@ export const moneyPageFaqs = [
       en: "What is HiMoon Baby & Kids?",
     },
     answer: {
-      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, skincare bayi, peralatan makan, dan kebutuhan ibu. Belanja bisa di toko fisik, WhatsApp, atau langsung di Shopee himoonbabykids.",
-      en: "HiMoon is a baby shop in Badung Regency, Bali. We sell MPASI, diapers, baby skincare, feeding gear, and nursing essentials. Shop in-store, via WhatsApp, or on Shopee at himoonbabykids.",
+      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, skincare bayi, peralatan makan, dan kebutuhan ibu. Checkout utama lewat Shopee himoonbabykids; WhatsApp hanya untuk tanya stok toko Bali; ambil di Badung. Ongkir tidak termasuk.",
+      en: "HiMoon is a baby shop in Badung Regency, Bali. We sell MPASI, diapers, baby skincare, feeding gear, and nursing essentials. Checkout on Shopee himoonbabykids; WhatsApp is for Bali in-store stock only; pick up in Badung. Shipping is not included.",
     },
   },
   {

@@ -1,3 +1,5 @@
+import catalogData from "@/data/products.json";
+
 export const SITE_CONTENT_UPDATED = "2026-09-05";
 
 export const LLMS_CACHE_CONTROL =
@@ -22,7 +24,12 @@ export const AI_CRAWLERS = [
   "YouBot",
 ] as const;
 
+const catalogPrices = (catalogData.products as { itemId: number; price: number }[])
+  .filter((product) => product.itemId > 0)
+  .map((product) => product.price);
+
+/** Catalog IDR range from products.json — keep SEO copy tied to the shop source of truth. */
 export const PRICE_RANGE_IDR = {
-  min: 22500,
-  max: 123000,
+  min: catalogPrices.length ? Math.min(...catalogPrices) : 22500,
+  max: catalogPrices.length ? Math.max(...catalogPrices) : 123000,
 } as const;

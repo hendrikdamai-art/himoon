@@ -15,7 +15,8 @@ import {
   faqSchema,
   webPageSchema,
 } from "@/lib/seo/schema";
-import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { formatPrice } from "@/lib/utils";
+import { PRICE_RANGE_IDR, SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 
 type Props = {
   params: Promise<{ category: string }>;
@@ -30,9 +31,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = shopCategories.find((item) => item.slug === slug);
   if (!category) return {};
 
+  const products = await getProductsByCategory(category.slug);
+  const prices = products.map((product) => product.price);
+  const minPrice = prices.length ? Math.min(...prices) : PRICE_RANGE_IDR.min;
+  const maxPrice = prices.length ? Math.max(...prices) : PRICE_RANGE_IDR.max;
+  const priceNote =
+    minPrice === maxPrice
+      ? `Harga katalog ${formatPrice(minPrice)}`
+      : `Harga katalog ${formatPrice(minPrice)}–${formatPrice(maxPrice)}`;
+
   return buildIndonesiaPageMetadata({
     title: `${category.label.id} | Baby Shop Bali`,
-    description: `${category.description.id} Belanja ${category.label.id} di baby shop HiMoon, Badung Bali. Pesan via WhatsApp atau Shopee himoonbabykids.`,
+    description: `${category.description.id} ${priceNote} di baby shop HiMoon, Badung Bali. Checkout Shopee himoonbabykids; WhatsApp untuk stok toko. Ongkir tidak termasuk.`,
     path: `/shop/${category.slug}`,
     keywords: ["Baby Shop Bali", ...(categorySeoKeywords[category.slug] ?? [])],
   });
@@ -67,13 +77,13 @@ export default async function CategoryPage({ params }: Props) {
         en: "How do I buy on Shopee?",
       },
       answer: {
-        id: "Klik Beli di Shopee pada kartu produk, atau buka etalase himoonbabykids. WhatsApp hanya untuk tanya stok toko Bali.",
-        en: "Use Buy on Shopee on each product card, or open the himoonbabykids shop. WhatsApp is for Bali in-store stock questions.",
+        id: "Klik Beli di Shopee pada kartu produk, atau buka etalase himoonbabykids. WhatsApp hanya untuk tanya stok toko Bali. Ambil di Badung; ongkir tidak termasuk dan dihitung di Shopee.",
+        en: "Use Buy on Shopee on each product card, or open the himoonbabykids shop. WhatsApp is for Bali in-store stock questions. Pick up in Badung; shipping is not included and is calculated on Shopee.",
       },
     },
   ];
 
-  const speakable = `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Halaman belanja utama tetap /shop. Kami tidak menempel rating palsu. Pilih produk di grid, lalu tombol oranye ke Shopee.`;
+  const speakable = `Kategori ${category.label.id} di baby shop HiMoon Bali menampilkan item yang sama dengan etalase Shopee himoonbabykids. ${category.description.id} Harga dan stok mengikuti Shopee; konfirmasi listing sebelum checkout. Ibu hamil dan new mom bisa ambil di Badung atau kirim ke Denpasar, Canggu, Kuta, Ubud, dan luar Bali lewat kurir Shopee. Ongkir tidak termasuk harga katalog. WhatsApp hanya untuk tanya stok toko Bali. Halaman belanja utama tetap /shop. Kami tidak menempel rating palsu. Pilih produk di grid, lalu tombol oranye Beli di Shopee.`;
 
   return (
     <div className="bg-himoon-cream">

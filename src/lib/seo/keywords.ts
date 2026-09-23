@@ -1,4 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
+import { PRICE_RANGE_IDR } from "@/lib/seo/constants";
+import { formatPrice } from "@/lib/utils";
 
 /**
  * Commercial-intent keyword map for Indonesia (pregnant moms, new moms, baby shoppers).
@@ -57,8 +59,8 @@ export const moneyPageFaqs = [
       en: "What is HiMoon Baby & Kids?",
     },
     answer: {
-      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, skincare bayi, peralatan makan, dan kebutuhan ibu. Belanja bisa di toko fisik, WhatsApp, atau langsung di Shopee himoonbabykids.",
-      en: "HiMoon is a baby shop in Badung Regency, Bali. We sell MPASI, diapers, baby skincare, feeding gear, and nursing essentials. Shop in-store, via WhatsApp, or on Shopee at himoonbabykids.",
+      id: "HiMoon adalah baby shop / toko perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Kami menjual MPASI, popok, skincare bayi, peralatan makan, dan kebutuhan ibu. Checkout utama lewat Shopee himoonbabykids; WhatsApp hanya untuk tanya stok toko Bali; ambil di Badung. Ongkir tidak termasuk.",
+      en: "HiMoon is a baby shop in Badung Regency, Bali. We sell MPASI, diapers, baby skincare, feeding gear, and nursing essentials. Checkout on Shopee himoonbabykids; WhatsApp is for Bali in-store stock only; pick up in Badung. Shipping is not included.",
     },
   },
   {
@@ -67,8 +69,8 @@ export const moneyPageFaqs = [
       en: "How much do baby essentials cost at HiMoon?",
     },
     answer: {
-      id: "Harga baby shop HiMoon mengikuti katalog Shopee himoonbabykids. Di situs ini rentang katalog saat ini sekitar Rp22.500–Rp123.000, tergantung produk (tisu Paseo, saringan MPASI, lotion, sunscreen, MPASI, atau popok). Cek Shopee untuk stok dan promo terbaru sebelum checkout.",
-      en: "Prices follow the himoonbabykids Shopee catalog. Current on-site range is about Rp22,500–Rp123,000 depending on the item. Always confirm live stock and promos on Shopee before checkout.",
+      id: `Harga baby shop HiMoon mengikuti katalog Shopee himoonbabykids. Di situs ini rentang katalog saat ini sekitar ${formatPrice(PRICE_RANGE_IDR.min)}–${formatPrice(PRICE_RANGE_IDR.max)}, tergantung produk (tisu Paseo, saringan MPASI, lotion, sunscreen, MPASI, atau popok). Cek Shopee untuk stok dan promo terbaru sebelum checkout.`,
+      en: `Prices follow the himoonbabykids Shopee catalog. Current on-site range is about ${formatPrice(PRICE_RANGE_IDR.min, "en")}–${formatPrice(PRICE_RANGE_IDR.max, "en")} depending on the item. Always confirm live stock and promos on Shopee before checkout.`,
     },
   },
   {
@@ -77,8 +79,8 @@ export const moneyPageFaqs = [
       en: "What is included when I shop at HiMoon?",
     },
     answer: {
-      id: "Termasuk: produk original dari brand yang kami jual, bantuan pilih ukuran/jenis via WhatsApp, opsi ambil di toko Bali atau kirim lewat Shopee, dan tautan checkout ke item Shopee yang sama. Tidak termasuk klaim medis; kami toko ritel, bukan klinik.",
-      en: "Included: authentic branded products we carry, WhatsApp help choosing size or type, Bali pickup or Shopee delivery, and checkout links to the matching Shopee item. We are a retailer, not a clinic — no medical claims.",
+      id: "Termasuk: produk original dari brand yang kami jual, bantuan tanya stok via WhatsApp, opsi ambil di Badung atau kirim lewat Shopee, dan tautan checkout ke item Shopee yang sama. Tidak termasuk ongkir (dihitung di Shopee) dan klaim medis; kami toko ritel, bukan klinik.",
+      en: "Included: authentic branded products we carry, WhatsApp help checking Bali stock, Badung pickup or Shopee delivery, and checkout links to the matching Shopee item. Shipping is not included (calculated on Shopee). We are a retailer, not a clinic — no medical claims.",
     },
   },
   {

@@ -11,6 +11,8 @@ Expanded list of skip bin hire, rearlift, and garden bag operators across **Vict
 | `Melbourne_Waste_Skip_Rearlift_GardenBag_Companies.xlsx` | Same workbook (legacy filename kept) |
 | `WasteExpo_2026_WasteVantage_Invite_Email.docx` | Waste Expo invite email (Word) |
 | `WasteExpo_2026_WasteVantage_Invite_Email.md` | Email draft (Markdown) |
+| `email-campaign/waste-expo-invite.html` | Campaign HTML (logo embedded — open in browser) |
+| `email-campaign/waste-expo-invite-esp.html` | Campaign HTML for Mailchimp etc. (upload with `wastevantage-logo.png`) |
 
 ## Coverage
 

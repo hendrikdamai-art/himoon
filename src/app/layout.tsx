@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
 import { LanguageProvider } from "@/lib/i18n/language-provider";
+import { SiteChrome } from "@/components/site-chrome";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/lib/site-config";
 import {
@@ -142,9 +141,7 @@ gtag('config', '${GA_MEASUREMENT_ID}');
         </noscript>
         {/* End Google Tag Manager (noscript) */}
         <LanguageProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <SiteChrome>{children}</SiteChrome>
         </LanguageProvider>
       </body>
     </html>

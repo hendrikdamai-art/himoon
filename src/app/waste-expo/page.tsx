@@ -9,8 +9,6 @@ import {
   Heart,
   CalendarDays,
 } from "lucide-react";
-import { BookingForm } from "./booking-form";
-
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -59,10 +57,10 @@ export default function WasteExpoLandingPage() {
             </p>
           </div>
           <a
-            href="#book"
+            href="mailto:andrew@ihubsolutions.com.au"
             className="rounded-lg bg-[#0088F0] px-4 py-2 text-sm font-semibold text-white hover:bg-[#0076d1]"
           >
-            Book 30 minutes
+            Email Andrew
           </a>
         </div>
       </header>
@@ -224,22 +222,6 @@ export default function WasteExpoLandingPage() {
               </p>
             </div>
           </aside>
-        </div>
-      </section>
-
-      <section id="book" className="scroll-mt-8 bg-[#F3F5F7] py-14 sm:py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-            Book 30 minutes with Andrew
-          </h2>
-          <p className="mt-3 text-base leading-7 text-slate-600">
-            Sit down with Andrew, our consultant, at Stand D161. He is there to
-            listen — pain points, ideas you want feedback on, things that are
-            not working — and to give some guidance for free. No hard sell.
-          </p>
-          <div className="mt-8">
-            <BookingForm />
-          </div>
         </div>
       </section>
 

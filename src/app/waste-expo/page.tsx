@@ -48,9 +48,9 @@ export default function WasteExpoLandingPage() {
             <Image
               src="/waste-expo/logo.png"
               alt="WasteVantage"
-              width={180}
-              height={40}
-              className="h-9 w-auto"
+              width={232}
+              height={64}
+              className="h-8 w-auto"
               priority
             />
             <span className="hidden h-6 w-px bg-slate-200 sm:block" />
@@ -67,17 +67,16 @@ export default function WasteExpoLandingPage() {
         </div>
       </header>
 
-      <section className="bg-[#1A8CFF]">
-        <div className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8">
-          <Image
-            src="/waste-expo/hero.jpg"
-            alt="Come talk waste with us. Waste Expo special offer: book a live demo and receive one month free. Visit WasteVantage at Stand D161."
-            width={1920}
-            height={1080}
-            className="h-auto w-full rounded-t-2xl shadow-lg"
-            priority
-          />
-        </div>
+      <section>
+        <Image
+          src="/waste-expo/hero.jpg"
+          alt="Come talk waste with us. Waste Expo special offer: book a live demo and receive one month free. Visit WasteVantage at Stand D161."
+          width={1400}
+          height={831}
+          className="h-auto w-full"
+          priority
+          sizes="100vw"
+        />
       </section>
 
       <section className="bg-white">

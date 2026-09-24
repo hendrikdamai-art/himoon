@@ -165,3 +165,44 @@ export function itemListSchema(
     })),
   };
 }
+
+export function productOfferSchema({
+  name,
+  image,
+  price,
+  url,
+  brand,
+  inStock = true,
+}: {
+  name: string;
+  image: string;
+  price: number;
+  url: string;
+  brand?: string;
+  inStock?: boolean;
+}) {
+  const imageUrl = image.startsWith("http") ? image : `${siteConfig.url}${image}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    image: imageUrl,
+    brand: {
+      "@type": "Brand",
+      name: brand || siteConfig.name,
+    },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "IDR",
+      price: String(price),
+      availability: inStock
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
+      url,
+      seller: {
+        "@type": "Organization",
+        name: siteConfig.businessName,
+      },
+    },
+  };
+}

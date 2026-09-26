@@ -829,7 +829,7 @@ export const guides: BlogPost[] = [
       ],
       en: [
         "Makuku and/or MamyPoko depending on stock",
-        "Catalog listing ± Rp65,000",
+        "MamyPoko Royal Soft catalog listing Rp123,000; Makuku follows Shopee stock",
         "Link to comparison methodology",
         "Shopee himoonbabykids checkout",
       ],
@@ -932,7 +932,7 @@ export const guides: BlogPost[] = [
         "Kirim Shopee / ambil Bali",
       ],
       en: [
-        "ASI booster as listed on Shopee (± Rp89,000)",
+        "ASI booster / Mom Uung as listed on Shopee (live listing price)",
         "WhatsApp help",
         "Shopee ship / Bali pickup",
       ],

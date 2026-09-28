@@ -58,6 +58,10 @@ export default function MethodologyPage() {
           Contoh terapan:{" "}
           <Link href="/blog/makuku-vs-mamypoko" className="font-semibold text-himoon-blue underline">
             Makuku vs MamyPoko
+          </Link>
+          {", "}
+          <Link href="/blog/beeme-vs-gently-lotion-bayi" className="font-semibold text-himoon-blue underline">
+            Beeme vs Gently vs Moell lotion
           </Link>{" "}
           dan{" "}
           <Link href="/blog/beli-sunscreen-bayi" className="font-semibold text-himoon-blue underline">

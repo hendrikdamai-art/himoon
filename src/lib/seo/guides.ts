@@ -270,9 +270,162 @@ export const guides: BlogPost[] = [
     shopHref: "/shop/perawatan-kulit-bayi",
     relatedSlugs: [
       "perawatan-kulit-bayi-sensitif",
+      "beeme-vs-gently-lotion-bayi",
       "perlengkapan-bayi-baru-lahir",
-      "toko-mpasi-bali",
     ],
+  },
+  {
+    slug: "beeme-vs-gently-lotion-bayi",
+    phase: "month1",
+    query: {
+      id: "Beeme vs Gently lotion bayi kulit sensitif",
+      en: "Beeme vs Gently baby lotion for sensitive skin",
+    },
+    title: {
+      id: "Beeme vs Gently vs Moell: lotion bayi original untuk kulit sensitif di Bali",
+      en: "Beeme vs Gently vs Moell: authentic baby lotion for sensitive skin in Bali",
+    },
+    excerpt: {
+      id: "Bandingkan lotion bayi original di HiMoon Badung: Beeme Bee Gentle 200ml Rp65.000, Moell Body Lotion 185ml Rp76.000, Gently Hydra Soft 150gr Rp93.000. Lalu Beli di Shopee himoonbabykids.",
+      en: "Compare authentic baby lotions at HiMoon Badung: Beeme Bee Gentle 200ml Rp65,000, Moell Body Lotion 185ml Rp76,000, Gently Hydra Soft 150g Rp93,000. Then Buy on Shopee himoonbabykids.",
+    },
+    speakable: {
+      id: "Beeme versus Gently versus Moell lotion bayi adalah perbandingan ritel tiga pelembap tubuh yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali — bukan diagnosis kulit. Katalog Shopee himoonbabykids: Beeme Bee Gentle Baby Lotion 200ml Rp65.000; Moell Body Lotion 185ml Rp76.000; Gently Baby Hydra Soft Body Lotion 150gr Rp93.000. Isi kemasan mengikuti judul listing. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk. Halaman ini untuk ibu hamil dan new mom yang mencari lotion bayi original untuk kulit yang mudah kering di iklim Bali. Cara beli: tombol Beli di Shopee, atau buka katalog perawatan kulit bayi lalu kartu lotion. WhatsApp hanya untuk tanya stok toko, bukan keranjang bayar. Patch test 24 jam; ruam parah ke tenaga kesehatan. Hair lotion dan sunscreen Moell 30gr Rp79.000 adalah SKU terpisah. Konfirmasi harga live di Shopee himoonbabykids sebelum bayar.",
+      en: "Beeme versus Gently versus Moell baby lotion is a retail comparison of three body moisturizers we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali — not a skin diagnosis. Shopee himoonbabykids catalog: Beeme Bee Gentle Baby Lotion 200ml Rp65,000; Moell Body Lotion 185ml Rp76,000; Gently Baby Hydra Soft Body Lotion 150g Rp93,000. Pack contents follow the listing title. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. Shipping is not included. This page is for pregnant and new moms looking for authentic baby lotion when skin dries easily in Bali. How to buy: the Buy on Shopee button, or open the baby-skincare catalog then the lotion card. WhatsApp is only for in-store stock, not a payment cart. Patch-test 24 hours; severe rash needs a clinician. Hair lotion and Moell 30g sunscreen at Rp79,000 are separate SKUs. Confirm the live price on Shopee himoonbabykids before paying.",
+    },
+    content: {
+      id: "Kami meritel tiga body lotion yang memang ada di etalase, bukan daftar merek yang tidak kami jual. Halaman ini menjawab Beeme vs Gently lotion bayi kulit sensitif plus SKU ketiga Moell Body Lotion, lalu mengantar ke [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) dan [etalase campur](/shop). Rutin harian tetap di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif); tabir surya terpisah di [beli sunscreen bayi](/blog/beli-sunscreen-bayi). Klaim komposisi dan usia pemakaian tetap di kemasan merek. Kami tidak mendiagnosis dermatitis, alergi, atau menjanjikan kulit sembuh.",
+      en: "We retail three body lotions that are actually in the shop, not brands we do not sell. This page answers Beeme vs Gently baby lotion for sensitive skin plus the third SKU Moell Body Lotion, then sends you to the [baby skincare catalog](/shop/perawatan-kulit-bayi) and the [mixed shop](/shop). Daily routine stays on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif); sunscreen is separate on [buy baby sunscreen](/blog/beli-sunscreen-bayi). Composition and age-of-use claims stay on the brand pack. We do not diagnose dermatitis or allergy, and we do not promise healed skin.",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini perbandingan ritel Beeme vs Gently vs Moell lotion bayi original di HiMoon, bukan resep dokter kulit. Tiga SKU tubuh di katalog Shopee himoonbabykids: Beeme Bee Gentle Baby Lotion 200ml — judul listing pelembap bayi aman newborn & ibu hamil — Rp65.000; Moell Body Lotion 185ml — pelembap kulit bayi sensitif aroma menyegarkan — Rp76.000; Gently Baby Hydra Soft Body Lotion 150gr — judul listing jaga skin barrier — Rp93.000. Isi ml/gr mengikuti nama listing; kami tidak mengarang takaran oles. Yang termasuk: produk sesuai etalase, bantuan pilih via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk. Untuk ibu hamil dan new mom yang butuh pelembap tubuh original, bukan hair lotion. Cara beli: tombol Beli di Shopee di halaman ini atau kartu di [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi). WhatsApp tanya stok toko dulu jika ingin datang ke Badung. Etalase lengkap ada di [/shop](/shop).",
+          en: "This is a retail Beeme vs Gently vs Moell authentic baby-lotion comparison at HiMoon, not a dermatologist prescription. Three body SKUs on Shopee himoonbabykids: Beeme Bee Gentle Baby Lotion 200ml — listing title positions it for newborns and pregnancy — Rp65,000; Moell Body Lotion 185ml — listing title for sensitive baby skin with a refreshing scent — Rp76,000; Gently Baby Hydra Soft Body Lotion 150g — listing title mentions skin-barrier care — Rp93,000. ml/g follow the listing name; we do not invent how much to apply. Included: listed goods, WhatsApp help, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want an authentic body moisturizer, not hair lotion. How to buy: the Buy on Shopee button here or the card on the [baby skincare catalog](/shop/perawatan-kulit-bayi). WhatsApp in-store stock first if you plan a Badung visit. The mixed catalog is at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Original vs listing tidak jelas: worth it di harga katalog?",
+          en: "Authentic vs unclear listings: worth the catalog price?",
+        },
+        body: {
+          id: "Harga katalog berbeda karena isi pack berbeda: 200ml, 185ml, dan 150gr. Jangan bandingkan stiker termurah seolah porsi sama; unit ml dan gr di label tidak kami konversi jadi angka ketiga. Worth it jika Anda ingin Beeme, Gently, atau Moell original dari toko yang bisa dikonfirmasi — himoonbabykids — plus opsi lihat fisik di Badung. Bukan worth it jika Anda mencari krim resep, diagnosis ruam, atau hair lotion (Beeme Daily Nourishing Hair Lotion 100ml Rp60.000; Gently Baby Hair Lotion 100ml Rp55.000; Moell Nourish Hair Lotion 100ml Rp72.000 — SKU terpisah). Kami tidak menempel rating 4,9 pada lotion ini; rating toko Shopee terpisah dari perbandingan SKU. Metode lengkap di [/metodologi-perbandingan](/metodologi-perbandingan): hanya etalase nyata, iklim Bali, tanpa panel palsu.",
+          en: "Catalog prices differ because pack sizes differ: 200ml, 185ml, and 150g. Do not treat the cheapest sticker as the same portion; we do not invent a third per-ml number from mixed ml and g units. Worth it if you want authentic Beeme, Gently, or Moell from a shop you can confirm — himoonbabykids — plus the option to see it in Badung. Not worth it if you want a prescription cream, a rash diagnosis, or hair lotion (Beeme Daily Nourishing Hair Lotion 100ml Rp60,000; Gently Baby Hair Lotion 100ml Rp55,000; Moell Nourish Hair Lotion 100ml Rp72,000 — separate SKUs). We do not paste a 4.9 rating on these lotions; the Shopee shop rating is separate from the SKU comparison. Full method is on [/metodologi-perbandingan](/metodologi-perbandingan): real listings, Bali climate, no fake panel.",
+        },
+      },
+      {
+        heading: {
+          id: "Kapan pilih Beeme, Gently, atau Moell",
+          en: "When to pick Beeme, Gently, or Moell",
+        },
+        body: {
+          id: "Tidak ada pemenang abadi. Pilih Beeme Bee Gentle 200ml jika Anda mengutamakan pack lebih besar di harga katalog Rp65.000 dan judul listing newborn / ibu hamil cocok dengan kebutuhan Anda — tetap baca label. Pilih Gently Hydra Soft 150gr jika Anda mencari pelembap tubuh Gently di katalog Rp93.000 dan judul listing skin barrier sesuai yang Anda bandingkan di etalase, bukan karena kami menjanjikan sawar kulit sembuh. Pilih Moell Body Lotion 185ml Rp76.000 jika Anda sudah nyaman dengan rangkaian Moell dan menerima aroma menyegarkan yang tertulis di nama listing; ini bukan sunscreen. Sunscreen Moell Physical 30gr Rp79.000 dan Gently Physical Sunscreen Serum 30gr Rp75.000 tetap produk terpisah — lihat [beli sunscreen bayi](/blog/beli-sunscreen-bayi). Jika kulit mudah merah, patch test di area kecil 24 jam, hentikan jika memburuk, lalu ke tenaga kesehatan. Rutin mandi dan oles ada di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif).",
+          en: "There is no forever winner. Pick Beeme Bee Gentle 200ml if you want the larger listed pack at catalog Rp65,000 and the newborn / pregnancy listing title matches your need — still read the label. Pick Gently Hydra Soft 150g if you want Gently’s body moisturizer at catalog Rp93,000 and the skin-barrier listing title is what you are comparing on the shop, not because we promise a repaired barrier. Pick Moell Body Lotion 185ml Rp76,000 if you already use Moell and accept the refreshing scent in the listing name; this is not sunscreen. Moell Physical 30g sunscreen Rp79,000 and Gently Physical Sunscreen Serum 30g Rp75,000 stay separate SKUs — see [buy baby sunscreen](/blog/beli-sunscreen-bayi). If skin reddens easily, patch-test a small area for 24 hours, stop if it worsens, then see a clinician. Bath and apply steps live on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee dan yang tidak termasuk",
+          en: "How to Buy on Shopee and what is not included",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke himoonbabykids, atau buka [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) lalu pilih kartu Beeme, Gently, atau Moell. Stok, promo, dan ongkir Badung–Denpasar live di Shopee. WhatsApp hanya untuk tanya stok toko fisik, bukan pembayaran. Tidak termasuk: diagnosis medis, janji hilang ruam, racikan custom, dan hair lotion kecuali Anda sengaja pilih SKU rambut. Jika harga di situs terasa usang, konfirmasi di Shopee himoonbabykids. Brand Mustela atau Cussons hanya jika listing Shopee kami menampilkannya — saat katalog ini ditulis, tiga body lotion di atas yang kami bandingkan.",
+          en: "Primary checkout: the orange Buy on Shopee button to himoonbabykids, or open the [baby skincare catalog](/shop/perawatan-kulit-bayi) then the Beeme, Gently, or Moell card. Stock, promos, and Badung–Denpasar shipping are live on Shopee. WhatsApp is only for physical-store stock, not payment. Not included: a medical diagnosis, a promised rash-gone outcome, custom mixing, and hair lotion unless you pick that SKU on purpose. If the site price looks stale, confirm on Shopee himoonbabykids. Mustela or Cussons only if our Shopee listing shows them — when this catalog was written, the three body lotions above are the ones we compare.",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Beeme Bee Gentle Baby Lotion 200ml (katalog Rp65.000)",
+        "Moell Body Lotion 185ml (katalog Rp76.000)",
+        "Gently Baby Hydra Soft Body Lotion 150gr (katalog Rp93.000)",
+        "Checkout Shopee himoonbabykids atau ambil di Badung",
+        "WhatsApp tanya stok toko (bukan pembayaran)",
+      ],
+      en: [
+        "Beeme Bee Gentle Baby Lotion 200ml (catalog Rp65,000)",
+        "Moell Body Lotion 185ml (catalog Rp76,000)",
+        "Gently Baby Hydra Soft Body Lotion 150g (catalog Rp93,000)",
+        "Shopee himoonbabykids checkout or Badung pickup",
+        "WhatsApp in-store stock questions (not payment)",
+      ],
+    },
+    priceNote: {
+      id: "Katalog lotion tubuh: Beeme Bee Gentle 200ml Rp65.000; Moell Body Lotion 185ml Rp76.000; Gently Hydra Soft 150gr Rp93.000. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Body-lotion catalog: Beeme Bee Gentle 200ml Rp65,000; Moell Body Lotion 185ml Rp76,000; Gently Hydra Soft 150g Rp93,000. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Beeme atau Gently lotion bayi, mana yang lebih bagus untuk kulit sensitif?",
+          en: "Beeme or Gently baby lotion — which is better for sensitive skin?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis. Kami membandingkan tiga SKU etalase: Beeme 200ml Rp65.000, Moell 185ml Rp76.000, Gently 150gr Rp93.000. Uji pack kecil, patch test, baca label. Ruam parah ke tenaga kesehatan.",
+          en: "There is no medical winner. We compare three listed SKUs: Beeme 200ml Rp65,000, Moell 185ml Rp76,000, Gently 150g Rp93,000. Trial a small pack, patch-test, read the label. Severe rash needs a clinician.",
+        },
+      },
+      {
+        question: {
+          id: "Berapa harga lotion bayi Beeme, Gently, dan Moell di HiMoon?",
+          en: "How much are Beeme, Gently, and Moell baby lotions at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Beeme Bee Gentle 200ml Rp65.000, Moell Body Lotion 185ml Rp76.000, Gently Hydra Soft 150gr Rp93.000. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Beeme Bee Gentle 200ml Rp65,000, Moell Body Lotion 185ml Rp76,000, Gently Hydra Soft 150g Rp93,000. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Di mana beli lotion bayi original di Bali?",
+          en: "Where can I buy authentic baby lotion in Bali?",
+        },
+        answer: {
+          id: "Toko HiMoon di Kabupaten Badung atau Shopee himoonbabykids, kategori Perawatan Kulit Bayi. Kami toko ritel, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian.",
+          en: "HiMoon’s store in Badung Regency or Shopee himoonbabykids, Baby Skincare category. We are a retailer, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee, atau buka /shop/perawatan-kulit-bayi lalu kartu Beeme, Gently, atau Moell. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button, or open /shop/perawatan-kulit-bayi then the Beeme, Gently, or Moell card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-09-28",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.sunscreen,
+    imageAlt: {
+      id: "Lotion bayi Beeme, Gently, dan Moell di HiMoon Badung dan Shopee",
+      en: "Beeme, Gently, and Moell baby lotion at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/perawatan-kulit-bayi",
+    relatedSlugs: ["perawatan-kulit-bayi-sensitif", "beli-sunscreen-bayi"],
+    emitFaqPageSchema: false,
+    cta: {
+      title: {
+        id: "Beli lotion bayi original di Shopee",
+        en: "Buy authentic baby lotion on Shopee",
+      },
+      body: {
+        id: "Bandingkan Beeme Bee Gentle 200ml Rp65.000, Moell Body Lotion 185ml Rp76.000, dan Gently Hydra Soft 150gr Rp93.000. Harga, isi pack, dan ongkir Badung–Denpasar live di checkout himoonbabykids. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "Compare Beeme Bee Gentle 200ml Rp65,000, Moell Body Lotion 185ml Rp76,000, and Gently Hydra Soft 150g Rp93,000. Price, pack, and Badung–Denpasar shipping are live at himoonbabykids checkout. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog skincare",
+        en: "Browse skincare catalog",
+      },
+    },
   },
   {
     slug: "toko-mpasi-bali",
@@ -550,8 +703,8 @@ export const guides: BlogPost[] = [
       en: "Baby skin is thinner and more reactive, especially in hot, humid, high-UV Bali. HiMoon Baby & Kids sells listed care: Gently Hydra Soft Body Lotion Rp93,000, Moell 30g sunscreen Rp79,000, Beeme lip balm Rp70,000, and Paseo tissue Rp22,500. Skip heavy fragrance if skin reddens easily, and patch test. This is not a dermatitis diagnosis; see a doctor for severe rash. Buy authentic products at the Badung store or Shopee himoonbabykids. Other brands such as Mustela and Cussons appear when in stock. Pair skincare with a diaper that does not chafe. All prices follow Shopee and can change during promotions.",
     },
     content: {
-      id: "Halaman ini merangkum produk skincare yang memang dijual HiMoon, plus cara order ke Shopee.",
-      en: "This page summarizes skincare HiMoon actually sells, plus how to order on Shopee.",
+      id: "Halaman ini merangkum produk skincare yang memang dijual HiMoon, plus cara order ke Shopee. Bandingkan tiga body lotion original di artikel Beeme vs Gently vs Moell.",
+      en: "This page summarizes skincare HiMoon actually sells, plus how to order on Shopee. Compare three authentic body lotions on the Beeme vs Gently vs Moell article.",
     },
     sections: [
       {
@@ -560,8 +713,8 @@ export const guides: BlogPost[] = [
           en: "Daily routine",
         },
         body: {
-          id: "Bersihkan lembut, oles lotion Gently jika kulit kering, dan sunscreen Moell sebelum keluar sesuai label. Malam hari cek lipatan leher dan popok.",
-          en: "Cleanse gently, apply Gently lotion if skin is dry, and use Moell sunscreen before going out as the label says. At night check neck folds and the diaper area.",
+          id: "Bersihkan lembut, oles lotion Beeme, Gently, atau Moell jika kulit kering — lihat perbandingan Beeme vs Gently vs Moell — dan sunscreen Moell sebelum keluar sesuai label. Malam hari cek lipatan leher dan popok.",
+          en: "Cleanse gently, apply Beeme, Gently, or Moell lotion if skin is dry — see the Beeme vs Gently vs Moell comparison — and use Moell sunscreen before going out as the label says. At night check neck folds and the diaper area.",
         },
       },
       {
@@ -570,8 +723,8 @@ export const guides: BlogPost[] = [
           en: "Catalog prices",
         },
         body: {
-          id: "Paseo Rp22.500, Beeme lip balm Rp70.000, Gently Physical Sunscreen Rp75.000, Moell sunscreen Rp79.000, Gently Hydra Soft Body Lotion Rp93.000.",
-          en: "Paseo Rp22,500, Beeme lip balm Rp70,000, Gently Physical Sunscreen Rp75,000, Moell sunscreen Rp79,000, Gently Hydra Soft Body Lotion Rp93,000.",
+          id: "Paseo Rp22.500, Beeme Bee Gentle 200ml Rp65.000, Beeme lip balm Rp70.000, Gently Physical Sunscreen Rp75.000, Moell Body Lotion 185ml Rp76.000, Moell sunscreen Rp79.000, Gently Hydra Soft Body Lotion Rp93.000.",
+          en: "Paseo Rp22,500, Beeme Bee Gentle 200ml Rp65,000, Beeme lip balm Rp70,000, Gently Physical Sunscreen Rp75,000, Moell Body Lotion 185ml Rp76,000, Moell sunscreen Rp79,000, Gently Hydra Soft Body Lotion Rp93,000.",
         },
       },
       {
@@ -654,7 +807,11 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "beeme-vs-gently-lotion-bayi",
+      "beli-sunscreen-bayi",
+      "perlengkapan-bayi-baru-lahir",
+    ],
   },
   {
     slug: "tips-memilih-popok-bayi",

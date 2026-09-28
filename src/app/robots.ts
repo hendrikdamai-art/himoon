@@ -2,19 +2,31 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { AI_CRAWLERS } from "@/lib/seo/constants";
 
+const PRIVATE_PATHS = ["/admin/", "/api/"];
+
+/** Search crawlers: allow the public site, keep admin/API out of the index. */
+const SEARCH_CRAWLERS = [
+  "Googlebot",
+  "Googlebot-Image",
+  "Googlebot-Video",
+  "Google-InspectionTool",
+  "*",
+] as const;
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      {
-        userAgent: "*",
+      ...SEARCH_CRAWLERS.map((userAgent) => ({
+        userAgent,
         allow: "/",
-        disallow: ["/api/"],
-      },
-      {
-        userAgent: [...AI_CRAWLERS],
-        allow: ["/", "/llms.txt", "/llms-full.txt", "/shop", "/blog"],
-        disallow: ["/api/"],
-      },
+        ...(userAgent === "Googlebot-Video"
+          ? {}
+          : { disallow: [...PRIVATE_PATHS] }),
+      })),
+      ...AI_CRAWLERS.map((userAgent) => ({
+        userAgent,
+        allow: "/",
+      })),
     ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
     host: siteConfig.url,

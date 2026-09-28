@@ -3,21 +3,26 @@ export const SITE_CONTENT_UPDATED = "2026-09-05";
 export const LLMS_CACHE_CONTROL =
   "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800";
 
+/** AI / answer-engine crawlers allowed to read the public site. */
 export const AI_CRAWLERS = [
   "GPTBot",
   "ChatGPT-User",
   "OAI-SearchBot",
-  "Google-Extended",
-  "Googlebot",
-  "Googlebot-Image",
+  "ClaudeBot",
+  "Anthropic-AI",
+  "anthropic-ai",
   "PerplexityBot",
   "Perplexity-User",
-  "ClaudeBot",
-  "anthropic-ai",
+  "Google-Extended",
+  "GoogleOther",
   "Applebot",
   "Applebot-Extended",
   "Bytespider",
   "CCBot",
+  "FacebookBot",
+  "meta-externalagent",
+  "cohere-ai",
+  "Amazonbot",
   "Diffbot",
   "YouBot",
 ] as const;

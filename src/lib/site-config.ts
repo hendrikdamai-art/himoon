@@ -11,7 +11,7 @@ function getSiteUrl(): string {
     return `https://${process.env.VERCEL_URL}`;
   }
 
-  return "https://www.himoonbaby.com";
+  return "https://himoonbaby.com";
 }
 
 export const siteConfig = {

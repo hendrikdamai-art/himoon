@@ -34,17 +34,31 @@ export const siteConfig = {
   shopeeUsername: "himoonbabykids",
   googleMapsShareUrl: "https://share.google/XCsGX1ahJGslLnNMi",
   googleMapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=HiMoon+Mom,+Baby+%26+Kids+Shop",
+    "https://www.google.com/maps/search/?api=1&query=HiMoon+Mom+Baby+Kids+Shop+Jl.+Cica+Abianbase+No.11b+Mengwi+Badung",
   googleMapsEmbedUrl:
-    "https://maps.google.com/maps?q=HiMoon+Mom,+Baby+%26+Kids+Shop&hl=id&z=16&output=embed",
+    "https://maps.google.com/maps?q=Jl.+Cica+-+Abianbase+No.11b,+Abianbase,+Mengwi,+Badung,+Bali+80351&hl=id&z=17&output=embed",
   googleKnowledgeGraphId: "/g/11nqpf1l07",
   googleKnowledgeGraphUrl: "https://www.google.com/search?kgmid=/g/11nqpf1l07",
   email: "adminhimoon@gmail.com",
+  address: {
+    streetAddress: "Jl. Cica - Abianbase No.11b",
+    addressLocality: "Abianbase",
+    addressDistrict: "Mengwi",
+    addressRegion: "Bali",
+    postalCode: "80351",
+    addressCountry: "ID",
+  },
+  geo: {
+    latitude: "-8.5913875",
+    longitude: "115.1711764",
+  },
   location: {
-    id: "Kabupaten Badung, Bali, Indonesia",
-    en: "Badung Regency, Bali, Indonesia",
+    id: "Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351",
+    en: "Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung Regency, Bali 80351, Indonesia",
   },
   areaServed: [
+    "Abianbase",
+    "Mengwi",
     "Kabupaten Badung",
     "Denpasar",
     "Canggu",

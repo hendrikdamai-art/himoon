@@ -19,7 +19,7 @@ export const translations = {
       treatmentBibir: "Treatment Bibir",
     },
     hero: {
-      eyebrow: "Kab. Badung · Bali · Indonesia",
+      eyebrow: "Abianbase · Mengwi · Badung · Bali",
       title: "HiMoon Baby & Kids, toko bayi di Badung.",
       subtitle:
         "HiMoon Baby & Kids menghadirkan MPASI, keperluan bayi, dan produk anak berkualitas. Belanja di baby shop Badung atau pesan lewat WhatsApp & Shopee — penjual terpercaya di Bali.",
@@ -89,7 +89,7 @@ export const translations = {
         "Kami adalah penjual terpercaya di Shopee dengan rating 4.9. Setiap produk dijual asli dan kami siap membantu Anda memilih kebutuhan terbaik untuk buah hati.",
       locationTitle: "Kunjungi Toko Kami",
       locationText:
-        "HiMoon Mom, Baby & Kids Shop ada di Kabupaten Badung, Bali (pin Google Maps). Jam buka tidak kami tebak di situs — cek Maps atau WhatsApp sebelum datang. Kami toko ritel, bukan VTuber Twitch.",
+        "HiMoon Mom, Baby & Kids Shop ada di Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351. Jam buka tidak kami tebak di situs — cek Maps atau WhatsApp sebelum datang. Kami toko ritel, bukan VTuber Twitch.",
       visitStore: "Lihat di Google Maps",
       visitShopee: "Kunjungi Shopee",
     },
@@ -114,7 +114,7 @@ export const translations = {
       shopee: "Shopee",
       shopeeText: "Belanja online di Shopee HiMoon Baby & Kids.",
       maps: "Google Maps",
-      mapsText: "Kunjungi toko fisik kami di Badung, Bali.",
+      mapsText: "Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung.",
       email: "Email",
       storeTitle: "Lokasi Toko",
       storeSubtitle: "Temukan HiMoon di Google Maps — buka toko fisik kami di Bali.",
@@ -142,7 +142,7 @@ export const translations = {
       treatmentBibir: "Lip Care",
     },
     hero: {
-      eyebrow: "Badung Regency · Bali · Indonesia",
+      eyebrow: "Abianbase · Mengwi · Badung · Bali",
       title: "HiMoon Baby & Kids, a baby shop in Badung.",
       subtitle:
         "HiMoon Baby & Kids offers MPASI, baby essentials, and kids products. Shop the Badung baby shop or order via WhatsApp & Shopee — a trusted seller in Bali.",
@@ -212,7 +212,7 @@ export const translations = {
         "We are a trusted Shopee seller with a 4.9 rating. Every product is authentic and we help you choose the best for your little one.",
       locationTitle: "Visit Our Store",
       locationText:
-        "HiMoon Mom, Baby & Kids Shop is in Badung Regency, Bali (Google Maps pin). We do not guess opening hours here — check Maps or WhatsApp before visiting. We are a retail shop, not a Twitch VTuber.",
+        "HiMoon Mom, Baby & Kids Shop is at Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung Regency, Bali 80351. We do not guess opening hours here — check Maps or WhatsApp before visiting. We are a retail shop, not a Twitch VTuber.",
       visitStore: "View on Google Maps",
       visitShopee: "Visit Shopee",
     },
@@ -237,7 +237,7 @@ export const translations = {
       shopee: "Shopee",
       shopeeText: "Shop online at HiMoon Baby & Kids on Shopee.",
       maps: "Google Maps",
-      mapsText: "Visit our physical store in Badung, Bali.",
+      mapsText: "Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung.",
       email: "Email",
       storeTitle: "Store Location",
       storeSubtitle: "Find HiMoon on Google Maps — visit our Bali store.",

@@ -27,13 +27,20 @@ export function localBusinessSchema() {
     paymentAccepted: "Cash, Shopee",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Kabupaten Badung",
-      addressRegion: "Bali",
-      addressCountry: "ID",
+      streetAddress: siteConfig.address.streetAddress,
+      addressLocality: siteConfig.address.addressLocality,
+      addressRegion: siteConfig.address.addressRegion,
+      postalCode: siteConfig.address.postalCode,
+      addressCountry: siteConfig.address.addressCountry,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: siteConfig.geo.latitude,
+      longitude: siteConfig.geo.longitude,
     },
     containedInPlace: {
       "@type": "AdministrativeArea",
-      name: "Kabupaten Badung, Bali, Indonesia",
+      name: "Abianbase, Kec. Mengwi, Kabupaten Badung, Bali, Indonesia",
     },
     areaServed: siteConfig.areaServed.map((name) => ({
       "@type": "AdministrativeArea",
@@ -90,7 +97,7 @@ export function contactPageSchema() {
     url: `${siteConfig.url}/contact`,
     name: "Kontak HiMoon Baby & Kids di Badung",
     description:
-      "WhatsApp, email, Shopee, dan pin Google Maps toko fisik HiMoon Mom, Baby & Kids Shop di Kabupaten Badung, Bali.",
+      "WhatsApp, email, Shopee, dan toko fisik HiMoon Mom, Baby & Kids Shop di Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351.",
     inLanguage: "id-ID",
     isPartOf: { "@id": `${siteConfig.url}/#website` },
     about: { "@id": `${siteConfig.url}/#localbusiness` },

@@ -51,8 +51,8 @@ export default function ContactPage() {
         />
         <p className="mb-10 max-w-2xl text-sm leading-relaxed text-himoon-muted">
           {locale === "id"
-            ? "Nama listing Google Maps: HiMoon Mom, Baby & Kids Shop. Jam buka toko fisik tidak kami tebak di situs — cek pin Maps atau WhatsApp sebelum datang. Bukan akun VTuber Twitch HiMoonBaby."
-            : "Google Maps listing name: HiMoon Mom, Baby & Kids Shop. We do not guess store hours here — check the Maps pin or WhatsApp before visiting. Not the Twitch VTuber HiMoonBaby."}
+            ? "Alamat toko: Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351. Nama listing Google Maps: HiMoon Mom, Baby & Kids Shop. Jam buka tidak kami tebak di situs — cek Maps atau WhatsApp sebelum datang."
+            : "Store address: Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung Regency, Bali 80351. Google Maps listing: HiMoon Mom, Baby & Kids Shop. We do not guess store hours here — check Maps or WhatsApp before visiting."}
         </p>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {cards.map((card) => {

@@ -80,7 +80,9 @@ export const metadata: Metadata = {
     describedby: `${siteConfig.url}/llms.txt`,
     dateModified: SITE_CONTENT_UPDATED,
     "geo.region": "ID-BA",
-    "geo.placename": "Kabupaten Badung, Bali, Indonesia",
+    "geo.placename": "Abianbase, Mengwi, Badung, Bali, Indonesia",
+    "geo.position": `${siteConfig.geo.latitude};${siteConfig.geo.longitude}`,
+    ICBM: `${siteConfig.geo.latitude}, ${siteConfig.geo.longitude}`,
     "content-language": "id-ID",
   },
   verification: {

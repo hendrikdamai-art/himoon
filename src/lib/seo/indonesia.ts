@@ -49,7 +49,7 @@ export const indonesiaFaqs = [
   {
     question: "Di mana lokasi HiMoon Baby & Kids?",
     answer:
-      "HiMoon Mom, Baby & Kids Shop adalah toko ritel di Kabupaten Badung, Bali — bukan VTuber Twitch. Pin Google Maps ada di halaman Kontak. Jam buka toko fisik tidak kami tebak di situs; cek Maps atau WhatsApp sebelum datang.",
+      "HiMoon Mom, Baby & Kids Shop ada di Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351. Pin Google Maps ada di halaman Kontak. Jam buka toko fisik tidak kami tebak di situs; cek Maps atau WhatsApp sebelum datang.",
   },
   {
     question: "Apakah HiMoon menjual MPASI dan keperluan bayi?",
@@ -125,7 +125,9 @@ export function buildIndonesiaPageMetadata({
     },
     other: {
       "geo.region": "ID-BA",
-      "geo.placename": "Kabupaten Badung, Bali, Indonesia",
+      "geo.placename": "Abianbase, Mengwi, Badung, Bali, Indonesia",
+      "geo.position": `${siteConfig.geo.latitude};${siteConfig.geo.longitude}`,
+      ICBM: `${siteConfig.geo.latitude}, ${siteConfig.geo.longitude}`,
       "content-language": "id-ID",
     },
   };

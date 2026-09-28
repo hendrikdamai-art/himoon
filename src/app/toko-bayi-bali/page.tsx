@@ -17,7 +17,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Toko Fisik HiMoon di Badung | Maps & Order Shopee",
   description:
-    "Kunjungi HiMoon Mom, Baby & Kids Shop di Kabupaten Badung, Bali, atau beli online di Shopee himoonbabykids untuk kirim Denpasar, Canggu, Kuta, Ubud.",
+    "Kunjungi HiMoon Mom, Baby & Kids Shop di Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung, Bali 80351, atau beli online di Shopee himoonbabykids.",
   alternates: { canonical: `${siteConfig.url}/toko-bayi-bali` },
 };
 
@@ -25,8 +25,8 @@ const faqs = [
   {
     question: { id: "Di mana alamat toko bayi HiMoon?", en: "Address?" },
     answer: {
-      id: "Kabupaten Badung, Bali. Pin Google Maps ada di halaman ini dan di /contact. Kami tidak menuliskan jalan yang tidak kami miliki datanya.",
-      en: "Badung Regency, Bali. The Google Maps pin is on this page and /contact. We do not invent a street we do not have on file.",
+      id: "Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351. Pin Google Maps ada di halaman ini dan di /contact.",
+      en: "Jl. Cica - Abianbase No.11b, Abianbase, Mengwi, Badung Regency, Bali 80351. The Google Maps pin is on this page and /contact.",
     },
   },
   {
@@ -53,7 +53,7 @@ const faqs = [
 ];
 
 const speakable =
-  "Baby shop HiMoon ada di Kabupaten Badung, Bali, dan melayani ibu hamil plus new mom yang mencari MPASI, popok, sunscreen, dan peralatan makan. Jika Anda tinggal di Canggu, Kuta, Denpasar, atau Ubud, jalur paling akurat untuk stok dan ongkir adalah Shopee himoonbabykids, sementara kunjungan toko cocok bila ingin lihat kemasan secara langsung. Harga di situs mengikuti etalase Shopee, sekitar Rp22.500 sampai Rp123.000. Kami tidak mengisi alamat jalan atau jam buka yang tidak ada di data bisnis. Kontak publik: WhatsApp, email adminhimoon@gmail.com, dan pin Google Maps. Money page tetap /shop. Produk original sesuai brand di listing. Ini toko ritel, bukan klinik bayi. Baby shop besar di Denpasar sering jual stroller; HiMoon fokus etalase terkurasi plus checkout Shopee. Tanyakan stok fisik via chat sebelum datang dari jauh. Simpan tautan Shopee untuk restock rutin.";
+  "Baby shop HiMoon ada di Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351, dan melayani ibu hamil plus new mom yang mencari MPASI, popok, sunscreen, dan peralatan makan. Jika Anda tinggal di Canggu, Kuta, Denpasar, atau Ubud, jalur paling akurat untuk stok dan ongkir adalah Shopee himoonbabykids, sementara kunjungan toko cocok bila ingin lihat kemasan secara langsung. Harga di situs mengikuti etalase Shopee, sekitar Rp22.500 sampai Rp123.000. Jam buka toko fisik tidak kami tebak di situs; cek Google Maps atau WhatsApp sebelum datang. Kontak publik: WhatsApp, email adminhimoon@gmail.com, dan pin Google Maps. Money page tetap /shop. Produk original sesuai brand di listing. Ini toko ritel, bukan klinik bayi. Baby shop besar di Denpasar sering jual stroller; HiMoon fokus etalase terkurasi plus checkout Shopee. Tanyakan stok fisik via chat sebelum datang dari jauh. Simpan tautan Shopee untuk restock rutin.";
 
 export default function TokoBayiBaliPage() {
   return (

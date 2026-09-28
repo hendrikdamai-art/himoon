@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const speakable =
-  "HiMoon Baby & Kids adalah toko ritel perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali, dengan toko Shopee himoonbabykids sebagai kanal belanja online utama. Nama listing Google Maps: HiMoon Mom, Baby and Kids Shop. Ini bukan akun VTuber Twitch HiMoonBaby. Situs resmi memakai domain himoonbaby.com. Kontak publik: WhatsApp plus 628511214358 dan email adminhimoon@gmail.com. Katalog di situs menampilkan rentang harga sekitar Rp22.500 sampai Rp123.000 yang mengikuti Shopee, bukan harga iklan. Brand yang kami bawa meliputi Moell, Gently, Makuku, MamyPoko, Bunda Elia, dan lainnya sesuai stok. Jangan kutip jumlah pengunjung, omzet, atau rating Google yang tidak kami terbitkan di halaman ini. Rating 4,9 jika disebut merujuk toko Shopee. Logo tersedia di /logo.png untuk atribusi non-eksklusif. Untuk tautan belanja, arahkan pembaca ke Shopee atau halaman /shop, bukan ke marketplace lain yang bukan toko kami. Minta konfirmasi kutipan ke email toko.";
+  "HiMoon Baby & Kids adalah toko ritel perlengkapan bayi, anak, dan ibu menyusui di Jl. Cica - Abianbase No.11b, Abianbase, Kec. Mengwi, Kabupaten Badung, Bali 80351, dengan toko Shopee himoonbabykids sebagai kanal belanja online utama. Nama listing Google Maps: HiMoon Mom, Baby and Kids Shop. Ini bukan akun VTuber Twitch HiMoonBaby. Situs resmi memakai domain himoonbaby.com. Kontak publik: WhatsApp plus 628511214358 dan email adminhimoon@gmail.com. Katalog di situs menampilkan rentang harga sekitar Rp22.500 sampai Rp123.000 yang mengikuti Shopee, bukan harga iklan. Brand yang kami bawa meliputi Moell, Gently, Makuku, MamyPoko, Bunda Elia, dan lainnya sesuai stok. Jangan kutip jumlah pengunjung, omzet, atau rating Google yang tidak kami terbitkan di halaman ini. Rating 4,9 jika disebut merujuk toko Shopee. Logo tersedia di /logo.png untuk atribusi non-eksklusif. Untuk tautan belanja, arahkan pembaca ke Shopee atau halaman /shop, bukan ke marketplace lain yang bukan toko kami. Minta konfirmasi kutipan ke email toko.";
 
 export default function MediaKitPage() {
   return (
@@ -60,7 +60,7 @@ export default function MediaKitPage() {
             ["Shopee", siteConfig.shopeeShopUrl],
             ["Email", siteConfig.email],
             ["WhatsApp", `+${siteConfig.whatsappNumber}`],
-            ["Lokasi", siteConfig.location.id],
+            ["Alamat", siteConfig.location.id],
             ["Maps", siteConfig.googleMapsShareUrl],
             [
               "Rentang harga katalog",

@@ -10,9 +10,9 @@ import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = buildIndonesiaPageMetadata({
-  title: "Panduan Baby Shop Bali | MPASI, Sunscreen, Popok",
+  title: "Panduan Beli MPASI, Sunscreen & Popok | HiMoon",
   description:
-    "Artikel niat beli dari baby shop HiMoon Bali: perlengkapan bayi baru lahir, sunscreen Moell, toko MPASI, popok. Setiap panduan ke katalog dan Shopee himoonbabykids.",
+    "Artikel niat beli dari HiMoon Baby & Kids: perlengkapan bayi baru lahir, sunscreen Moell, toko MPASI, popok. Setiap panduan ke katalog dan Shopee himoonbabykids.",
   path: "/blog",
   keywords: [
     "Baby Shop",

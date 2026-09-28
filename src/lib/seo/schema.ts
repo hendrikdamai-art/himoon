@@ -6,38 +6,58 @@ import type { BlogPost, GuideFaq } from "@/types/catalog";
 export function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["Store", "LocalBusiness"],
     "@id": `${siteConfig.url}/#localbusiness`,
     name: siteConfig.businessName,
+    legalName: siteConfig.businessName,
     alternateName: [
       siteConfig.name,
-      "HiMoon Baby Shop Bali",
-      "Baby Shop HiMoon Badung",
-      "Toko Bayi HiMoon",
+      "HiMoon Mom, Baby and Kids Shop",
+      "Toko Bayi HiMoon Badung",
     ],
-    description: siteConfig.description.id,
+    disambiguatingDescription: siteConfig.disambiguatingDescription.id,
+    description: `${siteConfig.description.id} ${siteConfig.disambiguatingDescription.id}`,
     url: siteConfig.url,
     image: `${siteConfig.url}/logo.png`,
+    logo: `${siteConfig.url}/logo.png`,
     email: siteConfig.email,
     telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
     priceRange: "Rp22.500-Rp123.000",
+    currenciesAccepted: "IDR",
+    paymentAccepted: "Cash, Shopee",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Badung",
+      addressLocality: "Kabupaten Badung",
       addressRegion: "Bali",
       addressCountry: "ID",
     },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "-8.5833",
-      longitude: "115.1667",
+    containedInPlace: {
+      "@type": "AdministrativeArea",
+      name: "Kabupaten Badung, Bali, Indonesia",
     },
+    areaServed: siteConfig.areaServed.map((name) => ({
+      "@type": "AdministrativeArea",
+      name,
+    })),
     hasMap: siteConfig.googleMapsShareUrl,
+    identifier: {
+      "@type": "PropertyValue",
+      propertyID: "google_kg_mid",
+      value: siteConfig.googleKnowledgeGraphId,
+    },
     sameAs: [
       siteConfig.shopeeShopUrl,
       siteConfig.googleMapsUrl,
       siteConfig.googleMapsShareUrl,
+      siteConfig.googleKnowledgeGraphUrl,
       `${siteConfig.url}/llms.txt`,
+    ],
+    knowsAbout: [
+      "MPASI",
+      "perlengkapan bayi",
+      "popok bayi",
+      "perawatan kulit bayi",
+      "toko bayi Bali",
     ],
     subjectOf: {
       "@type": "CreativeWork",
@@ -53,10 +73,28 @@ export function webSiteSchema() {
     "@type": "WebSite",
     "@id": `${siteConfig.url}/#website`,
     name: siteConfig.name,
+    alternateName: [siteConfig.businessName, "himoonbabykids"],
     url: siteConfig.url,
     inLanguage: "id-ID",
     publisher: { "@id": `${siteConfig.url}/#localbusiness` },
     dateModified: SITE_CONTENT_UPDATED,
+    description: siteConfig.disambiguatingDescription.id,
+  };
+}
+
+export function contactPageSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": `${siteConfig.url}/contact#webpage`,
+    url: `${siteConfig.url}/contact`,
+    name: "Kontak HiMoon Baby & Kids di Badung",
+    description:
+      "WhatsApp, email, Shopee, dan pin Google Maps toko fisik HiMoon Mom, Baby & Kids Shop di Kabupaten Badung, Bali.",
+    inLanguage: "id-ID",
+    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    about: { "@id": `${siteConfig.url}/#localbusiness` },
+    mainEntity: { "@id": `${siteConfig.url}/#localbusiness` },
   };
 }
 

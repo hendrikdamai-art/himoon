@@ -49,7 +49,7 @@ export const indonesiaFaqs = [
   {
     question: "Di mana lokasi HiMoon Baby & Kids?",
     answer:
-      "HiMoon Mom, Baby & Kids Shop berlokasi di Kabupaten Badung, Bali, Indonesia. Kunjungi toko fisik kami atau lihat peta di Google Maps melalui halaman Kontak.",
+      "HiMoon Mom, Baby & Kids Shop adalah toko ritel di Kabupaten Badung, Bali — bukan VTuber Twitch. Pin Google Maps ada di halaman Kontak. Jam buka toko fisik tidak kami tebak di situs; cek Maps atau WhatsApp sebelum datang.",
   },
   {
     question: "Apakah HiMoon menjual MPASI dan keperluan bayi?",
@@ -125,9 +125,7 @@ export function buildIndonesiaPageMetadata({
     },
     other: {
       "geo.region": "ID-BA",
-      "geo.placename": "Badung, Bali, Indonesia",
-      "geo.position": "-8.5833;115.1667",
-      ICBM: "-8.5833, 115.1667",
+      "geo.placename": "Kabupaten Badung, Bali, Indonesia",
       "content-language": "id-ID",
     },
   };
@@ -165,4 +163,12 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "perawatan bibir bayi",
     "pelembap bibir anak",
   ],
+};
+
+export const categoryPageTitles: Record<string, string> = {
+  mpasi: "Beli MPASI Bayi di Bali",
+  "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
+  popok: "Popok Makuku & MamyPoko",
+  "peralatan-bayi": "Peralatan Makan Bayi",
+  "perawatan-bibir": "Perawatan Bibir Bayi",
 };

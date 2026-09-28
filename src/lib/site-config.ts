@@ -38,10 +38,24 @@ export const siteConfig = {
   googleMapsEmbedUrl:
     "https://maps.google.com/maps?q=HiMoon+Mom,+Baby+%26+Kids+Shop&hl=id&z=16&output=embed",
   googleKnowledgeGraphId: "/g/11nqpf1l07",
+  googleKnowledgeGraphUrl: "https://www.google.com/search?kgmid=/g/11nqpf1l07",
   email: "adminhimoon@gmail.com",
   location: {
-    id: "Kab. Badung, Bali, Indonesia",
+    id: "Kabupaten Badung, Bali, Indonesia",
     en: "Badung Regency, Bali, Indonesia",
+  },
+  areaServed: [
+    "Kabupaten Badung",
+    "Denpasar",
+    "Canggu",
+    "Kuta",
+    "Ubud",
+    "Bali",
+    "Indonesia",
+  ],
+  disambiguatingDescription: {
+    id: "Toko ritel perlengkapan bayi, anak, dan ibu menyusui di Kabupaten Badung, Bali. Bukan akun VTuber Twitch HiMoonBaby.",
+    en: "A retail baby, kids, and nursing shop in Badung Regency, Bali. Not the Twitch VTuber HiMoonBaby.",
   },
   social: {
     shopee: "https://shopee.co.id/himoonbabykids",

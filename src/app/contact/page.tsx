@@ -44,7 +44,16 @@ export default function ContactPage() {
   return (
     <div className="bg-himoon-cream py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
-        <SectionHeading title={t.contact.title} subtitle={t.contact.subtitle} />
+        <SectionHeading
+          as="h1"
+          title={t.contact.title}
+          subtitle={t.contact.subtitle}
+        />
+        <p className="mb-10 max-w-2xl text-sm leading-relaxed text-himoon-muted">
+          {locale === "id"
+            ? "Nama listing Google Maps: HiMoon Mom, Baby & Kids Shop. Jam buka toko fisik tidak kami tebak di situs — cek pin Maps atau WhatsApp sebelum datang. Bukan akun VTuber Twitch HiMoonBaby."
+            : "Google Maps listing name: HiMoon Mom, Baby & Kids Shop. We do not guess store hours here — check the Maps pin or WhatsApp before visiting. Not the Twitch VTuber HiMoonBaby."}
+        </p>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {cards.map((card) => {
             const Icon = card.icon;

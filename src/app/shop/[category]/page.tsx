@@ -5,7 +5,7 @@ import { getProductsByCategory } from "@/lib/catalog";
 import { getGuides } from "@/lib/seo/guides";
 import { shopCategories } from "@/lib/site-config";
 import { FaqSection } from "@/components/seo/faq-section";
-import { buildIndonesiaPageMetadata, categorySeoKeywords } from "@/lib/seo/indonesia";
+import { buildIndonesiaPageMetadata, categoryPageTitles, categorySeoKeywords } from "@/lib/seo/indonesia";
 import { CategoryPageClient } from "./category-page-client";
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { SpeakableAnswer } from "@/components/seo/speakable-answer";
@@ -31,10 +31,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!category) return {};
 
   return buildIndonesiaPageMetadata({
-    title: `${category.label.id} | Baby Shop Bali`,
-    description: `${category.description.id} Belanja ${category.label.id} di baby shop HiMoon, Badung Bali. Pesan via WhatsApp atau Shopee himoonbabykids.`,
+    title: categoryPageTitles[category.slug] ?? `${category.label.id} | HiMoon Baby & Kids`,
+    description: `${category.description.id} Belanja ${category.label.id} di HiMoon Baby & Kids, Badung Bali. Pesan via WhatsApp atau Shopee himoonbabykids.`,
     path: `/shop/${category.slug}`,
-    keywords: ["Baby Shop Bali", ...(categorySeoKeywords[category.slug] ?? [])],
+    keywords: [...(categorySeoKeywords[category.slug] ?? [])],
   });
 }
 
@@ -80,7 +80,7 @@ export default async function CategoryPage({ params }: Props) {
       <JsonLdScript
         data={webPageSchema({
           path: `/shop/${category.slug}`,
-          name: `${category.label.id} | Baby Shop Bali`,
+          name: categoryPageTitles[category.slug] ?? category.label.id,
           description: category.description.id,
           dateModified: SITE_CONTENT_UPDATED,
         })}
@@ -95,10 +95,10 @@ export default async function CategoryPage({ params }: Props) {
       />
       <header className="mx-auto max-w-7xl px-4 pt-10 md:px-6">
         <p className="text-sm font-semibold uppercase tracking-wider text-himoon-yellow">
-          Baby Shop Bali · {category.label.id}
+          HiMoon Baby & Kids · {category.label.id}
         </p>
         <h1 className="mt-2 text-3xl font-extrabold text-himoon-blue md:text-4xl">
-          {category.label.id} di baby shop HiMoon
+          {category.label.id} di toko HiMoon Badung
         </h1>
         <SpeakableAnswer id={`category-${category.slug}`} className="mt-6 max-w-4xl">
           <p>{speakable}</p>

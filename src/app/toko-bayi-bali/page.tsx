@@ -15,9 +15,9 @@ import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Baby Shop & Toko Bayi Bali di Badung | HiMoon + Shopee",
+  title: "Toko Fisik HiMoon di Badung | Maps & Order Shopee",
   description:
-    "Baby shop di Kabupaten Badung, Bali: MPASI, popok, sunscreen. Datang ke toko atau beli online di Shopee himoonbabykids untuk kirim Denpasar, Canggu, Kuta, Ubud.",
+    "Kunjungi HiMoon Mom, Baby & Kids Shop di Kabupaten Badung, Bali, atau beli online di Shopee himoonbabykids untuk kirim Denpasar, Canggu, Kuta, Ubud.",
   alternates: { canonical: `${siteConfig.url}/toko-bayi-bali` },
 };
 
@@ -61,7 +61,7 @@ export default function TokoBayiBaliPage() {
       <JsonLdScript
         data={webPageSchema({
           path: "/toko-bayi-bali",
-          name: "Toko bayi Bali di Badung | HiMoon",
+          name: "Toko fisik HiMoon di Badung",
           description: metadata.description as string,
           dateModified: SITE_CONTENT_UPDATED,
         })}
@@ -81,7 +81,7 @@ export default function TokoBayiBaliPage() {
           ]}
         />
         <h1 className="mt-4 text-4xl font-extrabold text-himoon-blue">
-          Baby shop & toko bayi Bali (Badung) — datang atau order Shopee
+          Toko fisik HiMoon di Badung — datang ke Maps atau order Shopee
         </h1>
         <SpeakableAnswer id="toko-bayi-bali-answer" className="mt-6">
           <p>{speakable}</p>

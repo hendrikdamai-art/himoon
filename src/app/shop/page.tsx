@@ -18,7 +18,7 @@ import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 
 export const metadata: Metadata = buildIndonesiaPageMetadata({
-  title: "Baby Shop Bali | Toko Perlengkapan Bayi, MPASI & Popok",
+  title: "Baby Shop Bali | Katalog MPASI, Popok & Skincare",
   description:
     "Baby shop Bali di Badung untuk ibu hamil & new mom. MPASI Bunda Elia, popok Makuku/MamyPoko, sunscreen Moell. Harga Rp22.500–Rp123.000, checkout Shopee himoonbabykids.",
   path: "/shop",
@@ -45,7 +45,7 @@ export default async function ShopPage() {
       <JsonLdScript
         data={webPageSchema({
           path: "/shop",
-          name: "Baby Shop Bali | HiMoon",
+          name: "Baby Shop Bali | Katalog HiMoon",
           description:
             "Baby shop Bali dengan katalog MPASI, popok, dan skincare. Checkout Shopee himoonbabykids.",
           dateModified: SITE_CONTENT_UPDATED,

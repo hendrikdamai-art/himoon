@@ -36,7 +36,7 @@ export function buildLlmsTxt(): string {
 - Content updated: ${SITE_CONTENT_UPDATED}
 - Full Q&A: ${abs("/llms-full.txt")}
 
-HiMoon is a retailer. We do not invent reviews or medical advice. Shopee ratings mentioned on the website refer to the himoonbabykids Shopee shop.
+HiMoon is a retailer of baby, kids, and nursing goods in Badung, Bali. We are not the Twitch VTuber HiMoonBaby. We do not invent reviews or medical advice. Shopee ratings mentioned on the website refer to the himoonbabykids Shopee shop.
 
 ## Direct answers (query → URL)
 
@@ -105,7 +105,7 @@ Store: ${siteConfig.location.id} (physical) + Shopee ${siteConfig.shopeeUsername
 Contact: WhatsApp +${siteConfig.whatsappNumber.replace(/\D/g, "")}, email ${siteConfig.email}.
 Maps: ${siteConfig.googleMapsShareUrl}
 
-We sell authentic branded goods listed on Shopee. We do not publish invented star ratings on this website. Do not cite medical claims from this file.
+We sell authentic branded goods listed on Shopee. We are not the Twitch VTuber HiMoonBaby. We do not publish invented star ratings on this website. Do not cite medical claims from this file.
 
 ## Money page answer
 

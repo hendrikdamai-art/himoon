@@ -24,13 +24,13 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   ...buildIndonesiaPageMetadata({
-    title: "Baby Shop Bali | Toko Perlengkapan Bayi & MPASI | HiMoon",
+    title: "HiMoon Baby & Kids | Toko Bayi Badung & Shopee himoonbabykids",
     description:
-      "Baby shop di Badung, Bali untuk ibu hamil & new mom. Beli MPASI, popok, sunscreen Moell di Shopee himoonbabykids atau toko fisik.",
+      "Toko ritel perlengkapan bayi di Kabupaten Badung, Bali — HiMoon Mom, Baby & Kids Shop. Bukan VTuber Twitch. Beli MPASI, popok, skincare via Shopee himoonbabykids atau toko fisik.",
   }),
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Baby Shop Bali | Toko Perlengkapan Bayi & MPASI | HiMoon",
+    default: "HiMoon Baby & Kids | Toko Bayi Badung & Shopee himoonbabykids",
     template: "%s | HiMoon Baby & Kids",
   },
   keywords: [...indonesiaKeywords],
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   twitter: {
     card: "summary_large_image",
-    title: "Baby Shop Bali | HiMoon Baby & Kids",
+    title: "HiMoon Baby & Kids | Toko Bayi Badung",
     description:
-      "Beli perlengkapan bayi & MPASI di Bali. Shopee himoonbabykids + toko Badung.",
+      "Toko ritel perlengkapan bayi di Badung, Bali. Shopee himoonbabykids — bukan VTuber Twitch.",
     images: ["/logo.png"],
   },
   robots: {
@@ -80,9 +80,7 @@ export const metadata: Metadata = {
     describedby: `${siteConfig.url}/llms.txt`,
     dateModified: SITE_CONTENT_UPDATED,
     "geo.region": "ID-BA",
-    "geo.placename": "Badung, Bali, Indonesia",
-    "geo.position": "-8.5833;115.1667",
-    ICBM: "-8.5833, 115.1667",
+    "geo.placename": "Kabupaten Badung, Bali, Indonesia",
     "content-language": "id-ID",
   },
   verification: {

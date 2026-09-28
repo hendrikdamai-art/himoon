@@ -6,6 +6,7 @@ type SectionHeadingProps = {
   subtitle?: string;
   className?: string;
   align?: "left" | "center";
+  as?: "h1" | "h2";
 };
 
 export function SectionHeading({
@@ -14,7 +15,9 @@ export function SectionHeading({
   subtitle,
   className,
   align = "left",
+  as = "h2",
 }: SectionHeadingProps) {
+  const HeadingTag = as;
   return (
     <div
       className={cn(
@@ -28,9 +31,9 @@ export function SectionHeading({
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="text-3xl font-bold tracking-tight text-himoon-blue md:text-4xl">
+      <HeadingTag className="text-3xl font-bold tracking-tight text-himoon-blue md:text-4xl">
         {title}
-      </h2>
+      </HeadingTag>
       {subtitle ? (
         <p className="mt-3 text-lg leading-relaxed text-himoon-muted">{subtitle}</p>
       ) : null}

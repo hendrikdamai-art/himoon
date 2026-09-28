@@ -20,7 +20,7 @@ export const translations = {
     },
     hero: {
       eyebrow: "Kab. Badung · Bali · Indonesia",
-      title: "Baby Shop Bali untuk ibu, bayi & anak.",
+      title: "HiMoon Baby & Kids, toko bayi di Badung.",
       subtitle:
         "HiMoon Baby & Kids menghadirkan MPASI, keperluan bayi, dan produk anak berkualitas. Belanja di baby shop Badung atau pesan lewat WhatsApp & Shopee — penjual terpercaya di Bali.",
       ctaShop: "Lihat Produk",
@@ -89,7 +89,7 @@ export const translations = {
         "Kami adalah penjual terpercaya di Shopee dengan rating 4.9. Setiap produk dijual asli dan kami siap membantu Anda memilih kebutuhan terbaik untuk buah hati.",
       locationTitle: "Kunjungi Toko Kami",
       locationText:
-        "HiMoon Baby & Kids berlokasi di Kab. Badung, Bali. Kunjungi toko fisik kami atau belanja online kapan saja.",
+        "HiMoon Mom, Baby & Kids Shop ada di Kabupaten Badung, Bali (pin Google Maps). Jam buka tidak kami tebak di situs — cek Maps atau WhatsApp sebelum datang. Kami toko ritel, bukan VTuber Twitch.",
       visitStore: "Lihat di Google Maps",
       visitShopee: "Kunjungi Shopee",
     },
@@ -107,8 +107,8 @@ export const translations = {
       relatedAll: "Lihat semua di kategori",
     },
     contact: {
-      title: "Hubungi Kami",
-      subtitle: "Ada pertanyaan tentang produk? Chat kami atau kunjungi toko.",
+      title: "Kontak HiMoon Baby & Kids di Badung",
+      subtitle: "WhatsApp, email, Shopee, atau pin Google Maps toko fisik.",
       whatsapp: "WhatsApp",
       whatsappText: "Chat kami untuk tanya produk & pesan.",
       shopee: "Shopee",
@@ -143,7 +143,7 @@ export const translations = {
     },
     hero: {
       eyebrow: "Badung Regency · Bali · Indonesia",
-      title: "Bali baby shop for moms, babies & kids.",
+      title: "HiMoon Baby & Kids, a baby shop in Badung.",
       subtitle:
         "HiMoon Baby & Kids offers MPASI, baby essentials, and kids products. Shop the Badung baby shop or order via WhatsApp & Shopee — a trusted seller in Bali.",
       ctaShop: "Browse Products",
@@ -212,7 +212,7 @@ export const translations = {
         "We are a trusted Shopee seller with a 4.9 rating. Every product is authentic and we help you choose the best for your little one.",
       locationTitle: "Visit Our Store",
       locationText:
-        "HiMoon Baby & Kids is located in Badung Regency, Bali. Visit our physical store or shop online anytime.",
+        "HiMoon Mom, Baby & Kids Shop is in Badung Regency, Bali (Google Maps pin). We do not guess opening hours here — check Maps or WhatsApp before visiting. We are a retail shop, not a Twitch VTuber.",
       visitStore: "View on Google Maps",
       visitShopee: "Visit Shopee",
     },
@@ -230,8 +230,8 @@ export const translations = {
       relatedAll: "See all in this category",
     },
     contact: {
-      title: "Contact Us",
-      subtitle: "Questions about products? Chat with us or visit the store.",
+      title: "Contact HiMoon Baby & Kids in Badung",
+      subtitle: "WhatsApp, email, Shopee, or the Google Maps pin for the store.",
       whatsapp: "WhatsApp",
       whatsappText: "Chat with us about products and orders.",
       shopee: "Shopee",

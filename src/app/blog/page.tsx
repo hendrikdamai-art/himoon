@@ -18,6 +18,7 @@ export const metadata: Metadata = buildIndonesiaPageMetadata({
     "Baby Shop",
     "perlengkapan bayi baru lahir",
     "beli sunscreen bayi",
+    "Beeme vs Gently lotion bayi kulit sensitif",
     "toko MPASI Bali",
   ],
 });

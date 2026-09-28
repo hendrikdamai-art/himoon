@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "Beeme vs Gently lotion bayi kulit sensitif",
+      intent: "comparison",
+      why: "P0 skincare cluster: two body lotions in catalog plus Moell Body Lotion; vs query is buy intent.",
+      path: "/blog/beeme-vs-gently-lotion-bayi",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

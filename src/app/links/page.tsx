@@ -32,7 +32,7 @@ function InstagramGlyph({ className }: { className?: string }) {
 export const metadata: Metadata = {
   title: "HiMoon Baby & Kids Shop",
   description:
-    "Tautan resmi HiMoon Baby & Kids Shop — website, Shopee, WhatsApp, Instagram, dan Tokopedia.",
+    "Selamat datang di HiMoon Baby & Kids Shop. Kami menjual fashion, perlengkapan Ibu, Bayi dan Anak. Happy Shopping Moms.",
   robots: {
     index: false,
     follow: false,
@@ -42,7 +42,8 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteConfig.url}/links` },
   openGraph: {
     title: "HiMoon Baby & Kids Shop",
-    description: "Toko perlengkapan bayi di Abianbase, Mengwi, Badung.",
+    description:
+      "Selamat datang di HiMoon Baby & Kids Shop. Kami menjual fashion, perlengkapan Ibu, Bayi dan Anak. Happy Shopping Moms.",
     url: `${siteConfig.url}/links`,
     images: ["/logo.png"],
   },
@@ -113,8 +114,8 @@ export default function LinksPage() {
             <MapPin className="h-3.5 w-3.5 text-himoon-yellow" strokeWidth={2.4} />
             Abianbase, Mengwi, Badung
           </p>
-          <p className="mt-3 max-w-[18rem] text-[13px] leading-relaxed text-himoon-muted">
-            Toko perlengkapan bayi, anak &amp; ibu menyusui. Belanja via Shopee atau datang ke toko.
+          <p className="mt-3 max-w-[22rem] text-[13px] leading-relaxed text-himoon-muted">
+            Selamat datang di HiMoon Baby &amp; Kids Shop. Kami menjual fashion, perlengkapan Ibu, Bayi dan Anak. Happy Shopping Moms 😍
           </p>
         </div>
 

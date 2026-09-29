@@ -50,7 +50,7 @@ export const metadata: Metadata = {
 
 const links = [
   {
-    href: siteConfig.url,
+    href: "/",
     label: "Website",
     hint: "himoonbaby.com",
     icon: Globe,
@@ -121,7 +121,7 @@ export default function LinksPage() {
         <ul className="mt-8 space-y-3">
           {links.map((link) => {
             const Icon = link.icon;
-            const isWebsite = link.href === siteConfig.url;
+            const isWebsite = link.href === "/";
             return (
               <li key={link.label}>
                 <a

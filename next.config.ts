@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
         source: "/llms-full.txt",
         headers: [{ key: "Cache-Control", value: llmsCache }],
       },
+      {
+        source: "/links",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }],
+      },
     ];
   },
   async redirects() {

@@ -73,7 +73,13 @@ export const siteConfig = {
   },
   social: {
     shopee: "https://shopee.co.id/himoonbabykids",
+    instagram: "https://www.instagram.com/admin.himoon/",
+    tokopedia: "https://www.tokopedia.com/himoon-baby--kids-shop",
   },
+  whatsappProfileUrl:
+    "https://api.whatsapp.com/send/?phone=628511214358&text=" +
+    encodeURIComponent("Halo HiMoon Baby & Kids! Saya ingin tanya stok dan cara belanja.") +
+    "&type=phone_number&app_absent=0",
 } as const;
 
 export const shopCategories = [

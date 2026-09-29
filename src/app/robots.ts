@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { AI_CRAWLERS } from "@/lib/seo/constants";
 
-const PRIVATE_PATHS = ["/admin/", "/api/"];
+const PRIVATE_PATHS = ["/admin/", "/api/", "/links"];
 
 /** Search crawlers: allow the public site, keep admin/API out of the index. */
 const SEARCH_CRAWLERS = [

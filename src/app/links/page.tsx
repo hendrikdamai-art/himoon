@@ -3,13 +3,31 @@ import Image from "next/image";
 import {
   ChevronRight,
   Globe,
-  Instagram,
   MapPin,
   MessageCircle,
   ShoppingBag,
   Store,
 } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+
+function InstagramGlyph({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden
+    >
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.9" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
 
 export const metadata: Metadata = {
   title: "HiMoon Baby & Kids Shop",
@@ -56,7 +74,7 @@ const links = [
     href: siteConfig.social.instagram,
     label: "Instagram",
     hint: "@admin.himoon",
-    icon: Instagram,
+    icon: InstagramGlyph,
     iconClass: "bg-gradient-to-br from-[#833AB4] via-[#E1306C] to-[#F77737] text-white",
   },
   {
@@ -115,7 +133,7 @@ export default function LinksPage() {
                   <span
                     className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl ${link.iconClass}`}
                   >
-                    <Icon className="h-5 w-5" strokeWidth={2.2} />
+                    <Icon className="h-5 w-5" />
                   </span>
                   <span className="min-w-0 flex-1 text-left">
                     <span className="block text-[15px] font-extrabold leading-none text-himoon-blue">

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./language-switcher";
+import { SocialLinks } from "./social-links";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import { shopCategories } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
@@ -100,7 +101,8 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <SocialLinks />
           <LanguageSwitcher className="hidden sm:flex" />
           <button
             type="button"

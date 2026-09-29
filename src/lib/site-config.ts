@@ -74,6 +74,7 @@ export const siteConfig = {
   social: {
     shopee: "https://shopee.co.id/himoonbabykids",
     instagram: "https://www.instagram.com/admin.himoon/",
+    facebook: "https://www.facebook.com/profile.php?id=61594704970368",
     tokopedia: "https://www.tokopedia.com/himoon-baby--kids-shop",
   },
   whatsappProfileUrl:

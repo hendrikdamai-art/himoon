@@ -54,6 +54,8 @@ export function localBusinessSchema() {
     },
     sameAs: [
       siteConfig.shopeeShopUrl,
+      siteConfig.social.instagram,
+      siteConfig.social.facebook,
       siteConfig.googleMapsUrl,
       siteConfig.googleMapsShareUrl,
       siteConfig.googleKnowledgeGraphUrl,

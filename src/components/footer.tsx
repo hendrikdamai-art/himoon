@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import { siteConfig } from "@/lib/site-config";
+import { SocialLinks, socialProfiles } from "./social-links";
 
 export function Footer() {
   const { locale, t } = useLanguage();
@@ -17,6 +18,7 @@ export function Footer() {
           <p className="mt-4 text-sm text-blue-100">
             {locale === "id" ? siteConfig.location.id : siteConfig.location.en}
           </p>
+          <SocialLinks className="mt-5" tone="onDark" />
         </div>
 
         <div>
@@ -94,6 +96,13 @@ export function Footer() {
                 WhatsApp
               </a>
             </li>
+            {socialProfiles.map((profile) => (
+              <li key={profile.name}>
+                <a href={profile.href} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                  {profile.name}
+                </a>
+              </li>
+            ))}
             <li>
               <a href={siteConfig.googleMapsShareUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 Google Maps

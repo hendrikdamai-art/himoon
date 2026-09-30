@@ -21,7 +21,7 @@ export function FeaturedProducts({ products }: { products: Product[] }) {
             {t.products.viewAll} →
           </Link>
         </div>
-        <ProductGrid products={products} />
+        <ProductGrid products={products} priorityCount={2} />
       </div>
     </section>
   );

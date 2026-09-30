@@ -27,6 +27,8 @@ function BrandLogo({ brand }: { brand: Brand }) {
           src={brand.logoUrl}
           alt={`${brand.name} logo`}
           className="max-h-14 max-w-[120px] object-contain"
+          loading="lazy"
+          decoding="async"
           onError={() => setFailed(true)}
         />
       ) : (
@@ -36,6 +38,7 @@ function BrandLogo({ brand }: { brand: Brand }) {
           width={120}
           height={60}
           className="max-h-14 w-auto object-contain"
+          loading="lazy"
           onError={() => setFailed(true)}
         />
       )}

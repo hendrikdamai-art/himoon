@@ -32,7 +32,7 @@ export function CategoryPageClient({
             subtitle={category.description[locale]}
           />
         )}
-        <ProductGrid products={products} />
+        <ProductGrid products={products} priorityCount={2} />
       </div>
     </div>
   );

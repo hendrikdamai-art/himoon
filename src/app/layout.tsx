@@ -4,6 +4,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/i18n/language-provider";
 import { SiteShell } from "@/components/site-shell";
 import { JsonLd } from "@/components/json-ld";
+import { Analytics, AnalyticsNoscript } from "@/components/analytics";
 import { siteConfig } from "@/lib/site-config";
 import {
   buildIndonesiaPageMetadata,
@@ -12,13 +13,11 @@ import {
 } from "@/lib/seo/indonesia";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 
-const GTM_ID = "GTM-TKJCDTLR";
-const GA_MEASUREMENT_ID = "G-CMBWL27BM4";
-
 const nunito = Nunito({
   variable: "--font-nunito",
   subsets: ["latin"],
   weight: ["400", "600", "700", "800"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -94,32 +93,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="id" className={`${nunito.variable} h-full`}>
       <head>
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTM_ID}');`,
-          }}
-        />
-        {/* End Google Tag Manager */}
-        {/* Google tag (gtag.js) — GA4 */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${GA_MEASUREMENT_ID}');
-`,
-          }}
-        />
         <JsonLd />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -130,19 +103,11 @@ gtag('config', '${GA_MEASUREMENT_ID}');
         <link rel="alternate" type="text/markdown" title="llms-full.txt" href="/llms-full.txt" />
       </head>
       <body className="min-h-full flex flex-col antialiased">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
+        <AnalyticsNoscript />
         <LanguageProvider>
           <SiteShell>{children}</SiteShell>
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );

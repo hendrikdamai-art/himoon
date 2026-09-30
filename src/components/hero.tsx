@@ -11,24 +11,29 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-himoon-cream">
-      <div className="mx-auto grid max-w-7xl items-center md:grid-cols-[0.95fr_1.05fr] md:gap-0">
-        {/* Mobile: illustration sits behind text, not as its own block */}
-        <div className="pointer-events-none absolute inset-0 md:hidden" aria-hidden>
-          <div className="absolute inset-y-0 right-0 w-[min(72vw,280px)]">
+      <div className="mx-auto grid max-w-7xl items-center md:grid-cols-[0.95fr_1.05fr]">
+        <div
+          className="pointer-events-none absolute inset-y-0 right-0 w-[min(72vw,280px)] md:relative md:inset-auto md:order-2 md:w-full"
+          aria-hidden
+        >
+          <div className="relative h-full min-h-[220px] w-full md:aspect-[3/2] md:min-h-0">
             <Image
-              src="/hero-background.png"
+              src="/hero-background.webp"
               alt=""
               fill
-              priority
-              className="object-contain object-right-bottom opacity-90"
-              sizes="72vw"
+              quality={70}
+              className="object-contain object-right-bottom opacity-90 md:object-right md:opacity-100"
+              sizes="(max-width: 768px) 50vw, 50vw"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-himoon-cream from-45% via-himoon-cream/88 via-70% to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-himoon-cream to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-himoon-cream from-45% via-himoon-cream/88 via-70% to-transparent md:hidden" />
+          <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-himoon-cream to-transparent md:hidden" />
+          <div
+            className="pointer-events-none absolute inset-y-4 left-0 z-10 hidden w-16 bg-gradient-to-r from-himoon-cream to-transparent md:block lg:w-24"
+          />
         </div>
 
-        <div className="relative z-10 px-4 py-4 sm:py-5 md:px-6 md:py-9 lg:py-10">
+        <div className="relative z-10 px-4 py-4 sm:py-5 md:order-1 md:px-6 md:py-9 lg:py-10">
           <div className="max-w-xl md:max-w-none">
             <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-himoon-muted sm:text-xs md:mb-2 md:text-sm">
               {t.hero.eyebrow}
@@ -67,24 +72,6 @@ export function Hero() {
                 {t.hero.ctaShopee}
               </a>
             </div>
-          </div>
-        </div>
-
-        {/* Desktop: side-by-side illustration */}
-        <div className="relative hidden bg-himoon-cream md:block">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute inset-y-4 left-0 z-10 w-16 bg-gradient-to-r from-himoon-cream to-transparent lg:w-24"
-          />
-          <div className="relative aspect-[3/2] w-full">
-            <Image
-              src="/hero-background.png"
-              alt="HiMoon mom, baby & kids shop"
-              fill
-              priority
-              className="object-contain object-right"
-              sizes="50vw"
-            />
           </div>
         </div>
       </div>

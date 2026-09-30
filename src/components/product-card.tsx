@@ -6,8 +6,14 @@ import { formatPrice } from "@/lib/utils";
 import type { Product } from "@/types/catalog";
 import { OrderButtons } from "./order-buttons";
 
-export function ProductCard({ product }: { product: Product }) {
-  const { locale, t } = useLanguage();
+export function ProductCard({
+  product,
+  priority = false,
+}: {
+  product: Product;
+  priority?: boolean;
+}) {
+  const { locale } = useLanguage();
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
@@ -16,8 +22,11 @@ export function ProductCard({ product }: { product: Product }) {
           src={product.image}
           alt={product.name}
           fill
+          priority={priority}
+          fetchPriority={priority ? "high" : "auto"}
+          quality={70}
           className="object-cover"
-          sizes="(max-width: 768px) 50vw, 25vw"
+          sizes="(max-width: 640px) 50vw, (max-width: 1280px) 25vw, 280px"
         />
         {product.brand ? (
           <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-himoon-blue shadow">
@@ -40,7 +49,13 @@ export function ProductCard({ product }: { product: Product }) {
   );
 }
 
-export function ProductGrid({ products }: { products: Product[] }) {
+export function ProductGrid({
+  products,
+  priorityCount = 0,
+}: {
+  products: Product[];
+  priorityCount?: number;
+}) {
   if (products.length === 0) {
     return (
       <p className="rounded-2xl border border-dashed border-slate-300 bg-white p-8 text-center text-himoon-muted">
@@ -55,8 +70,8 @@ export function ProductGrid({ products }: { products: Product[] }) {
 
   return (
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
+      {products.map((product, index) => (
+        <ProductCard key={product.id} product={product} priority={index < priorityCount} />
       ))}
     </div>
   );

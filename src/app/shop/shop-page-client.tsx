@@ -22,7 +22,7 @@ export function ShopPageClient({
         ) : (
           <SectionHeading title={t.nav.shop} subtitle={t.products.subtitle} />
         )}
-        <ProductGrid products={products} />
+        <ProductGrid products={products} priorityCount={2} />
       </div>
     </div>
   );

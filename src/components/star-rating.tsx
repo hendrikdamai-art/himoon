@@ -9,10 +9,15 @@ export function StarRating({
   className?: string;
 }) {
   return (
-    <div className={cn("flex items-center gap-0.5", className)} aria-label={`${rating} stars`}>
+    <div
+      className={cn("flex items-center gap-0.5", className)}
+      role="img"
+      aria-label={`${rating} stars`}
+    >
       {Array.from({ length: 5 }).map((_, index) => (
         <Star
           key={index}
+          aria-hidden="true"
           className={cn(
             "h-4 w-4",
             index < rating

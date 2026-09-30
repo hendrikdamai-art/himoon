@@ -9,11 +9,27 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/llms.txt",
-        headers: [{ key: "Cache-Control", value: llmsCache }],
+        headers: [
+          { key: "Cache-Control", value: llmsCache },
+          { key: "Content-Type", value: "text/markdown; charset=utf-8" },
+          { key: "Link", value: '</llms.txt>; rel="describedby"' },
+        ],
       },
       {
         source: "/llms-full.txt",
-        headers: [{ key: "Cache-Control", value: llmsCache }],
+        headers: [
+          { key: "Cache-Control", value: llmsCache },
+          { key: "Content-Type", value: "text/markdown; charset=utf-8" },
+          { key: "Link", value: '</llms.txt>; rel="describedby"' },
+        ],
+      },
+      {
+        source: "/",
+        headers: [{ key: "Link", value: '</llms.txt>; rel="describedby"' }],
+      },
+      {
+        source: "/:path*",
+        headers: [{ key: "Link", value: '</llms.txt>; rel="describedby"' }],
       },
       {
         source: "/links",

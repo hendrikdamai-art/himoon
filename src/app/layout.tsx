@@ -68,9 +68,9 @@ export const metadata: Metadata = {
   alternates: {
     ...hreflangAlternates,
     types: {
-      "text/plain": [
-        { url: "/llms.txt", title: "AI index" },
-        { url: "/llms-full.txt", title: "AI index (full)" },
+      "text/markdown": [
+        { url: "/llms.txt", title: "llms.txt" },
+        { url: "/llms-full.txt", title: "llms-full.txt" },
       ],
     },
   },
@@ -126,8 +126,8 @@ gtag('config', '${GA_MEASUREMENT_ID}');
         <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="describedby" href="/llms.txt" />
-        <link rel="alternate" type="text/plain" title="AI index" href="/llms.txt" />
-        <link rel="alternate" type="text/plain" title="AI index full" href="/llms-full.txt" />
+        <link rel="alternate" type="text/markdown" title="llms.txt" href="/llms.txt" />
+        <link rel="alternate" type="text/markdown" title="llms-full.txt" href="/llms-full.txt" />
       </head>
       <body className="min-h-full flex flex-col antialiased">
         {/* Google Tag Manager (noscript) */}

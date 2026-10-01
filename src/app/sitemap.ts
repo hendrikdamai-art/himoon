@@ -25,9 +25,9 @@ function absoluteImage(src: string) {
 function dayStamp(value: Date | string) {
   const date = value instanceof Date ? value : new Date(value);
   if (Number.isNaN(date.getTime())) {
-    return `${SITE_CONTENT_UPDATED}T00:00:00.000Z`;
+    return SITE_CONTENT_UPDATED;
   }
-  return `${date.toISOString().slice(0, 10)}T00:00:00.000Z`;
+  return date.toISOString().slice(0, 10);
 }
 
 function entry(
@@ -55,8 +55,11 @@ function categoryImages(slug: string) {
     .map((product) => product.image);
 }
 
+export const dynamic = "force-static";
+export const revalidate = 3600;
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const contentDate = `${SITE_CONTENT_UPDATED}T00:00:00.000Z`;
+  const contentDate = SITE_CONTENT_UPDATED;
   const catalogSynced = getCatalogMeta().lastSynced || contentDate;
   const shopDate = catalogSynced;
 

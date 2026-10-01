@@ -71,6 +71,7 @@ export const metadata: Metadata = {
         { url: "/llms.txt", title: "llms.txt" },
         { url: "/llms-full.txt", title: "llms-full.txt" },
       ],
+      "application/xml": [{ url: "/sitemap.xml", title: "Sitemap" }],
     },
   },
   other: {
@@ -99,6 +100,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="describedby" href="/llms.txt" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
         <link rel="alternate" type="text/markdown" title="llms.txt" href="/llms.txt" />
         <link rel="alternate" type="text/markdown" title="llms-full.txt" href="/llms-full.txt" />
       </head>

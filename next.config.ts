@@ -25,11 +25,30 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/",
-        headers: [{ key: "Link", value: '</llms.txt>; rel="describedby"' }],
+        headers: [
+          {
+            key: "Link",
+            value:
+              '</llms.txt>; rel="describedby", </sitemap.xml>; rel="sitemap"; type="application/xml"',
+          },
+        ],
       },
       {
         source: "/:path*",
-        headers: [{ key: "Link", value: '</llms.txt>; rel="describedby"' }],
+        headers: [
+          {
+            key: "Link",
+            value:
+              '</llms.txt>; rel="describedby", </sitemap.xml>; rel="sitemap"; type="application/xml"',
+          },
+        ],
+      },
+      {
+        source: "/sitemap.xml",
+        headers: [
+          { key: "Content-Type", value: "application/xml; charset=utf-8" },
+          { key: "Cache-Control", value: "public, max-age=3600, s-maxage=86400" },
+        ],
       },
       {
         source: "/links",
@@ -39,6 +58,11 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/sitemap",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
       {
         source: "/shop/baby-skincare",
         destination: "/shop/perawatan-kulit-bayi",

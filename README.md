@@ -30,7 +30,7 @@ Buka [http://localhost:4317](http://localhost:4317)
 Buat file `.env.local`:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://www.himoonbaby.com
+NEXT_PUBLIC_SITE_URL=https://himoonbaby.com
 NEXT_PUBLIC_WHATSAPP_NUMBER=628511214358
 NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-gsc-verification-code
 CRON_SECRET=long-random-string

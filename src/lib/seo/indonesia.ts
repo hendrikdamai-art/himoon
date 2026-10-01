@@ -169,7 +169,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
 
 export const categoryPageTitles: Record<string, string> = {
   mpasi: "Beli MPASI Bayi di Bali",
-  "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
+  "perawatan-kulit-bayi": "Perawatan Kulit Bayi dari Rp45.000",
   popok: "Popok Makuku & MamyPoko",
   "peralatan-bayi": "Peralatan Makan Bayi",
   "perawatan-bibir": "Perawatan Bibir Bayi",

@@ -49,19 +49,23 @@ CRON_SECRET=long-random-string
 - `/llms.txt` / `/llms-full.txt` — AI citation index
 - `/contact` — Kontak
 
-Sitemap otomatis: `/sitemap.xml`  
-Robots: `/robots.txt` (AI crawlers diizinkan)
+Sitemap XML: [`/sitemap.xml`](https://himoonbaby.com/sitemap.xml) — dihasilkan otomatis oleh `src/app/sitemap.ts` saat `next build` / `npm run dev`. **Tidak ada perintah npm terpisah** (tidak perlu `next-sitemap` atau `npm run sitemap`).  
+Robots: [`/robots.txt`](https://himoonbaby.com/robots.txt) (baris `Sitemap: https://himoonbaby.com/sitemap.xml`)
 
 Cron SEO (setiap 2 hari): `GET /api/seo/maintenance` dengan `Authorization: Bearer $CRON_SECRET`  
 Status: `GET /api/seo/status`
 
 ## Google Search Console
 
-1. Deploy ke Vercel
-2. Set `NEXT_PUBLIC_SITE_URL` ke domain production
-3. Tambahkan property di [Google Search Console](https://search.google.com/search-console)
-4. Verifikasi via meta tag (`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) atau DNS
-5. Submit sitemap: `https://your-domain.com/sitemap.xml`
+1. Buka property **https://himoonbaby.com** (apex, bukan `www`)
+2. Verifikasi via meta tag (`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`) atau DNS
+3. Sitemaps → Add sitemap, paste **hanya** URL ini:
+
+```
+https://himoonbaby.com/sitemap.xml
+```
+
+Jangan submit `https://www.himoonbaby.com/sitemap.xml` — `www` redirect 307 ke apex, jadi property www di GSC sering terlihat kosong. `/sitemap` tanpa `.xml` juga di-redirect ke `/sitemap.xml`.
 
 ## Sinkronisasi Produk Shopee
 

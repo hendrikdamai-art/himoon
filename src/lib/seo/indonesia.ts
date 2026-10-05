@@ -22,6 +22,7 @@ export const indonesiaKeywords = [
   "popok Makuku",
   "popok MamyPoko",
   "MamyPoko Royal Soft",
+  "harga MamyPoko Royal Soft original",
   "perawatan kulit bayi",
   "skincare bayi",
   "sunscreen bayi",
@@ -150,9 +151,10 @@ export const categorySeoKeywords: Record<string, string[]> = {
   ],
   popok: [
     "popok bayi murah Bali",
-    "popok Makuku",
+    "harga MamyPoko Royal Soft original",
     "popok MamyPoko",
     "popok bayi overnight",
+    "popok bayi Badung Shopee",
   ],
   "peralatan-bayi": [
     "peralatan makan bayi",

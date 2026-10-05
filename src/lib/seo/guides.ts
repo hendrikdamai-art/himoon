@@ -142,7 +142,11 @@ export const guides: BlogPost[] = [
       en: "Newborn essentials at HiMoon Bali",
     },
     shopHref: "/shop",
-    relatedSlugs: ["beli-sunscreen-bayi", "panduan-mpasi-6-bulan", "tips-memilih-popok-bayi"],
+    relatedSlugs: [
+      "beli-sunscreen-bayi",
+      "tips-memilih-popok-bayi",
+      "harga-mamypoko-royal-soft-original",
+    ],
   },
   {
     slug: "beli-sunscreen-bayi",
@@ -657,6 +661,157 @@ export const guides: BlogPost[] = [
     relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
   },
   {
+    slug: "harga-mamypoko-royal-soft-original",
+    phase: "month1",
+    query: {
+      id: "harga MamyPoko Royal Soft original",
+      en: "MamyPoko Royal Soft original price",
+    },
+    title: {
+      id: "Harga MamyPoko Royal Soft original — toko popok Badung & Shopee",
+      en: "MamyPoko Royal Soft original price — Badung diaper shop & Shopee",
+    },
+    excerpt: {
+      id: "Harga katalog MamyPoko Royal Soft original Rp123.000 di HiMoon Badung. Satu SKU popok di etalase — tanpa ukuran di judul listing — lalu Beli di Shopee himoonbabykids.",
+      en: "Catalog price for authentic MamyPoko Royal Soft is Rp123,000 at HiMoon Badung. One diaper SKU in the shop — no size in the listing title — then Buy on Shopee himoonbabykids.",
+    },
+    speakable: {
+      id: "MamyPoko Royal Soft original adalah satu SKU popok yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali. Nama listing katalog: MamyPoko Royal Soft Popok Bayi – Tipe Celana & Perekat Organic Cotton. Harga katalog Rp123.000 mengikuti Shopee himoonbabykids. Judul listing tidak menuliskan ukuran atau isi pack; angka “harga MamyPoko” di marketplace lain yang dipecah per ukuran bukan angka kami — jangan pakai angka ketiga. Ongkir tidak termasuk. Stok, pilihan tipe di judul, dan promo live di checkout; konfirmasi di Shopee himoonbabykids sebelum bayar. Yang termasuk: produk original sesuai etalase, bantuan tanya ukuran via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Tidak termasuk janji anti ruam, diagnosis kulit, atau merek Makuku kecuali listing Shopee himoonbabykids menampilkannya. Halaman ini untuk ibu hamil dan new mom yang mencari harga MamyPoko Royal Soft original. Checkout utama adalah tombol Beli di Shopee. WhatsApp hanya untuk tanya stok ukuran di toko Badung, bukan keranjang bayar. Kami retailer, bukan official store pabrik.",
+      en: "Authentic MamyPoko Royal Soft is the one diaper SKU we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali. Catalog listing name: MamyPoko Royal Soft Baby Diapers – Pants & Tape Type with Organic Cotton. Catalog price is Rp123,000 following Shopee himoonbabykids. The listing title does not name a size or pack count; other marketplace “MamyPoko prices” split by size are not our number — do not invent a third figure. Shipping is not included. Live stock, type options in the title, and promos sit at checkout; confirm on Shopee himoonbabykids before paying. Included: authentic listed goods, WhatsApp help asking size, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and the rest of Indonesia Shopee covers. Not included: a promised no-rash outcome, a skin diagnosis, or Makuku unless the himoonbabykids Shopee listing shows it. This page is for pregnant and new moms looking up the original MamyPoko Royal Soft price. Primary checkout is Buy on Shopee. WhatsApp is only for Badung in-store size stock, not a payment cart. We are a retailer, not a factory official store.",
+    },
+    content: {
+      id: "Kami meritel satu popok yang memang ada di etalase: MamyPoko Royal Soft. Halaman ini menjawab harga katalog, apa yang termasuk, apakah original itu worth it dibanding listing harga-per-ukuran yang tidak kami jual, dan cara Beli di Shopee himoonbabykids. Klaim bahan organic cotton dan tipe celana/perekat tetap di judul listing merek; kami tidak menambah diagnosis ruam. Lanjut ke [katalog popok](/shop/popok), [tips memilih popok bayi](/blog/tips-memilih-popok-bayi), [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko), atau etalase campur di [/shop](/shop).",
+      en: "We retail the one diaper SKU that is actually in the shop: MamyPoko Royal Soft. This page answers catalog price, what is included, whether authentic is worth it versus size-split prices we do not sell, and how to Buy on Shopee himoonbabykids. Organic-cotton and pants/tape claims stay on the brand listing title; we do not add a rash diagnosis. Continue to the [diaper catalog](/shop/popok), [how to choose baby diapers](/blog/tips-memilih-popok-bayi), [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko), or the mixed catalog at [/shop](/shop).",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini halaman harga SKU MamyPoko Royal Soft original di HiMoon, bukan resep anti ruam. Katalog Shopee himoonbabykids: MamyPoko Royal Soft Popok Bayi – Tipe Celana & Perekat Organic Cotton, Rp123.000. Isi pack dan ukuran tidak ada di baris katalog kami — konfirmasi di Shopee himoonbabykids, jangan mengarang NB/S/M atau jumlah pcs. Yang termasuk: produk sesuai listing, bantuan tanya ukuran via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk harga katalog. Untuk ibu hamil dan new mom yang butuh popok original, bukan official store pabrik. Cara beli: tombol Beli di Shopee di halaman ini atau kartu di [katalog popok](/shop/popok). WhatsApp tanya stok ukuran di toko Badung dulu jika ingin datang. Etalase campur ada di [/shop](/shop).",
+          en: "This is a price page for authentic MamyPoko Royal Soft at HiMoon, not an anti-rash prescription. Shopee himoonbabykids catalog: MamyPoko Royal Soft Baby Diapers – Pants & Tape Type with Organic Cotton, Rp123,000. Pack count and size are not in our catalog row — confirm on Shopee himoonbabykids; do not invent NB/S/M or a piece count. Included: listed goods, WhatsApp help asking size, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want authentic diapers, not a factory official store. How to buy: the Buy on Shopee button here or the card on the [diaper catalog](/shop/popok). WhatsApp Badung size stock first if you plan a visit. The mixed catalog is at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Original vs harga per ukuran: worth it Rp123.000?",
+          en: "Authentic vs size-split prices: worth Rp123,000?",
+        },
+        body: {
+          id: "Harga katalog Rp123.000 untuk satu SKU popok, bukan karton grosir dan bukan harga per ukuran yang beredar di SERP. Worth it jika Anda ingin MamyPoko Royal Soft original dari toko yang bisa dikonfirmasi — himoonbabykids — plus opsi lihat fisik di Badung. Bukan worth it jika Anda mencari angka “harga MamyPoko S50” atau “NB” sebagai janji kami; listing kami tidak menuliskan ukuran, jadi kami tidak menerbitkan angka ketiga. Makuku tidak ada di katalog situs saat artikel ini ditulis. Nama Makuku hanya jika listing Shopee himoonbabykids menampilkannya — kalau belum ada, jangan anggap kami menjualnya. Head-to-head kriteria (tipis vs malam) tetap di [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) dan [/metodologi-perbandingan](/metodologi-perbandingan): etalase nyata, iklim Bali, tanpa panel palsu atau janji anti ruam. Kami bukan official store pabrik kecuali Shopee menampilkannya demikian. Jika angka di halaman ini dan etalase berbeda, Shopee yang berlaku.",
+          en: "Catalog Rp123,000 is one diaper SKU, not a wholesale carton and not a size-split SERP price. Worth it if you want authentic MamyPoko Royal Soft from a shop you can verify — himoonbabykids — plus the option to see it in Badung. Not worth it if you want a promised “MamyPoko S50” or “NB” number from us; our listing does not name a size, so we do not publish a third figure. Makuku is not in the site catalog as of this article. Name Makuku only if the himoonbabykids Shopee listing shows it — if it does not, do not assume we sell it. Head-to-head criteria (thin vs overnight) stay on [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) and [/metodologi-perbandingan](/metodologi-perbandingan): real listings, Bali climate, no fake panel or no-rash promise. We are not a factory official store unless Shopee itself labels it that way. If this page and the listing disagree, Shopee wins.",
+        },
+      },
+      {
+        heading: {
+          id: "Ukuran, tipe, dan kulit — tanpa janji anti ruam",
+          en: "Size, type, and skin — no no-rash promise",
+        },
+        body: {
+          id: "Ikuti tabel berat di kemasan MamyPoko, bukan usia kalender. Judul listing kami menyebut tipe celana dan perekat plus organic cotton; pilih varian yang tampil live di Shopee, jangan mengarang stok ukuran. Tips pas di paha dan kapan ganti ukuran ada di [tips memilih popok bayi](/blog/tips-memilih-popok-bayi). Jika kulit mudah merah, ganti popok saat basah dan uji pack kecil; ruam parah ke tenaga kesehatan. HiMoon tidak mendiagnosis ruam popok dan tidak menjanjikan anti ruam. Perlengkapan lain di bulan pertama — lotion, tissue — ada di [perlengkapan bayi baru lahir](/blog/perlengkapan-bayi-baru-lahir) dan etalase [/shop](/shop).",
+          en: "Follow MamyPoko’s pack weight chart, not calendar age. Our listing title names pants and tape types plus organic cotton; pick the variant that is live on Shopee, do not invent a size in stock. Fit-at-the-thigh tips live on [how to choose baby diapers](/blog/tips-memilih-popok-bayi). If skin reddens easily, change when wet and trial a small pack; severe rash needs a clinician. HiMoon does not diagnose diaper rash and does not promise no rash. Other month-one items — lotion, tissue — are on the [newborn checklist](/blog/perlengkapan-bayi-baru-lahir) and the mixed catalog at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok ukuran",
+          en: "How to Buy on Shopee — WhatsApp is size-stock only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke toko himoonbabykids agar harga, tipe di judul listing, dan ongkir Badung–Denpasar live. Buka juga [katalog popok](/shop/popok) untuk kartu MamyPoko Royal Soft, atau [/shop](/shop) jika ingin etalase campur popok, skincare, dan MPASI. WhatsApp +628511214358 untuk tanya stok ukuran di toko fisik Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: [tips memilih popok bayi](/blog/tips-memilih-popok-bayi) (ukuran) dan [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) (kriteria banding, Makuku hanya jika listing Shopee ada).",
+          en: "Primary checkout: the orange Buy on Shopee button to himoonbabykids so price, type in the listing title, and Badung–Denpasar shipping are live. Also open the [diaper catalog](/shop/popok) for the MamyPoko Royal Soft card, or [/shop](/shop) for the mixed diaper, skincare, and MPASI catalog. WhatsApp +628511214358 to ask Badung in-store size stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: [how to choose baby diapers](/blog/tips-memilih-popok-bayi) (sizing) and [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) (comparison criteria; Makuku only if a Shopee listing exists).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "MamyPoko Royal Soft original (katalog Rp123.000)",
+        "Produk sesuai listing Shopee himoonbabykids (tipe celana & perekat di judul; ukuran konfirmasi di Shopee)",
+        "Checkout Beli di Shopee; WhatsApp tanya stok ukuran toko Badung",
+        "Kirim Shopee ke Denpasar–Canggu–luar Bali atau ambil di Badung setelah stok dikonfirmasi",
+      ],
+      en: [
+        "Authentic MamyPoko Royal Soft (catalog Rp123,000)",
+        "Goods as listed on Shopee himoonbabykids (pants & tape in the title; confirm size on Shopee)",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store size stock",
+        "Shopee ship to Denpasar–Canggu–beyond Bali, or Badung pickup after stock is confirmed",
+      ],
+    },
+    priceNote: {
+      id: "MamyPoko Royal Soft katalog Rp123.000. Listing tidak menuliskan ukuran atau isi pack; konfirmasi di Shopee himoonbabykids sebelum checkout. Ongkir tidak termasuk. Makuku hanya jika listing Shopee ada.",
+      en: "MamyPoko Royal Soft catalog Rp123,000. The listing does not name size or pack count; confirm on Shopee himoonbabykids before checkout. Shipping not included. Makuku only if a Shopee listing exists.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga MamyPoko Royal Soft original di HiMoon?",
+          en: "How much is authentic MamyPoko Royal Soft at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Rp123.000 mengikuti Shopee himoonbabykids. Ongkir dihitung di checkout. Listing tidak menuliskan ukuran; konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Rp123,000 following Shopee himoonbabykids. Shipping is calculated at checkout. The listing does not name a size; confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon jual Makuku dan official store MamyPoko?",
+          en: "Does HiMoon sell Makuku and is it the MamyPoko official store?",
+        },
+        answer: {
+          id: "Satu SKU popok di katalog situs adalah MamyPoko Royal Soft. Makuku hanya jika listing Shopee himoonbabykids menampilkannya. Kami toko ritel himoonbabykids di Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian.",
+          en: "The one diaper SKU on the site catalog is MamyPoko Royal Soft. Makuku only if the himoonbabykids Shopee listing shows it. We are the himoonbabykids retail shop in Badung, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        question: {
+          id: "MamyPoko Royal Soft anti ruam?",
+          en: "Does MamyPoko Royal Soft prevent rash?",
+        },
+        answer: {
+          id: "Kami tidak menjanjikan anti ruam dan tidak mendiagnosis ruam popok. Ganti saat basah, uji pack kecil, baca label. Ruam parah ke tenaga kesehatan.",
+          en: "We do not promise no rash and we do not diagnose diaper rash. Change when wet, trial a small pack, read the label. Severe rash needs a clinician.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee, atau buka /shop/popok lalu kartu MamyPoko Royal Soft. WhatsApp hanya untuk tanya stok ukuran di toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button, or open /shop/popok then the MamyPoko Royal Soft card. WhatsApp is for Badung size-stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-10-05",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.popok,
+    imageAlt: {
+      id: "MamyPoko Royal Soft original di HiMoon Badung dan Shopee",
+      en: "Authentic MamyPoko Royal Soft at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/popok",
+    relatedSlugs: ["tips-memilih-popok-bayi", "makuku-vs-mamypoko"],
+    emitFaqPageSchema: false,
+    cta: {
+      title: {
+        id: "Beli MamyPoko Royal Soft original di Shopee",
+        en: "Buy authentic MamyPoko Royal Soft on Shopee",
+      },
+      body: {
+        id: "Satu SKU popok di etalase, harga katalog Rp123.000 mengikuti Shopee himoonbabykids. Ukuran dan isi pack tidak kami tebak di situs — harga, tipe listing, dan ongkir Badung–Denpasar live di checkout. WhatsApp hanya untuk tanya stok ukuran di toko Badung.",
+        en: "One diaper SKU in the shop, catalog Rp123,000 following Shopee himoonbabykids. We do not guess size or pack count on the site — price, listing type, and Badung–Denpasar shipping are live at checkout. WhatsApp is only for in-store size stock.",
+      },
+      button: {
+        id: "Lihat katalog popok",
+        en: "Browse diaper catalog",
+      },
+    },
+  },
+  {
     slug: "tips-memilih-popok-bayi",
     phase: "month1",
     query: {
@@ -668,16 +823,16 @@ export const guides: BlogPost[] = [
       en: "How to Choose Baby Diapers: Size, Skin, and HiMoon Stock",
     },
     excerpt: {
-      id: "Cara pilih popok menurut berat badan dan kulit. HiMoon menjual MamyPoko Royal Soft (katalog Rp123.000) dan Makuku sesuai stok Shopee. Bandingkan lengkap di artikel perbandingan.",
-      en: "How to choose diapers by weight and skin. HiMoon sells MamyPoko Royal Soft (catalog Rp123,000) and Makuku when listed on Shopee. Full comparison in a dedicated article.",
+      id: "Cara pilih popok menurut berat badan dan kulit. Satu SKU live di HiMoon: MamyPoko Royal Soft (katalog Rp123.000). Makuku hanya jika listing Shopee ada. Harga SKU di artikel harga MamyPoko Royal Soft original.",
+      en: "How to choose diapers by weight and skin. One live HiMoon SKU: MamyPoko Royal Soft (catalog Rp123,000). Makuku only if a Shopee listing exists. SKU price is on the MamyPoko Royal Soft original price article.",
     },
     speakable: {
-      id: "Memilih popok bayi bergantung pada berat badan, bentuk paha, dan seberapa mudah kulit iritasi. HiMoon Baby & Kids di Bali menjual popok MamyPoko Royal Soft dengan harga katalog Rp123.000, plus Makuku jika listing Shopee himoonbabykids menampilkannya. Makuku sering dicari karena nuansa tipis; MamyPoko dikenal dengan fitur elastis dan pemakaian malam. Coba satu pack kecil dulu sebelum grosir. Toko fisik di Kabupaten Badung membantu jika Anda ingin lihat kemasan. Untuk pengiriman, checkout Shopee agar ukuran dan stok live. Ganti popok secara teratur dan kombinasikan dengan perawatan kulit jika ada ruam; ruam parah perlu tenaga kesehatan. Artikel perbandingan Makuku versus MamyPoko di situs ini menjelaskan metodologi kami tanpa ulasan palsu. Isi per pack berbeda, jadi baca judul listing sebelum bayar. Ongkir tidak termasuk harga katalog dan dihitung di Shopee. Simpan tautan himoonbabykids untuk restock popok.",
-      en: "Choosing a baby diaper depends on weight, thigh shape, and how easily skin irritates. HiMoon Baby & Kids in Bali sells MamyPoko Royal Soft at Rp123,000 catalog, plus Makuku when the himoonbabykids Shopee listing shows it. Makuku is often sought for a thin feel; MamyPoko is known for elastic fit and overnight use. Try a small pack before bulk. The Badung store helps if you want to see packaging. For delivery, checkout on Shopee for live size and stock. Change regularly and add skincare if there is rash; severe rash needs a clinician. Our Makuku versus MamyPoko comparison explains our method without fake reviews.",
+      id: "Memilih popok bayi bergantung pada berat badan, bentuk paha, dan seberapa mudah kulit iritasi. HiMoon Baby & Kids di Bali menjual satu SKU popok di katalog situs: MamyPoko Royal Soft dengan harga katalog Rp123.000. Makuku hanya jika listing Shopee himoonbabykids menampilkannya. MamyPoko dikenal dengan fitur elastis dan pemakaian malam di percakapan orang tua; kami tidak menjanjikan anti ruam. Coba satu pack kecil dulu sebelum grosir. Toko fisik di Kabupaten Badung membantu jika Anda ingin lihat kemasan. Untuk pengiriman, checkout Shopee agar stok live. Ganti popok secara teratur; ruam parah perlu tenaga kesehatan. Harga SKU, original vs listing tidak jelas, dan cara Beli di Shopee ada di artikel harga MamyPoko Royal Soft original. Artikel perbandingan Makuku versus MamyPoko menjelaskan metodologi tanpa ulasan palsu. Isi per pack dan ukuran tidak ada di baris katalog — baca judul listing sebelum bayar. Ongkir tidak termasuk harga katalog dan dihitung di Shopee. Simpan tautan himoonbabykids untuk restock popok.",
+      en: "Choosing a baby diaper depends on weight, thigh shape, and how easily skin irritates. HiMoon Baby & Kids in Bali sells one diaper SKU on the site catalog: MamyPoko Royal Soft at Rp123,000 catalog. Makuku only if the himoonbabykids Shopee listing shows it. Parents often mention MamyPoko for elastic fit and overnight use; we do not promise no rash. Try a small pack before bulk. The Badung store helps if you want to see packaging. For delivery, checkout on Shopee for live stock. Change regularly; severe rash needs a clinician. SKU price, authentic vs unclear listings, and Buy on Shopee steps are on the MamyPoko Royal Soft original price article. Our Makuku versus MamyPoko comparison explains our method without fake reviews.",
     },
     content: {
-      id: "Gunakan tips ini untuk pilih ukuran. Detail head-to-head ada di halaman Makuku vs MamyPoko.",
-      en: "Use these tips to pick a size. Head-to-head detail lives on the Makuku vs MamyPoko page.",
+      id: "Gunakan tips ini untuk pilih ukuran. Harga SKU MamyPoko Royal Soft original ada di [artikel harga MamyPoko](/blog/harga-mamypoko-royal-soft-original). Detail head-to-head ada di [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) — Makuku hanya jika listing Shopee ada.",
+      en: "Use these tips to pick a size. Authentic MamyPoko Royal Soft SKU price is on the [MamyPoko price article](/blog/harga-mamypoko-royal-soft-original). Head-to-head detail lives on [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) — Makuku only if a Shopee listing exists.",
     },
     sections: [
       {
@@ -696,26 +851,28 @@ export const guides: BlogPost[] = [
           en: "Price",
         },
         body: {
-          id: "Katalog menampilkan MamyPoko Royal Soft Rp123.000. Makuku hanya jika ada di Shopee. Isi per pack berbeda; baca judul listing.",
-          en: "The catalog lists MamyPoko Royal Soft at Rp123,000. Makuku only if Shopee shows it. Pack counts differ; read the listing title.",
+          id: "Katalog menampilkan satu SKU: MamyPoko Royal Soft Rp123.000. Listing tidak menuliskan ukuran; konfirmasi di Shopee himoonbabykids. Makuku hanya jika listing Shopee ada. Rincian original vs harga-per-ukuran di [harga MamyPoko Royal Soft original](/blog/harga-mamypoko-royal-soft-original).",
+          en: "The catalog lists one SKU: MamyPoko Royal Soft at Rp123,000. The listing does not name a size; confirm on Shopee himoonbabykids. Makuku only if a Shopee listing exists. Authentic vs size-split prices are on [MamyPoko Royal Soft original price](/blog/harga-mamypoko-royal-soft-original).",
         },
       },
     ],
     inclusions: {
       id: [
-        "Popok Makuku dan/atau MamyPoko sesuai stok",
-        "Bantuan pilih ukuran via WhatsApp",
+        "MamyPoko Royal Soft sesuai stok katalog (Rp123.000)",
+        "Makuku hanya jika listing Shopee himoonbabykids ada",
+        "Bantuan tanya ukuran via WhatsApp",
         "Checkout Shopee himoonbabykids",
       ],
       en: [
-        "Makuku and/or MamyPoko depending on stock",
+        "MamyPoko Royal Soft as listed (Rp123,000)",
+        "Makuku only if a himoonbabykids Shopee listing exists",
         "WhatsApp size help",
         "Shopee himoonbabykids checkout",
       ],
     },
     priceNote: {
-      id: "MamyPoko Royal Soft katalog Rp123.000. Makuku sesuai stok Shopee. Harga per pcs tergantung isi pack.",
-      en: "MamyPoko Royal Soft catalog Rp123,000. Makuku follows Shopee stock. Per-piece price depends on pack count.",
+      id: "MamyPoko Royal Soft katalog Rp123.000. Listing tidak menuliskan ukuran. Makuku hanya jika listing Shopee ada. Konfirmasi di Shopee himoonbabykids.",
+      en: "MamyPoko Royal Soft catalog Rp123,000. The listing does not name a size. Makuku only if a Shopee listing exists. Confirm on Shopee himoonbabykids.",
     },
     faqs: [
       {
@@ -724,8 +881,8 @@ export const guides: BlogPost[] = [
           en: "Makuku or MamyPoko for sensitive skin?",
         },
         answer: {
-          id: "Tidak ada jawaban tunggal. Coba pack kecil dan lihat ruam. Baca perbandingan kami untuk kriteria, bukan pemenang abadi.",
-          en: "There is no single winner. Try a small pack and watch for rash. Read our comparison for criteria, not a forever winner.",
+          id: "Tidak ada jawaban tunggal dan kami tidak menjanjikan anti ruam. Satu SKU live: MamyPoko Royal Soft. Coba pack kecil dan lihat kulit. Harga SKU ada di artikel harga MamyPoko Royal Soft original. Baca perbandingan untuk kriteria, bukan pemenang abadi.",
+          en: "There is no single winner and we do not promise no rash. One live SKU: MamyPoko Royal Soft. Try a small pack and watch skin. SKU price is on the MamyPoko Royal Soft original price article. Read our comparison for criteria, not a forever winner.",
         },
       },
       {
@@ -764,14 +921,14 @@ export const guides: BlogPost[] = [
     readTime: 5,
     image: SHOPEE_IMG.popok,
     imageAlt: {
-      id: "Popok bayi Makuku dan MamyPoko di HiMoon",
-      en: "Makuku and MamyPoko baby diapers at HiMoon",
+      id: "Popok bayi MamyPoko Royal Soft di HiMoon",
+      en: "MamyPoko Royal Soft baby diapers at HiMoon",
     },
     shopHref: "/shop/popok",
     relatedSlugs: [
-      "perlengkapan-bayi-baru-lahir",
-      "perawatan-kulit-bayi-sensitif",
+      "harga-mamypoko-royal-soft-original",
       "makuku-vs-mamypoko",
+      "perlengkapan-bayi-baru-lahir",
     ],
   },
   {
@@ -786,16 +943,16 @@ export const guides: BlogPost[] = [
       en: "Makuku vs MamyPoko: Diaper Comparison for Bali’s Climate",
     },
     excerpt: {
-      id: "Bandingkan Makuku dan MamyPoko tanpa rating palsu. Kriteria: ketebalan, malam, kulit, harga katalog HiMoon: MamyPoko Royal Soft Rp123.000, Makuku sesuai stok Shopee, lalu beli di Shopee.",
-      en: "Compare Makuku and MamyPoko without fake ratings. Criteria: thickness, overnight, skin, HiMoon catalog: MamyPoko Royal Soft Rp123,000, Makuku when Shopee lists it, then buy on Shopee.",
+      id: "Bandingkan Makuku dan MamyPoko tanpa rating palsu. SKU live HiMoon: MamyPoko Royal Soft Rp123.000. Makuku hanya jika listing Shopee ada. Harga original di artikel harga MamyPoko, lalu Beli di Shopee.",
+      en: "Compare Makuku and MamyPoko without fake ratings. Live HiMoon SKU: MamyPoko Royal Soft Rp123,000. Makuku only if a Shopee listing exists. Authentic price on the MamyPoko price article, then Buy on Shopee.",
     },
     speakable: {
-      id: "Makuku versus MamyPoko adalah perbandingan popok yang sering dicari new mom di Indonesia. HiMoon Baby & Kids di Bali menjual keduanya sesuai stok Shopee himoonbabykids, dengan harga listing MamyPoko Royal Soft Rp123.000 dan Makuku hanya jika etalase Shopee menampilkannya. Kami tidak menyatakan pemenang abadi dan tidak membuat ulasan bintang palsu. Makuku sering dipilih karena terasa lebih tipis untuk cuaca panas Bali. MamyPoko sering dipilih untuk pitas elastis dan pemakaian malam. Uji pack kecil, cek tabel berat di kemasan, dan lihat kebocoran paha. Metodologi lengkap ada di halaman metodologi perbandingan: kami hanya memakai fakta etalase, iklim Bali, dan kriteria yang bisa diulang, bukan survei fiktif. Beli di toko Badung atau tombol Shopee. Jika ruam muncul, ganti merek dan konsultasi tenaga kesehatan. Stok ukuran mengikuti Shopee; jika salah satu merek habis kami tidak memaksa pengganti sebagai pemenang. Kirim ke seluruh Indonesia yang dijangkau kurir Shopee.",
-      en: "Makuku versus MamyPoko is a common diaper comparison for new moms in Indonesia. HiMoon Baby & Kids in Bali sells both depending on Shopee himoonbabykids stock, with MamyPoko Royal Soft at Rp123,000 catalog and Makuku only when Shopee lists it. We do not name an eternal winner and we do not invent star ratings. Makuku is often chosen for a thinner feel in Bali heat. MamyPoko is often chosen for elastic fit and overnight use. Trial a small pack, follow the weight chart, and watch thigh leaks. Full method is on our comparison-methodology page: shop-floor facts, Bali climate, and repeatable criteria — not a fake survey. Buy at the Badung store or via Shopee. If rash appears, switch brands and see a clinician.",
+      id: "Makuku versus MamyPoko adalah perbandingan popok yang sering dicari new mom di Indonesia. HiMoon Baby & Kids di Bali menjual satu SKU popok di katalog situs: MamyPoko Royal Soft Rp123.000. Makuku hanya jika etalase Shopee himoonbabykids menampilkannya — jika belum ada, kami tidak mengklaim menjualnya. Kami tidak menyatakan pemenang abadi, tidak membuat ulasan bintang palsu, dan tidak menjanjikan anti ruam. Makuku sering dicari karena terasa lebih tipis untuk cuaca panas Bali. MamyPoko sering dipilih untuk pitas elastis dan pemakaian malam. Uji pack kecil, cek tabel berat di kemasan, dan lihat kebocoran paha. Harga SKU original, isi listing, dan cara Beli di Shopee ada di artikel harga MamyPoko Royal Soft original. Metodologi lengkap ada di halaman metodologi perbandingan: kami hanya memakai fakta etalase, iklim Bali, dan kriteria yang bisa diulang, bukan survei fiktif. Beli di toko Badung atau tombol Shopee. Jika ruam muncul, ganti merek dan konsultasi tenaga kesehatan. Stok ukuran mengikuti Shopee. Kirim ke seluruh Indonesia yang dijangkau kurir Shopee.",
+      en: "Makuku versus MamyPoko is a common diaper comparison for new moms in Indonesia. HiMoon Baby & Kids in Bali sells one diaper SKU on the site catalog: MamyPoko Royal Soft at Rp123,000. Makuku only when the himoonbabykids Shopee listing shows it — if it does not, we do not claim to sell it. We do not name an eternal winner, we do not invent star ratings, and we do not promise no rash. Makuku is often sought for a thinner feel in Bali heat. MamyPoko is often chosen for elastic fit and overnight use. Trial a small pack, follow the weight chart, and watch thigh leaks. Authentic SKU price, listing contents, and Buy on Shopee steps are on the MamyPoko Royal Soft original price article. Full method is on our comparison-methodology page: shop-floor facts, Bali climate, and repeatable criteria — not a fake survey. Buy at the Badung store or via Shopee. If rash appears, switch brands and see a clinician.",
     },
     content: {
-      id: "Ini perbandingan ritel, bukan uji lab. Sumber: etalase HiMoon/Shopee, label kemasan, dan kondisi panas-lembab Bali.",
-      en: "This is a retail comparison, not a lab test. Sources: HiMoon/Shopee listings, pack labels, and Bali heat-humidity.",
+      id: "Ini perbandingan ritel, bukan uji lab. Sumber: etalase HiMoon/Shopee, label kemasan, dan kondisi panas-lembab Bali. Harga SKU MamyPoko Royal Soft original ada di [artikel harga MamyPoko](/blog/harga-mamypoko-royal-soft-original).",
+      en: "This is a retail comparison, not a lab test. Sources: HiMoon/Shopee listings, pack labels, and Bali heat-humidity. Authentic MamyPoko Royal Soft SKU price is on the [MamyPoko price article](/blog/harga-mamypoko-royal-soft-original).",
     },
     sections: [
       {
@@ -808,35 +965,35 @@ export const guides: BlogPost[] = [
       {
         heading: { id: "Kapan pilih Makuku", en: "When to pick Makuku" },
         body: {
-          id: "Jika Anda mengutamakan popok yang terasa tipis di cuaca Bali dan kulit tidak mudah kemerahan pada uji pack kecil.",
-          en: "If you want a thinner feel in Bali weather and a small pack trial does not redden skin.",
+          id: "Jika Anda mengutamakan popok yang terasa tipis di cuaca Bali dan kulit tidak mudah kemerahan pada uji pack kecil — dan listing Shopee himoonbabykids menampilkan Makuku. Jika listing itu tidak ada, kami tidak menjual Makuku saat ini.",
+          en: "If you want a thinner feel in Bali weather and a small pack trial does not redden skin — and the himoonbabykids Shopee listing shows Makuku. If that listing is missing, we are not selling Makuku right now.",
         },
       },
       {
         heading: { id: "Kapan pilih MamyPoko", en: "When to pick MamyPoko" },
         body: {
-          id: "Jika Anda butuh fitur malam atau elastis yang lebih ketat di paha, sepanjang stok Shopee tersedia.",
-          en: "If you need overnight features or a snugger thigh elastic, when Shopee stock exists.",
+          id: "Jika Anda butuh fitur malam atau elastis yang lebih ketat di paha, sepanjang stok Shopee tersedia. Harga katalog MamyPoko Royal Soft Rp123.000 — listing tidak menuliskan ukuran; konfirmasi di Shopee himoonbabykids. Cara checkout di [harga MamyPoko Royal Soft original](/blog/harga-mamypoko-royal-soft-original).",
+          en: "If you need overnight features or a snugger thigh elastic, when Shopee stock exists. MamyPoko Royal Soft catalog is Rp123,000 — the listing does not name a size; confirm on Shopee himoonbabykids. Checkout steps are on [MamyPoko Royal Soft original price](/blog/harga-mamypoko-royal-soft-original).",
         },
       },
     ],
     inclusions: {
       id: [
-        "Popok Makuku dan/atau MamyPoko sesuai stok",
-        "Harga listing MamyPoko Royal Soft Rp123.000; Makuku sesuai stok",
-        "Tautan metodologi perbandingan",
+        "MamyPoko Royal Soft sesuai katalog (Rp123.000)",
+        "Makuku hanya jika listing Shopee himoonbabykids ada",
+        "Tautan metodologi perbandingan dan artikel harga original",
         "Checkout Shopee himoonbabykids",
       ],
       en: [
-        "Makuku and/or MamyPoko depending on stock",
-        "Catalog listing ± Rp65,000",
-        "Link to comparison methodology",
+        "MamyPoko Royal Soft as listed (Rp123,000)",
+        "Makuku only if a himoonbabykids Shopee listing exists",
+        "Link to comparison methodology and original-price article",
         "Shopee himoonbabykids checkout",
       ],
     },
     priceNote: {
-      id: "MamyPoko Royal Soft di katalog popok HiMoon Rp123.000. Makuku hanya jika listing Shopee ada. Isi pack berbeda; baca judul sebelum bayar.",
-      en: "MamyPoko Royal Soft on HiMoon’s diaper catalog is Rp123,000. Makuku only if the Shopee listing exists. Pack counts differ; read the title before paying.",
+      id: "MamyPoko Royal Soft di katalog popok HiMoon Rp123.000. Listing tidak menuliskan ukuran. Makuku hanya jika listing Shopee ada. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+      en: "MamyPoko Royal Soft on HiMoon’s diaper catalog is Rp123,000. The listing does not name a size. Makuku only if the Shopee listing exists. Confirm on Shopee himoonbabykids before paying.",
     },
     faqs: [
       {
@@ -877,7 +1034,11 @@ export const guides: BlogPost[] = [
       en: "Makuku and MamyPoko comparison at HiMoon Bali",
     },
     shopHref: "/shop/popok",
-    relatedSlugs: ["tips-memilih-popok-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "harga-mamypoko-royal-soft-original",
+      "tips-memilih-popok-bayi",
+      "perlengkapan-bayi-baru-lahir",
+    ],
   },
   {
     slug: "asi-booster-ibu-menyusui",

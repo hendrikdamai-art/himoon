@@ -152,6 +152,8 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "popok bayi murah Bali",
     "popok Makuku",
     "popok MamyPoko",
+    "MamyPoko Royal Soft",
+    "beli popok bayi original",
     "popok bayi overnight",
   ],
   "peralatan-bayi": [
@@ -170,7 +172,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
 export const categoryPageTitles: Record<string, string> = {
   mpasi: "Beli MPASI Bayi di Bali",
   "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
-  popok: "Popok Makuku & MamyPoko",
+  popok: "Popok MamyPoko Royal Soft dari Rp123.000",
   "peralatan-bayi": "Peralatan Makan Bayi",
   "perawatan-bibir": "Perawatan Bibir Bayi",
 };

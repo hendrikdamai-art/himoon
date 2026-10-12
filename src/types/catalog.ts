@@ -69,6 +69,8 @@ export type BlogPost = {
   phase: "month1" | "month2";
   /** Shop category used for related product cards + Shopee CTA */
   relatedCategory?: ShopCategorySlug;
+  /** When false, skip FAQPage JSON-LD. On-page FAQ still renders. */
+  emitFaqPageSchema?: boolean;
   cta?: {
     title: LocalizedText;
     body: LocalizedText;

@@ -34,6 +34,8 @@ export const indonesiaKeywords = [
   "Gently baby cologne",
   "Gently face cream",
   "Beeme baby lotion",
+  "sabun bayi non SLS original",
+  "Beeme vs Gently vs Moell sabun bayi",
   "Bumbu Bunda Elia MPASI",
   "perlengkapan bayi baru lahir",
   "perlengkapan bayi anak",
@@ -147,6 +149,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "perawatan kulit bayi sensitif",
     "Moell sunscreen bayi",
     "sabun mandi bayi non SLS",
+    "sabun bayi non SLS original",
   ],
   popok: [
     "popok bayi murah Bali",

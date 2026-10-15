@@ -156,9 +156,11 @@ export const categorySeoKeywords: Record<string, string[]> = {
   ],
   "peralatan-bayi": [
     "peralatan makan bayi",
-    "botol susu bayi",
-    "perlengkapan bayi Bali",
     "saringan MPASI",
+    "saringan MPASI stainless",
+    "tisu bayi Paseo",
+    "perlengkapan bayi Bali",
+    "peralatan MPASI Bali",
   ],
   "perawatan-bibir": [
     "lip balm bayi",
@@ -171,6 +173,6 @@ export const categoryPageTitles: Record<string, string> = {
   mpasi: "Beli MPASI Bayi di Bali",
   "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
   popok: "Popok Makuku & MamyPoko",
-  "peralatan-bayi": "Peralatan Makan Bayi",
+  "peralatan-bayi": "Saringan MPASI & Tisu Bayi dari Rp22.500",
   "perawatan-bibir": "Perawatan Bibir Bayi",
 };

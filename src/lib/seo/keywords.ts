@@ -36,9 +36,15 @@ export const keywordStrategy = {
       path: "/blog/toko-mpasi-bali",
     },
     {
+      query: "harga MamyPoko Royal Soft original",
+      intent: "commercial",
+      why: "SKU-level harga + original query for the only live diaper listing (Rp123.000; no size in the row).",
+      path: "/blog/harga-mamypoko-royal-soft-original",
+    },
+    {
       query: "Makuku vs MamyPoko",
       intent: "comparison",
-      why: "High-intent diaper research; both brands are in the HiMoon catalog.",
+      why: "High-intent diaper research; live catalog is MamyPoko Royal Soft only. Name Makuku only if a Shopee listing appears.",
       path: "/blog/makuku-vs-mamypoko",
     },
     {

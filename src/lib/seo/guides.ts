@@ -270,8 +270,8 @@ export const guides: BlogPost[] = [
     shopHref: "/shop/perawatan-kulit-bayi",
     relatedSlugs: [
       "perawatan-kulit-bayi-sensitif",
+      "harga-moell-face-cream-original",
       "perlengkapan-bayi-baru-lahir",
-      "toko-mpasi-bali",
     ],
   },
   {
@@ -654,7 +654,171 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "beli-sunscreen-bayi",
+      "harga-moell-face-cream-original",
+      "perlengkapan-bayi-baru-lahir",
+    ],
+  },
+  {
+    slug: "harga-moell-face-cream-original",
+    phase: "month1",
+    query: {
+      id: "harga Moell Face Cream original",
+      en: "Moell Face Cream original price",
+    },
+    title: {
+      id: "Harga Moell Face Cream original — krim wajah bayi kulit sensitif Badung & Shopee",
+      en: "Moell Face Cream original price — sensitive baby face cream in Badung & Shopee",
+    },
+    excerpt: {
+      id: "Harga katalog Moell Face Cream Bayi 40ml original Rp80.000 di HiMoon Badung. Bandingkan jujur dengan Gently Baby Face Cream 30gr Rp78.000, lalu Beli di Shopee himoonbabykids (listing item, bukan shop home).",
+      en: "Catalog price for authentic Moell Baby Face Cream 40ml is Rp80,000 at HiMoon Badung. Honest neighbor: Gently Baby Face Cream 30g Rp78,000. Then Buy on Shopee himoonbabykids (item listing, not shop home).",
+    },
+    speakable: {
+      id: "Moell Face Cream original adalah pelembap wajah bayi yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali — bukan klinik kulit dan bukan official store pabrik. Nama listing katalog: Moell Face Cream Bayi 40ml – Pelembap Wajah Healthy Glow Barrier Skin. Harga katalog Rp80.000 mengikuti Shopee himoonbabykids, dengan tautan item …-i.1869688077.52863165431. Isi kemasan yang kami klaim hanya 40ml sesuai judul listing; klaim “Healthy Glow Barrier Skin” tetap milik merek, kami tidak menjanjikan wajah glowing. Tetangga jujur di etalase yang sama: Gently Baby Face Cream 30gr – Advanced 5in1 Ceramide & Hyaluronan, katalog Rp78.000, tombol kartunya masih ke beranda toko himoonbabykids (bukan item ID). Satuan 40ml vs 30gr berbeda; kami tidak mengarang harga per ml. Ongkir tidak termasuk. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Halaman ini untuk ibu hamil dan new mom yang mencari harga Moell Face Cream original untuk kulit wajah yang mudah kering di iklim panas Bali. Cara beli: tombol oranye Beli di Shopee ke listing item itu, atau buka katalog perawatan kulit bayi lalu kartu Moell Face Cream. WhatsApp +628511214358 hanya untuk tanya stok toko Badung, bukan keranjang bayar. Patch test 24 jam; ruam parah ke tenaga kesehatan. Usia pemakaian ikuti label Moell, bukan tebakan kami.",
+      en: "Authentic Moell Face Cream is the baby face moisturizer we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali — not a skin clinic and not a factory official store. Catalog listing name: Moell Baby Face Cream 40ml – Healthy Glow Barrier Face Moisturizer. Catalog price is Rp80,000 following Shopee himoonbabykids, with item URL …-i.1869688077.52863165431. The pack size we claim is only 40ml as in the listing title; “Healthy Glow Barrier Skin” stays a brand wording, we do not promise a glowing face. Honest neighbor in the same shop: Gently Baby Face Cream 30g – Advanced 5-in-1 with Ceramide & Hyaluronan, catalog Rp78,000, whose card still opens the himoonbabykids shop home (no item ID). 40ml vs 30g are different units; we do not invent a per-ml price. Shipping is not included. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. This page is for pregnant and new moms looking up the original Moell Face Cream price when baby facial skin dries easily in Bali heat. How to buy: the orange Buy on Shopee button to that item listing, or open the baby-skincare catalog then the Moell Face Cream card. WhatsApp +628511214358 is only for Badung in-store stock, not a payment cart. Patch-test 24 hours; severe rash needs a clinician. Age of use follows the Moell label, not a guess from us.",
+    },
+    content: {
+      id: "Kami meritel krim wajah yang memang ada di etalase: Moell Face Cream Bayi 40ml. Halaman ini menjawab harga katalog, apa yang termasuk, apakah original itu worth it dibanding Gently Baby Face Cream 30gr, dan cara Beli di Shopee ke listing item — bukan ke beranda toko. Klaim “Healthy Glow”, ceramide, dan hyaluronan tetap di judul listing merek; kami tidak menambah janji glowing atau diagnosis kulit. Lanjut ke [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi), [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif), [beli sunscreen bayi](/blog/beli-sunscreen-bayi), atau etalase campur di [/shop](/shop).",
+      en: "We retail the face cream that is actually in the shop: Moell Baby Face Cream 40ml. This page answers catalog price, what is included, whether authentic is worth it versus Gently Baby Face Cream 30g, and how to Buy on Shopee at the item listing — not the shop home. “Healthy Glow”, ceramide, and hyaluronan claims stay on the brand listing title; we do not add a promised glow or a skin diagnosis. Continue to the [baby skincare catalog](/shop/perawatan-kulit-bayi), [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif), [buy baby sunscreen](/blog/beli-sunscreen-bayi), or the mixed catalog at [/shop](/shop).",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini halaman harga SKU Moell Face Cream original di HiMoon, bukan resep glowing. Katalog Shopee himoonbabykids: Moell Face Cream Bayi 40ml – Pelembap Wajah Healthy Glow Barrier Skin, Rp80.000, listing item …-i.1869688077.52863165431. Isi yang kami tulis hanya 40ml sesuai judul; takaran oles dan usia minimum ada di label Moell — konfirmasi di Shopee himoonbabykids jika etalase menampilkan detail tambahan, jangan mengarang angka ketiga. Yang termasuk: produk sesuai listing, bantuan pilih via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk harga katalog. Untuk ibu hamil dan new mom yang butuh pelembap wajah bayi original, bukan official store pabrik. Cara beli: tombol Beli di Shopee di halaman ini (langsung ke item) atau kartu di [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi). WhatsApp tanya stok toko Badung dulu jika ingin datang. Etalase campur ada di [/shop](/shop).",
+          en: "This is a price page for authentic Moell Face Cream at HiMoon, not a glow prescription. Shopee himoonbabykids catalog: Moell Baby Face Cream 40ml – Healthy Glow Barrier Face Moisturizer, Rp80,000, item listing …-i.1869688077.52863165431. The pack we write is only 40ml as in the title; how much to apply and minimum age stay on the Moell label — confirm extra detail on Shopee himoonbabykids, do not invent a third number. Included: listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want an authentic baby face moisturizer, not a factory official store. How to buy: the Buy on Shopee button here (straight to the item) or the card on the [baby skincare catalog](/shop/perawatan-kulit-bayi). WhatsApp Badung in-store stock first if you plan a visit. The mixed catalog is at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Original vs Gently Face Cream: worth it Rp80.000?",
+          en: "Authentic vs Gently Face Cream: worth Rp80,000?",
+        },
+        body: {
+          id: "Harga katalog Rp80.000 untuk Moell Face Cream 40ml, bukan paket grosir dan bukan “harga krim wajah bayi” generik di SERP. Tetangga di etalase: Gently Baby Face Cream 30gr – Advanced 5in1 Ceramide & Hyaluronan, Rp78.000. Stiker Rp78.000 vs Rp80.000 terlihat dekat, tetapi isi 30gr vs 40ml tidak kami konversi jadi harga per ml — satuan berbeda, jangan pakai angka ketiga. Tombol oranye Moell di artikel ini ke listing item; kartu Gently masih ke https://shopee.co.id/himoonbabykids (beranda toko) karena katalog tidak punya item ID Gently Face Cream. Worth it jika Anda ingin Moell Face Cream original dari toko yang bisa dikonfirmasi — himoonbabykids — plus opsi lihat fisik di Badung, dan Anda butuh tautan item yang benar. Bukan worth it jika Anda mencari janji wajah glowing, diagnosis barrier rusak, atau klaim ceramide/hyaluronan dari kami; itu teks judul listing Gently, bukan resep. Metode banding di [/metodologi-perbandingan](/metodologi-perbandingan): etalase nyata, iklim Bali, tanpa panel palsu. Kami bukan official store pabrik kecuali Shopee menampilkannya demikian. Jika angka di halaman ini dan etalase berbeda, Shopee yang berlaku.",
+          en: "Catalog Rp80,000 is Moell Face Cream 40ml, not a wholesale pack and not a generic “baby face cream price” from search results. Shop neighbor: Gently Baby Face Cream 30g – Advanced 5-in-1 with Ceramide & Hyaluronan, Rp78,000. The Rp78,000 vs Rp80,000 stickers look close, but 30g vs 40ml are not converted into a per-ml price — different units, no third number. The orange Moell button on this article goes to the item listing; the Gently card still opens https://shopee.co.id/himoonbabykids (shop home) because the catalog has no Gently Face Cream item ID. Worth it if you want authentic Moell Face Cream from a shop you can verify — himoonbabykids — plus the option to see it in Badung, and you need a real item link. Not worth it if you want a promised glow, a damaged-barrier diagnosis, or ceramide/hyaluronan claims from us; that is Gently’s listing title, not a prescription. Comparison method is on [/metodologi-perbandingan](/metodologi-perbandingan): real listings, Bali climate, no fake panel. We are not a factory official store unless Shopee itself labels it that way. If this page and the listing disagree, Shopee wins.",
+        },
+      },
+      {
+        heading: {
+          id: "Kulit wajah di iklim Bali — tanpa janji glowing",
+          en: "Facial skin in Bali’s climate — no promised glow",
+        },
+        body: {
+          id: "Wajah bayi di Badung, Canggu, dan Denpasar sering kering karena AC, keringat, dan UV. Pelembap wajah (halaman ini) berbeda dari lotion tubuh Moell 185ml Rp76.000 dan dari [sunscreen bayi](/blog/beli-sunscreen-bayi) Moell Physical 30gr Rp79.000 — jangan samakan SKU. Ikuti label Moell untuk cara oles dan usia; kami tidak menebak “aman 6 bulan” jika kemasan tidak menuliskannya di baris katalog. Jika kulit mudah merah, patch test di area kecil 24 jam, hentikan jika memburuk, lalu ke tenaga kesehatan. Rutin mandi–lotion–tabir surya tetap di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif). HiMoon tidak mendiagnosis dermatitis dan tidak menjanjikan kulit glowing. Perlengkapan lain di bulan pertama ada di [perlengkapan bayi baru lahir](/blog/perlengkapan-bayi-baru-lahir) dan etalase [/shop](/shop).",
+          en: "Baby faces in Badung, Canggu, and Denpasar often dry from air-conditioning, sweat, and UV. Face cream (this page) is not Moell body lotion 185ml Rp76,000 and not [baby sunscreen](/blog/beli-sunscreen-bayi) Moell Physical 30g Rp79,000 — do not mix the SKUs. Follow the Moell label for how to apply and age; we do not guess “safe at 6 months” if that is not in the catalog row. If skin reddens easily, patch-test a small area for 24 hours, stop if it worsens, then see a clinician. Bath–lotion–sunscreen steps stay on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif). HiMoon does not diagnose dermatitis and does not promise glowing skin. Other month-one items are on the [newborn checklist](/blog/perlengkapan-bayi-baru-lahir) and the mixed catalog at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock-only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke listing Moell Face Cream 40ml (…-i.1869688077.52863165431) agar harga, stok, dan ongkir Badung–Denpasar live — bukan dump ke beranda toko. Buka juga [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) untuk kartu Moell Face Cream, atau [/shop](/shop) jika ingin etalase campur skincare, popok, dan MPASI. WhatsApp +628511214358 untuk tanya stok fisik di toko Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif) (rutin) dan [beli sunscreen bayi](/blog/beli-sunscreen-bayi) (SKU tabir surya terpisah, katalog Rp79.000).",
+          en: "Primary checkout: the orange Buy on Shopee button to the Moell Face Cream 40ml listing (…-i.1869688077.52863165431) so price, stock, and Badung–Denpasar shipping are live — not a dump onto the shop home. Also open the [baby skincare catalog](/shop/perawatan-kulit-bayi) for the Moell Face Cream card, or [/shop](/shop) for the mixed skincare, diaper, and MPASI catalog. WhatsApp +628511214358 to ask Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif) (routine) and [buy baby sunscreen](/blog/beli-sunscreen-bayi) (separate sunscreen SKU, catalog Rp79,000).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Moell Face Cream Bayi 40ml original (katalog Rp80.000) — Beli di Shopee ke listing item",
+        "Tetangga etalase: Gently Baby Face Cream 30gr (katalog Rp78.000; kartu masih ke beranda toko)",
+        "Produk sesuai listing Shopee himoonbabykids; isi 40ml mengikuti judul, usia/cara oles di label",
+        "Checkout Beli di Shopee; WhatsApp tanya stok toko Badung",
+        "Kirim Shopee ke Denpasar–Canggu–luar Bali atau ambil di Badung setelah stok dikonfirmasi",
+      ],
+      en: [
+        "Authentic Moell Baby Face Cream 40ml (catalog Rp80,000) — Buy on Shopee to the item listing",
+        "Shop neighbor: Gently Baby Face Cream 30g (catalog Rp78,000; card still opens shop home)",
+        "Goods as listed on Shopee himoonbabykids; 40ml follows the title, age/use on the label",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store stock",
+        "Shopee ship to Denpasar–Canggu–beyond Bali, or Badung pickup after stock is confirmed",
+      ],
+    },
+    priceNote: {
+      id: "Moell Face Cream Bayi 40ml katalog Rp80.000 (listing item Shopee). Gently Baby Face Cream 30gr katalog Rp78.000 (beranda toko). Satuan 40ml vs 30gr tidak kami pecah per ml. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Moell Baby Face Cream 40ml catalog Rp80,000 (Shopee item listing). Gently Baby Face Cream 30g catalog Rp78,000 (shop home). 40ml vs 30g are not split per ml. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga Moell Face Cream original di HiMoon?",
+          en: "How much is authentic Moell Face Cream at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Rp80.000 untuk Moell Face Cream Bayi 40ml, mengikuti Shopee himoonbabykids listing item. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Rp80,000 for Moell Baby Face Cream 40ml, following the Shopee himoonbabykids item listing. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Moell Face Cream vs Gently Baby Face Cream — mana yang worth it?",
+          en: "Moell Face Cream vs Gently Baby Face Cream — which is worth it?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis dan tidak ada janji glowing. Moell 40ml Rp80.000 punya tautan item; Gently 30gr Rp78.000 kartunya ke beranda toko. Satuan ml vs gr berbeda, jangan bandingkan stiker seolah porsi sama. Uji patch, baca label, ruam parah ke tenaga kesehatan.",
+          en: "There is no medical winner and no promised glow. Moell 40ml Rp80,000 has an item link; Gently 30g Rp78,000 still opens shop home. ml vs g are different units, so do not treat the stickers as the same portion. Patch-test, read the label; severe rash needs a clinician.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon official store Moell?",
+          en: "Is HiMoon the Moell official store?",
+        },
+        answer: {
+          id: "Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian. Beli di Shopee ke listing item Moell Face Cream, atau tanya stok toko via WhatsApp.",
+          en: "We are the himoonbabykids retail shop in Badung Regency, not a factory official store unless Shopee itself labels it that way. Buy on Shopee at the Moell Face Cream item listing, or WhatsApp for in-store stock.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee — itu ke listing item Moell Face Cream 40ml, bukan beranda toko. Atau buka /shop/perawatan-kulit-bayi lalu kartu Moell Face Cream. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button — it opens the Moell Face Cream 40ml item listing, not the shop home. Or open /shop/perawatan-kulit-bayi then the Moell Face Cream card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-10-19",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.sunscreen,
+    imageAlt: {
+      id: "Moell Face Cream original di HiMoon Badung dan Shopee",
+      en: "Authentic Moell Face Cream at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/perawatan-kulit-bayi",
+    relatedSlugs: ["perawatan-kulit-bayi-sensitif", "beli-sunscreen-bayi"],
+    emitFaqPageSchema: false,
+    shopeeHref:
+      "https://shopee.co.id/moell-face-cream-moell-40ml-healthy-glow-barrier-face-cream-bayi-pelembab-wajah--i.1869688077.52863165431",
+    featuredProductSlugs: [
+      "moell-face-cream-bayi-40ml-healthy-glow-barrier",
+      "gently-baby-face-cream-30gr-ceramide-hyaluronan",
+      "moell-physical-sunscreen-bayi-anak-30gr-spf",
+    ],
+    cta: {
+      title: {
+        id: "Beli Moell Face Cream original di Shopee",
+        en: "Buy authentic Moell Face Cream on Shopee",
+      },
+      body: {
+        id: "Satu SKU krim wajah Moell 40ml, harga katalog Rp80.000, tombol oranye ke listing item himoonbabykids — bukan beranda toko. Gently Face Cream 30gr Rp78.000 ada di etalase sebagai tetangga, bukan pemenang medis. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "One Moell face-cream SKU at 40ml, catalog Rp80,000, orange button to the himoonbabykids item listing — not the shop home. Gently Face Cream 30g Rp78,000 is the shop neighbor, not a medical winner. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog skincare",
+        en: "Browse skincare catalog",
+      },
+    },
   },
   {
     slug: "tips-memilih-popok-bayi",

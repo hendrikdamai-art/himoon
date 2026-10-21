@@ -30,6 +30,8 @@ export const indonesiaKeywords = [
   "sabun mandi bayi",
   "parfum bayi non alkohol",
   "Moell sunscreen bayi",
+  "Moell Face Cream original",
+  "harga Moell Face Cream original",
   "Moell body wash",
   "Gently baby cologne",
   "Gently face cream",
@@ -146,6 +148,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "moisturizer bayi",
     "perawatan kulit bayi sensitif",
     "Moell sunscreen bayi",
+    "harga Moell Face Cream original",
     "sabun mandi bayi non SLS",
   ],
   popok: [

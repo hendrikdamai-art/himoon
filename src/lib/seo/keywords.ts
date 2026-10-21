@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "harga Moell Face Cream original",
+      intent: "commercial",
+      why: "P0 skincare harga SKU with a working Shopee item URL (Moell Face Cream 40ml Rp80.000).",
+      path: "/blog/harga-moell-face-cream-original",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

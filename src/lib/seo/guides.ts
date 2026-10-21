@@ -46,8 +46,8 @@ export const guides: BlogPost[] = [
           en: "Priority at 0–3 months",
         },
         body: {
-          id: "Fokus pada popok (Makuku atau MamyPoko), perawatan kulit sensitif (Gently, Mustela, Cussons), tissue lembut Paseo, dan treatment bibir jika kulit kering. Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
-          en: "Focus on diapers (Makuku or MamyPoko), sensitive-skin care (Gently, Mustela, Cussons), soft Paseo tissue, and lip care if skin is dry. Delay MPASI until closer to 6 months unless you want feeding tools early.",
+          id: "Fokus pada popok (Makuku atau MamyPoko), perawatan kulit sensitif (Gently, Mustela, Cussons), tissue lembut Paseo (katalog Rp22.500 di /shop/peralatan-bayi), dan treatment bibir jika kulit kering. Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
+          en: "Focus on diapers (Makuku or MamyPoko), sensitive-skin care (Gently, Mustela, Cussons), soft Paseo tissue (catalog Rp22,500 at /shop/peralatan-bayi), and lip care if skin is dry. Delay MPASI until closer to 6 months unless you want feeding tools early.",
         },
       },
       {
@@ -75,21 +75,21 @@ export const guides: BlogPost[] = [
       id: [
         "Popok Makuku / MamyPoko",
         "Skincare bayi (Gently, Moell, Mustela, Cussons)",
-        "Tissue & perawatan harian Paseo",
+        "Tissue Paseo Rp22.500 di /shop/peralatan-bayi",
         "Opsi ASI booster untuk ibu menyusui",
         "Checkout Shopee atau ambil di toko Bali",
       ],
       en: [
         "Makuku / MamyPoko diapers",
         "Baby skincare (Gently, Moell, Mustela, Cussons)",
-        "Daily Paseo tissue & care",
+        "Paseo tissue Rp22,500 at /shop/peralatan-bayi",
         "Optional ASI booster for nursing moms",
         "Shopee checkout or Bali pickup",
       ],
     },
     priceNote: {
-      id: "Harga katalog HiMoon saat ini sekitar Rp22.500–Rp123.000 mengikuti Shopee. Tisu Paseo Rp22.500; saringan MPASI Rp29.500; Bunda Elia Rp55.000; sunscreen Moell Rp79.000; MamyPoko Royal Soft Rp123.000.",
-      en: "Current HiMoon catalog is about Rp22,500–Rp123,000 following Shopee. Paseo tissue Rp22,500; MPASI strainer Rp29,500; Bunda Elia Rp55,000; Moell sunscreen Rp79,000; MamyPoko Royal Soft Rp123,000.",
+      id: "Harga katalog HiMoon saat ini sekitar Rp22.500–Rp123.000 mengikuti Shopee. Tisu Paseo Rp22.500 dan saringan MPASI Rp29.500 di /shop/peralatan-bayi; Bunda Elia Rp55.000; sunscreen Moell Rp79.000; MamyPoko Royal Soft Rp123.000.",
+      en: "Current HiMoon catalog is about Rp22,500–Rp123,000 following Shopee. Paseo tissue Rp22,500 and MPASI strainer Rp29,500 at /shop/peralatan-bayi; Bunda Elia Rp55,000; Moell sunscreen Rp79,000; MamyPoko Royal Soft Rp123,000.",
     },
     faqs: [
       {
@@ -290,8 +290,8 @@ export const guides: BlogPost[] = [
       en: "Looking for an MPASI shop in Bali? HiMoon in Badung sells Bunda Elia nutrition and feeding tools, with live stock on Shopee himoonbabykids.",
     },
     speakable: {
-      id: "Toko MPASI Bali yang dicari ibu baru biasanya butuh dua hal: bahan atau nutrisi pendamping ASI, dan peralatan makan yang aman. HiMoon Baby & Kids di Kabupaten Badung menjual produk MPASI Bunda Elia BB Booster Rice dengan harga katalog Rp55.000 dan saringan MPASI stainless sekitar Rp29.500, mengikuti Shopee himoonbabykids. MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dan minat pada makanan muncul; mulai tekstur halus, porsi kecil, dan satu bahan baru setiap beberapa hari untuk pantau reaksi. Kami bukan klinik gizi; ikuti panduan IDAI atau tenaga kesehatan Anda. Belanja bisa di toko fisik, WhatsApp, atau Shopee agar pengiriman sampai Denpasar dan luar Bali. Bandingkan dengan toko MPASI spesialis lain di Bali jika Anda butuh bahan organik curah; keunggulan HiMoon adalah etalase campuran MPASI plus popok dan skincare di satu Shopee shop.",
-      en: "Parents searching for an MPASI shop in Bali usually need complementary-food nutrition and safe feeding tools. HiMoon Baby & Kids in Badung Regency sells Bunda Elia BB Booster Rice MPASI at Rp55,000 catalog and a stainless MPASI strainer around Rp29,500, following Shopee himoonbabykids. Complementary feeding usually starts around 6 months when a baby can sit and shows interest; begin with smooth textures, tiny portions, and one new food every few days. We are not a nutrition clinic; follow IDAI or your clinician. Shop in-store, on WhatsApp, or Shopee for delivery across Denpasar and Indonesia. Compare with specialist bulk-ingredient MPASI stores if you need that range; HiMoon’s edge is MPASI plus diapers and skincare in one Shopee shop.",
+      id: "Toko MPASI Bali yang dicari ibu baru biasanya butuh dua hal: bahan atau nutrisi pendamping ASI, dan peralatan makan yang aman. HiMoon Baby & Kids di Kabupaten Badung menjual produk MPASI Bunda Elia BB Booster Rice dengan harga katalog Rp55.000 dan saringan MPASI stainless Rp29.500 di /shop/peralatan-bayi, mengikuti Shopee himoonbabykids. MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dan minat pada makanan muncul; mulai tekstur halus, porsi kecil, dan satu bahan baru setiap beberapa hari untuk pantau reaksi. Kami bukan klinik gizi; ikuti panduan IDAI atau tenaga kesehatan Anda. Belanja bisa di toko fisik, WhatsApp, atau Shopee agar pengiriman sampai Denpasar dan luar Bali. Bandingkan dengan toko MPASI spesialis lain di Bali jika Anda butuh bahan organik curah; keunggulan HiMoon adalah etalase campuran MPASI plus popok dan skincare di satu Shopee shop.",
+      en: "Parents searching for an MPASI shop in Bali usually need complementary-food nutrition and safe feeding tools. HiMoon Baby & Kids in Badung Regency sells Bunda Elia BB Booster Rice MPASI at Rp55,000 catalog and a stainless MPASI strainer at Rp29,500 on /shop/peralatan-bayi, following Shopee himoonbabykids. Complementary feeding usually starts around 6 months when a baby can sit and shows interest; begin with smooth textures, tiny portions, and one new food every few days. We are not a nutrition clinic; follow IDAI or your clinician. Shop in-store, on WhatsApp, or Shopee for delivery across Denpasar and Indonesia. Compare with specialist bulk-ingredient MPASI stores if you need that range; HiMoon’s edge is MPASI plus diapers and skincare in one Shopee shop.",
     },
     content: {
       id: "Kompetitor lokal seperti MPASI Store Bali fokus bahan dan alat masak. HiMoon menempati celah: nutrisi Bunda Elia, peralatan, plus kebutuhan bayi lain yang sama-sama bisa di-checkout Shopee.",
@@ -304,8 +304,8 @@ export const guides: BlogPost[] = [
           en: "What we sell for MPASI",
         },
         body: {
-          id: "Nutrisi MPASI Bunda Elia dan peralatan blender, steamer, atau botol sesuai stok Shopee. Nama item dan foto mengikuti etalase himoonbabykids.",
-          en: "Bunda Elia MPASI nutrition and blender, steamer, or bottle tools depending on Shopee stock. Names and photos follow the himoonbabykids listing.",
+          id: "Nutrisi MPASI Bunda Elia di /shop/mpasi dan saringan MPASI stainless Rp29.500 di /shop/peralatan-bayi. Blender, steamer, atau botol hanya jika listing Shopee himoonbabykids menampilkannya.",
+          en: "Bunda Elia MPASI nutrition at /shop/mpasi and the stainless MPASI strainer at Rp29,500 on /shop/peralatan-bayi. Blender, steamer, or bottle only if the himoonbabykids Shopee listing shows them.",
         },
       },
       {
@@ -314,8 +314,8 @@ export const guides: BlogPost[] = [
           en: "Pricing",
         },
         body: {
-          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI stainless Rp29.500. Mom Uung / ASI booster sesuai stok Shopee, harga live di listing.",
-          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000; stainless MPASI strainer Rp29,500. Mom Uung / ASI booster follows Shopee stock and live listing price.",
+          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000 di /shop/mpasi; saringan MPASI stainless Rp29.500 di /shop/peralatan-bayi. Mom Uung / ASI booster sesuai stok Shopee, harga live di listing.",
+          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000 at /shop/mpasi; stainless MPASI strainer Rp29,500 at /shop/peralatan-bayi. Mom Uung / ASI booster follows Shopee stock and live listing price.",
         },
       },
       {
@@ -332,20 +332,20 @@ export const guides: BlogPost[] = [
     inclusions: {
       id: [
         "MPASI Bunda Elia BB Booster Rice (katalog Rp55.000)",
-        "Saringan MPASI stainless (katalog Rp29.500)",
+        "Saringan MPASI stainless Rp29.500 di /shop/peralatan-bayi",
         "Konsultasi pilih item via WhatsApp",
         "Kirim Shopee atau ambil di Badung",
       ],
       en: [
         "Bunda Elia BB Booster Rice (catalog Rp55,000)",
-        "Stainless MPASI strainer (catalog Rp29,500)",
+        "Stainless MPASI strainer Rp29,500 at /shop/peralatan-bayi",
         "WhatsApp help choosing items",
         "Shopee ship or Badung pickup",
       ],
     },
     priceNote: {
-      id: "MPASI Bunda Elia Rp55.000; saringan MPASI Rp29.500. ASI booster / Mom Uung: cek harga live di Shopee.",
-      en: "Bunda Elia MPASI Rp55,000; MPASI strainer Rp29,500. ASI booster / Mom Uung: check live Shopee price.",
+      id: "MPASI Bunda Elia Rp55.000 di /shop/mpasi; saringan MPASI Rp29.500 di /shop/peralatan-bayi. ASI booster / Mom Uung: cek harga live di Shopee.",
+      en: "Bunda Elia MPASI Rp55,000 at /shop/mpasi; MPASI strainer Rp29,500 at /shop/peralatan-bayi. ASI booster / Mom Uung: check live Shopee price.",
     },
     faqs: [
       {
@@ -420,8 +420,8 @@ export const guides: BlogPost[] = [
       en: "How to start MPASI at 6 months, which tools you actually need, and shop links for Bunda Elia plus blenders on HiMoon’s Shopee.",
     },
     speakable: {
-      id: "MPASI atau makanan pendamping ASI biasanya dimulai sekitar usia enam bulan ketika bayi bisa duduk dengan penopang, mengontrol kepala, dan menunjukkan minat pada makanan. Mulai dengan tekstur halus seperti puree, porsi satu sampai dua sendok, lalu naikkan pelan. Perkenalkan satu bahan baru setiap tiga hari agar mudah melihat reaksi. HiMoon Baby & Kids di Bali menyediakan nutrisi MPASI Bunda Elia BB Booster Rice Rp55.000 dan saringan MPASI stainless Rp29.500 di katalog Shopee himoonbabykids. Anda tidak wajib membeli semua alat di hari pertama; sendok, mangkuk, dan steamer atau blender sesuai kebutuhan saja. Toko fisik ada di Kabupaten Badung; checkout online lewat Shopee atau tanya stok via WhatsApp. Pengiriman ke Denpasar dan luar Bali mengikuti kurir Shopee. Panduan ini bukan pengganti konsultasi dokter anak atau ahli gizi. Buka kategori MPASI di situs lalu tombol Beli di Shopee untuk stok live.",
-      en: "Complementary feeding (MPASI) usually starts around six months when a baby can sit with support, control the head, and shows interest in food. Start with smooth puree textures, one to two spoons, then increase slowly. Introduce one new food every three days so reactions are easier to spot. HiMoon Baby & Kids in Bali offers Bunda Elia BB Booster Rice MPASI at Rp55,000 and a stainless MPASI strainer at Rp29,500 on the himoonbabykids Shopee catalog. You do not need every gadget on day one; buy a spoon, bowl, and steamer or blender only as needed. The physical store is in Badung Regency; checkout on Shopee or ask stock via WhatsApp. This guide does not replace a pediatrician or dietitian.",
+      id: "MPASI atau makanan pendamping ASI biasanya dimulai sekitar usia enam bulan ketika bayi bisa duduk dengan penopang, mengontrol kepala, dan menunjukkan minat pada makanan. Mulai dengan tekstur halus seperti puree, porsi satu sampai dua sendok, lalu naikkan pelan. Perkenalkan satu bahan baru setiap tiga hari agar mudah melihat reaksi. HiMoon Baby & Kids di Bali menyediakan nutrisi MPASI Bunda Elia BB Booster Rice Rp55.000 di /shop/mpasi dan saringan MPASI stainless Rp29.500 di /shop/peralatan-bayi, mengikuti Shopee himoonbabykids. Anda tidak wajib membeli semua alat di hari pertama; sendok, mangkuk, dan steamer atau blender sesuai kebutuhan saja — botol/blender hanya jika listing Shopee ada. Toko fisik ada di Kabupaten Badung; checkout online lewat Shopee atau tanya stok via WhatsApp. Pengiriman ke Denpasar dan luar Bali mengikuti kurir Shopee. Panduan ini bukan pengganti konsultasi dokter anak atau ahli gizi. Buka kategori MPASI atau Peralatan Bayi lalu tombol Beli di Shopee untuk stok live.",
+      en: "Complementary feeding (MPASI) usually starts around six months when a baby can sit with support, control the head, and shows interest in food. Start with smooth puree textures, one to two spoons, then increase slowly. Introduce one new food every three days so reactions are easier to spot. HiMoon Baby & Kids in Bali offers Bunda Elia BB Booster Rice MPASI at Rp55,000 on /shop/mpasi and a stainless MPASI strainer at Rp29,500 on /shop/peralatan-bayi. You do not need every gadget on day one; bottles or blenders only if Shopee lists them. The physical store is in Badung Regency; checkout on Shopee or ask stock via WhatsApp. This guide does not replace a pediatrician or dietitian.",
     },
     content: {
       id: "Gunakan halaman ini sebagai urutan praktis, lalu belanja hanya item yang Anda butuhkan di kategori MPASI.",
@@ -444,8 +444,8 @@ export const guides: BlogPost[] = [
           en: "Tools worth buying",
         },
         body: {
-          id: "Mangkuk, sendok, dan saringan stainless. Lihat katalog peralatan bayi HiMoon; saringan MPASI Ceko tercatat Rp29.500.",
-          en: "A bowl, spoon, and stainless strainer. See HiMoon’s baby-equipment catalog; the Ceko MPASI strainer is listed at Rp29,500.",
+          id: "Mangkuk, sendok, dan saringan stainless. Lihat /shop/peralatan-bayi; saringan MPASI Ceko katalog Rp29.500, tisu Paseo Rp22.500. Botol/blender hanya jika listing Shopee ada.",
+          en: "A bowl, spoon, and stainless strainer. See /shop/peralatan-bayi; the Ceko MPASI strainer is Rp29,500 catalog and Paseo tissue Rp22,500. Bottles/blenders only if Shopee lists them.",
         },
       },
       {
@@ -474,8 +474,8 @@ export const guides: BlogPost[] = [
       ],
     },
     priceNote: {
-      id: "Bunda Elia BB Booster Rice Rp55.000; saringan MPASI Rp29.500 pada katalog saat ini.",
-      en: "Bunda Elia BB Booster Rice Rp55,000; MPASI strainer Rp29,500 on the current catalog.",
+      id: "Bunda Elia BB Booster Rice Rp55.000 di /shop/mpasi; saringan MPASI Rp29.500 dan tisu Paseo Rp22.500 di /shop/peralatan-bayi.",
+      en: "Bunda Elia BB Booster Rice Rp55,000 at /shop/mpasi; MPASI strainer Rp29,500 and Paseo tissue Rp22,500 at /shop/peralatan-bayi.",
     },
     faqs: [
       {
@@ -494,8 +494,8 @@ export const guides: BlogPost[] = [
           en: "Where can I buy MPASI tools in Bali?",
         },
         answer: {
-          id: "Di HiMoon Badung atau Shopee himoonbabykids, kategori Peralatan Bayi dan MPASI.",
-          en: "At HiMoon Badung or Shopee himoonbabykids, in Baby Equipment and MPASI.",
+          id: "Di HiMoon Badung atau Shopee himoonbabykids. Buka /shop/peralatan-bayi — saringan MPASI Ceko Rp29.500 dan tisu Paseo Rp22.500; nutrisi Bunda Elia di /shop/mpasi.",
+          en: "At HiMoon Badung or Shopee himoonbabykids. Open /shop/peralatan-bayi — Ceko MPASI strainer Rp29,500 and Paseo tissue Rp22,500; Bunda Elia nutrition at /shop/mpasi.",
         },
       },
       {

@@ -18,6 +18,7 @@ export const metadata: Metadata = buildIndonesiaPageMetadata({
     "Baby Shop",
     "perlengkapan bayi baru lahir",
     "beli sunscreen bayi",
+    "sabun bayi non SLS original",
     "toko MPASI Bali",
   ],
 });

@@ -270,8 +270,8 @@ export const guides: BlogPost[] = [
     shopHref: "/shop/perawatan-kulit-bayi",
     relatedSlugs: [
       "perawatan-kulit-bayi-sensitif",
+      "beeme-vs-gently-sabun-bayi",
       "perlengkapan-bayi-baru-lahir",
-      "toko-mpasi-bali",
     ],
   },
   {
@@ -550,8 +550,8 @@ export const guides: BlogPost[] = [
       en: "Baby skin is thinner and more reactive, especially in hot, humid, high-UV Bali. HiMoon Baby & Kids sells listed care: Gently Hydra Soft Body Lotion Rp93,000, Moell 30g sunscreen Rp79,000, Beeme lip balm Rp70,000, and Paseo tissue Rp22,500. Skip heavy fragrance if skin reddens easily, and patch test. This is not a dermatitis diagnosis; see a doctor for severe rash. Buy authentic products at the Badung store or Shopee himoonbabykids. Other brands such as Mustela and Cussons appear when in stock. Pair skincare with a diaper that does not chafe. All prices follow Shopee and can change during promotions.",
     },
     content: {
-      id: "Halaman ini merangkum produk skincare yang memang dijual HiMoon, plus cara order ke Shopee.",
-      en: "This page summarizes skincare HiMoon actually sells, plus how to order on Shopee.",
+      id: "Halaman ini merangkum produk skincare yang memang dijual HiMoon, plus cara order ke Shopee. Bandingkan sabun dan body wash original di artikel Beeme vs Gently vs Moell sabun bayi.",
+      en: "This page summarizes skincare HiMoon actually sells, plus how to order on Shopee. Compare authentic baby wash on the Beeme vs Gently vs Moell sabun article.",
     },
     sections: [
       {
@@ -654,7 +654,162 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: ["beli-sunscreen-bayi", "beeme-vs-gently-sabun-bayi", "perlengkapan-bayi-baru-lahir"],
+  },
+  {
+    slug: "beeme-vs-gently-sabun-bayi",
+    phase: "month1",
+    query: {
+      id: "sabun bayi non SLS original",
+      en: "original non-SLS baby wash",
+    },
+    title: {
+      id: "Beeme vs Gently vs Moell: sabun bayi non SLS original untuk kulit sensitif di Bali",
+      en: "Beeme vs Gently vs Moell: authentic non-SLS baby wash for sensitive skin in Bali",
+    },
+    excerpt: {
+      id: "Bandingkan sabun bayi original di HiMoon Badung: Moell Gentle 185ml Rp72.000, Gently Ultra Soft 250gr Rp76.000, Beeme Honey Bee 250ml Rp87.000. Lalu Beli di Shopee himoonbabykids.",
+      en: "Compare authentic baby wash at HiMoon Badung: Moell Gentle 185ml Rp72,000, Gently Ultra Soft 250g Rp76,000, Beeme Honey Bee 250ml Rp87,000. Then Buy on Shopee himoonbabykids.",
+    },
+    speakable: {
+      id: "Beeme versus Gently versus Moell sabun bayi adalah perbandingan ritel sabun dan body wash yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali — bukan diagnosis kulit. Katalog Shopee himoonbabykids: Moell Gentle Body Wash 185ml — judul listing Sabun Bayi & Anak Non SLS Kulit Sensitif — Rp72.000; refill 500gr Tanpa SLS & Alkohol Rp100.000; Gently Ultra Soft Body Wash & Shampoo 250gr — judul listing Sabun Sampo Bayi Non SLS — Rp76.000; refill 250gr Rp58.000; Beeme Honey Bee Bubble Wash 250ml — judul listing Sabun & Sampo Bayi 3in1 Aman Newborn — Rp87.000; Beeme Natural Soap 3in1 Honey & Lemongrass 100ml Rp90.000. Judul listing Beeme tidak menuliskan Non SLS; kami tidak menambah klaim itu. Isi kemasan mengikuti judul listing. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk. Halaman ini untuk ibu hamil dan new mom yang mencari sabun bayi non SLS original untuk kulit yang mudah merah di iklim panas Bali. Cara beli: tombol Beli di Shopee, atau buka katalog perawatan kulit bayi lalu kartu wash. WhatsApp hanya untuk tanya stok toko, bukan keranjang bayar. Patch test 24 jam; ruam parah ke tenaga kesehatan. Shampoo refill Moell 500ml adalah SKU terpisah — konfirmasi di Shopee himoonbabykids sebelum bayar.",
+      en: "Beeme versus Gently versus Moell baby wash is a retail comparison of washes we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali — not a skin diagnosis. Shopee himoonbabykids catalog: Moell Gentle Body Wash 185ml — listing title Non-SLS baby and kids wash for sensitive skin — Rp72,000; 500g refill without SLS and alcohol Rp100,000; Gently Ultra Soft Body Wash & Shampoo 250g — listing title Non-SLS baby wash — Rp76,000; 250g refill Rp58,000; Beeme Honey Bee Bubble Wash 250ml — listing title 3-in-1 wash safe for newborns — Rp87,000; Beeme Natural Soap 3-in-1 Honey & Lemongrass 100ml Rp90,000. Beeme listing titles do not write Non-SLS; we do not add that claim. Pack contents follow the listing title. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. Shipping is not included. This page is for pregnant and new moms looking for authentic non-SLS baby wash when skin reddens easily in Bali heat. How to buy: the Buy on Shopee button, or open the baby-skincare catalog then the wash card. WhatsApp is only for in-store stock, not a payment cart. Patch-test 24 hours; severe rash needs a clinician. Moell 500ml shampoo refill is a separate SKU — confirm on Shopee himoonbabykids before paying.",
+    },
+    content: {
+      id: "Kami meritel sabun dan body wash yang memang ada di etalase, bukan daftar merek yang tidak kami jual. Halaman ini menjawab sabun bayi non SLS original plus perbandingan Beeme vs Gently vs Moell, lalu mengantar ke [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) dan [etalase campur](/shop). Rutin mandi tetap di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif); tabir surya terpisah di [beli sunscreen bayi](/blog/beli-sunscreen-bayi). Klaim Non SLS, 3in1, dan usia pemakaian tetap di judul listing dan kemasan merek. Kami tidak mendiagnosis dermatitis, alergi, atau menjanjikan kulit tidak iritasi.",
+      en: "We retail washes that are actually in the shop, not brands we do not sell. This page answers authentic non-SLS baby wash plus the Beeme vs Gently vs Moell comparison, then sends you to the [baby skincare catalog](/shop/perawatan-kulit-bayi) and the [mixed shop](/shop). Daily bath routine stays on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif); sunscreen is separate on [buy baby sunscreen](/blog/beli-sunscreen-bayi). Non-SLS, 3-in-1, and age-of-use claims stay on the listing title and brand pack. We do not diagnose dermatitis or allergy, and we do not promise irritation-free skin.",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga, isi, di mana, untuk siapa",
+          en: "What it is, price, pack, where, who for",
+        },
+        body: {
+          id: "Ini perbandingan ritel Beeme vs Gently vs Moell sabun bayi non SLS original di HiMoon, bukan resep dokter kulit. SKU wash di katalog Shopee himoonbabykids: Moell Gentle Body Wash 185ml — judul listing Non SLS kulit sensitif — Rp72.000; Moell Gentle Body Wash Refill 500gr — judul listing tanpa SLS & alkohol — Rp100.000; Gently Ultra Soft Body Wash & Shampoo 250gr — judul listing Non SLS — Rp76.000; Gently Ultra Soft refill 250gr Rp58.000; Beeme Honey Bee Bubble Wash 250ml — judul listing 3in1 aman newborn — Rp87.000; Beeme Natural Soap 3in1 Honey & Lemongrass 100ml Rp90.000. Isi ml/gr mengikuti nama listing; kami tidak mengarang takaran busa. Yang termasuk: produk sesuai etalase, bantuan pilih via WhatsApp, ambil di Kabupaten Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Ongkir tidak termasuk. Untuk ibu hamil dan new mom yang butuh sabun mandi original, bukan shampoo refill terpisah. Cara beli: tombol Beli di Shopee di halaman ini atau kartu di [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi). WhatsApp tanya stok toko dulu jika ingin datang ke Badung. Etalase lengkap ada di [/shop](/shop).",
+          en: "This is a retail Beeme vs Gently vs Moell authentic non-SLS baby-wash comparison at HiMoon, not a dermatologist prescription. Wash SKUs on Shopee himoonbabykids: Moell Gentle Body Wash 185ml — listing title Non-SLS for sensitive skin — Rp72,000; Moell Gentle Body Wash Refill 500g — listing title without SLS and alcohol — Rp100,000; Gently Ultra Soft Body Wash & Shampoo 250g — listing title Non-SLS — Rp76,000; Gently Ultra Soft refill 250g Rp58,000; Beeme Honey Bee Bubble Wash 250ml — listing title 3-in-1 for newborns — Rp87,000; Beeme Natural Soap 3-in-1 Honey & Lemongrass 100ml Rp90,000. ml/g follow the listing name; we do not invent how much foam to use. Included: listed goods, WhatsApp help, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and beyond Bali. Shipping is not in the catalog IDR. For pregnant and new moms who want an authentic body wash, not a separate shampoo refill. How to buy: the Buy on Shopee button here or the card on the [baby skincare catalog](/shop/perawatan-kulit-bayi). WhatsApp in-store stock first if you plan a Badung visit. The mixed catalog is at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Original / vs / worth it: Non SLS di judul listing, bukan di klaim kami",
+          en: "Authentic / vs / worth it: Non-SLS is on the listing title, not our claim",
+        },
+        body: {
+          id: "Harga katalog berbeda karena isi pack dan format berbeda: botol 185ml, botol 250ml, pouch 250gr, sabun 100ml, dan refill 500gr. Jangan bandingkan stiker termurah seolah porsi sama; unit ml dan gr tidak kami konversi jadi angka ketiga. Judul listing yang menuliskan Non SLS atau Tanpa SLS saat ini: Moell Gentle 185ml, Moell refill 500gr, dan Gently Ultra Soft 250gr. Judul Beeme Honey Bee 250ml dan Beeme Natural Soap 100ml tidak menuliskan Non SLS — kami tidak menempelkan klaim itu. Worth it jika Anda ingin Beeme, Gently, atau Moell original dari toko yang bisa dikonfirmasi — himoonbabykids — plus opsi lihat fisik di Badung. Bukan worth it jika Anda mencari obat ruam, diagnosis eksim, atau shampoo terpisah (Moell Hair Shampoo Refill 500ml Rp98.000 ada di etalase sebagai SKU rambut, bukan body wash). Kami tidak menempel rating 4,9 pada sabun ini; rating toko Shopee terpisah dari perbandingan SKU. Metode lengkap di [/metodologi-perbandingan](/metodologi-perbandingan): hanya etalase nyata, iklim Bali, tanpa panel palsu.",
+          en: "Catalog prices differ because pack size and format differ: 185ml bottle, 250ml bottle, 250g pouch, 100ml soap, and 500g refill. Do not treat the cheapest sticker as the same portion; we do not invent a third per-ml number from mixed ml and g units. Listing titles that currently write Non-SLS or without SLS: Moell Gentle 185ml, Moell 500g refill, and Gently Ultra Soft 250g. Beeme Honey Bee 250ml and Beeme Natural Soap 100ml titles do not write Non-SLS — we do not paste that claim on. Worth it if you want authentic Beeme, Gently, or Moell from a shop you can confirm — himoonbabykids — plus the option to see it in Badung. Not worth it if you want a rash medicine, an eczema diagnosis, or a separate shampoo (Moell Hair Shampoo Refill 500ml Rp98,000 is in the shop as a hair SKU, not a body wash). We do not paste a 4.9 rating on these washes; the Shopee shop rating is separate from the SKU comparison. Full method is on [/metodologi-perbandingan](/metodologi-perbandingan): real listings, Bali climate, no fake panel.",
+        },
+      },
+      {
+        heading: {
+          id: "Kapan pilih Beeme, Gently, atau Moell",
+          en: "When to pick Beeme, Gently, or Moell",
+        },
+        body: {
+          id: "Tidak ada pemenang medis. Pilih Moell Gentle 185ml Rp72.000 jika Anda mengutamakan judul listing Non SLS + kulit sensitif dan sudah nyaman dengan rangkaian Moell; refill 500gr Rp100.000 untuk restock format pouch, bukan botol yang sama. Pilih Gently Ultra Soft 250gr Rp76.000 jika Anda mencari wash Gently yang judul listingnya Non SLS; refill 250gr Rp58.000 adalah pouch hemat dari baris yang sama, bukan formula ketiga. Pilih Beeme Honey Bee 250ml Rp87.000 jika Anda mengutamakan pack 3in1 dengan judul listing aman newborn — tetap baca label, dan ingat judul ini tidak menulis Non SLS. Beeme Natural Soap 3in1 100ml Rp90.000 adalah sabun, bukan bubble wash; format berbeda jadi jangan disamakan dengan botol 250ml. Jika kulit mudah merah, patch test di area kecil 24 jam, hentikan jika memburuk, lalu ke tenaga kesehatan. Rutin mandi ada di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif). Sunscreen tetap produk terpisah — lihat [beli sunscreen bayi](/blog/beli-sunscreen-bayi).",
+          en: "There is no medical winner. Pick Moell Gentle 185ml Rp72,000 if you want the Non-SLS + sensitive-skin listing title and already use Moell; the 500g refill at Rp100,000 is a pouch restock, not the same bottle. Pick Gently Ultra Soft 250g Rp76,000 if you want Gently’s wash whose listing title writes Non-SLS; the 250g refill at Rp58,000 is the value pouch of the same line, not a third formula. Pick Beeme Honey Bee 250ml Rp87,000 if you want a 3-in-1 pack whose listing title says newborn-safe — still read the label, and remember this title does not write Non-SLS. Beeme Natural Soap 3-in-1 100ml Rp90,000 is a soap, not a bubble wash; the format is different so do not treat it as the 250ml bottle. If skin reddens easily, patch-test a small area for 24 hours, stop if it worsens, then see a clinician. Bath steps live on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif). Sunscreen stays a separate product — see [buy baby sunscreen](/blog/beli-sunscreen-bayi).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee dan yang tidak termasuk",
+          en: "How to Buy on Shopee and what is not included",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke himoonbabykids, atau buka [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) lalu pilih kartu Beeme, Gently, atau Moell. Stok, promo, dan ongkir Badung–Denpasar live di Shopee. WhatsApp hanya untuk tanya stok toko fisik, bukan pembayaran. Tidak termasuk: diagnosis medis, janji tidak iritasi, racikan custom, dan shampoo kecuali Anda sengaja pilih SKU rambut. Jika harga di situs terasa usang, konfirmasi di Shopee himoonbabykids. Brand Mustela atau Cussons hanya jika listing Shopee kami menampilkannya — saat katalog ini ditulis, wash Beeme, Gently, dan Moell di atas yang kami bandingkan.",
+          en: "Primary checkout: the orange Buy on Shopee button to himoonbabykids, or open the [baby skincare catalog](/shop/perawatan-kulit-bayi) then the Beeme, Gently, or Moell card. Stock, promos, and Badung–Denpasar shipping are live on Shopee. WhatsApp is only for physical-store stock, not payment. Not included: a medical diagnosis, a promised no-irritation outcome, custom mixing, and shampoo unless you pick that hair SKU on purpose. If the site price looks stale, confirm on Shopee himoonbabykids. Mustela or Cussons only if our Shopee listing shows them — when this catalog was written, the Beeme, Gently, and Moell washes above are the ones we compare.",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Moell Gentle Body Wash 185ml (katalog Rp72.000) + refill 500gr Rp100.000",
+        "Gently Ultra Soft Body Wash 250gr (katalog Rp76.000) + refill 250gr Rp58.000",
+        "Beeme Honey Bee Bubble Wash 250ml (katalog Rp87.000)",
+        "Beeme Natural Soap 3in1 100ml (katalog Rp90.000)",
+        "Checkout Shopee himoonbabykids atau ambil di Badung",
+        "WhatsApp tanya stok toko (bukan pembayaran)",
+      ],
+      en: [
+        "Moell Gentle Body Wash 185ml (catalog Rp72,000) + 500g refill Rp100,000",
+        "Gently Ultra Soft Body Wash 250g (catalog Rp76,000) + 250g refill Rp58,000",
+        "Beeme Honey Bee Bubble Wash 250ml (catalog Rp87,000)",
+        "Beeme Natural Soap 3-in-1 100ml (catalog Rp90,000)",
+        "Shopee himoonbabykids checkout or Badung pickup",
+        "WhatsApp in-store stock questions (not payment)",
+      ],
+    },
+    priceNote: {
+      id: "Katalog sabun/wash: Moell Gentle 185ml Rp72.000; refill 500gr Rp100.000; Gently Ultra Soft 250gr Rp76.000; refill 250gr Rp58.000; Beeme Honey Bee 250ml Rp87.000; Beeme Natural Soap 100ml Rp90.000. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Wash catalog: Moell Gentle 185ml Rp72,000; 500g refill Rp100,000; Gently Ultra Soft 250g Rp76,000; 250g refill Rp58,000; Beeme Honey Bee 250ml Rp87,000; Beeme Natural Soap 100ml Rp90,000. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Beeme, Gently, atau Moell sabun bayi — mana yang non SLS original?",
+          en: "Beeme, Gently, or Moell baby wash — which is authentic non-SLS?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis. Judul listing yang menulis Non SLS / Tanpa SLS: Moell Gentle 185ml Rp72.000, Moell refill 500gr Rp100.000, dan Gently Ultra Soft 250gr Rp76.000. Judul Beeme Honey Bee 250ml Rp87.000 dan Beeme Natural Soap 100ml Rp90.000 tidak menulis Non SLS. Uji pack kecil, patch test, baca label. Ruam parah ke tenaga kesehatan.",
+          en: "There is no medical winner. Listing titles that write Non-SLS / without SLS: Moell Gentle 185ml Rp72,000, Moell 500g refill Rp100,000, and Gently Ultra Soft 250g Rp76,000. Beeme Honey Bee 250ml Rp87,000 and Beeme Natural Soap 100ml Rp90,000 titles do not write Non-SLS. Trial a small pack, patch-test, read the label. Severe rash needs a clinician.",
+        },
+      },
+      {
+        question: {
+          id: "Berapa harga sabun bayi Beeme, Gently, dan Moell di HiMoon?",
+          en: "How much are Beeme, Gently, and Moell baby washes at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Moell Gentle 185ml Rp72.000, refill 500gr Rp100.000, Gently Ultra Soft 250gr Rp76.000, refill 250gr Rp58.000, Beeme Honey Bee 250ml Rp87.000, Beeme Natural Soap 100ml Rp90.000. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar.",
+          en: "Current catalog is Moell Gentle 185ml Rp72,000, 500g refill Rp100,000, Gently Ultra Soft 250g Rp76,000, 250g refill Rp58,000, Beeme Honey Bee 250ml Rp87,000, Beeme Natural Soap 100ml Rp90,000. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying.",
+        },
+      },
+      {
+        question: {
+          id: "Di mana beli sabun bayi original di Bali?",
+          en: "Where can I buy authentic baby wash in Bali?",
+        },
+        answer: {
+          id: "Toko HiMoon di Kabupaten Badung atau Shopee himoonbabykids, kategori Perawatan Kulit Bayi. Kami toko ritel, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian.",
+          en: "HiMoon’s store in Badung Regency or Shopee himoonbabykids, Baby Skincare category. We are a retailer, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee, atau buka /shop/perawatan-kulit-bayi lalu kartu Beeme, Gently, atau Moell. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button, or open /shop/perawatan-kulit-bayi then the Beeme, Gently, or Moell card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-10-12",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.sunscreen,
+    imageAlt: {
+      id: "Sabun bayi Beeme, Gently, dan Moell di HiMoon Badung dan Shopee",
+      en: "Beeme, Gently, and Moell baby wash at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/perawatan-kulit-bayi",
+    relatedSlugs: ["perawatan-kulit-bayi-sensitif", "beli-sunscreen-bayi"],
+    emitFaqPageSchema: false,
+    cta: {
+      title: {
+        id: "Beli sabun bayi original di Shopee",
+        en: "Buy authentic baby wash on Shopee",
+      },
+      body: {
+        id: "Bandingkan Moell Gentle 185ml Rp72.000, Gently Ultra Soft 250gr Rp76.000, dan Beeme Honey Bee 250ml Rp87.000. Harga, isi pack, dan ongkir Badung–Denpasar live di checkout himoonbabykids. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "Compare Moell Gentle 185ml Rp72,000, Gently Ultra Soft 250g Rp76,000, and Beeme Honey Bee 250ml Rp87,000. Price, pack, and Badung–Denpasar shipping are live at himoonbabykids checkout. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog skincare",
+        en: "Browse skincare catalog",
+      },
+    },
   },
   {
     slug: "tips-memilih-popok-bayi",

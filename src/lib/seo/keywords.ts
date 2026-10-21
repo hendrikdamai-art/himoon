@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "sabun bayi non SLS original",
+      intent: "comparison",
+      why: "P0 skincare cluster: remaining wash vs after lotion/sunscreen drafts; catalog has Beeme, Gently, and Moell washes.",
+      path: "/blog/beeme-vs-gently-sabun-bayi",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

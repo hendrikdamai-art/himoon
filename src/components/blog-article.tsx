@@ -1,49 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { Fragment, type ReactNode } from "react";
+import { Fragment } from "react";
 import { useLanguage } from "@/lib/i18n/language-provider";
 import type { BlogPost, Product } from "@/types/catalog";
 import { BlogProductCta } from "./blog-product-cta";
 import { ProductCard } from "./product-card";
+import { InlineLinks } from "./seo/inline-links";
 
 type BlogArticleProps = {
   post: BlogPost;
   relatedProducts: Product[];
 };
-
-/** Renders markdown-style [anchor](/path) as internal SEO links */
-function renderWithLinks(text: string): ReactNode[] {
-  const pattern = /\[([^\]]+)\]\((\/[^)]+)\)/g;
-  const nodes: ReactNode[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-  let key = 0;
-
-  while ((match = pattern.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      nodes.push(
-        <Fragment key={`t-${key++}`}>{text.slice(lastIndex, match.index)}</Fragment>,
-      );
-    }
-    nodes.push(
-      <Link
-        key={`l-${key++}`}
-        href={match[2]}
-        className="font-semibold text-himoon-blue underline decoration-himoon-yellow/70 underline-offset-2 transition hover:text-himoon-yellow"
-      >
-        {match[1]}
-      </Link>,
-    );
-    lastIndex = match.index + match[0].length;
-  }
-
-  if (lastIndex < text.length) {
-    nodes.push(<Fragment key={`t-${key++}`}>{text.slice(lastIndex)}</Fragment>);
-  }
-
-  return nodes;
-}
 
 type Block =
   | { type: "heading"; text: string }
@@ -92,7 +60,9 @@ export function BlogArticle({ post, relatedProducts }: BlogArticleProps) {
 
           return (
             <Fragment key={index}>
-              <p className="mb-4 leading-relaxed">{renderWithLinks(block.text)}</p>
+              <p className="mb-4 leading-relaxed">
+                <InlineLinks text={block.text} />
+              </p>
               {showMidCta ? <BlogProductCta post={post} placement="mid" /> : null}
             </Fragment>
           );

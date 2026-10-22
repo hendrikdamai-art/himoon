@@ -12,6 +12,7 @@ import { Breadcrumb } from "@/components/seo/breadcrumb";
 import { RelatedGuides } from "@/components/seo/related-guides";
 import { BlogProductCta } from "@/components/blog-product-cta";
 import { ProductCard } from "@/components/product-card";
+import { InlineLinks } from "@/components/seo/inline-links";
 import {
   articleSchema,
   breadcrumbSchema,
@@ -107,10 +108,14 @@ export default async function BlogPostPage({ params }: Props) {
         </SpeakableAnswer>
         <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
           <p className="font-bold text-himoon-blue">Harga & yang termasuk</p>
-          <p className="mt-2 text-sm text-himoon-muted">{post.priceNote.id}</p>
+          <p className="mt-2 text-sm text-himoon-muted">
+            <InlineLinks text={post.priceNote.id} />
+          </p>
           <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-himoon-muted">
             {post.inclusions.id.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item}>
+                <InlineLinks text={item} />
+              </li>
             ))}
           </ul>
           <div className="mt-5 flex flex-wrap gap-3">
@@ -120,11 +125,15 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
         <BlogProductCta post={post} placement="mid" />
         <div className="prose prose-lg mt-8 max-w-none text-himoon-muted">
-          <p className="mb-4 leading-relaxed">{post.content.id}</p>
+          <p className="mb-4 leading-relaxed">
+            <InlineLinks text={post.content.id} />
+          </p>
           {post.sections.map((section) => (
             <section key={section.heading.id} className="mb-6">
               <h2 className="text-2xl font-bold text-himoon-blue">{section.heading.id}</h2>
-              <p className="mt-2 leading-relaxed">{section.body.id}</p>
+              <p className="mt-2 leading-relaxed">
+                <InlineLinks text={section.body.id} />
+              </p>
             </section>
           ))}
         </div>

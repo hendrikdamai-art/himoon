@@ -164,6 +164,9 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "lip balm bayi",
     "perawatan bibir bayi",
     "pelembap bibir anak",
+    "Beeme Honey Lollipop Balm",
+    "lip balm bayi Bali",
+    "treatment bibir bayi",
   ],
 };
 
@@ -172,5 +175,5 @@ export const categoryPageTitles: Record<string, string> = {
   "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
   popok: "Popok Makuku & MamyPoko",
   "peralatan-bayi": "Peralatan Makan Bayi",
-  "perawatan-bibir": "Perawatan Bibir Bayi",
+  "perawatan-bibir": "Perawatan Bibir Bayi Beeme dari Rp70.000",
 };

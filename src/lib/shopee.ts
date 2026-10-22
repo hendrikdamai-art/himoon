@@ -47,7 +47,7 @@ function inferCategory(name: string): Product["category"] {
   if (
     lower.includes("lip") ||
     lower.includes("bibir") ||
-    lower.includes("balm")
+    lower.includes("lollipop balm")
   ) {
     return "perawatan-bibir";
   }

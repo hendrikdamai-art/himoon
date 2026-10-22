@@ -46,8 +46,8 @@ export const guides: BlogPost[] = [
           en: "Priority at 0–3 months",
         },
         body: {
-          id: "Fokus pada popok (Makuku atau MamyPoko), perawatan kulit sensitif (Gently, Mustela, Cussons), tissue lembut Paseo, dan treatment bibir jika kulit kering. Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
-          en: "Focus on diapers (Makuku or MamyPoko), sensitive-skin care (Gently, Mustela, Cussons), soft Paseo tissue, and lip care if skin is dry. Delay MPASI until closer to 6 months unless you want feeding tools early.",
+          id: "Fokus pada popok (Makuku atau MamyPoko), perawatan kulit sensitif (Gently, Mustela, Cussons), tissue lembut Paseo, dan treatment bibir jika kulit kering — [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir). Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
+          en: "Focus on diapers (Makuku or MamyPoko), sensitive-skin care (Gently, Mustela, Cussons), soft Paseo tissue, and lip care if skin is dry — [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir). Delay MPASI until closer to 6 months unless you want feeding tools early.",
         },
       },
       {
@@ -75,21 +75,21 @@ export const guides: BlogPost[] = [
       id: [
         "Popok Makuku / MamyPoko",
         "Skincare bayi (Gently, Moell, Mustela, Cussons)",
-        "Tissue & perawatan harian Paseo",
+        "Tissue Paseo + [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir)",
         "Opsi ASI booster untuk ibu menyusui",
         "Checkout Shopee atau ambil di toko Bali",
       ],
       en: [
         "Makuku / MamyPoko diapers",
         "Baby skincare (Gently, Moell, Mustela, Cussons)",
-        "Daily Paseo tissue & care",
+        "Paseo tissue + [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir)",
         "Optional ASI booster for nursing moms",
         "Shopee checkout or Bali pickup",
       ],
     },
     priceNote: {
-      id: "Harga katalog HiMoon saat ini sekitar Rp22.500–Rp123.000 mengikuti Shopee. Tisu Paseo Rp22.500; saringan MPASI Rp29.500; Bunda Elia Rp55.000; sunscreen Moell Rp79.000; MamyPoko Royal Soft Rp123.000.",
-      en: "Current HiMoon catalog is about Rp22,500–Rp123,000 following Shopee. Paseo tissue Rp22,500; MPASI strainer Rp29,500; Bunda Elia Rp55,000; Moell sunscreen Rp79,000; MamyPoko Royal Soft Rp123,000.",
+      id: "Harga katalog HiMoon saat ini sekitar Rp22.500–Rp123.000 mengikuti Shopee. Tisu Paseo Rp22.500; saringan MPASI Rp29.500; Bunda Elia Rp55.000; sunscreen Moell Rp79.000; [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir); MamyPoko Royal Soft Rp123.000.",
+      en: "Current HiMoon catalog is about Rp22,500–Rp123,000 following Shopee. Paseo tissue Rp22,500; MPASI strainer Rp29,500; Bunda Elia Rp55,000; Moell sunscreen Rp79,000; [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir); MamyPoko Royal Soft Rp123,000.",
     },
     faqs: [
       {
@@ -160,8 +160,8 @@ export const guides: BlogPost[] = [
       en: "Moell baby sunscreen is available at HiMoon Badung and Shopee himoonbabykids. See catalog price, Bali-climate use, and how to checkout.",
     },
     speakable: {
-      id: "Sunscreen bayi di Bali penting karena sinar UV tinggi sepanjang tahun, terutama untuk aktivitas outdoor di Badung, Canggu, dan Denpasar. HiMoon Baby & Kids menjual Moell Sunscreen Bayi & Anak 30 gram dengan harga katalog Rp79.000, mengikuti etalase Shopee himoonbabykids. Produk ini diposisikan merek untuk kulit sensitif dan extra water resistant; selalu baca label resmi Moell untuk usia pemakaian dan cara oles. Beli sunscreen bayi original lewat toko fisik HiMoon di Kabupaten Badung, WhatsApp, atau tombol Beli di Shopee agar stok live. Kami tidak menambahkan ulasan palsu; rating toko Shopee yang disebut di situs adalah rating Shopee himoonbabykids, bukan bintang buatan di halaman ini. Patch test di area kecil jika kulit bayi sangat sensitif. Untuk kebutuhan terkait, HiMoon juga punya lotion Gently dan perawatan bibir. Kirim ke luar Bali tetap lewat Shopee.",
-      en: "Baby sunscreen matters in Bali because UV is high year-round, especially for outdoor time in Badung, Canggu, and Denpasar. HiMoon Baby & Kids sells Moell Baby & Kids Sunscreen 30g at a catalog price of Rp79,000, matching Shopee himoonbabykids. The brand positions it for sensitive skin and extra water resistance; always read Moell’s official label for age and application. Buy authentic baby sunscreen at the Badung store, via WhatsApp, or the Buy on Shopee button for live stock. We do not invent reviews; any Shopee rating mentioned on this site is the himoonbabykids shop rating. Patch test if your baby’s skin is very reactive. Related items include Gently lotion and lip care. Ship outside Bali through Shopee.",
+      id: "Sunscreen bayi di Bali penting karena sinar UV tinggi sepanjang tahun, terutama untuk aktivitas outdoor di Badung, Canggu, dan Denpasar. HiMoon Baby & Kids menjual Moell Sunscreen Bayi & Anak 30 gram dengan harga katalog Rp79.000, mengikuti etalase Shopee himoonbabykids. Produk ini diposisikan merek untuk kulit sensitif dan extra water resistant; selalu baca label resmi Moell untuk usia pemakaian dan cara oles. Beli sunscreen bayi original lewat toko fisik HiMoon di Kabupaten Badung, WhatsApp, atau tombol Beli di Shopee agar stok live. Kami tidak menambahkan ulasan palsu; rating toko Shopee yang disebut di situs adalah rating Shopee himoonbabykids, bukan bintang buatan di halaman ini. Patch test di area kecil jika kulit bayi sangat sensitif. Untuk kebutuhan terkait, HiMoon juga punya lotion Gently dan pelembap bibir Beeme Honey Lollipop Balm Rp70.000 di /shop/perawatan-bibir. Kirim ke luar Bali tetap lewat Shopee.",
+      en: "Baby sunscreen matters in Bali because UV is high year-round, especially for outdoor time in Badung, Canggu, and Denpasar. HiMoon Baby & Kids sells Moell Baby & Kids Sunscreen 30g at a catalog price of Rp79,000, matching Shopee himoonbabykids. The brand positions it for sensitive skin and extra water resistance; always read Moell’s official label for age and application. Buy authentic baby sunscreen at the Badung store, via WhatsApp, or the Buy on Shopee button for live stock. We do not invent reviews; any Shopee rating mentioned on this site is the himoonbabykids shop rating. Patch test if your baby’s skin is very reactive. Related items include Gently lotion and Beeme Honey Lollipop Balm Rp70,000 at /shop/perawatan-bibir. Ship outside Bali through Shopee.",
     },
     content: {
       id: "Pencarian beli sunscreen bayi di Indonesia banyak berakhir di Shopee. Halaman ini menjelaskan SKU yang memang kami jual, bukan daftar merek yang tidak ada di etalase.",
@@ -194,21 +194,21 @@ export const guides: BlogPost[] = [
           en: "How to order",
         },
         body: {
-          id: "Buka kategori Perawatan Kulit Bayi, pilih Moell, lalu Beli di Shopee. Atau kunjungi toko Badung. WhatsApp untuk tanya stok fisik.",
-          en: "Open Baby Skincare, choose Moell, then Buy on Shopee. Or visit the Badung store. WhatsApp for in-store stock.",
+          id: "Buka kategori Perawatan Kulit Bayi, pilih Moell, lalu Beli di Shopee. Untuk bibir kering, buka [Perawatan Bibir — Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir). Atau kunjungi toko Badung. WhatsApp untuk tanya stok fisik.",
+          en: "Open Baby Skincare, choose Moell, then Buy on Shopee. For dry lips, open [Lip Care — Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir). Or visit the Badung store. WhatsApp for in-store stock.",
         },
       },
     ],
     inclusions: {
       id: [
         "Moell Sunscreen Bayi & Anak 30gr (katalog Rp79.000)",
-        "Opsi lotion Gently untuk perawatan harian",
+        "Opsi lotion Gently + [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir)",
         "Bantuan pilih lewat WhatsApp",
         "Checkout Shopee himoonbabykids",
       ],
       en: [
         "Moell Baby & Kids Sunscreen 30g (catalog Rp79,000)",
-        "Optional Gently lotion for daily care",
+        "Optional Gently lotion + [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir)",
         "WhatsApp product help",
         "Checkout on Shopee himoonbabykids",
       ],
@@ -546,7 +546,7 @@ export const guides: BlogPost[] = [
       en: "Choose Gently lotion, Moell sunscreen, and lip care for baby skin in Bali’s climate. Catalog prices and HiMoon Shopee shopping.",
     },
     speakable: {
-      id: "Kulit bayi lebih tipis dan mudah iritasi, apalagi di Bali yang panas, lembap, dan berjemur kuat. HiMoon Baby & Kids menjual perawatan yang ada di etalase: Gently Hydra Soft Body Lotion Rp93.000, Moell sunscreen 30 gram Rp79.000, Beeme Honey Lollipop Balm Rp70.000, dan tisu Paseo Rp22.500. Hindari wewangian berat jika kulit mudah merah, dan lakukan patch test di area kecil. Ini bukan diagnosis dermatitis; jika ruam parah, ke dokter. Belanja original di toko Badung atau Shopee himoonbabykids. Brand lain yang kadang tersedia termasuk Mustela dan Cussons sesuai stok. Gabungkan skincare dengan popok yang tidak gesek berlebihan. Semua harga mengikuti Shopee dan bisa berubah saat promo. Untuk newborn, baca usia minimum di label sunscreen sebelum dipakai. Kirim ke Canggu, Denpasar, atau luar Bali lewat checkout Shopee agar ongkir akurat. Simpan tautan himoonbabykids untuk belanja ulang.",
+      id: "Kulit bayi lebih tipis dan mudah iritasi, apalagi di Bali yang panas, lembap, dan berjemur kuat. HiMoon Baby & Kids menjual perawatan yang ada di etalase: Gently Hydra Soft Body Lotion Rp93.000, Moell sunscreen 30 gram Rp79.000, Beeme Honey Lollipop Balm Rp70.000 di /shop/perawatan-bibir, dan tisu Paseo Rp22.500. Hindari wewangian berat jika kulit mudah merah, dan lakukan patch test di area kecil. Ini bukan diagnosis dermatitis; jika ruam parah, ke dokter. Belanja original di toko Badung atau Shopee himoonbabykids. Brand lain yang kadang tersedia termasuk Mustela dan Cussons sesuai stok. Gabungkan skincare dengan popok yang tidak gesek berlebihan. Semua harga mengikuti Shopee dan bisa berubah saat promo. Untuk newborn, baca usia minimum di label sunscreen sebelum dipakai. Kirim ke Canggu, Denpasar, atau luar Bali lewat checkout Shopee agar ongkir akurat. Simpan tautan himoonbabykids untuk belanja ulang.",
       en: "Baby skin is thinner and more reactive, especially in hot, humid, high-UV Bali. HiMoon Baby & Kids sells listed care: Gently Hydra Soft Body Lotion Rp93,000, Moell 30g sunscreen Rp79,000, Beeme lip balm Rp70,000, and Paseo tissue Rp22,500. Skip heavy fragrance if skin reddens easily, and patch test. This is not a dermatitis diagnosis; see a doctor for severe rash. Buy authentic products at the Badung store or Shopee himoonbabykids. Other brands such as Mustela and Cussons appear when in stock. Pair skincare with a diaper that does not chafe. All prices follow Shopee and can change during promotions.",
     },
     content: {
@@ -570,8 +570,8 @@ export const guides: BlogPost[] = [
           en: "Catalog prices",
         },
         body: {
-          id: "Paseo Rp22.500, Beeme lip balm Rp70.000, Gently Physical Sunscreen Rp75.000, Moell sunscreen Rp79.000, Gently Hydra Soft Body Lotion Rp93.000.",
-          en: "Paseo Rp22,500, Beeme lip balm Rp70,000, Gently Physical Sunscreen Rp75,000, Moell sunscreen Rp79,000, Gently Hydra Soft Body Lotion Rp93,000.",
+          id: "Paseo Rp22.500, [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir), Gently Physical Sunscreen Rp75.000, Moell sunscreen Rp79.000, Gently Hydra Soft Body Lotion Rp93.000.",
+          en: "Paseo Rp22,500, [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir), Gently Physical Sunscreen Rp75,000, Moell sunscreen Rp79,000, Gently Hydra Soft Body Lotion Rp93,000.",
         },
       },
       {
@@ -589,19 +589,19 @@ export const guides: BlogPost[] = [
       id: [
         "Lotion Gently",
         "Sunscreen Moell",
-        "Treatment bibir & tissue Paseo",
+        "[Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir) & tissue Paseo",
         "Order Shopee / toko Badung",
       ],
       en: [
         "Gently lotion",
         "Moell sunscreen",
-        "Lip care & Paseo tissue",
+        "[Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir) & Paseo tissue",
         "Shopee / Badung store order",
       ],
     },
     priceNote: {
-      id: "Skincare katalog Rp22.500–Rp100.000 tergantung item (tisu sampai refill Moell).",
-      en: "Skincare catalog Rp22,500–Rp100,000 depending on the item (tissue through Moell refill).",
+      id: "Skincare katalog Rp22.500–Rp100.000 tergantung item (tisu sampai refill Moell). Pelembap bibir: [Beeme Honey Lollipop Balm Rp70.000](/shop/perawatan-bibir).",
+      en: "Skincare catalog Rp22,500–Rp100,000 depending on the item (tissue through Moell refill). Lip care: [Beeme Honey Lollipop Balm Rp70,000](/shop/perawatan-bibir).",
     },
     faqs: [
       {
@@ -630,8 +630,8 @@ export const guides: BlogPost[] = [
           en: "Where can I buy baby skincare in Badung?",
         },
         answer: {
-          id: "Toko HiMoon dan Shopee himoonbabykids, kategori Perawatan Kulit Bayi.",
-          en: "HiMoon’s store and Shopee himoonbabykids, Baby Skincare category.",
+          id: "Toko HiMoon dan Shopee himoonbabykids, kategori Perawatan Kulit Bayi. Pelembap bibir Beeme Honey Lollipop Balm Rp70.000 ada di /shop/perawatan-bibir.",
+          en: "HiMoon’s store and Shopee himoonbabykids, Baby Skincare category. Beeme Honey Lollipop Balm Rp70,000 is at /shop/perawatan-bibir.",
         },
       },
       {

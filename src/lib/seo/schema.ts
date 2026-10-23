@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
-import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { PRICE_RANGE_IDR, SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { formatPrice } from "@/lib/utils";
 import { moneyPageFaqs } from "@/lib/seo/keywords";
 import type { BlogPost, GuideFaq } from "@/types/catalog";
 
@@ -22,7 +23,7 @@ export function localBusinessSchema() {
     logo: `${siteConfig.url}/logo.png`,
     email: siteConfig.email,
     telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
-    priceRange: "Rp22.500-Rp123.000",
+    priceRange: `${formatPrice(PRICE_RANGE_IDR.min)}-${formatPrice(PRICE_RANGE_IDR.max)}`,
     currenciesAccepted: "IDR",
     paymentAccepted: "Cash, Shopee",
     address: {

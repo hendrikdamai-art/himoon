@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "harga Gently Baby Rash Cream original",
+      intent: "commercial",
+      why: "P0 skincare harga SKU that ties the sensitive-skin money page to the popok cluster (Gently Rash Cream 40gr Rp71.000; shop-home CTA).",
+      path: "/blog/harga-gently-baby-rash-cream-original",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

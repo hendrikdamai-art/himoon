@@ -654,7 +654,170 @@ export const guides: BlogPost[] = [
       en: "Baby skincare at HiMoon Baby & Kids",
     },
     shopHref: "/shop/perawatan-kulit-bayi",
-    relatedSlugs: ["beli-sunscreen-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "beli-sunscreen-bayi",
+      "harga-gently-baby-rash-cream-original",
+      "perlengkapan-bayi-baru-lahir",
+    ],
+  },
+  {
+    slug: "harga-gently-baby-rash-cream-original",
+    phase: "month1",
+    query: {
+      id: "harga Gently Baby Rash Cream original",
+      en: "Gently Baby Rash Cream original price",
+    },
+    title: {
+      id: "Harga Gently Baby Rash Cream original — krim ruam popok bayi kulit sensitif Badung & Shopee",
+      en: "Gently Baby Rash Cream original price — baby diaper-rash cream in Badung & Shopee",
+    },
+    excerpt: {
+      id: "Harga katalog Gently Baby Rash Cream 40gr original Rp71.000 di HiMoon Badung. Bandingkan jujur dengan Gently Calming Cream 20gr Rp53.000 dan Beeme Nourishing Balm 15gr Rp81.000, lalu Beli di Shopee himoonbabykids (cari nama SKU; katalog belum punya item URL).",
+      en: "Catalog price for authentic Gently Baby Rash Cream 40g is Rp71,000 at HiMoon Badung. Honest neighbors: Gently Calming Cream 20g Rp53,000 and Beeme Nourishing Balm 15g Rp81,000. Then Buy on Shopee himoonbabykids (search the SKU name; catalog has no item URL).",
+    },
+    speakable: {
+      id: "Gently Baby Rash Cream original adalah krim area popok yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali — bukan klinik kulit dan bukan official store pabrik. Nama listing katalog: Gently Baby Rash Cream 40gr – Krim Pereda Ruam Popok Bayi Dermatologically Tested. Harga katalog Rp71.000 mengikuti Shopee himoonbabykids. Tombol oranye Beli di Shopee membuka etalase himoonbabykids; baris katalog kami belum punya item ID, jadi kami tidak mengarang tautan listing. Cari nama SKU itu di toko, atau buka katalog perawatan kulit bayi. Isi kemasan yang kami klaim hanya 40gr sesuai judul listing. Tulisan “Dermatologically Tested” dan “pereda ruam” milik merek; kami tidak menjamin bayi bebas ruam. Tetangga jujur di etalase: Gently Calming Baby Cream 20gr katalog Rp53.000 (krim penenang peppermint & lavender, SKU berbeda) dan Beeme Nourishing Balm 15gr katalog Rp81.000 (pelembap balm umum, bukan rash cream). Ongkir tidak termasuk. Yang termasuk: produk original sesuai etalase, bantuan pilih via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Halaman ini untuk ibu hamil dan new mom yang mencari harga Gently Baby Rash Cream original saat area popok mudah merah di iklim panas Badung. Cara beli: klik Beli di Shopee ke himoonbabykids, ketik Gently Baby Rash Cream. WhatsApp +628511214358 hanya tanya stok toko Badung, bukan keranjang bayar. Ganti popok yang basah, ikuti label Gently, ruam yang melepuh atau tidak membaik ke tenaga kesehatan. Popok di etalase kami saat ini MamyPoko Royal Soft katalog Rp123.000; Makuku tidak kami listing. Patch test 24 jam di area kecil jika kulit sangat reaktif.",
+      en: "Authentic Gently Baby Rash Cream is the diaper-area cream we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali — not a skin clinic and not a factory official store. Catalog listing name: Gently Baby Rash Cream 40g – Diaper Rash Cream Dermatologically Tested. Catalog price is Rp71,000 following Shopee himoonbabykids. The orange Buy on Shopee button opens the himoonbabykids shop; our catalog row has no item ID, so we do not invent a listing URL. Search that SKU name in the shop, or open the baby-skincare catalog. The pack size we claim is only 40g as in the listing title. “Dermatologically Tested” and “rash relief” stay brand wording; we do not guarantee a rash-free baby. Honest neighbors in the same shop: Gently Calming Baby Cream 20g catalog Rp53,000 (peppermint & lavender calming cream, a different SKU) and Beeme Nourishing Balm 15g catalog Rp81,000 (a general moisturizing balm, not a rash cream). Shipping is not included. Included: authentic listed goods, WhatsApp help choosing, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. This page is for pregnant and new moms looking up the original Gently Baby Rash Cream price when the diaper area reddens easily in hot Badung. How to buy: click Buy on Shopee to himoonbabykids, then type Gently Baby Rash Cream. WhatsApp +628511214358 is only for Badung in-store stock, not a payment cart. Change wet diapers, follow the Gently label; blistering or a rash that does not improve needs a clinician. The diaper we currently list is MamyPoko Royal Soft at catalog Rp123,000; we do not list Makuku. Patch-test a small area for 24 hours if skin is very reactive.",
+    },
+    content: {
+      id: "Kami meritel krim area popok yang memang ada di etalase: Gently Baby Rash Cream 40gr. Halaman ini menjawab harga katalog, apa yang termasuk, apakah original itu worth it dibanding Gently Calming Cream 20gr atau balm umum, dan cara Beli di Shopee himoonbabykids — tanpa mengarang item ID. Klaim “Dermatologically Tested” dan “pereda ruam” tetap di judul listing merek; kami tidak menambah janji bebas ruam atau diagnosis. Lanjut ke [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi), [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif), [tips memilih popok bayi](/blog/tips-memilih-popok-bayi), atau etalase campur di [/shop](/shop).",
+      en: "We retail the diaper-area cream that is actually in the shop: Gently Baby Rash Cream 40g. This page answers catalog price, what is included, whether original is worth it versus Gently Calming Cream 20g or a general balm, and how to Buy on Shopee himoonbabykids — without inventing an item ID. “Dermatologically Tested” and “rash relief” stay on the brand listing title; we do not add a no-rash promise or a diagnosis. Continue to the [baby skincare catalog](/shop/perawatan-kulit-bayi), [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif), [how to choose baby diapers](/blog/tips-memilih-popok-bayi), or the mixed catalog at [/shop](/shop).",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga katalog, dan isi kemasan",
+          en: "What it is, catalog price, and pack",
+        },
+        body: {
+          id: "Gently Baby Rash Cream 40gr adalah krim area popok di [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi), bukan lotion tubuh dan bukan pelembap wajah. Harga katalog Rp71.000 mengikuti Shopee himoonbabykids. Ongkir tidak termasuk dan dihitung di checkout. Isi yang kami sebut hanya 40gr sesuai judul listing; usia, cara oles, dan frekuensi ada di label Gently — kami tidak menebak “aman newborn” jika baris katalog tidak menuliskannya. Promo, stok, dan harga final selalu konfirmasi di Shopee himoonbabykids sebelum bayar. Jika halaman ini dan etalase berbeda, Shopee yang menang. Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee sendiri menampilkannya demikian.",
+          en: "Gently Baby Rash Cream 40g is the diaper-area cream in the [baby skincare catalog](/shop/perawatan-kulit-bayi), not a body lotion and not a face cream. Catalog price is Rp71,000 following Shopee himoonbabykids. Shipping is not included and is calculated at checkout. The pack size we name is only 40g as in the listing title; age, how to apply, and frequency are on the Gently label — we do not guess “newborn-safe” if that is missing from the catalog row. Promos, stock, and the final price: confirm on Shopee himoonbabykids before paying. If this page and the shop disagree, Shopee wins. We are the himoonbabykids retailer in Badung Regency, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        heading: {
+          id: "Original / vs Calming Cream / worth it?",
+          en: "Original / vs Calming Cream / worth it?",
+        },
+        body: {
+          id: "Original di sini artinya kami meritel listing Gently yang ada di etalase himoonbabykids, bukan krim dewasa yang di-relabel. Worth it atau tidak tergantung kebutuhan area popok — bukan stiker termurah. Tetangga jujur: Gently Calming Baby Cream 20gr katalog Rp53.000 (judul listing: krim penenang peppermint & lavender). Satuan 40gr vs 20gr berbeda; kami tidak pecah harga per gram. Calming Cream bukan pengganti rash cream, dan rash cream bukan krim kolik. Beeme Nourishing Balm 15gr katalog Rp81.000 adalah pelembap balm umum, bukan krim ruam popok. Metode banding ada di [/metodologi-perbandingan](/metodologi-perbandingan): SKU nyata, iklim Bali, tanpa panel palsu. Tidak ada pemenang medis. Ruam yang melepuh, bernanah, atau tidak membaik tetap ke tenaga kesehatan — HiMoon tidak mendiagnosis.",
+          en: "Original here means we retail the Gently listing that is in the himoonbabykids shop, not an adult cream relabeled. Whether it is worth it depends on diaper-area need — not the cheapest sticker. Honest neighbor: Gently Calming Baby Cream 20g catalog Rp53,000 (listing title: peppermint & lavender calming cream). 40g vs 20g are different units; we do not split a per-gram price. Calming Cream is not a rash-cream substitute, and rash cream is not a colic rub. Beeme Nourishing Balm 15g catalog Rp81,000 is a general moisturizing balm, not a diaper-rash cream. Comparison method is on [/metodologi-perbandingan](/metodologi-perbandingan): real SKUs, Bali climate, no fake panel. There is no medical winner. A blistering, pus-filled, or non-improving rash still needs a clinician — HiMoon does not diagnose.",
+        },
+      },
+      {
+        heading: {
+          id: "Area popok di iklim Bali — tanpa janji bebas ruam",
+          en: "Diaper area in Bali’s climate — no promised rash-free result",
+        },
+        body: {
+          id: "Panas, keringat, dan popok basah di Badung, Canggu, dan Denpasar membuat area popok mudah merah. Krim barrier (halaman ini) tidak menggantikan ganti popok. Popok yang kami jual saat ini hanya [MamyPoko Royal Soft](/shop/popok) katalog Rp123.000 (tipe celana & perekat organic cotton di judul listing; ukuran tidak kami tebak karena tidak ada di baris katalog). Makuku tidak ada di etalase Shopee kami — banding merek tetap di [tips memilih popok bayi](/blog/tips-memilih-popok-bayi), tanpa mengarang stok. Rutin mandi–lotion–tabir surya tetap di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif). Ikuti label Gently untuk cara oles; patch test 24 jam di area kecil jika kulit sangat reaktif, hentikan jika memburuk. HiMoon tidak menjanjikan “tidak ruam lagi”. Perlengkapan lain di bulan pertama ada di [perlengkapan bayi baru lahir](/blog/perlengkapan-bayi-baru-lahir) dan etalase [/shop](/shop).",
+          en: "Heat, sweat, and wet diapers in Badung, Canggu, and Denpasar make the diaper area redden easily. A barrier cream (this page) does not replace diaper changes. The diaper we currently sell is only [MamyPoko Royal Soft](/shop/popok) at catalog Rp123,000 (pants & tape organic cotton in the listing title; we do not guess a size because it is not in the catalog row). Makuku is not in our Shopee shop — brand comparison stays on [how to choose baby diapers](/blog/tips-memilih-popok-bayi), without inventing stock. Bath–lotion–sunscreen steps stay on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif). Follow the Gently label for how to apply; patch-test a small area for 24 hours if skin is very reactive, and stop if it worsens. HiMoon does not promise “no more rash.” Other month-one items are on the [newborn checklist](/blog/perlengkapan-bayi-baru-lahir) and the mixed catalog at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock-only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke toko himoonbabykids, lalu cari “Gently Baby Rash Cream” agar harga, stok, dan ongkir Badung–Denpasar live. Kami tidak mengarang item ID; kartu katalog SKU ini masih ke beranda toko. Buka juga [katalog perawatan kulit bayi](/shop/perawatan-kulit-bayi) untuk kartu Gently Rash Cream, [popok](/shop/popok) jika Anda butuh MamyPoko Royal Soft Rp123.000, atau [/shop](/shop) untuk etalase campur. WhatsApp +628511214358 untuk tanya stok fisik di toko Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif) (rutin) dan [tips memilih popok bayi](/blog/tips-memilih-popok-bayi) (ukuran & kulit, tanpa stok Makuku).",
+          en: "Primary checkout: the orange Buy on Shopee button to the himoonbabykids shop, then search “Gently Baby Rash Cream” so price, stock, and Badung–Denpasar shipping are live. We do not invent an item ID; this SKU’s catalog card still opens the shop home. Also open the [baby skincare catalog](/shop/perawatan-kulit-bayi) for the Gently Rash Cream card, [diapers](/shop/popok) if you need MamyPoko Royal Soft Rp123,000, or [/shop](/shop) for the mixed catalog. WhatsApp +628511214358 to ask Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif) (routine) and [how to choose baby diapers](/blog/tips-memilih-popok-bayi) (size & skin, without Makuku stock).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Gently Baby Rash Cream 40gr original (katalog Rp71.000) — Beli di Shopee himoonbabykids, cari nama SKU",
+        "Tetangga etalase: Gently Calming Baby Cream 20gr (katalog Rp53.000) dan Beeme Nourishing Balm 15gr (katalog Rp81.000)",
+        "Produk sesuai listing Shopee himoonbabykids; isi 40gr mengikuti judul, usia/cara oles di label",
+        "Checkout Beli di Shopee; WhatsApp tanya stok toko Badung",
+        "Kirim Shopee ke Denpasar–Canggu–luar Bali atau ambil di Badung setelah stok dikonfirmasi",
+      ],
+      en: [
+        "Authentic Gently Baby Rash Cream 40g (catalog Rp71,000) — Buy on Shopee himoonbabykids, search the SKU name",
+        "Shop neighbors: Gently Calming Baby Cream 20g (catalog Rp53,000) and Beeme Nourishing Balm 15g (catalog Rp81,000)",
+        "Goods as listed on Shopee himoonbabykids; 40g follows the title, age/use on the label",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store stock",
+        "Shopee ship to Denpasar–Canggu–beyond Bali, or Badung pickup after stock is confirmed",
+      ],
+    },
+    priceNote: {
+      id: "Gently Baby Rash Cream 40gr katalog Rp71.000 (beranda toko himoonbabykids — belum ada item URL). Gently Calming Baby Cream 20gr katalog Rp53.000. Beeme Nourishing Balm 15gr katalog Rp81.000. MamyPoko Royal Soft katalog Rp123.000 di kategori popok. Satuan 40gr vs 20gr vs 15gr tidak kami pecah per gram. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Gently Baby Rash Cream 40g catalog Rp71,000 (himoonbabykids shop home — no item URL yet). Gently Calming Baby Cream 20g catalog Rp53,000. Beeme Nourishing Balm 15g catalog Rp81,000. MamyPoko Royal Soft catalog Rp123,000 in the diaper category. 40g vs 20g vs 15g are not split per gram. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga Gently Baby Rash Cream original di HiMoon?",
+          en: "How much is authentic Gently Baby Rash Cream at HiMoon?",
+        },
+        answer: {
+          id: "Katalog saat ini Rp71.000 untuk Gently Baby Rash Cream 40gr, mengikuti Shopee himoonbabykids. Ongkir dihitung di checkout. Konfirmasi di Shopee himoonbabykids sebelum bayar — kami tidak mengarang item ID.",
+          en: "Current catalog is Rp71,000 for Gently Baby Rash Cream 40g, following Shopee himoonbabykids. Shipping is calculated at checkout. Confirm on Shopee himoonbabykids before paying — we do not invent an item ID.",
+        },
+      },
+      {
+        question: {
+          id: "Gently Rash Cream vs Calming Cream — mana yang worth it?",
+          en: "Gently Rash Cream vs Calming Cream — which is worth it?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis dan tidak ada janji bebas ruam. Rash Cream 40gr Rp71.000 untuk area popok sesuai judul listing. Calming Cream 20gr Rp53.000 adalah krim penenang peppermint & lavender, SKU berbeda. Satuan 40gr vs 20gr jangan disamakan. Uji patch, baca label, ruam parah ke tenaga kesehatan.",
+          en: "There is no medical winner and no promised rash-free result. Rash Cream 40g Rp71,000 is for the diaper area as the listing title says. Calming Cream 20g Rp53,000 is a peppermint & lavender calming cream, a different SKU. Do not treat 40g vs 20g as the same portion. Patch-test, read the label; a severe rash needs a clinician.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon official store Gently?",
+          en: "Is HiMoon the Gently official store?",
+        },
+        answer: {
+          id: "Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian. Beli di Shopee, cari Gently Baby Rash Cream, atau tanya stok toko via WhatsApp.",
+          en: "We are the himoonbabykids retail shop in Badung Regency, not a factory official store unless Shopee itself labels it that way. Buy on Shopee, search Gently Baby Rash Cream, or WhatsApp for in-store stock.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee — itu ke toko himoonbabykids, lalu ketik Gently Baby Rash Cream. Atau buka /shop/perawatan-kulit-bayi lalu kartu Gently Rash Cream. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button — it opens the himoonbabykids shop, then type Gently Baby Rash Cream. Or open /shop/perawatan-kulit-bayi then the Gently Rash Cream card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-10-26",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.sunscreen,
+    imageAlt: {
+      id: "Gently Baby Rash Cream original di HiMoon Badung dan Shopee",
+      en: "Authentic Gently Baby Rash Cream at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/perawatan-kulit-bayi",
+    relatedSlugs: ["perawatan-kulit-bayi-sensitif", "tips-memilih-popok-bayi"],
+    emitFaqPageSchema: false,
+    shopeeHref: "https://shopee.co.id/himoonbabykids",
+    featuredProductSlugs: [
+      "gently-baby-rash-cream-40gr-krim-ruam-popok",
+      "gently-calming-baby-cream-20gr-krim-penenang-bayi",
+      "beeme-nourishing-balm-15gr-pelembap-balm-bayi",
+    ],
+    cta: {
+      title: {
+        id: "Beli Gently Baby Rash Cream original di Shopee",
+        en: "Buy authentic Gently Baby Rash Cream on Shopee",
+      },
+      body: {
+        id: "Satu SKU krim area popok Gently 40gr, harga katalog Rp71.000, tombol oranye ke himoonbabykids — cari nama produk, jangan menunggu item URL yang belum ada di katalog. Calming Cream 20gr Rp53.000 dan Beeme Balm 15gr Rp81.000 adalah tetangga etalase, bukan pemenang medis. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "One Gently diaper-area cream SKU at 40g, catalog Rp71,000, orange button to himoonbabykids — search the product name; do not wait for an item URL the catalog does not have. Calming Cream 20g Rp53,000 and Beeme Balm 15g Rp81,000 are shop neighbors, not medical winners. WhatsApp is only for in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog skincare",
+        en: "Browse skincare catalog",
+      },
+    },
   },
   {
     slug: "tips-memilih-popok-bayi",
@@ -769,8 +932,8 @@ export const guides: BlogPost[] = [
     },
     shopHref: "/shop/popok",
     relatedSlugs: [
-      "perlengkapan-bayi-baru-lahir",
       "perawatan-kulit-bayi-sensitif",
+      "harga-gently-baby-rash-cream-original",
       "makuku-vs-mamypoko",
     ],
   },

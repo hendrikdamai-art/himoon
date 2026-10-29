@@ -66,8 +66,8 @@ export const guides: BlogPost[] = [
           en: "Shop in Bali vs Shopee",
         },
         body: {
-          id: "Kunjungi toko di Kab. Badung jika ingin lihat fisik. Untuk harga, stok, dan kirim ke alamat, checkout Shopee himoonbabykids adalah jalur tercepat. Tombol oranye di setiap produk mengarah ke etalase yang sama.",
-          en: "Visit the Badung store to see items in person. For live price, stock, and doorstep delivery, checkout on Shopee himoonbabykids is the fastest path. The orange button on each product opens that shop.",
+          id: "Kunjungi [toko bayi Bali di Badung](/toko-bayi-bali) jika ingin lihat fisik. Untuk harga, stok, dan kirim ke alamat, checkout Shopee himoonbabykids adalah jalur tercepat. Tombol oranye di setiap produk mengarah ke etalase yang sama.",
+          en: "Visit the [Bali baby shop in Badung](/toko-bayi-bali) to see items in person. For live price, stock, and doorstep delivery, checkout on Shopee himoonbabykids is the fastest path. The orange button on each product opens that shop.",
         },
       },
     ],
@@ -77,14 +77,14 @@ export const guides: BlogPost[] = [
         "Skincare bayi (Gently, Moell, Mustela, Cussons)",
         "Tissue & perawatan harian Paseo",
         "Opsi ASI booster untuk ibu menyusui",
-        "Checkout Shopee atau ambil di toko Bali",
+        "Checkout Shopee atau ambil di [toko bayi Bali](/toko-bayi-bali)",
       ],
       en: [
         "Makuku / MamyPoko diapers",
         "Baby skincare (Gently, Moell, Mustela, Cussons)",
         "Daily Paseo tissue & care",
         "Optional ASI booster for nursing moms",
-        "Shopee checkout or Bali pickup",
+        "Shopee checkout or pickup at the [Bali baby shop](/toko-bayi-bali)",
       ],
     },
     priceNote: {
@@ -194,8 +194,8 @@ export const guides: BlogPost[] = [
           en: "How to order",
         },
         body: {
-          id: "Buka kategori Perawatan Kulit Bayi, pilih Moell, lalu Beli di Shopee. Atau kunjungi toko Badung. WhatsApp untuk tanya stok fisik.",
-          en: "Open Baby Skincare, choose Moell, then Buy on Shopee. Or visit the Badung store. WhatsApp for in-store stock.",
+          id: "Buka kategori Perawatan Kulit Bayi, pilih Moell, lalu Beli di Shopee. Atau kunjungi [toko bayi Bali di Badung](/toko-bayi-bali). WhatsApp untuk tanya stok fisik.",
+          en: "Open Baby Skincare, choose Moell, then Buy on Shopee. Or visit the [Bali baby shop in Badung](/toko-bayi-bali). WhatsApp for in-store stock.",
         },
       },
     ],
@@ -354,8 +354,8 @@ export const guides: BlogPost[] = [
           en: "Where is HiMoon’s MPASI shop in Bali?",
         },
         answer: {
-          id: "Toko fisik di Kabupaten Badung. Pin Google Maps ada di halaman Kontak. Online 24 jam di Shopee himoonbabykids.",
-          en: "Physical store in Badung Regency. The Google Maps pin is on the Contact page. Online 24/7 at Shopee himoonbabykids.",
+          id: "Toko fisik di [toko bayi Bali, Kabupaten Badung](/toko-bayi-bali). Pin Google Maps ada di halaman itu dan di Kontak. Online 24 jam di Shopee himoonbabykids.",
+          en: "Physical store at the [Bali baby shop in Badung](/toko-bayi-bali). The Google Maps pin is on that page and Contact. Online 24/7 at Shopee himoonbabykids.",
         },
       },
       {
@@ -734,8 +734,8 @@ export const guides: BlogPost[] = [
           en: "Can I buy diapers at the Bali store?",
         },
         answer: {
-          id: "Ya, tergantung stok fisik. WhatsApp dulu atau langsung ke Shopee.",
-          en: "Yes, depending on in-store stock. WhatsApp first or go straight to Shopee.",
+          id: "Ya, tergantung stok fisik. Konfirmasi di [toko bayi Bali](/toko-bayi-bali), WhatsApp, atau langsung ke Shopee.",
+          en: "Yes, depending on in-store stock. Confirm at the [Bali baby shop](/toko-bayi-bali), WhatsApp, or go straight to Shopee.",
         },
       },
       {

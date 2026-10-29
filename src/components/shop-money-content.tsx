@@ -100,6 +100,30 @@ export function ShopGuideLinks() {
   );
 }
 
+export function MoneyQuickFacts({
+  facts,
+}: {
+  facts: { label: string; value: string }[];
+}) {
+  if (facts.length === 0) return null;
+
+  return (
+    <dl className="mt-6 grid gap-3 sm:grid-cols-2">
+      {facts.map((fact) => (
+        <div
+          key={fact.label}
+          className="rounded-xl border border-slate-200 bg-white px-4 py-3"
+        >
+          <dt className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+            {fact.label}
+          </dt>
+          <dd className="mt-1 text-sm font-semibold text-himoon-blue">{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 export function ShopFaqBlock() {
   return (
     <div className="mx-auto max-w-7xl px-4 pb-16 md:px-6">

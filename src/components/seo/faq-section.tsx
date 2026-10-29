@@ -1,4 +1,5 @@
 import type { GuideFaq } from "@/types/catalog";
+import { InlineLinks } from "@/components/seo/inline-links";
 
 export function FaqSection({
   title,
@@ -19,7 +20,7 @@ export function FaqSection({
               {faq.question.id}
             </summary>
             <p className="mt-2 text-sm leading-relaxed text-himoon-muted">
-              {faq.answer.id}
+              <InlineLinks text={faq.answer.id} />
             </p>
           </details>
         ))}

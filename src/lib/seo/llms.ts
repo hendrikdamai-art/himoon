@@ -52,7 +52,7 @@ export function buildLlmsTxt(): string {
     fileItem(
       "Toko bayi Bali / Badung",
       abs("/toko-bayi-bali"),
-      "Toko fisik Abianbase, Mengwi, vs order Shopee ke seluruh Indonesia.",
+      "Toko fisik Abianbase, Mengwi. Katalog Rp22.500–Rp123.000. Ambil toko atau kirim Shopee.",
     ),
     fileItem("Kontak HiMoon", abs("/contact"), "WhatsApp, Maps, email, alamat."),
     fileItem("Tentang HiMoon", abs("/about"), "Identitas toko ritel Bali, bukan VTuber Twitch."),

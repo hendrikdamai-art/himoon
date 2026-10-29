@@ -26,6 +26,28 @@ export function ShopeeCta({
   );
 }
 
+export function WhatsAppCta({
+  label = "Tanya stok",
+  className,
+}: {
+  label?: string;
+  className?: string;
+}) {
+  return (
+    <a
+      href={siteConfig.whatsappProfileUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cn(
+        "inline-flex items-center justify-center rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#1da851]",
+        className,
+      )}
+    >
+      {label}
+    </a>
+  );
+}
+
 export function ShopCta({
   href = "/shop",
   label = "Lihat katalog HiMoon",

@@ -34,30 +34,22 @@ function slugify(name: string): string {
 function inferCategory(name: string): Product["category"] {
   const lower = name.toLowerCase();
   if (
-    lower.includes("mpasi") ||
-    lower.includes("bunda elia") ||
-    lower.includes("makanan bayi") ||
-    lower.includes("susu")
+    /mpasi|kaldu|noodle|mie bayi|mie baby|biskuit|biskut|cracker|puffs|abon|teri |bunda elia|makanan bayi|bubur|pancake|waffle|keju|santan|kecap|saus|fat oil|lemak|bb booster|wgain|cemilan|snack bayi|bumbu|promina|yummy bites|milna|belcube|alamii|gogofield|crystal of the sea|bumboo|pura kaldu/.test(
+      lower,
+    )
   ) {
     return "mpasi";
   }
-  if (lower.includes("popok") || lower.includes("pampers") || lower.includes("pispot")) {
+  if (/popok|diaper|pampers|pispot|makuku/.test(lower) && !/krim ruam|rash cream/.test(lower)) {
     return "popok";
   }
-  if (
-    lower.includes("lip") ||
-    lower.includes("bibir") ||
-    lower.includes("balm")
-  ) {
+  if (/\bbibir\b|\blip\b|\bbalm\b/.test(lower) && !/ruam|rash/.test(lower)) {
     return "perawatan-bibir";
   }
   if (
-    lower.includes("blender") ||
-    lower.includes("steamer") ||
-    lower.includes("botol") ||
-    lower.includes("dot") ||
-    lower.includes("pompa") ||
-    lower.includes("peralatan")
+    /wipes|tissue|celemek|bib\b|silikon|silicone|blender|steamer|botol|dot|pompa|peralatan/.test(
+      lower,
+    )
   ) {
     return "peralatan-bayi";
   }
@@ -66,21 +58,33 @@ function inferCategory(name: string): Product["category"] {
 
 function inferBrand(name: string): string | undefined {
   const brands = [
-    "Moell",
-    "Gently",
-    "Paseo",
-    "Makuku",
+    "Yummy Bites",
+    "Crystal of the Sea",
     "MamyPoko",
     "Mami Poko",
     "Mom Uung",
     "Asi Booster",
-    "Beeme",
+    "Bunda Elia",
     "Safe Baby",
     "Gea Baby",
-    "Bunda Elia",
+    "Gogofield",
     "Cussons",
+    "Bumboo",
+    "Promina",
+    "Makuku",
+    "Belcube",
+    "Alamii",
+    "Coconi",
+    "Doodle",
+    "Bambi",
+    "Milna",
+    "Moell",
+    "Gently",
+    "Paseo",
+    "Beeme",
     "Philips",
     "Mustela",
+    "Pura",
   ];
   const lower = name.toLowerCase();
   return brands.find((brand) => lower.includes(brand.toLowerCase()));
@@ -113,7 +117,9 @@ function mapShopeeItem(item: ShopeeItem): Product {
       slug,
     ),
     brand: inferBrand(item.name),
-    inStock: (item.stock ?? 1) > 0 && item.status !== 0,
+    // Shopee marks unsynced qty as sold out ("Habis"). Keep the listing
+    // visible on himoonbaby.com until stock is actually configured.
+    inStock: item.status === 0 ? false : true,
     syncedAt: new Date().toISOString(),
   };
 }

@@ -56,6 +56,7 @@ export const translations = {
       orderWhatsapp: "Pesan via WhatsApp",
       orderShopee: "Beli di Shopee",
       from: "Mulai",
+      checkPrice: "Cek harga di Shopee",
     },
     brands: {
       title: "Brand yang Kami Jual",
@@ -179,6 +180,7 @@ export const translations = {
       orderWhatsapp: "Order via WhatsApp",
       orderShopee: "Buy on Shopee",
       from: "From",
+      checkPrice: "Check price on Shopee",
     },
     brands: {
       title: "Brands We Carry",

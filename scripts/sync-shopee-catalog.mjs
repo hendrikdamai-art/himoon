@@ -54,11 +54,11 @@ function shopeeProductUrl(shopId, itemId, slug) {
 
 function inferCategory(name) {
   const lower = name.toLowerCase();
-  if (lower.includes("mpasi") || lower.includes("bunda elia") || lower.includes("makanan bayi") || lower.includes("susu")) return "mpasi";
-  if (lower.includes("popok") || lower.includes("pampers") || lower.includes("pispot")) return "popok";
-  if (lower.includes("lip") || lower.includes("bibir") || lower.includes("balm")) return "treatment-bibir";
-  if (lower.includes("blender") || lower.includes("steamer") || lower.includes("botol") || lower.includes("dot") || lower.includes("pompa") || lower.includes("peralatan")) return "peralatan-bayi";
-  return "baby-skincare";
+  if (/mpasi|kaldu|noodle|mie bayi|mie baby|biskuit|biskut|cracker|puffs|abon|teri |bunda elia|makanan bayi|bubur|pancake|waffle|keju|santan|kecap|saus|fat oil|lemak|bb booster|wgain|cemilan|snack bayi|bumbu|promina|yummy bites|milna|belcube|alamii|gogofield|crystal of the sea|bumboo|pura kaldu/.test(lower)) return "mpasi";
+  if (/popok|diaper|pampers|pispot|makuku/.test(lower) && !/krim ruam|rash cream/.test(lower)) return "popok";
+  if (/\bbibir\b|\blip\b|\bbalm\b/.test(lower) && !/ruam|rash/.test(lower)) return "perawatan-bibir";
+  if (/wipes|tissue|celemek|bib\b|silikon|silicone|blender|steamer|botol|dot|pompa|peralatan/.test(lower)) return "peralatan-bayi";
+  return "perawatan-kulit-bayi";
 }
 
 function isValidItem(item) {
@@ -77,7 +77,7 @@ function mapItem(item, categorySlug) {
     image: shopeeImageUrl(item.image),
     category: categorySlug || inferCategory(item.name),
     shopeeUrl: shopeeProductUrl(item.shopid || siteConfig.shopeeShopId, item.itemid, slug),
-    inStock: (item.stock ?? 1) > 0 && item.status !== 0,
+    inStock: item.status === 0 ? false : true,
     syncedAt: new Date().toISOString(),
   };
 }

@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-10-29T09:30:00.000Z",
+  "lastSynced": "2026-10-30T09:17:15.133Z",
   "products": [
     {
       "id": "49069046594",
@@ -452,20 +452,6 @@
       "syncedAt": "2026-09-04T10:54:37.294Z"
     },
     {
-      "id": "51519026608",
-      "itemId": 51519026608,
-      "shopId": 1869688077,
-      "name": "Gogofield Teri Kremes NON MSG / MPASI Bayi / Taburan Ikan Teri MPASI",
-      "slug": "gogofield-teri-krispi-30gr-mpasi",
-      "price": 0,
-      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztm-mupssrgbfp56ec",
-      "category": "mpasi",
-      "shopeeUrl": "https://shopee.co.id/Gogofield-Teri-Kremes-NON-MSG-MPASI-Bayi-Taburan-Ikan-Teri-MPASI-i.1869688077.51519026608",
-      "inStock": true,
-      "syncedAt": "2026-10-29T09:30:00.000Z",
-      "brand": "Gogofield"
-    },
-    {
       "id": "29996024711",
       "itemId": 29996024711,
       "shopId": 1869688077,
@@ -475,6 +461,20 @@
       "image": "https://down-id.img.susercontent.com/file/id-11134207-81zte-mupssrgb8oayb7",
       "category": "mpasi",
       "shopeeUrl": "https://shopee.co.id/Gogofield-Teri-Kremes-NON-MSG-MPASI-Bayi-Taburan-Ikan-Teri-MPASI-i.1869688077.29996024711",
+      "inStock": true,
+      "syncedAt": "2026-10-29T09:30:00.000Z",
+      "brand": "Gogofield"
+    },
+    {
+      "id": "51519026608",
+      "itemId": 51519026608,
+      "shopId": 1869688077,
+      "name": "Gogofield Teri Kremes NON MSG / MPASI Bayi / Taburan Ikan Teri MPASI",
+      "slug": "gogofield-teri-krispi-30gr-mpasi",
+      "price": 0,
+      "image": "https://down-id.img.susercontent.com/file/id-11134207-81ztm-mupssrgbfp56ec",
+      "category": "mpasi",
+      "shopeeUrl": "https://shopee.co.id/Gogofield-Teri-Kremes-NON-MSG-MPASI-Bayi-Taburan-Ikan-Teri-MPASI-i.1869688077.51519026608",
       "inStock": true,
       "syncedAt": "2026-10-29T09:30:00.000Z",
       "brand": "Gogofield"

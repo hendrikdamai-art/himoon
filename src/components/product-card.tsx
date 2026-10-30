@@ -13,7 +13,7 @@ export function ProductCard({
   product: Product;
   priority?: boolean;
 }) {
-  const { locale } = useLanguage();
+  const { locale, t } = useLanguage();
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
@@ -39,7 +39,9 @@ export function ProductCard({
           {product.name}
         </h3>
         <p className="mt-2 text-lg font-extrabold text-himoon-yellow">
-          {formatPrice(product.price, locale)}
+          {product.price > 0
+            ? formatPrice(product.price, locale)
+            : t.products.checkPrice}
         </p>
         <div className="mt-auto pt-4">
           <OrderButtons product={product} compact />

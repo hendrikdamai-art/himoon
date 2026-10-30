@@ -36,7 +36,7 @@ export const revalidate = 3600;
 
 export default async function ShopPage() {
   const products = await getProducts();
-  const prices = products.map((product) => product.price);
+  const prices = products.map((product) => product.price).filter((price) => price > 0);
   const minPrice = prices.length ? Math.min(...prices) : 22500;
   const maxPrice = prices.length ? Math.max(...prices) : 123000;
 

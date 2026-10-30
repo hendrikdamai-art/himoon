@@ -18,7 +18,9 @@ export default async function HomePage() {
     Promise.resolve(getBlogPosts()),
   ]);
 
-  const featured = products.slice(0, 12);
+  const featured = [...products]
+    .sort((a, b) => b.syncedAt.localeCompare(a.syncedAt) || a.name.localeCompare(b.name, "id"))
+    .slice(0, 12);
 
   return (
     <>

@@ -668,12 +668,12 @@ export const guides: BlogPost[] = [
       en: "How to Choose Baby Diapers: Size, Skin, and HiMoon Stock",
     },
     excerpt: {
-      id: "Cara pilih popok menurut berat badan dan kulit. HiMoon menjual MamyPoko Royal Soft (katalog Rp123.000) dan Makuku sesuai stok Shopee. Bandingkan lengkap di artikel perbandingan.",
-      en: "How to choose diapers by weight and skin. HiMoon sells MamyPoko Royal Soft (catalog Rp123,000) and Makuku when listed on Shopee. Full comparison in a dedicated article.",
+      id: "Cara pilih popok menurut berat badan dan kulit. HiMoon menjual Makuku SAP Comfort Fit (harga konfirmasi di Shopee himoonbabykids) dan MamyPoko Royal Soft (katalog Rp123.000). Harga SKU Makuku ada di artikel harga original.",
+      en: "How to choose diapers by weight and skin. HiMoon sells Makuku SAP Comfort Fit (confirm price on Shopee himoonbabykids) and MamyPoko Royal Soft (catalog Rp123,000). Makuku SKU price is on the original-price article.",
     },
     speakable: {
-      id: "Memilih popok bayi bergantung pada berat badan, bentuk paha, dan seberapa mudah kulit iritasi. HiMoon Baby & Kids di Bali menjual popok MamyPoko Royal Soft dengan harga katalog Rp123.000, plus Makuku jika listing Shopee himoonbabykids menampilkannya. Makuku sering dicari karena nuansa tipis; MamyPoko dikenal dengan fitur elastis dan pemakaian malam. Coba satu pack kecil dulu sebelum grosir. Toko fisik di Kabupaten Badung membantu jika Anda ingin lihat kemasan. Untuk pengiriman, checkout Shopee agar ukuran dan stok live. Ganti popok secara teratur dan kombinasikan dengan perawatan kulit jika ada ruam; ruam parah perlu tenaga kesehatan. Artikel perbandingan Makuku versus MamyPoko di situs ini menjelaskan metodologi kami tanpa ulasan palsu. Isi per pack berbeda, jadi baca judul listing sebelum bayar. Ongkir tidak termasuk harga katalog dan dihitung di Shopee. Simpan tautan himoonbabykids untuk restock popok.",
-      en: "Choosing a baby diaper depends on weight, thigh shape, and how easily skin irritates. HiMoon Baby & Kids in Bali sells MamyPoko Royal Soft at Rp123,000 catalog, plus Makuku when the himoonbabykids Shopee listing shows it. Makuku is often sought for a thin feel; MamyPoko is known for elastic fit and overnight use. Try a small pack before bulk. The Badung store helps if you want to see packaging. For delivery, checkout on Shopee for live size and stock. Change regularly and add skincare if there is rash; severe rash needs a clinician. Our Makuku versus MamyPoko comparison explains our method without fake reviews.",
+      id: "Memilih popok bayi bergantung pada berat badan, bentuk paha, dan seberapa mudah kulit iritasi. HiMoon Baby & Kids di Bali menjual popok Makuku SAP Comfort Fit (harga konfirmasi di Shopee himoonbabykids; listing item live) dan MamyPoko Royal Soft dengan harga katalog Rp123.000. Makuku sering dicari karena nuansa tipis; MamyPoko dikenal dengan fitur elastis dan pemakaian malam. Coba satu pack kecil dulu sebelum grosir. Toko fisik di Kabupaten Badung membantu jika Anda ingin lihat kemasan. Untuk pengiriman, checkout Shopee agar ukuran dan stok live. Ganti popok secara teratur dan kombinasikan dengan perawatan kulit jika ada ruam; ruam parah perlu tenaga kesehatan. Artikel harga Makuku SAP original dan perbandingan Makuku versus MamyPoko di situs ini menjelaskan etalase tanpa ulasan palsu. Isi per pack berbeda, jadi baca judul listing sebelum bayar. Ongkir tidak termasuk harga katalog dan dihitung di Shopee. Simpan tautan himoonbabykids untuk restock popok.",
+      en: "Choosing a baby diaper depends on weight, thigh shape, and how easily skin irritates. HiMoon Baby & Kids in Bali sells Makuku SAP Comfort Fit (confirm price on Shopee himoonbabykids; live item listing) and MamyPoko Royal Soft at Rp123,000 catalog. Makuku is often sought for a thin feel; MamyPoko is known for elastic fit and overnight use. Try a small pack before bulk. The Badung store helps if you want to see packaging. For delivery, checkout on Shopee for live size and stock. Change regularly and add skincare if there is rash; severe rash needs a clinician. The Makuku SAP original-price article and our Makuku versus MamyPoko comparison explain the shop without fake reviews.",
     },
     content: {
       id: "Gunakan tips ini untuk pilih ukuran. Detail head-to-head ada di halaman Makuku vs MamyPoko.",
@@ -696,26 +696,26 @@ export const guides: BlogPost[] = [
           en: "Price",
         },
         body: {
-          id: "Katalog menampilkan MamyPoko Royal Soft Rp123.000. Makuku hanya jika ada di Shopee. Isi per pack berbeda; baca judul listing.",
-          en: "The catalog lists MamyPoko Royal Soft at Rp123,000. Makuku only if Shopee shows it. Pack counts differ; read the listing title.",
+          id: "Katalog menampilkan MamyPoko Royal Soft Rp123.000. Makuku SAP Comfort Fit ada di etalase; harganya konfirmasi di Shopee himoonbabykids (baris katalog tidak memuat angka). Isi per pack berbeda; baca judul listing. Detail harga SKU: /blog/harga-makuku-sap-original.",
+          en: "The catalog lists MamyPoko Royal Soft at Rp123,000. Makuku SAP Comfort Fit is in the shop; confirm its price on Shopee himoonbabykids (the catalog row has no number). Pack counts differ; read the listing title. SKU price detail: /blog/harga-makuku-sap-original.",
         },
       },
     ],
     inclusions: {
       id: [
-        "Popok Makuku dan/atau MamyPoko sesuai stok",
+        "Popok Makuku SAP Comfort Fit (harga konfirmasi di Shopee himoonbabykids) dan MamyPoko Royal Soft katalog Rp123.000",
         "Bantuan pilih ukuran via WhatsApp",
         "Checkout Shopee himoonbabykids",
       ],
       en: [
-        "Makuku and/or MamyPoko depending on stock",
+        "Makuku SAP Comfort Fit (confirm price on Shopee himoonbabykids) and MamyPoko Royal Soft catalog Rp123,000",
         "WhatsApp size help",
         "Shopee himoonbabykids checkout",
       ],
     },
     priceNote: {
-      id: "MamyPoko Royal Soft katalog Rp123.000. Makuku sesuai stok Shopee. Harga per pcs tergantung isi pack.",
-      en: "MamyPoko Royal Soft catalog Rp123,000. Makuku follows Shopee stock. Per-piece price depends on pack count.",
+      id: "MamyPoko Royal Soft katalog Rp123.000. Makuku SAP Comfort Fit: konfirmasi di Shopee himoonbabykids. Harga per pcs tergantung isi pack.",
+      en: "MamyPoko Royal Soft catalog Rp123,000. Makuku SAP Comfort Fit: confirm on Shopee himoonbabykids. Per-piece price depends on pack count.",
     },
     faqs: [
       {
@@ -772,6 +772,7 @@ export const guides: BlogPost[] = [
       "perlengkapan-bayi-baru-lahir",
       "perawatan-kulit-bayi-sensitif",
       "makuku-vs-mamypoko",
+      "harga-makuku-sap-original",
     ],
   },
   {
@@ -786,12 +787,12 @@ export const guides: BlogPost[] = [
       en: "Makuku vs MamyPoko: Diaper Comparison for Bali’s Climate",
     },
     excerpt: {
-      id: "Bandingkan Makuku dan MamyPoko tanpa rating palsu. Kriteria: ketebalan, malam, kulit, harga katalog HiMoon: MamyPoko Royal Soft Rp123.000, Makuku sesuai stok Shopee, lalu beli di Shopee.",
-      en: "Compare Makuku and MamyPoko without fake ratings. Criteria: thickness, overnight, skin, HiMoon catalog: MamyPoko Royal Soft Rp123,000, Makuku when Shopee lists it, then buy on Shopee.",
+      id: "Bandingkan Makuku dan MamyPoko tanpa rating palsu. Kriteria: ketebalan, malam, kulit, harga katalog HiMoon: MamyPoko Royal Soft Rp123.000, Makuku SAP Comfort Fit konfirmasi di Shopee himoonbabykids, lalu Beli di Shopee.",
+      en: "Compare Makuku and MamyPoko without fake ratings. Criteria: thickness, overnight, skin, HiMoon catalog: MamyPoko Royal Soft Rp123,000, Makuku SAP Comfort Fit confirm on Shopee himoonbabykids, then Buy on Shopee.",
     },
     speakable: {
-      id: "Makuku versus MamyPoko adalah perbandingan popok yang sering dicari new mom di Indonesia. HiMoon Baby & Kids di Bali menjual keduanya sesuai stok Shopee himoonbabykids, dengan harga listing MamyPoko Royal Soft Rp123.000 dan Makuku hanya jika etalase Shopee menampilkannya. Kami tidak menyatakan pemenang abadi dan tidak membuat ulasan bintang palsu. Makuku sering dipilih karena terasa lebih tipis untuk cuaca panas Bali. MamyPoko sering dipilih untuk pitas elastis dan pemakaian malam. Uji pack kecil, cek tabel berat di kemasan, dan lihat kebocoran paha. Metodologi lengkap ada di halaman metodologi perbandingan: kami hanya memakai fakta etalase, iklim Bali, dan kriteria yang bisa diulang, bukan survei fiktif. Beli di toko Badung atau tombol Shopee. Jika ruam muncul, ganti merek dan konsultasi tenaga kesehatan. Stok ukuran mengikuti Shopee; jika salah satu merek habis kami tidak memaksa pengganti sebagai pemenang. Kirim ke seluruh Indonesia yang dijangkau kurir Shopee.",
-      en: "Makuku versus MamyPoko is a common diaper comparison for new moms in Indonesia. HiMoon Baby & Kids in Bali sells both depending on Shopee himoonbabykids stock, with MamyPoko Royal Soft at Rp123,000 catalog and Makuku only when Shopee lists it. We do not name an eternal winner and we do not invent star ratings. Makuku is often chosen for a thinner feel in Bali heat. MamyPoko is often chosen for elastic fit and overnight use. Trial a small pack, follow the weight chart, and watch thigh leaks. Full method is on our comparison-methodology page: shop-floor facts, Bali climate, and repeatable criteria — not a fake survey. Buy at the Badung store or via Shopee. If rash appears, switch brands and see a clinician.",
+      id: "Makuku versus MamyPoko adalah perbandingan popok yang sering dicari new mom di Indonesia. HiMoon Baby & Kids di Bali menjual keduanya di Shopee himoonbabykids: Makuku SAP Comfort Fit (harga konfirmasi di Shopee; listing item live) dan MamyPoko Royal Soft katalog Rp123.000. Kami tidak menyatakan pemenang abadi dan tidak membuat ulasan bintang palsu. Makuku sering dipilih karena terasa lebih tipis untuk cuaca panas Bali. MamyPoko sering dipilih untuk pitas elastis dan pemakaian malam. Uji pack kecil, cek tabel berat di kemasan, dan lihat kebocoran paha. Harga SKU Makuku ada di artikel harga Makuku SAP original. Metodologi lengkap ada di halaman metodologi perbandingan: kami hanya memakai fakta etalase, iklim Bali, dan kriteria yang bisa diulang, bukan survei fiktif. Beli di toko Badung atau tombol Shopee. Jika ruam muncul, ganti merek dan konsultasi tenaga kesehatan. Stok ukuran mengikuti Shopee; jika salah satu merek habis kami tidak memaksa pengganti sebagai pemenang. Kirim ke seluruh Indonesia yang dijangkau kurir Shopee.",
+      en: "Makuku versus MamyPoko is a common diaper comparison for new moms in Indonesia. HiMoon Baby & Kids in Bali sells both on Shopee himoonbabykids: Makuku SAP Comfort Fit (confirm price on Shopee; live item listing) and MamyPoko Royal Soft at Rp123,000 catalog. We do not name an eternal winner and we do not invent star ratings. Makuku is often chosen for a thinner feel in Bali heat. MamyPoko is often chosen for elastic fit and overnight use. Trial a small pack, follow the weight chart, and watch thigh leaks. Makuku SKU price is on the original-price article. Full method is on our comparison-methodology page: shop-floor facts, Bali climate, and repeatable criteria — not a fake survey. Buy at the Badung store or via Shopee. If rash appears, switch brands and see a clinician.",
     },
     content: {
       id: "Ini perbandingan ritel, bukan uji lab. Sumber: etalase HiMoon/Shopee, label kemasan, dan kondisi panas-lembab Bali.",
@@ -808,8 +809,8 @@ export const guides: BlogPost[] = [
       {
         heading: { id: "Kapan pilih Makuku", en: "When to pick Makuku" },
         body: {
-          id: "Jika Anda mengutamakan popok yang terasa tipis di cuaca Bali dan kulit tidak mudah kemerahan pada uji pack kecil.",
-          en: "If you want a thinner feel in Bali weather and a small pack trial does not redden skin.",
+          id: "Jika Anda mengutamakan popok yang terasa tipis di cuaca Bali dan kulit tidak mudah kemerahan pada uji pack kecil. Harga SKU live: /blog/harga-makuku-sap-original — konfirmasi di Shopee himoonbabykids, jangan tebak angka.",
+          en: "If you want a thinner feel in Bali weather and a small pack trial does not redden skin. Live SKU price: /blog/harga-makuku-sap-original — confirm on Shopee himoonbabykids, do not guess a number.",
         },
       },
       {
@@ -822,21 +823,19 @@ export const guides: BlogPost[] = [
     ],
     inclusions: {
       id: [
-        "Popok Makuku dan/atau MamyPoko sesuai stok",
-        "Harga listing MamyPoko Royal Soft Rp123.000; Makuku sesuai stok",
-        "Tautan metodologi perbandingan",
+        "Popok Makuku SAP Comfort Fit (harga konfirmasi di Shopee himoonbabykids) dan MamyPoko Royal Soft katalog Rp123.000",
+        "Tautan metodologi perbandingan dan artikel harga Makuku SAP original",
         "Checkout Shopee himoonbabykids",
       ],
       en: [
-        "Makuku and/or MamyPoko depending on stock",
-        "Catalog listing ± Rp65,000",
-        "Link to comparison methodology",
+        "Makuku SAP Comfort Fit (confirm price on Shopee himoonbabykids) and MamyPoko Royal Soft catalog Rp123,000",
+        "Link to comparison methodology and the Makuku SAP original-price article",
         "Shopee himoonbabykids checkout",
       ],
     },
     priceNote: {
-      id: "MamyPoko Royal Soft di katalog popok HiMoon Rp123.000. Makuku hanya jika listing Shopee ada. Isi pack berbeda; baca judul sebelum bayar.",
-      en: "MamyPoko Royal Soft on HiMoon’s diaper catalog is Rp123,000. Makuku only if the Shopee listing exists. Pack counts differ; read the title before paying.",
+      id: "MamyPoko Royal Soft di katalog popok HiMoon Rp123.000. Makuku SAP Comfort Fit: konfirmasi di Shopee himoonbabykids (baris katalog tidak memuat angka). Isi pack berbeda; baca judul sebelum bayar.",
+      en: "MamyPoko Royal Soft on HiMoon’s diaper catalog is Rp123,000. Makuku SAP Comfort Fit: confirm on Shopee himoonbabykids (the catalog row has no number). Pack counts differ; read the title before paying.",
     },
     faqs: [
       {
@@ -877,7 +876,170 @@ export const guides: BlogPost[] = [
       en: "Makuku and MamyPoko comparison at HiMoon Bali",
     },
     shopHref: "/shop/popok",
-    relatedSlugs: ["tips-memilih-popok-bayi", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: [
+      "tips-memilih-popok-bayi",
+      "perlengkapan-bayi-baru-lahir",
+      "harga-makuku-sap-original",
+    ],
+  },
+  {
+    slug: "harga-makuku-sap-original",
+    phase: "month1",
+    query: {
+      id: "harga Makuku SAP original",
+      en: "Makuku SAP original price",
+    },
+    title: {
+      id: "Harga Makuku SAP Comfort Fit original — popok tipis bayi Badung & Shopee",
+      en: "Makuku SAP Comfort Fit original price — thin baby diapers in Badung & Shopee",
+    },
+    excerpt: {
+      id: "Harga Makuku SAP Comfort Fit original di HiMoon Badung: konfirmasi di Shopee himoonbabykids (katalog situs tidak memuat angka). Bandingkan jujur dengan MamyPoko Royal Soft katalog Rp123.000, lalu Beli di Shopee ke listing item tape NB–XXL.",
+      en: "Authentic Makuku SAP Comfort Fit price at HiMoon Badung: confirm on Shopee himoonbabykids (the site catalog has no number). Honest neighbor: MamyPoko Royal Soft catalog Rp123,000. Then Buy on Shopee on the tape NB–XXL item listing.",
+    },
+    speakable: {
+      id: "Makuku SAP Comfort Fit original adalah popok bayi tipe perekat (tape) yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali — bukan klinik kulit dan bukan official store pabrik. Nama listing katalog: MAKUKU SAP Diapers Comfort Fit /Tape NB/S/M/L/Xl/XXL Popok Bayi Tipis Extra Dry Anti Gumpal. Harga tidak kami tebak di halaman ini. Baris katalog situs belum memuat angka, jadi konfirmasi di Shopee himoonbabykids sebelum checkout. Tombol oranye Beli di Shopee membuka listing item itu, bukan beranda toko. Isi kemasan, ukuran NB sampai XXL, dan jumlah pcs hanya yang tertera di judul serta pilihan varian Shopee — kami tidak membuat tabel ukuran. Tulisan tipis, extra dry, dan anti gumpal milik merek; kami tidak menjamin bebas bocor atau bebas ruam. Tetangga jujur di etalase popok: MamyPoko Royal Soft katalog Rp123.000 (tipe celana dan perekat organic cotton di judul listing; CTA kartu itu masih ke beranda himoonbabykids). Ongkir tidak termasuk. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Halaman ini untuk ibu hamil dan new mom yang mencari harga Makuku SAP original untuk popok tipis di iklim panas Badung. Cara beli: klik Beli di Shopee ke listing Makuku SAP Comfort Fit. WhatsApp +628511214358 hanya tanya ukuran atau stok toko Badung, bukan keranjang bayar. Ganti popok yang basah, ikuti label Makuku; ruam yang melepuh atau tidak membaik ke tenaga kesehatan.",
+      en: "Authentic Makuku SAP Comfort Fit is the tape-style baby diaper we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali — not a skin clinic and not a factory official store. Catalog listing name: MAKUKU SAP Diapers Comfort Fit /Tape NB/S/M/L/Xl/XXL thin extra-dry anti-clump baby diaper. We do not guess a price on this page. The site catalog row has no number, so confirm on Shopee himoonbabykids before checkout. The orange Buy on Shopee button opens that item listing, not the shop home. Pack count, sizes NB through XXL, and piece counts are only what the listing title and Shopee variants show — we do not invent a size chart. Thin, extra dry, and anti-clump stay brand wording; we do not guarantee leak-free or rash-free use. Honest neighbor in the diaper shop: MamyPoko Royal Soft catalog Rp123,000 (pants and tape organic cotton in the listing title; that card still opens the himoonbabykids shop home). Shipping is not included. Included: authentic listed goods, WhatsApp help choosing a size, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. This page is for pregnant and new moms looking up the original Makuku SAP price for a thinner diaper in hot Badung. How to buy: click Buy on Shopee on the Makuku SAP Comfort Fit listing. WhatsApp +628511214358 is only for size or Badung in-store stock, not a payment cart. Change wet diapers, follow the Makuku label; blistering or a rash that does not improve needs a clinician.",
+    },
+    content: {
+      id: "Kami meritel popok yang memang ada di etalase: Makuku SAP Comfort Fit tipe tape. Halaman ini menjawab harga (konfirmasi di Shopee himoonbabykids), apa yang termasuk, apakah original itu worth it dibanding [MamyPoko Royal Soft](/shop/popok) katalog Rp123.000, dan cara Beli di Shopee ke listing item — tanpa mengarang angka atau tabel ukuran. Klaim tipis, extra dry, dan anti gumpal tetap di judul listing merek; kami tidak menambah janji bebas bocor atau diagnosis ruam. Lanjut ke [katalog popok](/shop/popok), [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko), [tips memilih popok bayi](/blog/tips-memilih-popok-bayi), atau etalase campur di [/shop](/shop).",
+      en: "We retail the diaper that is actually in the shop: Makuku SAP Comfort Fit tape. This page answers price (confirm on Shopee himoonbabykids), what is included, whether original is worth it versus [MamyPoko Royal Soft](/shop/popok) catalog Rp123,000, and how to Buy on Shopee on the item listing — without inventing a number or a size chart. Thin, extra dry, and anti-clump stay on the brand listing title; we do not add a leak-free promise or a rash diagnosis. Continue to the [diaper catalog](/shop/popok), [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko), [how to choose baby diapers](/blog/tips-memilih-popok-bayi), or the mixed catalog at [/shop](/shop).",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga katalog, dan isi kemasan",
+          en: "What it is, catalog price, and pack",
+        },
+        body: {
+          id: "Makuku SAP Comfort Fit adalah popok bayi tipe perekat (tape) di [katalog popok](/shop/popok), bukan popok kain dan bukan pispot. Nama lengkap listing: MAKUKU SAP Diapers Comfort Fit /Tape NB/S/M/L/Xl/XXL Popok Bayi Tipis Extra Dry Anti Gumpal. Harga: konfirmasi di Shopee himoonbabykids. Baris katalog situs tidak memuat angka, jadi kami tidak menulis IDR di sini. Ongkir tidak termasuk dan dihitung di checkout Shopee. Isi, gram, dan jumlah pcs hanya yang muncul di judul plus varian listing; usia dan tabel berat ada di kemasan Makuku — kami tidak menebak NB vs S untuk bayi Anda. Promo, stok, dan harga final selalu konfirmasi di Shopee himoonbabykids sebelum bayar. Jika halaman ini dan etalase berbeda, Shopee yang menang. Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee sendiri menampilkannya demikian.",
+          en: "Makuku SAP Comfort Fit is the tape-style baby diaper in the [diaper catalog](/shop/popok), not a cloth diaper and not a potty. Full listing name: MAKUKU SAP Diapers Comfort Fit /Tape NB/S/M/L/Xl/XXL thin extra-dry anti-clump baby diaper. Price: confirm on Shopee himoonbabykids. The site catalog row has no number, so we do not print IDR here. Shipping is not included and is calculated at Shopee checkout. Pack contents and piece counts are only what the title plus listing variants show; age and the weight chart are on the Makuku pack — we do not guess NB vs S for your baby. Promos, stock, and the final price: confirm on Shopee himoonbabykids before paying. If this page and the shop disagree, Shopee wins. We are the himoonbabykids retailer in Badung Regency, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        heading: {
+          id: "Original / vs MamyPoko Royal Soft / worth it?",
+          en: "Original / vs MamyPoko Royal Soft / worth it?",
+        },
+        body: {
+          id: "Original di sini artinya kami meritel listing Makuku SAP yang ada di etalase himoonbabykids, bukan popok tanpa merek yang di-relabel. Worth it atau tidak tergantung fit di paha bayi Anda dan apakah Anda butuh nuansa tipis di cuaca Bali — bukan stiker termurah. Tetangga jujur: [MamyPoko Royal Soft](/shop/popok) katalog Rp123.000 (judul listing: tipe celana dan perekat organic cotton). Satuan pack dan isi pcs berbeda; kami tidak pecah harga per pcs. Makuku SAP di halaman ini adalah tipe tape; MamyPoko di katalog kami menyebut celana dan perekat — pilih sesuai tahap bayi, bukan karena satu merek “menang”. Metode banding ada di [/metodologi-perbandingan](/metodologi-perbandingan) dan esai [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko): SKU nyata, iklim Bali, tanpa panel palsu. Tidak ada pemenang medis. Bocor malam atau ruam yang melepuh tetap ke observasi di rumah plus tenaga kesehatan jika memburuk — HiMoon tidak mendiagnosis.",
+          en: "Original here means we retail the Makuku SAP listing that is in the himoonbabykids shop, not an unbranded diaper relabeled. Whether it is worth it depends on thigh fit and whether you want a thinner feel in Bali weather — not the cheapest sticker. Honest neighbor: [MamyPoko Royal Soft](/shop/popok) catalog Rp123,000 (listing title: pants and tape organic cotton). Pack units and piece counts differ; we do not split a per-piece price. Makuku SAP on this page is tape; our MamyPoko listing names pants and tape — pick by your baby’s stage, not because one brand “wins.” Comparison method is on [/metodologi-perbandingan](/metodologi-perbandingan) and the [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) essay: real SKUs, Bali climate, no fake panel. There is no medical winner. Night leaks or a blistering rash still need home observation plus a clinician if it worsens — HiMoon does not diagnose.",
+        },
+      },
+      {
+        heading: {
+          id: "Popok tipis di iklim panas Bali — tanpa janji bebas bocor",
+          en: "Thin diapers in Bali heat — no promised leak-free result",
+        },
+        body: {
+          id: "Panas, keringat, dan popok basah di Badung, Canggu, dan Denpasar membuat banyak orang tua mencari popok yang terasa lebih tipis. Itu alasan komersial halaman ini, bukan uji lab. Ganti segera saat basah tetap fondasi; popok tidak menggantikan [tips memilih ukuran](/blog/tips-memilih-popok-bayi). Ikuti tabel berat di kemasan Makuku, bukan usia kalender. Jika bocor di paha atau meninggalkan bekas dalam, naik ukuran pada varian Shopee — kami tidak punya tabel NB–XXL di situs. Area popok yang mudah merah bisa dibahas di [perawatan kulit bayi sensitif](/blog/perawatan-kulit-bayi-sensitif); krim barrier adalah SKU terpisah, bukan janji “Makuku = tidak ruam”. HiMoon tidak menjanjikan bebas bocor, extra dry abadi, atau anti gumpal di rumah Anda. Perlengkapan lain di bulan pertama ada di [perlengkapan bayi baru lahir](/blog/perlengkapan-bayi-baru-lahir) dan etalase [/shop](/shop).",
+          en: "Heat, sweat, and wet diapers in Badung, Canggu, and Denpasar make many parents look for a thinner-feeling diaper. That is this page’s commercial reason, not a lab test. Prompt changes stay the foundation; a diaper does not replace [size-selection tips](/blog/tips-memilih-popok-bayi). Follow the Makuku pack weight chart, not calendar age. If it leaks at the thigh or leaves a deep mark, size up in the Shopee variant — we do not publish an NB–XXL table on the site. A diaper area that reddens easily can be discussed on [sensitive baby skin care](/blog/perawatan-kulit-bayi-sensitif); barrier cream is a separate SKU, not a promise that “Makuku = no rash.” HiMoon does not promise leak-free nights, forever extra-dry, or anti-clump in your home. Other month-one items are on the [newborn checklist](/blog/perlengkapan-bayi-baru-lahir) and the mixed catalog at [/shop](/shop).",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock-only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke listing Makuku SAP Comfort Fit himoonbabykids agar harga, varian ukuran, stok, dan ongkir Badung–Denpasar live. Ini SKU popok yang tombol oranye-nya benar-benar ke item, bukan beranda toko. Buka juga [katalog popok](/shop/popok) untuk kartu Makuku SAP dan MamyPoko Royal Soft Rp123.000, atau [/shop](/shop) untuk etalase campur. WhatsApp +628511214358 untuk tanya ukuran atau stok fisik di toko Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) (kriteria, bukan pemenang abadi) dan [tips memilih popok bayi](/blog/tips-memilih-popok-bayi) (berat badan dan kulit).",
+          en: "Primary checkout: the orange Buy on Shopee button to the Makuku SAP Comfort Fit himoonbabykids listing so price, size variants, stock, and Badung–Denpasar shipping are live. This is the diaper SKU whose orange button actually hits the item, not the shop home. Also open the [diaper catalog](/shop/popok) for the Makuku SAP and MamyPoko Royal Soft Rp123,000 cards, or [/shop](/shop) for the mixed catalog. WhatsApp +628511214358 to ask size or Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: [Makuku vs MamyPoko](/blog/makuku-vs-mamypoko) (criteria, not an eternal winner) and [how to choose baby diapers](/blog/tips-memilih-popok-bayi) (weight and skin).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Makuku SAP Comfort Fit original (tape NB–XXL sesuai listing) — Beli di Shopee ke item URL; harga konfirmasi di Shopee himoonbabykids",
+        "Tetangga etalase: MamyPoko Royal Soft (katalog Rp123.000, CTA kartu masih beranda toko)",
+        "Produk sesuai listing Shopee himoonbabykids; isi/ukuran mengikuti judul dan varian, bukan tabel buatan kami",
+        "Checkout Beli di Shopee; WhatsApp tanya ukuran atau stok toko Badung",
+        "Kirim Shopee ke Denpasar–Canggu–luar Bali atau ambil di Badung setelah stok dikonfirmasi",
+      ],
+      en: [
+        "Authentic Makuku SAP Comfort Fit (tape NB–XXL as listed) — Buy on Shopee on the item URL; confirm price on Shopee himoonbabykids",
+        "Shop neighbor: MamyPoko Royal Soft (catalog Rp123,000; card CTA still shop home)",
+        "Goods as listed on Shopee himoonbabykids; pack/size follow the title and variants, not a table we invent",
+        "Buy on Shopee checkout; WhatsApp for size or Badung in-store stock",
+        "Shopee ship to Denpasar–Canggu–beyond Bali, or Badung pickup after stock is confirmed",
+      ],
+    },
+    priceNote: {
+      id: "Makuku SAP Comfort Fit: konfirmasi di Shopee himoonbabykids (baris katalog situs tidak memuat angka; tombol oranye ke listing item). MamyPoko Royal Soft katalog Rp123.000 di kategori popok (CTA kartu masih beranda toko). Isi pack dan ukuran NB–XXL tidak kami pecah per pcs. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Makuku SAP Comfort Fit: confirm on Shopee himoonbabykids (the site catalog row has no number; the orange button goes to the item listing). MamyPoko Royal Soft catalog Rp123,000 in the diaper category (card CTA still shop home). Pack counts and NB–XXL sizes are not split per piece. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga Makuku SAP original di HiMoon?",
+          en: "How much is authentic Makuku SAP at HiMoon?",
+        },
+        answer: {
+          id: "Kami tidak menulis angka di halaman ini. Baris katalog situs untuk Makuku SAP Comfort Fit tidak memuat IDR, jadi konfirmasi di Shopee himoonbabykids sebelum bayar. Ongkir dihitung di checkout. Tetangga etalase MamyPoko Royal Soft katalog Rp123.000.",
+          en: "We do not print a number on this page. The site catalog row for Makuku SAP Comfort Fit has no IDR, so confirm on Shopee himoonbabykids before paying. Shipping is calculated at checkout. Shop neighbor MamyPoko Royal Soft is catalog Rp123,000.",
+        },
+      },
+      {
+        question: {
+          id: "Makuku SAP vs MamyPoko Royal Soft — mana yang worth it?",
+          en: "Makuku SAP vs MamyPoko Royal Soft — which is worth it?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis dan tidak ada janji bebas bocor. Makuku SAP Comfort Fit (tape, harga konfirmasi di Shopee) sering dicari karena terasa lebih tipis. MamyPoko Royal Soft katalog Rp123.000 menyebut celana dan perekat organic cotton. Uji pack kecil, baca tabel berat kemasan, ruam parah ke tenaga kesehatan. Metode lengkap di /metodologi-perbandingan.",
+          en: "There is no medical winner and no promised leak-free result. Makuku SAP Comfort Fit (tape, confirm price on Shopee) is often sought for a thinner feel. MamyPoko Royal Soft catalog Rp123,000 names pants and tape organic cotton. Trial a small pack, read the pack weight chart; a severe rash needs a clinician. Full method is on /metodologi-perbandingan.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon official store Makuku?",
+          en: "Is HiMoon the Makuku official store?",
+        },
+        answer: {
+          id: "Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian. Beli di Shopee ke listing Makuku SAP Comfort Fit, atau tanya stok toko via WhatsApp.",
+          en: "We are the himoonbabykids retail shop in Badung Regency, not a factory official store unless Shopee itself labels it that way. Buy on Shopee on the Makuku SAP Comfort Fit listing, or WhatsApp for in-store stock.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee — itu ke listing item Makuku SAP Comfort Fit di toko himoonbabykids, lalu pilih varian ukuran. Atau buka /shop/popok lalu kartu Makuku. WhatsApp hanya untuk tanya ukuran atau stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button — it opens the Makuku SAP Comfort Fit item listing in the himoonbabykids shop, then pick a size variant. Or open /shop/popok then the Makuku card. WhatsApp is for size or Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-11-02",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.popok,
+    imageAlt: {
+      id: "Makuku SAP Comfort Fit original di HiMoon Badung dan Shopee",
+      en: "Authentic Makuku SAP Comfort Fit at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/popok",
+    relatedSlugs: ["makuku-vs-mamypoko", "tips-memilih-popok-bayi"],
+    emitFaqPageSchema: false,
+    shopeeHref:
+      "https://shopee.co.id/MAKUKU-SAP-Diapers-Comfort-Fit-Tape-NB-S-M-L-Xl-XXL-Popok-Bayi-Tipis-Extra-Dry-Anti-Gumpal-i.1869688077.49969731055",
+    featuredProductSlugs: [
+      "makuku-sap-diapers-comfort-fit-tape-nbsmlxlxxl-popok-bayi-tipis-extra-dry-anti-gumpal",
+      "mamypoko-royal-soft-popok-bayi-tipe-celana-perekat",
+    ],
+    cta: {
+      title: {
+        id: "Beli Makuku SAP Comfort Fit original di Shopee",
+        en: "Buy authentic Makuku SAP Comfort Fit on Shopee",
+      },
+      body: {
+        id: "Satu SKU popok tipis Makuku SAP tipe tape. Harga tidak kami tebak di halaman ini — konfirmasi di Shopee himoonbabykids. Tombol oranye ke listing item, bukan beranda toko. MamyPoko Royal Soft Rp123.000 adalah tetangga etalase, bukan pemenang medis. WhatsApp hanya untuk tanya ukuran atau stok toko Badung.",
+        en: "One thin Makuku SAP tape diaper SKU. We do not guess a price on this page — confirm on Shopee himoonbabykids. The orange button goes to the item listing, not the shop home. MamyPoko Royal Soft Rp123,000 is a shop neighbor, not a medical winner. WhatsApp is only for size or Badung in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog popok",
+        en: "Browse diaper catalog",
+      },
+    },
   },
   {
     slug: "asi-booster-ibu-menyusui",

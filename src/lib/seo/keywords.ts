@@ -42,6 +42,12 @@ export const keywordStrategy = {
       path: "/blog/makuku-vs-mamypoko",
     },
     {
+      query: "harga Makuku SAP original",
+      intent: "commercial",
+      why: "P0 popok harga SKU: first diaper listing with a working Shopee item URL (Makuku SAP Comfort Fit; catalog Rp0 so cek Shopee).",
+      path: "/blog/harga-makuku-sap-original",
+    },
+    {
       query: "ASI booster ibu menyusui",
       intent: "commercial",
       why: "Repeat-buy supplement + nursing kit for new moms.",

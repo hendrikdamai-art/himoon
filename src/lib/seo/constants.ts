@@ -1,4 +1,4 @@
-export const SITE_CONTENT_UPDATED = "2026-10-29";
+export const SITE_CONTENT_UPDATED = "2026-11-05";
 
 export const LLMS_CACHE_CONTROL =
   "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800";
@@ -27,6 +27,7 @@ export const AI_CRAWLERS = [
   "YouBot",
 ] as const;
 
+/** Fallback IDR range when live Shopee merge has no priced SKUs. Shop page uses live min/max. */
 export const PRICE_RANGE_IDR = {
   min: 22500,
   max: 123000,

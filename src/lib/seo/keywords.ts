@@ -36,6 +36,12 @@ export const keywordStrategy = {
       path: "/blog/toko-mpasi-bali",
     },
     {
+      query: "harga Bunda Elia kaldu MPASI original",
+      intent: "commercial",
+      why: "P0 MPASI harga SKU: next Bunda Elia listing with a working Shopee item URL after BB Booster Rice (kaldu item 53019019042; catalog Rp0 so cek Shopee).",
+      path: "/blog/harga-bunda-elia-kaldu-mpasi-original",
+    },
+    {
       query: "Makuku vs MamyPoko",
       intent: "comparison",
       why: "High-intent diaper research; both brands are in the HiMoon catalog.",

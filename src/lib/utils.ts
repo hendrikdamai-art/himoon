@@ -35,12 +35,12 @@ export function whatsappOrderUrl(
   const priceLine =
     price > 0
       ? locale === "id"
-        ? `\nHarga: ${formatPrice(price, "id")}`
-        : `\nPrice: ${formatPrice(price, "en")}`
+        ? `\nHarga katalog: ${formatPrice(price, "id")}`
+        : `\nCatalog price: ${formatPrice(price, "en")}`
       : "";
   const message =
     locale === "id"
-      ? `Halo HiMoon Baby & Kids! Saya ingin memesan:\n\n*${productName}*${priceLine}\n\nMohon info ketersediaan dan cara pembayaran. Terima kasih!`
-      : `Hi HiMoon Baby & Kids! I'd like to order:\n\n*${productName}*${priceLine}\n\nPlease confirm availability and payment. Thank you!`;
+      ? `Halo HiMoon Baby & Kids! Saya ingin tanya stok toko Bali untuk:\n\n*${productName}*${priceLine}\n\nMohon konfirmasi ketersediaan. Checkout saya lewat Shopee. Terima kasih!`
+      : `Hi HiMoon Baby & Kids! I'd like to check Bali in-store stock for:\n\n*${productName}*${priceLine}\n\nPlease confirm availability. I'll checkout on Shopee. Thank you!`;
   return `https://wa.me/${phone.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;
 }

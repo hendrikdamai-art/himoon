@@ -18,7 +18,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       ...SEARCH_CRAWLERS.map((userAgent) => ({
         userAgent,
-        allow: "/",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
         ...(userAgent === "Googlebot-Video"
           ? {}
           : { disallow: [...PRIVATE_PATHS] }),

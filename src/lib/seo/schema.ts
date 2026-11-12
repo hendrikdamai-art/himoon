@@ -212,3 +212,81 @@ export function itemListSchema(
     })),
   };
 }
+
+export function aggregateOfferSchema({
+  path,
+  name = "Katalog perlengkapan bayi HiMoon",
+  description,
+  lowPrice,
+  highPrice,
+  offerCount,
+}: {
+  path: string;
+  name?: string;
+  description?: string;
+  lowPrice: number;
+  highPrice: number;
+  offerCount: number;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url: `${siteConfig.url}${path === "/" ? "" : path}`,
+    brand: {
+      "@type": "Brand",
+      name: siteConfig.name,
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "IDR",
+      lowPrice: String(lowPrice),
+      highPrice: String(highPrice),
+      offerCount: String(offerCount),
+      availability: "https://schema.org/InStock",
+      url: siteConfig.shopeeShopUrl,
+    },
+  };
+}
+
+export function productOfferSchema({
+  name,
+  image,
+  price,
+  url,
+  brand,
+  inStock = true,
+}: {
+  name: string;
+  image: string;
+  price: number;
+  url: string;
+  brand?: string;
+  inStock?: boolean;
+}) {
+  const imageUrl = image.startsWith("http") ? image : `${siteConfig.url}${image}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    image: imageUrl,
+    brand: {
+      "@type": "Brand",
+      name: brand || siteConfig.name,
+    },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "IDR",
+      price: String(price),
+      availability: inStock
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
+      url,
+      seller: {
+        "@type": "Organization",
+        name: siteConfig.businessName,
+      },
+    },
+  };
+}

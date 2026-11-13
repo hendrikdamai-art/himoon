@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment, type ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { getBlogPost, getBlogPosts, getProductsByCategory } from "@/lib/catalog";
+import type { Product } from "@/types/catalog";
 import { getRelatedGuides } from "@/lib/seo/guides";
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { SpeakableAnswer } from "@/components/seo/speakable-answer";
@@ -23,6 +25,49 @@ import { buildIndonesiaPageMetadata } from "@/lib/seo/indonesia";
 type Props = {
   params: Promise<{ slug: string }>;
 };
+
+function renderInlineLinks(text: string): ReactNode[] {
+  const pattern = /\[([^\]]+)\]\((\/[^)]+)\)/g;
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(
+        <Fragment key={`t-${key++}`}>{text.slice(lastIndex, match.index)}</Fragment>,
+      );
+    }
+    nodes.push(
+      <Link
+        key={`l-${key++}`}
+        href={match[2]}
+        className="font-semibold text-himoon-blue underline decoration-himoon-yellow/70 underline-offset-2 transition hover:text-himoon-yellow"
+      >
+        {match[1]}
+      </Link>,
+    );
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(<Fragment key={`t-${key++}`}>{text.slice(lastIndex)}</Fragment>);
+  }
+
+  return nodes;
+}
+
+function pickRelatedProducts(
+  products: Product[],
+  featuredSlugs?: string[],
+): Product[] {
+  if (!featuredSlugs?.length) return products.slice(0, 3);
+  const picked = featuredSlugs
+    .map((slug) => products.find((product) => product.slug === slug))
+    .filter((product): product is Product => Boolean(product));
+  return picked.length > 0 ? picked : products.slice(0, 3);
+}
 
 export async function generateStaticParams() {
   return getBlogPosts().map((post) => ({ slug: post.slug }));
@@ -59,7 +104,10 @@ export default async function BlogPostPage({ params }: Props) {
 
   const related = getRelatedGuides(post.slug);
   const relatedProducts = post.relatedCategory
-    ? (await getProductsByCategory(post.relatedCategory)).slice(0, 3)
+    ? pickRelatedProducts(
+        await getProductsByCategory(post.relatedCategory),
+        post.featuredProductSlugs,
+      )
     : [];
 
   return (
@@ -73,7 +121,9 @@ export default async function BlogPostPage({ params }: Props) {
         })}
       />
       <JsonLdScript data={articleSchema(post)} />
-      <JsonLdScript data={faqSchema(post.faqs)} />
+      {post.emitFaqPageSchema !== false ? (
+        <JsonLdScript data={faqSchema(post.faqs)} />
+      ) : null}
       <JsonLdScript
         data={breadcrumbSchema([
           { name: "Beranda", path: "/" },
@@ -114,17 +164,17 @@ export default async function BlogPostPage({ params }: Props) {
             ))}
           </ul>
           <div className="mt-5 flex flex-wrap gap-3">
-            <ShopeeCta />
+            <ShopeeCta href={post.shopeeHref} />
             <ShopCta href={post.shopHref} label="Buka katalog terkait" />
           </div>
         </div>
         <BlogProductCta post={post} placement="mid" />
         <div className="prose prose-lg mt-8 max-w-none text-himoon-muted">
-          <p className="mb-4 leading-relaxed">{post.content.id}</p>
+          <p className="mb-4 leading-relaxed">{renderInlineLinks(post.content.id)}</p>
           {post.sections.map((section) => (
             <section key={section.heading.id} className="mb-6">
               <h2 className="text-2xl font-bold text-himoon-blue">{section.heading.id}</h2>
-              <p className="mt-2 leading-relaxed">{section.body.id}</p>
+              <p className="mt-2 leading-relaxed">{renderInlineLinks(section.body.id)}</p>
             </section>
           ))}
         </div>
@@ -134,7 +184,7 @@ export default async function BlogPostPage({ params }: Props) {
           <section className="mt-12 border-t border-himoon-blue/10 pt-10">
             <h2 className="text-2xl font-extrabold text-himoon-blue">Produk terkait</h2>
             <p className="mt-1 text-sm text-himoon-muted">
-              Pilih produk, lalu pesan via Shopee atau WhatsApp.
+              Pilih produk, lalu Beli di Shopee. WhatsApp hanya tanya stok.
             </p>
             <div className="mt-6 grid gap-5 sm:grid-cols-2">
               {relatedProducts.map((product) => (

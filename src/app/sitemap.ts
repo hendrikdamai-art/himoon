@@ -96,5 +96,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     )
     .sort((a, b) => a.url.localeCompare(b.url));
 
-  return [...staticPages, ...categoryPages, ...blogPages];
+  const productPages: MetadataRoute.Sitemap = catalog.products
+    .filter((product) => product.itemId > 0 && product.slug)
+    .map((product) =>
+      entry(
+        `/shop/${product.category}/${product.slug}`,
+        product.syncedAt || shopDate,
+        0.8,
+        "weekly",
+        product.image ? [product.image] : [],
+      ),
+    )
+    .sort((a, b) => a.url.localeCompare(b.url));
+
+  return [...staticPages, ...categoryPages, ...productPages, ...blogPages];
 }

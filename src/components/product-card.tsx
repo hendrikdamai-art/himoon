@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useLanguage } from "@/lib/i18n/language-provider";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, productPath } from "@/lib/utils";
 import type { Product } from "@/types/catalog";
 import { OrderButtons } from "./order-buttons";
 
@@ -14,10 +15,11 @@ export function ProductCard({
   priority?: boolean;
 }) {
   const { locale, t } = useLanguage();
+  const href = productPath(product);
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md">
-      <div className="relative aspect-square overflow-hidden bg-slate-50">
+      <Link href={href} className="relative aspect-square overflow-hidden bg-slate-50">
         <Image
           src={product.image}
           alt={product.name}
@@ -33,10 +35,12 @@ export function ProductCard({
             {product.brand}
           </span>
         ) : null}
-      </div>
+      </Link>
       <div className="flex flex-1 flex-col p-4">
         <h3 className="line-clamp-2 text-sm font-bold leading-snug text-himoon-blue md:text-base">
-          {product.name}
+          <Link href={href} className="hover:underline">
+            {product.name}
+          </Link>
         </h3>
         <p className="mt-2 text-lg font-extrabold text-himoon-yellow">
           {product.price > 0

@@ -1,10 +1,9 @@
 "use client";
 
-import { siteConfig } from "@/lib/site-config";
 import { useLanguage } from "@/lib/i18n/language-provider";
-import { cn, formatPrice, whatsappOrderUrl } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import type { Product } from "@/types/catalog";
-import { MessageCircle, ShoppingBag } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 
 type OrderButtonsProps = {
   product: Pick<Product, "name" | "price" | "shopeeUrl">;
@@ -13,34 +12,16 @@ type OrderButtonsProps = {
 };
 
 export function OrderButtons({ product, className, compact }: OrderButtonsProps) {
-  const { locale, t } = useLanguage();
-  const whatsappUrl = whatsappOrderUrl(
-    siteConfig.whatsappNumber,
-    product.name,
-    product.price,
-    locale,
-  );
+  const { t } = useLanguage();
 
   return (
-    <div className={cn("flex flex-col gap-2 sm:flex-row", className)}>
-      <a
-        href={whatsappUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={cn(
-          "inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#1da851]",
-          compact && "px-3 py-2 text-xs",
-        )}
-      >
-        <MessageCircle className="h-4 w-4" />
-        {t.products.orderWhatsapp}
-      </a>
+    <div className={cn("flex flex-col gap-2", className)}>
       <a
         href={product.shopeeUrl}
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
-          "inline-flex items-center justify-center gap-2 rounded-full bg-[#EE4D2D] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#d73211]",
+          "inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#EE4D2D] px-4 py-2.5 text-sm font-bold text-white transition hover:bg-[#d73211]",
           compact && "px-3 py-2 text-xs",
         )}
       >

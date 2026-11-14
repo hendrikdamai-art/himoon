@@ -20,6 +20,10 @@ function getStaticProducts(): Product[] {
   return dedupeProducts(catalog.products.filter((product) => product.itemId > 0));
 }
 
+export function getCatalogProducts(): Product[] {
+  return getStaticProducts();
+}
+
 export async function getProducts(): Promise<Product[]> {
   const staticProducts = getStaticProducts();
 

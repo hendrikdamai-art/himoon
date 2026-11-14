@@ -26,6 +26,10 @@ export function shopeeProductUrl(shopId: number, itemId: number, slug?: string):
   return base;
 }
 
+export function productPath(product: { category: string; slug: string }): string {
+  return `/shop/${product.category}/${product.slug}`;
+}
+
 export function whatsappOrderUrl(
   phone: string,
   productName: string,

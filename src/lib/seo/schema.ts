@@ -1,7 +1,13 @@
-import { siteConfig } from "@/lib/site-config";
+import { shopCategories, siteConfig } from "@/lib/site-config";
 import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { moneyPageFaqs } from "@/lib/seo/keywords";
-import type { BlogPost, GuideFaq } from "@/types/catalog";
+import type { BlogPost, GuideFaq, Product } from "@/types/catalog";
+import { productPath } from "@/lib/utils";
+
+function absoluteUrl(pathOrUrl: string) {
+  if (pathOrUrl.startsWith("http://") || pathOrUrl.startsWith("https://")) return pathOrUrl;
+  return `${siteConfig.url}${pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`}`;
+}
 
 export function localBusinessSchema() {
   return {
@@ -186,7 +192,7 @@ export function articleSchema(guide: BlogPost) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/logo.png`,
+        url: `${siteConfig.url}/logo.png",
       },
     },
     speakable: {
@@ -210,5 +216,47 @@ export function itemListSchema(
       name: item.name,
       url: item.url,
     })),
+  };
+}
+
+export function productSchema(product: Product) {
+  const pageUrl = absoluteUrl(productPath(product));
+  const categoryLabel =
+    shopCategories.find((category) => category.slug === product.category)?.label.id ??
+    product.category;
+
+  const offer: Record<string, unknown> = {
+    "@type": "Offer",
+    url: product.shopeeUrl,
+    priceCurrency: "IDR",
+    availability: product.inStock
+      ? "https://schema.org/InStock"
+      : "https://schema.org/OutOfStock",
+    itemCondition: "https://schema.org/NewCondition",
+    seller: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.shopeeShopUrl,
+    },
+  };
+
+  if (product.price > 0) {
+    offer.price = String(product.price);
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: absoluteUrl(product.image),
+    description: `${product.name} di HiMoon Baby & Kids, baby shop Badung. Checkout Shopee himoonbabykids.`,
+    sku: product.id,
+    url: pageUrl,
+    category: categoryLabel,
+    brand: {
+      "@type": "Brand",
+      name: product.brand || siteConfig.name,
+    },
+    offers: offer,
   };
 }

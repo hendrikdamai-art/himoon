@@ -59,7 +59,7 @@ export const indonesiaFaqs = [
   {
     question: "Bagaimana cara belanja di HiMoon?",
     answer:
-      "Anda bisa belanja langsung di toko fisik kami di Bali, pesan via WhatsApp, atau checkout di Shopee toko himoonbabykids.",
+      "Checkout di Shopee toko himoonbabykids. Toko fisik di Badung untuk lihat kemasan; WhatsApp hanya untuk tanya stok sebelum datang.",
   },
   {
     question: "Apakah HiMoon penjual terpercaya?",
@@ -168,9 +168,36 @@ export const categorySeoKeywords: Record<string, string[]> = {
 };
 
 export const categoryPageTitles: Record<string, string> = {
-  mpasi: "Beli MPASI Bayi di Bali",
-  "perawatan-kulit-bayi": "Perawatan Kulit Bayi di Bali",
+  mpasi: "Toko MPASI Bali | Bunda Elia, Milna, Bumboo",
+  "perawatan-kulit-bayi": "Skincare Bayi Bali | Moell, Gently, Beeme",
   popok: "Popok Makuku & MamyPoko",
   "peralatan-bayi": "Peralatan Makan Bayi",
   "perawatan-bibir": "Perawatan Bibir Bayi",
 };
+
+export const categoryPageHeadings: Record<string, string> = {
+  mpasi: "Beli MPASI bayi di Bali: kaldu, bubur, dan snack",
+  "perawatan-kulit-bayi": "Beli skincare bayi di Bali: sunscreen, lotion, cologne",
+  popok: "Popok Makuku & MamyPoko di toko HiMoon Badung",
+  "peralatan-bayi": "Peralatan makan bayi di toko HiMoon Badung",
+  "perawatan-bibir": "Perawatan bibir bayi di toko HiMoon Badung",
+};
+
+export const categoryPageDescriptions: Record<string, string> = {
+  mpasi:
+    "Toko MPASI Bali di Badung: kaldu Bunda Elia, Milna, Bumboo, Promina, Yummy Bites. Checkout Shopee himoonbabykids untuk stok live.",
+  "perawatan-kulit-bayi":
+    "Skincare bayi Bali: sunscreen Moell, lotion Gently, cologne BAMBI & Beeme. Beli di Shopee himoonbabykids, bukan WhatsApp checkout.",
+  popok:
+    "Popok Makuku SAP dan MamyPoko Royal Soft di baby shop Badung. Checkout Shopee himoonbabykids.",
+  "peralatan-bayi":
+    "Peralatan makan bayi, celemek, dan tisu di HiMoon Badung. Beli di Shopee himoonbabykids.",
+  "perawatan-bibir":
+    "Perawatan bibir bayi dan anak di HiMoon Badung. Checkout Shopee himoonbabykids.",
+};
+
+export function moneyPageLabel(href: string): string {
+  if (href === "/shop") return "Baby Shop Bali";
+  const slug = href.replace(/^\/shop\//, "");
+  return categoryPageTitles[slug] ?? "Katalog HiMoon";
+}

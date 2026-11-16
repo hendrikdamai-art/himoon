@@ -36,6 +36,12 @@ export const keywordStrategy = {
       path: "/blog/toko-mpasi-bali",
     },
     {
+      query: "harga Bunda Elia fat oil original",
+      intent: "commercial",
+      why: "P0 MPASI harga SKU: Bunda Elia fat oil has a working Shopee item URL (49569047166); catalog Rp0 so cek Shopee.",
+      path: "/blog/harga-bunda-elia-fat-oil-original",
+    },
+    {
       query: "Makuku vs MamyPoko",
       intent: "comparison",
       why: "High-intent diaper research; both brands are in the HiMoon catalog.",

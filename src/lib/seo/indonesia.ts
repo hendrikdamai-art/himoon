@@ -169,7 +169,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
 
 export const categoryPageTitles: Record<string, string> = {
   mpasi: "Toko MPASI Bali | Bunda Elia, Milna, Bumboo",
-  "perawatan-kulit-bayi": "Skincare Bayi Bali | Moell, Gently, Beeme",
+  "perawatan-kulit-bayi": "Perawatan Kulit Bayi Bali | Moell Rp79.000",
   popok: "Popok Makuku & MamyPoko",
   "peralatan-bayi": "Peralatan Makan Bayi",
   "perawatan-bibir": "Perawatan Bibir Bayi",
@@ -177,7 +177,7 @@ export const categoryPageTitles: Record<string, string> = {
 
 export const categoryPageHeadings: Record<string, string> = {
   mpasi: "Beli MPASI bayi di Bali: kaldu, bubur, dan snack",
-  "perawatan-kulit-bayi": "Beli skincare bayi di Bali: sunscreen, lotion, cologne",
+  "perawatan-kulit-bayi": "Beli skincare bayi di Bali: Moell & Gently Rp45.000–Rp100.000",
   popok: "Popok Makuku & MamyPoko di toko HiMoon Badung",
   "peralatan-bayi": "Peralatan makan bayi di toko HiMoon Badung",
   "perawatan-bibir": "Perawatan bibir bayi di toko HiMoon Badung",
@@ -187,7 +187,7 @@ export const categoryPageDescriptions: Record<string, string> = {
   mpasi:
     "Toko MPASI Bali di Badung: kaldu Bunda Elia, Milna, Bumboo, Promina, Yummy Bites. Checkout Shopee himoonbabykids untuk stok live.",
   "perawatan-kulit-bayi":
-    "Skincare bayi Bali: sunscreen Moell, lotion Gently, cologne BAMBI & Beeme. Beli di Shopee himoonbabykids, bukan WhatsApp checkout.",
+    "Skincare bayi Bali: sunscreen Moell Rp79.000, Gently & Beeme. Katalog Rp45.000–Rp100.000. Ambil Abianbase/Mengwi atau kirim Shopee himoonbabykids.",
   popok:
     "Popok Makuku SAP dan MamyPoko Royal Soft di baby shop Badung. Checkout Shopee himoonbabykids.",
   "peralatan-bayi":

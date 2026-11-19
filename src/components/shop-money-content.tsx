@@ -7,6 +7,7 @@ import { SpeakableAnswer } from "@/components/seo/speakable-answer";
 import { FaqSection } from "@/components/seo/faq-section";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { getGuides } from "@/lib/seo/guides";
+import type { CategoryQuickFact } from "@/lib/seo/category-money";
 
 const MONEY_SPEAKABLE =
   "HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar Rp22.500 sampai Rp123.000, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, opsi ambil di toko Bali, dan ongkir live ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.";
@@ -97,6 +98,26 @@ export function ShopGuideLinks() {
         ))}
       </ul>
     </section>
+  );
+}
+
+export function CategoryQuickFacts({ facts }: { facts: CategoryQuickFact[] }) {
+  if (facts.length === 0) return null;
+
+  return (
+    <dl className="mt-6 grid gap-3 sm:grid-cols-2">
+      {facts.map((fact) => (
+        <div
+          key={fact.label}
+          className="rounded-xl border border-slate-200 bg-white px-4 py-3"
+        >
+          <dt className="text-xs font-semibold uppercase tracking-wider text-himoon-yellow">
+            {fact.label}
+          </dt>
+          <dd className="mt-1 text-sm font-semibold text-himoon-blue">{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }
 

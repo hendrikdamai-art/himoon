@@ -49,6 +49,11 @@ export function Footer() {
                 {t.shopMenu.peralatanBayi}
               </Link>
             </li>
+            <li>
+              <Link href="/shop/perawatan-bibir" className="hover:text-white">
+                {t.shopMenu.treatmentBibir}
+              </Link>
+            </li>
           </ul>
         </div>
 

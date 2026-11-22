@@ -7,6 +7,8 @@ const SHOPEE_IMG = {
     "https://down-id.img.susercontent.com/file/id-11134207-81ztf-mq4ujguquhvye8",
   mpasi:
     "https://down-id.img.susercontent.com/file/id-11134207-81zth-mqbv48ncikg192",
+  fatOil:
+    "https://down-id.img.susercontent.com/file/id-11134207-81zth-murd51ieznk070",
   peralatan:
     "https://down-id.img.susercontent.com/file/id-11134207-81ztl-mqbv2mbam6f460",
   popok:
@@ -290,12 +292,12 @@ export const guides: BlogPost[] = [
       en: "Looking for an MPASI shop in Bali? HiMoon in Badung sells Bunda Elia nutrition and feeding tools, with live stock on Shopee himoonbabykids.",
     },
     speakable: {
-      id: "Toko MPASI Bali yang dicari ibu baru biasanya butuh dua hal: bahan atau nutrisi pendamping ASI, dan peralatan makan yang aman. HiMoon Baby & Kids di Kabupaten Badung menjual produk MPASI Bunda Elia BB Booster Rice dengan harga katalog Rp55.000 dan saringan MPASI stainless sekitar Rp29.500, mengikuti Shopee himoonbabykids. MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dan minat pada makanan muncul; mulai tekstur halus, porsi kecil, dan satu bahan baru setiap beberapa hari untuk pantau reaksi. Kami bukan klinik gizi; ikuti panduan IDAI atau tenaga kesehatan Anda. Belanja bisa di toko fisik, WhatsApp, atau Shopee agar pengiriman sampai Denpasar dan luar Bali. Bandingkan dengan toko MPASI spesialis lain di Bali jika Anda butuh bahan organik curah; keunggulan HiMoon adalah etalase campuran MPASI plus popok dan skincare di satu Shopee shop.",
-      en: "Parents searching for an MPASI shop in Bali usually need complementary-food nutrition and safe feeding tools. HiMoon Baby & Kids in Badung Regency sells Bunda Elia BB Booster Rice MPASI at Rp55,000 catalog and a stainless MPASI strainer around Rp29,500, following Shopee himoonbabykids. Complementary feeding usually starts around 6 months when a baby can sit and shows interest; begin with smooth textures, tiny portions, and one new food every few days. We are not a nutrition clinic; follow IDAI or your clinician. Shop in-store, on WhatsApp, or Shopee for delivery across Denpasar and Indonesia. Compare with specialist bulk-ingredient MPASI stores if you need that range; HiMoon’s edge is MPASI plus diapers and skincare in one Shopee shop.",
+      id: "Toko MPASI Bali yang dicari ibu baru biasanya butuh dua hal: bahan atau nutrisi pendamping ASI, dan peralatan makan yang aman. HiMoon Baby & Kids di Kabupaten Badung menjual produk MPASI Bunda Elia BB Booster Rice dengan harga katalog Rp55.000 dan saringan MPASI stainless sekitar Rp29.500, mengikuti Shopee himoonbabykids. Kaldu, fat oil, santan, dan kecap saus Bunda Elia ada di etalase dengan URL item; konfirmasi di Shopee himoonbabykids, jangan tebak angka. Harga SKU fat oil: harga Bunda Elia fat oil original. MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dan minat pada makanan muncul; mulai tekstur halus, porsi kecil, dan satu bahan baru setiap beberapa hari untuk pantau reaksi. Kami bukan klinik gizi; ikuti panduan IDAI atau tenaga kesehatan Anda. Belanja bisa di toko fisik, WhatsApp, atau Shopee agar pengiriman sampai Denpasar dan luar Bali. Bandingkan dengan toko MPASI spesialis lain di Bali jika Anda butuh bahan organik curah; keunggulan HiMoon adalah etalase campuran MPASI plus popok dan skincare di satu Shopee shop.",
+      en: "Parents searching for an MPASI shop in Bali usually need complementary-food nutrition and safe feeding tools. HiMoon Baby & Kids in Badung Regency sells Bunda Elia BB Booster Rice MPASI at Rp55,000 catalog and a stainless MPASI strainer around Rp29,500, following Shopee himoonbabykids. Kaldu, fat oil, coconut-milk powder, and soy sauce from Bunda Elia have item URLs; confirm on Shopee himoonbabykids, do not guess a number. Fat-oil SKU price: authentic Bunda Elia fat oil price. Complementary feeding usually starts around 6 months when a baby can sit and shows interest; begin with smooth textures, tiny portions, and one new food every few days. We are not a nutrition clinic; follow IDAI or your clinician. Shop in-store, on WhatsApp, or Shopee for delivery across Denpasar and Indonesia. Compare with specialist bulk-ingredient MPASI stores if you need that range; HiMoon’s edge is MPASI plus diapers and skincare in one Shopee shop.",
     },
     content: {
-      id: "Kompetitor lokal seperti MPASI Store Bali fokus bahan dan alat masak. HiMoon menempati celah: nutrisi Bunda Elia, peralatan, plus kebutuhan bayi lain yang sama-sama bisa di-checkout Shopee.",
-      en: "Local competitors such as MPASI Store Bali focus on ingredients and cookware. HiMoon occupies the mix of Bunda Elia nutrition, tools, and other baby needs on one Shopee checkout.",
+      id: "Kompetitor lokal seperti MPASI Store Bali fokus bahan dan alat masak. HiMoon menempati celah: nutrisi Bunda Elia, peralatan, plus kebutuhan bayi lain yang sama-sama bisa di-checkout Shopee. Harga SKU fat oil: [harga Bunda Elia fat oil original](/blog/harga-bunda-elia-fat-oil-original).",
+      en: "Local competitors such as MPASI Store Bali focus on ingredients and cookware. HiMoon occupies the mix of Bunda Elia nutrition, tools, and other baby needs on one Shopee checkout. Fat-oil SKU price: [authentic Bunda Elia fat oil price](/blog/harga-bunda-elia-fat-oil-original).",
     },
     sections: [
       {
@@ -304,8 +306,8 @@ export const guides: BlogPost[] = [
           en: "What we sell for MPASI",
         },
         body: {
-          id: "Nutrisi MPASI Bunda Elia dan peralatan blender, steamer, atau botol sesuai stok Shopee. Nama item dan foto mengikuti etalase himoonbabykids.",
-          en: "Bunda Elia MPASI nutrition and blender, steamer, or bottle tools depending on Shopee stock. Names and photos follow the himoonbabykids listing.",
+          id: "Nutrisi MPASI Bunda Elia di [katalog MPASI](/shop/mpasi): BB Booster Rice, kaldu, fat oil, santan, dan kecap saus sesuai listing Shopee. Peralatan blender, steamer, atau botol mengikuti stok. Nama item dan foto mengikuti etalase himoonbabykids.",
+          en: "Bunda Elia MPASI nutrition in the [MPASI catalog](/shop/mpasi): BB Booster Rice, kaldu, fat oil, coconut-milk powder, and soy sauce as listed on Shopee. Blender, steamer, or bottle tools follow stock. Names and photos follow the himoonbabykids listing.",
         },
       },
       {
@@ -314,8 +316,8 @@ export const guides: BlogPost[] = [
           en: "Pricing",
         },
         body: {
-          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI stainless Rp29.500. Mom Uung / ASI booster sesuai stok Shopee, harga live di listing.",
-          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000; stainless MPASI strainer Rp29,500. Mom Uung / ASI booster follows Shopee stock and live listing price.",
+          id: "Katalog: MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI stainless Rp29.500 di [peralatan bayi](/shop/peralatan-bayi). Kaldu, fat oil, santan, dan kecap saus Bunda Elia: konfirmasi di Shopee himoonbabykids (baris katalog tidak memuat angka). Harga SKU fat oil: [harga Bunda Elia fat oil original](/blog/harga-bunda-elia-fat-oil-original). Mom Uung / ASI booster sesuai stok Shopee, harga live di listing.",
+          en: "Catalog: Bunda Elia BB Booster Rice Rp55,000; stainless MPASI strainer Rp29,500 in [baby equipment](/shop/peralatan-bayi). Bunda Elia kaldu, fat oil, coconut-milk powder, and soy sauce: confirm on Shopee himoonbabykids (catalog rows have no number). Fat-oil SKU price: [authentic Bunda Elia fat oil price](/blog/harga-bunda-elia-fat-oil-original). Mom Uung / ASI booster follows Shopee stock and live listing price.",
         },
       },
       {
@@ -332,20 +334,22 @@ export const guides: BlogPost[] = [
     inclusions: {
       id: [
         "MPASI Bunda Elia BB Booster Rice (katalog Rp55.000)",
+        "Kaldu, fat oil, santan, kecap saus Bunda Elia (konfirmasi di Shopee himoonbabykids)",
         "Saringan MPASI stainless (katalog Rp29.500)",
         "Konsultasi pilih item via WhatsApp",
         "Kirim Shopee atau ambil di Badung",
       ],
       en: [
         "Bunda Elia BB Booster Rice (catalog Rp55,000)",
+        "Bunda Elia kaldu, fat oil, coconut-milk powder, soy sauce (confirm on Shopee himoonbabykids)",
         "Stainless MPASI strainer (catalog Rp29,500)",
         "WhatsApp help choosing items",
         "Shopee ship or Badung pickup",
       ],
     },
     priceNote: {
-      id: "MPASI Bunda Elia Rp55.000; saringan MPASI Rp29.500. ASI booster / Mom Uung: cek harga live di Shopee.",
-      en: "Bunda Elia MPASI Rp55,000; MPASI strainer Rp29,500. ASI booster / Mom Uung: check live Shopee price.",
+      id: "MPASI Bunda Elia BB Booster Rice Rp55.000; saringan MPASI Rp29.500. Kaldu, fat oil, santan, kecap Bunda Elia: konfirmasi di Shopee himoonbabykids. ASI booster / Mom Uung: cek harga live di Shopee.",
+      en: "Bunda Elia BB Booster Rice Rp55,000; MPASI strainer Rp29,500. Bunda Elia kaldu, fat oil, coconut-milk powder, soy sauce: confirm on Shopee himoonbabykids. ASI booster / Mom Uung: check live Shopee price.",
     },
     faqs: [
       {
@@ -399,9 +403,9 @@ export const guides: BlogPost[] = [
     },
     shopHref: "/shop/mpasi",
     relatedSlugs: [
+      "harga-bunda-elia-fat-oil-original",
       "panduan-mpasi-6-bulan",
       "perlengkapan-bayi-baru-lahir",
-      "beli-sunscreen-bayi",
     ],
   },
   {
@@ -454,8 +458,8 @@ export const guides: BlogPost[] = [
           en: "Bunda Elia nutrition",
         },
         body: {
-          id: "Jika Anda memilih produk Bunda Elia, ikuti takaran di kemasan. HiMoon meritel produk tersebut; kami tidak meracik MPASI custom.",
-          en: "If you choose Bunda Elia, follow the pack directions. HiMoon retails that product; we do not mix custom MPASI.",
+          id: "Jika Anda memilih produk Bunda Elia, ikuti takaran di kemasan. HiMoon meritel BB Booster Rice (katalog Rp55.000), plus kaldu, fat oil, santan, dan kecap sesuai listing. Harga fat oil: [harga Bunda Elia fat oil original](/blog/harga-bunda-elia-fat-oil-original) — konfirmasi di Shopee himoonbabykids. Kami tidak meracik MPASI custom dan tidak menjanjikan naik berat badan.",
+          en: "If you choose Bunda Elia, follow the pack directions. HiMoon retails BB Booster Rice (catalog Rp55,000), plus kaldu, fat oil, coconut-milk powder, and soy sauce as listed. Fat-oil price: [authentic Bunda Elia fat oil price](/blog/harga-bunda-elia-fat-oil-original) — confirm on Shopee himoonbabykids. We do not mix custom MPASI and we do not promise weight gain.",
         },
       },
     ],
@@ -474,8 +478,8 @@ export const guides: BlogPost[] = [
       ],
     },
     priceNote: {
-      id: "Bunda Elia BB Booster Rice Rp55.000; saringan MPASI Rp29.500 pada katalog saat ini.",
-      en: "Bunda Elia BB Booster Rice Rp55,000; MPASI strainer Rp29,500 on the current catalog.",
+      id: "Bunda Elia BB Booster Rice Rp55.000; saringan MPASI Rp29.500 pada katalog saat ini. Fat oil, kaldu, santan, kecap Bunda Elia: konfirmasi di Shopee himoonbabykids.",
+      en: "Bunda Elia BB Booster Rice Rp55,000; MPASI strainer Rp29,500 on the current catalog. Bunda Elia fat oil, kaldu, coconut-milk powder, soy sauce: confirm on Shopee himoonbabykids.",
     },
     faqs: [
       {
@@ -528,7 +532,7 @@ export const guides: BlogPost[] = [
       en: "Baby MPASI tools at HiMoon Bali",
     },
     shopHref: "/shop/mpasi",
-    relatedSlugs: ["toko-mpasi-bali", "perlengkapan-bayi-baru-lahir"],
+    relatedSlugs: ["harga-bunda-elia-fat-oil-original", "toko-mpasi-bali", "perlengkapan-bayi-baru-lahir"],
   },
   {
     slug: "perawatan-kulit-bayi-sensitif",
@@ -878,6 +882,172 @@ export const guides: BlogPost[] = [
     },
     shopHref: "/shop/popok",
     relatedSlugs: ["tips-memilih-popok-bayi", "perlengkapan-bayi-baru-lahir"],
+  },
+  {
+    slug: "harga-bunda-elia-fat-oil-original",
+    phase: "month1",
+    query: {
+      id: "harga Bunda Elia fat oil original",
+      en: "Bunda Elia fat oil original price",
+    },
+    title: {
+      id: "Harga Bunda Elia fat oil original — minyak MPASI BB booster Badung & Shopee",
+      en: "Bunda Elia fat oil original price — MPASI BB booster oil in Badung & Shopee",
+    },
+    excerpt: {
+      id: "Harga Bunda Elia fat oil original di HiMoon Badung: konfirmasi di Shopee himoonbabykids (katalog situs tidak memuat angka). Bandingkan jujur dengan BB Booster Rice katalog Rp55.000 dan Bumboo fat oil, lalu Beli di Shopee ke listing minyak MPASI.",
+      en: "Authentic Bunda Elia fat oil price at HiMoon Badung: confirm on Shopee himoonbabykids (the site catalog has no number). Honest neighbors: BB Booster Rice catalog Rp55,000 and Bumboo fat oil. Then Buy on Shopee on the MPASI oil listing.",
+    },
+    speakable: {
+      id: "Bunda Elia fat oil original adalah minyak MPASI / BB booster lemak — Chicken Fat Oil atau Beef Fat Oil sesuai pilihan listing — yang kami jual di HiMoon Baby & Kids, toko ritel di Kabupaten Badung, Bali. Kami bukan klinik gizi dan bukan official store pabrik. Nama listing katalog: Bumbu Bunda Elia Chicken Fat Oil / Beef Fat Oil / Minyak MPASI / BB Booster MPASI / Lemak MPASI / Lemak Bayi / Penambah Berat Badan. Tulisan penambah berat badan milik judul listing Shopee; kami tidak menjanjikan naik berat badan. Harga: konfirmasi di Shopee himoonbabykids. Baris katalog situs tidak memuat angka, jadi kami tidak menulis IDR di halaman ini. Tombol oranye Beli di Shopee membuka listing item itu, bukan beranda toko. Isi kemasan, ml, dan varian ayam atau sapi hanya yang tertera di judul serta pilihan Shopee — kami tidak membuat takaran. Ini minyak MPASI, bukan beras, bukan kaldu, dan bukan ASI booster. Tetangga jujur di etalase: Bunda Elia BB Booster Rice katalog Rp55.000 (beras MPASI; CTA kartu masih ke beranda himoonbabykids). Kaldu, santan MPASI, dan kecap saus Bunda Elia ada dengan URL item; konfirmasi di Shopee himoonbabykids. Ada juga Bumboo Premium FAT Oil di etalase yang sama — bukan pemenang medis, harganya juga konfirmasi di Shopee himoonbabykids. Saringan MPASI stainless tercatat terpisah di kategori peralatan bayi, katalog Rp29.500. Ongkir tidak termasuk. Yang termasuk: produk original sesuai listing, bantuan pilih varian via WhatsApp, ambil di toko Badung atau kirim Shopee ke Denpasar, Canggu, Kuta, dan luar Bali. Halaman ini untuk ibu hamil dan new mom yang mencari harga Bunda Elia fat oil original untuk MPASI sekitar 6 bulan. Cara beli: klik Beli di Shopee ke listing fat oil Bunda Elia. WhatsApp +628511214358 hanya tanya stok toko Badung, bukan keranjang bayar. Ikuti takaran di kemasan dan saran tenaga kesehatan; reaksi yang mengkhawatirkan ke dokter anak.",
+      en: "Authentic Bunda Elia fat oil is the MPASI / BB booster fat oil — Chicken Fat Oil or Beef Fat Oil as the listing options show — that we sell at HiMoon Baby & Kids, a retailer in Badung Regency, Bali. We are not a nutrition clinic and not a factory official store. Catalog listing name: Bumbu Bunda Elia Chicken Fat Oil / Beef Fat Oil / Minyak MPASI / BB Booster MPASI / Lemak MPASI / Lemak Bayi / Penambah Berat Badan. Weight-gain wording belongs to the Shopee listing title; we do not promise weight gain. Price: confirm on Shopee himoonbabykids. The site catalog row has no number, so we do not print IDR on this page. The orange Buy on Shopee button opens that item listing, not the shop home. Pack size, millilitres, and chicken or beef variants are only what the title and Shopee options show — we do not invent a serving chart. This is MPASI oil, not rice, not broth, and not an ASI booster. Honest neighbor: Bunda Elia BB Booster Rice catalog Rp55,000 (MPASI rice; that card still opens the himoonbabykids shop home). Kaldu, coconut-milk powder, and soy sauce from the same brand have item URLs; confirm those prices on Shopee himoonbabykids too. Bumboo Premium FAT Oil sits in the same aisle — not a medical winner; confirm that price on Shopee himoonbabykids as well. The stainless MPASI strainer is listed separately in baby equipment at catalog Rp29,500. Shipping is not included. Included: authentic listed goods, WhatsApp help choosing a variant, Badung pickup or Shopee ship to Denpasar, Canggu, Kuta, and outside Bali. This page is for pregnant and new moms looking up the original Bunda Elia fat oil price for complementary feeding around 6 months. How to buy: click Buy on Shopee on the Bunda Elia fat oil listing. WhatsApp +628511214358 is only for Badung in-store stock, not a payment cart. Follow the pack directions and your clinician; a worrying reaction needs a pediatrician.",
+    },
+    content: {
+      id: "Kami meritel minyak MPASI yang memang ada di etalase: [Bunda Elia fat oil](/shop/mpasi/bumbu-bunda-elia-chicken-fat-oil-beef-fat-oil-minyak-mpasi-bb-booster-mpasi-lema). Halaman ini menjawab harga (konfirmasi di Shopee himoonbabykids), apa yang termasuk, apakah original itu worth it dibanding [BB Booster Rice](/shop/mpasi/bumbu-bunda-elia-bb-booster-rice-mpasi-beras) katalog Rp55.000 atau [Bumboo Premium FAT Oil](/shop/mpasi/bumboo-premium-fat-oil-beef-and-chicken-lemak-hewani-asli-evoo-with-canola-bb-bo), dan cara Beli di Shopee ke listing item — tanpa mengarang angka, takaran, atau janji naik berat badan. Lanjut ke [katalog MPASI](/shop/mpasi), [toko MPASI Bali](/blog/toko-mpasi-bali), [panduan MPASI 6 bulan](/blog/panduan-mpasi-6-bulan), atau etalase campur di [/shop](/shop).",
+      en: "We retail the MPASI oil that is actually in the shop: [Bunda Elia fat oil](/shop/mpasi/bumbu-bunda-elia-chicken-fat-oil-beef-fat-oil-minyak-mpasi-bb-booster-mpasi-lema). This page answers price (confirm on Shopee himoonbabykids), what is included, whether original is worth it versus [BB Booster Rice](/shop/mpasi/bumbu-bunda-elia-bb-booster-rice-mpasi-beras) catalog Rp55,000 or [Bumboo Premium FAT Oil](/shop/mpasi/bumboo-premium-fat-oil-beef-and-chicken-lemak-hewani-asli-evoo-with-canola-bb-bo), and how to Buy on Shopee on the item listing — without inventing a number, a serving chart, or a weight-gain promise. Continue to the [MPASI catalog](/shop/mpasi), [Bali MPASI shop](/blog/toko-mpasi-bali), [6-month MPASI guide](/blog/panduan-mpasi-6-bulan), or the mixed catalog at [/shop](/shop).",
+    },
+    sections: [
+      {
+        heading: {
+          id: "Apa itu, harga katalog, dan isi kemasan",
+          en: "What it is, catalog price, and pack",
+        },
+        body: {
+          id: "Bunda Elia fat oil adalah minyak MPASI / BB booster lemak di [katalog MPASI](/shop/mpasi), bukan beras MPASI, bukan kaldu, dan bukan ASI booster. Nama lengkap listing: Bumbu Bunda Elia Chicken Fat Oil / Beef Fat Oil / Minyak MPASI / BB Booster MPASI / Lemak MPASI / Lemak Bayi / Penambah Berat Badan. Varian ayam atau sapi mengikuti pilihan di Shopee, bukan menu yang kami racik. Harga: konfirmasi di Shopee himoonbabykids. Baris katalog situs tidak memuat angka, jadi kami tidak menulis IDR di sini. Ongkir tidak termasuk dan dihitung di checkout Shopee. Isi, ml, dan varian hanya yang muncul di judul plus pilihan listing; takaran usia ada di kemasan Bunda Elia — kami tidak menebak sendok untuk bayi Anda. Promo, stok, dan harga final selalu konfirmasi di Shopee himoonbabykids sebelum bayar. Jika halaman ini dan etalase berbeda, Shopee yang menang. Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee sendiri menampilkannya demikian.",
+          en: "Bunda Elia fat oil is the MPASI / BB booster fat oil in the [MPASI catalog](/shop/mpasi), not MPASI rice, not broth, and not an ASI booster. Full listing name: Bumbu Bunda Elia Chicken Fat Oil / Beef Fat Oil / Minyak MPASI / BB Booster MPASI / Lemak MPASI / Lemak Bayi / Penambah Berat Badan. Chicken or beef variants follow the Shopee options, not a mix we invent. Price: confirm on Shopee himoonbabykids. The site catalog row has no number, so we do not print IDR here. Shipping is not included and is calculated at Shopee checkout. Pack contents and variants are only what the title plus listing options show; serving age is on the Bunda Elia pack — we do not guess spoons for your baby. Promos, stock, and the final price: confirm on Shopee himoonbabykids before paying. If this page and the shop disagree, Shopee wins. We are the himoonbabykids retailer in Badung Regency, not a factory official store unless Shopee itself labels it that way.",
+        },
+      },
+      {
+        heading: {
+          id: "Original / vs BB Booster Rice / vs Bumboo / worth it?",
+          en: "Original / vs BB Booster Rice / vs Bumboo / worth it?",
+        },
+        body: {
+          id: "Original di sini artinya kami meritel listing fat oil Bunda Elia yang ada di etalase himoonbabykids, bukan minyak tanpa merek yang di-relabel. Worth it atau tidak tergantung apakah Anda butuh minyak MPASI 6 bulan dari toko yang bisa dikonfirmasi — plus opsi lihat fisik di Badung — bukan stiker termurah dan bukan janji naik berat badan. Tetangga jujur: [Bunda Elia BB Booster Rice](/shop/mpasi/bumbu-bunda-elia-bb-booster-rice-mpasi-beras) katalog Rp55.000 (judul listing: beras MPASI Beef Steak / Salmon / Chicken). Itu karbohidrat dasar; fat oil di halaman ini adalah minyak. [Kaldu Bunda Elia](/shop/mpasi/bumbu-bunda-elia-bpom-kaldu-mpasi-kaldu-anak-kaldu-bayi-non-gula-garam-kaldu-non), [santan MPASI](/shop/mpasi/bumbu-bunda-elia-coconut-milk-powder-santan-mpasi-santan-anak-bb-booster-mpasi-s), dan [kecap saus](/shop/mpasi/bumbu-bunda-elia-kecap-saus-non-msg-kecap-saus-mpasi-kecap-saus-anak-kecap-saus-) ada di etalase yang sama dengan URL item — namakan di keranjang, jangan tebak IDR; konfirmasi di Shopee himoonbabykids. Bandingkan juga dengan [Bumboo Premium FAT Oil](/shop/mpasi/bumboo-premium-fat-oil-beef-and-chicken-lemak-hewani-asli-evoo-with-canola-bb-bo) di etalase kami: dua merek, dua listing, tidak ada pemenang medis. Bandingkan dengan toko MPASI spesialis bahan curah di Bali: mereka unggul di kiloan, kami unggul di SKU brand plus popok dan skincare di satu Shopee shop. Metode banding ada di [/metodologi-perbandingan](/metodologi-perbandingan): SKU nyata, iklim Bali, tanpa panel palsu. Reaksi yang mengkhawatirkan tetap ke tenaga kesehatan — HiMoon tidak mendiagnosis.",
+          en: "Original here means we retail the Bunda Elia fat oil listing that is in the himoonbabykids shop, not an unbranded oil relabeled. Whether it is worth it depends on whether you want 6-month MPASI oil from a shop you can verify — plus the option to see it in Badung — not the cheapest sticker and not a weight-gain promise. Honest neighbor: [Bunda Elia BB Booster Rice](/shop/mpasi/bumbu-bunda-elia-bb-booster-rice-mpasi-beras) catalog Rp55,000 (listing title: MPASI rice Beef Steak / Salmon / Chicken). That is a carb base; fat oil on this page is oil. [Bunda Elia kaldu](/shop/mpasi/bumbu-bunda-elia-bpom-kaldu-mpasi-kaldu-anak-kaldu-bayi-non-gula-garam-kaldu-non), [coconut-milk powder](/shop/mpasi/bumbu-bunda-elia-coconut-milk-powder-santan-mpasi-santan-anak-bb-booster-mpasi-s), and [soy sauce](/shop/mpasi/bumbu-bunda-elia-kecap-saus-non-msg-kecap-saus-mpasi-kecap-saus-anak-kecap-saus-) sit in the same aisle with item URLs — name them in the cart, do not guess IDR; confirm on Shopee himoonbabykids. Also compare with [Bumboo Premium FAT Oil](/shop/mpasi/bumboo-premium-fat-oil-beef-and-chicken-lemak-hewani-asli-evoo-with-canola-bb-bo) in our shop: two brands, two listings, no medical winner. Compare with Bali bulk-ingredient MPASI stores: they win on kilos, we win on a branded SKU plus diapers and skincare in one Shopee shop. Comparison method is on [/metodologi-perbandingan](/metodologi-perbandingan): real SKUs, Bali climate, no fake panel. A worrying reaction still needs a clinician — HiMoon does not diagnose.",
+        },
+      },
+      {
+        heading: {
+          id: "MPASI 6 bulan — tanpa diagnosis gizi",
+          en: "6-month MPASI — no nutrition diagnosis",
+        },
+        body: {
+          id: "MPASI umumnya dimulai sekitar usia 6 bulan saat bayi bisa duduk dengan bantuan dan menunjukkan minat makan. Itu informasi umum, bukan diagnosis kesiapan anak Anda. Ikuti tanda kesiapan, takaran di kemasan Bunda Elia, dan tenaga kesehatan. Langkah praktis ada di [panduan MPASI 6 bulan](/blog/panduan-mpasi-6-bulan). Peta toko: [toko MPASI Bali](/blog/toko-mpasi-bali). Peralatan yang sering dibeli bersamaan: [saringan MPASI stainless](/shop/peralatan-bayi/saringan-mpasi-ceko-stainless-steel-bpa-free) di [peralatan bayi](/shop/peralatan-bayi), katalog Rp29.500. Anda tidak wajib beli blender di hari pertama. Fat oil bukan pengganti ASI; MPASI mendampingi, bukan otomatis mengganti. Judul listing Shopee menyebut penambah berat badan — itu kata listing merek, bukan janji HiMoon. Jika muncul reaksi yang mengkhawatirkan, hentikan makanan pemicu dan hubungi tenaga kesehatan — HiMoon tidak mendiagnosis alergi dan tidak menjanjikan naik berat badan.",
+          en: "Complementary feeding usually starts around 6 months when a baby can sit with support and shows interest in food. That is general information, not a readiness diagnosis for your child. Follow readiness signs, Bunda Elia pack directions, and your clinician. Practical steps are in the [6-month MPASI guide](/blog/panduan-mpasi-6-bulan). Store map: [Bali MPASI shop](/blog/toko-mpasi-bali). A tool often bought alongside: the [stainless MPASI strainer](/shop/peralatan-bayi/saringan-mpasi-ceko-stainless-steel-bpa-free) on [baby equipment](/shop/peralatan-bayi), catalog Rp29,500. You do not need a blender on day one. Fat oil is not a breast-milk substitute; MPASI complements, it does not automatically replace. The Shopee listing title mentions weight gain — that is brand listing wording, not a HiMoon promise. If a worrying reaction appears, stop the suspected food and contact a clinician — HiMoon does not diagnose allergies and does not promise weight gain.",
+        },
+      },
+      {
+        heading: {
+          id: "Cara Beli di Shopee — WhatsApp hanya tanya stok",
+          en: "How to Buy on Shopee — WhatsApp is stock only",
+        },
+        body: {
+          id: "Checkout utama: tombol oranye Beli di Shopee ke listing item fat oil Bunda Elia di toko himoonbabykids agar harga, varian ayam/sapi, dan ongkir Badung–Denpasar live. Buka juga kartu PDP [Bunda Elia fat oil](/shop/mpasi/bumbu-bunda-elia-chicken-fat-oil-beef-fat-oil-minyak-mpasi-bb-booster-mpasi-lema) atau [katalog MPASI](/shop/mpasi) untuk tetangga BB Booster Rice, kaldu, santan, kecap, dan Bumboo fat oil, atau [/shop](/shop) jika ingin etalase campur MPASI, popok, dan skincare. WhatsApp +628511214358 untuk tanya stok toko fisik Badung sebelum perjalanan jauh — bukan keranjang bayar. Ambil di toko hanya setelah stok dikonfirmasi. Kirim ke luar Bali mengikuti kurir Shopee di checkout. Panduan terkait: [toko MPASI Bali](/blog/toko-mpasi-bali) (peta cluster) dan [panduan MPASI 6 bulan](/blog/panduan-mpasi-6-bulan) (urutan mulai makan).",
+          en: "Primary checkout: the orange Buy on Shopee button to the Bunda Elia fat oil item listing in the himoonbabykids shop so price, chicken/beef variant, and Badung–Denpasar shipping are live. Also open the [Bunda Elia fat oil](/shop/mpasi/bumbu-bunda-elia-chicken-fat-oil-beef-fat-oil-minyak-mpasi-bb-booster-mpasi-lema) PDP or the [MPASI catalog](/shop/mpasi) for neighbors BB Booster Rice, kaldu, coconut-milk powder, soy sauce, and Bumboo fat oil, or [/shop](/shop) for the mixed MPASI, diaper, and skincare catalog. WhatsApp +628511214358 to ask Badung in-store stock before a long trip — not a payment cart. Pickup only after stock is confirmed. Ship outside Bali with the Shopee courier at checkout. Related guides: [Bali MPASI shop](/blog/toko-mpasi-bali) (cluster map) and [6-month MPASI guide](/blog/panduan-mpasi-6-bulan) (start-solids sequence).",
+        },
+      },
+    ],
+    inclusions: {
+      id: [
+        "Bunda Elia fat oil original (Chicken Fat Oil / Beef Fat Oil sesuai listing) — Beli di Shopee ke URL item; konfirmasi di Shopee himoonbabykids",
+        "Tetangga etalase: BB Booster Rice (katalog Rp55.000; CTA kartu masih beranda toko)",
+        "Kaldu, santan MPASI, kecap saus Bunda Elia — namakan, konfirmasi di Shopee himoonbabykids (tanpa angka tebakan)",
+        "Bumboo Premium FAT Oil di etalase yang sama — bukan pemenang medis; konfirmasi di Shopee himoonbabykids",
+        "Saringan MPASI stainless di peralatan bayi (katalog Rp29.500)",
+        "Barang sesuai listing Shopee himoonbabykids; isi/varian mengikuti judul, bukan takaran yang kami buat",
+        "Checkout Beli di Shopee; WhatsApp tanya stok toko Badung",
+        "Kirim Shopee ke Denpasar–Canggu–luar Bali, atau ambil Badung setelah stok dikonfirmasi",
+      ],
+      en: [
+        "Authentic Bunda Elia fat oil (Chicken Fat Oil / Beef Fat Oil as listed) — Buy on Shopee on the item URL; confirm price on Shopee himoonbabykids",
+        "Shop neighbor: BB Booster Rice (catalog Rp55,000; card CTA still shop home)",
+        "Kaldu, coconut-milk powder, soy sauce — name them, confirm on Shopee himoonbabykids (no guessed numbers)",
+        "Bumboo Premium FAT Oil in the same aisle — not a medical winner; confirm on Shopee himoonbabykids",
+        "Stainless MPASI strainer in baby equipment (catalog Rp29,500)",
+        "Goods as listed on Shopee himoonbabykids; pack/variant follow the title, not a chart we invent",
+        "Buy on Shopee checkout; WhatsApp for Badung in-store stock",
+        "Shopee ship to Denpasar–Canggu–beyond Bali, or Badung pickup after stock is confirmed",
+      ],
+    },
+    priceNote: {
+      id: "Bunda Elia fat oil: konfirmasi di Shopee himoonbabykids (baris katalog situs tidak memuat angka; tombol oranye ke listing item). BB Booster Rice katalog Rp55.000 di kategori MPASI (CTA kartu masih beranda toko). Kaldu, santan, kecap Bunda Elia dan Bumboo fat oil: konfirmasi di Shopee himoonbabykids. Saringan MPASI Rp29.500 di peralatan bayi. Ongkir tidak termasuk. Konfirmasi di Shopee himoonbabykids sebelum checkout.",
+      en: "Bunda Elia fat oil: confirm on Shopee himoonbabykids (the site catalog row has no number; the orange button goes to the item listing). BB Booster Rice catalog Rp55,000 in the MPASI category (card CTA still shop home). Kaldu, coconut-milk powder, soy sauce, and Bumboo fat oil: confirm on Shopee himoonbabykids. MPASI strainer Rp29,500 in equipment. Shipping not included. Confirm on Shopee himoonbabykids before checkout.",
+    },
+    faqs: [
+      {
+        question: {
+          id: "Berapa harga Bunda Elia fat oil original di HiMoon?",
+          en: "How much is authentic Bunda Elia fat oil at HiMoon?",
+        },
+        answer: {
+          id: "Kami tidak menulis angka di halaman ini. Baris katalog situs untuk fat oil Bunda Elia tidak memuat IDR, jadi konfirmasi di Shopee himoonbabykids sebelum bayar. Ongkir dihitung di checkout. Tetangga etalase BB Booster Rice katalog Rp55.000.",
+          en: "We do not print a number on this page. The site catalog row for Bunda Elia fat oil has no IDR, so confirm on Shopee himoonbabykids before paying. Shipping is calculated at checkout. Shop neighbor BB Booster Rice is catalog Rp55,000.",
+        },
+      },
+      {
+        question: {
+          id: "Fat oil vs BB Booster Rice vs Bumboo — mana yang worth it?",
+          en: "Fat oil vs BB Booster Rice vs Bumboo — which is worth it?",
+        },
+        answer: {
+          id: "Tidak ada pemenang medis dan tidak ada janji naik berat badan. Fat oil Bunda Elia (harga konfirmasi di Shopee) adalah minyak MPASI. BB Booster Rice katalog Rp55.000 adalah beras MPASI. Bumboo Premium FAT Oil ada di etalase yang sama; konfirmasi di Shopee himoonbabykids. Kaldu, santan, dan kecap: namakan di etalase. Ikuti kemasan, reaksi parah ke tenaga kesehatan. Metode lengkap di /metodologi-perbandingan.",
+          en: "There is no medical winner and no promised weight gain. Bunda Elia fat oil (confirm price on Shopee) is MPASI oil. BB Booster Rice catalog Rp55,000 is MPASI rice. Bumboo Premium FAT Oil is in the same shop; confirm on Shopee himoonbabykids. Kaldu, coconut-milk powder, and soy sauce: name them in the shop. Follow the pack; a severe reaction needs a clinician. Full method is on /metodologi-perbandingan.",
+        },
+      },
+      {
+        question: {
+          id: "Apakah HiMoon official store Bunda Elia?",
+          en: "Is HiMoon the Bunda Elia official store?",
+        },
+        answer: {
+          id: "Kami toko ritel himoonbabykids di Kabupaten Badung, bukan klaim official store pabrik kecuali Shopee menampilkannya demikian. Beli di Shopee ke listing fat oil Bunda Elia, atau tanya stok toko via WhatsApp.",
+          en: "We are the himoonbabykids retail shop in Badung Regency, not a factory official store unless Shopee itself labels it that way. Buy on Shopee on the Bunda Elia fat oil listing, or WhatsApp for in-store stock.",
+        },
+      },
+      {
+        question: {
+          id: "Bagaimana cara Beli di Shopee dari artikel ini?",
+          en: "How do I Buy on Shopee from this article?",
+        },
+        answer: {
+          id: "Klik tombol oranye Beli di Shopee — itu ke listing item fat oil Bunda Elia di toko himoonbabykids, lalu pilih varian ayam atau sapi. Atau buka /shop/mpasi lalu kartu fat oil. WhatsApp hanya untuk tanya stok toko Badung, bukan pembayaran.",
+          en: "Click the orange Buy on Shopee button — it opens the Bunda Elia fat oil item listing in the himoonbabykids shop, then pick chicken or beef. Or open /shop/mpasi then the fat oil card. WhatsApp is for Badung stock questions, not payment.",
+        },
+      },
+    ],
+    publishedAt: "2026-11-16",
+    updatedAt: SITE_CONTENT_UPDATED,
+    readTime: 8,
+    image: SHOPEE_IMG.fatOil,
+    imageAlt: {
+      id: "Bunda Elia fat oil original minyak MPASI di HiMoon Badung dan Shopee",
+      en: "Authentic Bunda Elia fat oil MPASI at HiMoon Badung and Shopee",
+    },
+    shopHref: "/shop/mpasi",
+    relatedSlugs: ["toko-mpasi-bali", "panduan-mpasi-6-bulan"],
+    emitFaqPageSchema: false,
+    shopeeHref:
+      "https://shopee.co.id/Bumbu-Bunda-Elia-Chicken-Fat-Oil-Beef-Fat-Oil-Minyak-MPASI-BB-Booster-MPASI-Lemak-MPASI-Lemak-Bayi-Penambah-Berat-Badan-i.1869688077.49569047166",
+    featuredProductSlugs: [
+      "bumbu-bunda-elia-chicken-fat-oil-beef-fat-oil-minyak-mpasi-bb-booster-mpasi-lema",
+      "bumbu-bunda-elia-bb-booster-rice-mpasi-beras",
+      "bumboo-premium-fat-oil-beef-and-chicken-lemak-hewani-asli-evoo-with-canola-bb-bo",
+    ],
+    cta: {
+      title: {
+        id: "Beli Bunda Elia fat oil original di Shopee",
+        en: "Buy authentic Bunda Elia fat oil on Shopee",
+      },
+      body: {
+        id: "Satu SKU minyak MPASI Bunda Elia. Harga tidak kami tebak di halaman ini — konfirmasi di Shopee himoonbabykids. Tombol oranye ke listing item, bukan beranda toko. BB Booster Rice Rp55.000 adalah tetangga etalase, bukan pemenang medis. WhatsApp hanya untuk tanya stok toko Badung.",
+        en: "One Bunda Elia MPASI oil SKU. We do not guess a price on this page — confirm on Shopee himoonbabykids. The orange button goes to the item listing, not the shop home. BB Booster Rice Rp55,000 is a shop neighbor, not a medical winner. WhatsApp is only for Badung in-store stock.",
+      },
+      button: {
+        id: "Lihat katalog MPASI",
+        en: "Browse MPASI catalog",
+      },
+    },
   },
   {
     slug: "asi-booster-ibu-menyusui",

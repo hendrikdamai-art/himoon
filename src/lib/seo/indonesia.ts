@@ -34,6 +34,8 @@ export const indonesiaKeywords = [
   "Gently baby cologne",
   "Gently face cream",
   "Beeme baby lotion",
+  "harga Beeme lotion bayi original",
+  "Beeme Bee Gentle lotion",
   "Bumbu Bunda Elia MPASI",
   "perlengkapan bayi baru lahir",
   "perlengkapan bayi anak",
@@ -146,6 +148,8 @@ export const categorySeoKeywords: Record<string, string[]> = {
     "moisturizer bayi",
     "perawatan kulit bayi sensitif",
     "Moell sunscreen bayi",
+    "harga Beeme lotion bayi original",
+    "Beeme Bee Gentle lotion",
     "sabun mandi bayi non SLS",
   ],
   popok: [
@@ -181,6 +185,11 @@ export const categoryPageHeadings: Record<string, string> = {
   popok: "Popok Makuku & MamyPoko di toko HiMoon Badung",
   "peralatan-bayi": "Peralatan makan bayi di toko HiMoon Badung",
   "perawatan-bibir": "Perawatan bibir bayi di toko HiMoon Badung",
+};
+
+export const productPageTitles: Record<string, string> = {
+  "beeme-bee-gentle-baby-lotion-200ml-pelembap-bayi":
+    "Harga Beeme Bee Gentle Lotion Original Rp65.000 | Kulit Sensitif Badung",
 };
 
 export const categoryPageDescriptions: Record<string, string> = {

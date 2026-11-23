@@ -30,6 +30,12 @@ export const keywordStrategy = {
       path: "/blog/beli-sunscreen-bayi",
     },
     {
+      query: "harga Beeme lotion bayi original",
+      intent: "commercial",
+      why: "P0 skincare harga SKU: Beeme Bee Gentle 200ml is catalog Rp65.000; orange CTA is shop-home so copy says Beli di Shopee himoonbabykids.",
+      path: "/blog/harga-beeme-bee-gentle-lotion-original",
+    },
+    {
       query: "toko MPASI Bali",
       intent: "commercial-local",
       why: "MPASI Store Bali owns the generic head term; we compete on Badung + Shopee + Bunda Elia.",

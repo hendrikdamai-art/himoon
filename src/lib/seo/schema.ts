@@ -1,8 +1,8 @@
 import { shopCategories, siteConfig } from "@/lib/site-config";
-import { SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
+import { PRICE_RANGE_IDR, SITE_CONTENT_UPDATED } from "@/lib/seo/constants";
 import { moneyPageFaqs } from "@/lib/seo/keywords";
 import type { BlogPost, GuideFaq, Product } from "@/types/catalog";
-import { productPath } from "@/lib/utils";
+import { formatPrice, productPath } from "@/lib/utils";
 
 function absoluteUrl(pathOrUrl: string) {
   if (pathOrUrl.startsWith("http://") || pathOrUrl.startsWith("https://")) return pathOrUrl;
@@ -28,7 +28,7 @@ export function localBusinessSchema() {
     logo: `${siteConfig.url}/logo.png`,
     email: siteConfig.email,
     telephone: `+${siteConfig.whatsappNumber.replace(/\D/g, "")}`,
-    priceRange: "Rp22.500-Rp123.000",
+    priceRange: `${formatPrice(PRICE_RANGE_IDR.min)}-${formatPrice(PRICE_RANGE_IDR.max)}`,
     currenciesAccepted: "IDR",
     paymentAccepted: "Cash, Shopee",
     address: {
@@ -192,7 +192,7 @@ export function articleSchema(guide: BlogPost) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/logo.png",
+        url: `${siteConfig.url}/logo.png`,
       },
     },
     speakable: {

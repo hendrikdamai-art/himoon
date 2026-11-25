@@ -15,6 +15,7 @@ import {
   buildIndonesiaPageMetadata,
   categoryPageTitles,
   moneyPageLabel,
+  productPageTitles,
 } from "@/lib/seo/indonesia";
 import { shopCategories } from "@/lib/site-config";
 import { formatPrice, productPath } from "@/lib/utils";
@@ -41,13 +42,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const priceLabel =
     product.price > 0 ? formatPrice(product.price, "id") : "cek harga di Shopee";
   const metadata = buildIndonesiaPageMetadata({
-    title: `${product.name} | Beli di Shopee`,
+    title: productPageTitles[product.slug] ?? `${product.name} | Beli di Shopee`,
     description: `${product.name}${product.brand ? ` dari ${product.brand}` : ""} — ${categoryLabel} di HiMoon Baby & Kids Badung. ${priceLabel}. Checkout Shopee himoonbabykids.`,
     path: productPath(product),
     keywords: [
       product.name,
       product.brand ?? "HiMoon",
       categoryLabel,
+      ...(product.slug === "beeme-bee-gentle-baby-lotion-200ml-pelembap-bayi"
+        ? ["harga Beeme lotion bayi original", "lotion bayi kulit sensitif Bali"]
+        : []),
       "Shopee himoonbabykids",
     ],
   });

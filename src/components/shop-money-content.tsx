@@ -8,8 +8,9 @@ import { FaqSection } from "@/components/seo/faq-section";
 import { ShopCta, ShopeeCta } from "@/components/seo/cta";
 import { getGuides } from "@/lib/seo/guides";
 
-const MONEY_SPEAKABLE =
-  "HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar Rp22.500 sampai Rp123.000, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan pilih ukuran via WhatsApp, opsi ambil di toko Bali, dan ongkir live ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.";
+function moneySpeakable(minPrice: number, maxPrice: number): string {
+  return `HiMoon Baby & Kids adalah baby shop di Kabupaten Badung, Bali, untuk ibu hamil, new mom, dan keluarga yang mencari MPASI, popok, skincare, serta peralatan makan. Tidak seperti baby shop besar di Denpasar yang fokus stroller atau car seat, kami mengkurasi etalase yang bisa di-checkout di Shopee himoonbabykids. Harga katalog situs sekitar ${formatPrice(minPrice)} sampai ${formatPrice(maxPrice)}, tergantung item seperti tisu, saringan MPASI, lotion, sunscreen, atau popok. Yang termasuk: produk original sesuai listing, bantuan tanya stok via WhatsApp, dan opsi ambil di Badung. Tidak termasuk ongkir — ongkir dihitung di Shopee saat checkout ke Denpasar, Canggu, Kuta, Ubud, atau luar Bali. Kami bukan klinik; label merek dan tenaga kesehatan tetap acuan medis. Belanja paling cepat lewat tombol Beli di Shopee pada setiap produk. Rating 4,9 merujuk toko Shopee, bukan bintang buatan di halaman ini. Ini halaman belanja utama: panduan blog mengarah ke sini lalu ke Shopee. Jika stok berubah, percayai listing Shopee.`;
+}
 
 export function ShopMoneyIntro({
   productCount,
@@ -37,7 +38,7 @@ export function ShopMoneyIntro({
         {formatPrice(max)} mengikuti Shopee ({productCount} item di halaman ini).
       </p>
       <SpeakableAnswer id="shop-direct-answer" className="mt-6 max-w-4xl">
-        <p>{MONEY_SPEAKABLE}</p>
+        <p>{moneySpeakable(min, max)}</p>
       </SpeakableAnswer>
       <div className="mt-6 flex flex-wrap gap-3">
         <ShopeeCta label="Beli di Shopee himoonbabykids" />

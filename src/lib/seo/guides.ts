@@ -46,8 +46,8 @@ export const guides: BlogPost[] = [
           en: "Priority at 0–3 months",
         },
         body: {
-          id: "Fokus pada popok (Makuku atau MamyPoko), perawatan kulit sensitif (Gently, Mustela, Cussons), tissue lembut Paseo, dan treatment bibir jika kulit kering. Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
-          en: "Focus on diapers (Makuku or MamyPoko), sensitive-skin care (Gently, Mustela, Cussons), soft Paseo tissue, and lip care if skin is dry. Delay MPASI until closer to 6 months unless you want feeding tools early.",
+          id: "Fokus pada popok di /shop/popok (MamyPoko Royal Soft katalog Rp123.000; Makuku SAP sesuai listing Shopee), perawatan kulit sensitif (Gently, Moell), tissue lembut Paseo, dan treatment bibir jika kulit kering. Tunda pembelian MPASI sampai mendekati usia 6 bulan, kecuali Anda ingin menyiapkan blender lebih awal.",
+          en: "Focus on diapers at /shop/popok (MamyPoko Royal Soft catalog Rp123,000; Makuku SAP when Shopee lists a price), sensitive-skin care (Gently, Moell), soft Paseo tissue, and lip care if skin is dry. Delay MPASI until closer to 6 months unless you want feeding tools early.",
         },
       },
       {
@@ -73,15 +73,15 @@ export const guides: BlogPost[] = [
     ],
     inclusions: {
       id: [
-        "Popok Makuku / MamyPoko",
-        "Skincare bayi (Gently, Moell, Mustela, Cussons)",
+        "Popok MamyPoko Royal Soft Rp123.000; Makuku SAP sesuai Shopee",
+        "Skincare bayi (Gently, Moell)",
         "Tissue & perawatan harian Paseo",
         "Opsi ASI booster untuk ibu menyusui",
         "Checkout Shopee atau ambil di toko Bali",
       ],
       en: [
-        "Makuku / MamyPoko diapers",
-        "Baby skincare (Gently, Moell, Mustela, Cussons)",
+        "MamyPoko Royal Soft Rp123,000; Makuku SAP per Shopee listing",
+        "Baby skincare (Gently, Moell)",
         "Daily Paseo tissue & care",
         "Optional ASI booster for nursing moms",
         "Shopee checkout or Bali pickup",

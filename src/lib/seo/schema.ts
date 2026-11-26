@@ -192,7 +192,7 @@ export function articleSchema(guide: BlogPost) {
       name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: `${siteConfig.url}/logo.png",
+        url: `${siteConfig.url}/logo.png`,
       },
     },
     speakable: {
@@ -216,6 +216,43 @@ export function itemListSchema(
       name: item.name,
       url: item.url,
     })),
+  };
+}
+
+export function aggregateOfferSchema({
+  path,
+  name = "Katalog perlengkapan bayi HiMoon",
+  description,
+  lowPrice,
+  highPrice,
+  offerCount,
+}: {
+  path: string;
+  name?: string;
+  description?: string;
+  lowPrice: number;
+  highPrice: number;
+  offerCount: number;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url: absoluteUrl(path),
+    brand: {
+      "@type": "Brand",
+      name: siteConfig.name,
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "IDR",
+      lowPrice: String(lowPrice),
+      highPrice: String(highPrice),
+      offerCount: String(offerCount),
+      availability: "https://schema.org/InStock",
+      url: siteConfig.shopeeShopUrl,
+    },
   };
 }
 

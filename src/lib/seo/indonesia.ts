@@ -170,7 +170,7 @@ export const categorySeoKeywords: Record<string, string[]> = {
 export const categoryPageTitles: Record<string, string> = {
   mpasi: "Toko MPASI Bali | Bunda Elia, Milna, Bumboo",
   "perawatan-kulit-bayi": "Skincare Bayi Bali | Moell, Gently, Beeme",
-  popok: "Popok Makuku & MamyPoko",
+  popok: "Popok Bayi Bali | MamyPoko Rp123.000",
   "peralatan-bayi": "Peralatan Makan Bayi",
   "perawatan-bibir": "Perawatan Bibir Bayi",
 };
@@ -178,7 +178,7 @@ export const categoryPageTitles: Record<string, string> = {
 export const categoryPageHeadings: Record<string, string> = {
   mpasi: "Beli MPASI bayi di Bali: kaldu, bubur, dan snack",
   "perawatan-kulit-bayi": "Beli skincare bayi di Bali: sunscreen, lotion, cologne",
-  popok: "Popok Makuku & MamyPoko di toko HiMoon Badung",
+  popok: "Beli popok bayi di Bali: MamyPoko Royal Soft Rp123.000",
   "peralatan-bayi": "Peralatan makan bayi di toko HiMoon Badung",
   "perawatan-bibir": "Perawatan bibir bayi di toko HiMoon Badung",
 };
@@ -189,7 +189,7 @@ export const categoryPageDescriptions: Record<string, string> = {
   "perawatan-kulit-bayi":
     "Skincare bayi Bali: sunscreen Moell, lotion Gently, cologne BAMBI & Beeme. Beli di Shopee himoonbabykids, bukan WhatsApp checkout.",
   popok:
-    "Popok Makuku SAP dan MamyPoko Royal Soft di baby shop Badung. Checkout Shopee himoonbabykids.",
+    "Popok MamyPoko Royal Soft Rp123.000 di baby shop Badung. Makuku SAP sesuai listing Shopee. Checkout himoonbabykids.",
   "peralatan-bayi":
     "Peralatan makan bayi, celemek, dan tisu di HiMoon Badung. Beli di Shopee himoonbabykids.",
   "perawatan-bibir":
